@@ -14,9 +14,23 @@ public class SearchTest extends CommonAPI {
         search = PageFactory.initElements(driver, Search.class);
     }
 
+
     @Test
-    public void testSearchIphone() {
-        search.searchIphone();
-        search.validateIphoneSearch();
+    public void testSearchSingleItem() {
+        search.searchHandSanitizer();
+        search.validateSearchHandSanitizerText();
+
     }
+
+    @Test
+    public void testSearchMultipleItems(){
+        search.clearTypeAndClickOnSearch();
+        search.validateSearchMultipleItems();
+    }
+
+    @Test
+    public void testValidateAllDropDown(){
+        search.validateAllDropDown();
+    }
+
 }

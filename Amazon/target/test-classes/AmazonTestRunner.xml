@@ -7,6 +7,7 @@
     <test name="Amazon Home">
         <classes>
             <class name="search.SearchTest"></class>
+<!--            <class name="home.HomePageTest"></class>-->
         </classes>
 
     </test>
