@@ -1,13 +1,18 @@
 package search;
 
 import base.CommonAPI;
+import dataSupply.DataSource;
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
+import java.io.IOException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -107,6 +112,26 @@ public class Search extends CommonAPI {
         clearSearchField();
         Assert.assertNotNull(getItems(), "watch");
         Assert.assertNotNull(getItems(), "Rage Against The Machine");
+    }
+
+    /**
+     * This method validates data-driven technique.
+     * Values are iterated from a table on MySQL and are searched on Amazon sequentially.
+     * @throws Exception
+     * @throws IOException
+     * @throws SQLException
+     * @throws ClassNotFoundException
+     */
+    public void validateSearchItemsFromMySQL() throws Exception, IOException, SQLException, ClassNotFoundException {
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        List<String> list = DataSource.getItemsListFromDB();
+        for (int i = 0; i < list.size(); i++) {
+            typeOnSearchField(list.get(i));
+            submitSearch();
+            clearSearchField();
+        }
+        List<String> expectedMenu = list;
+        Assert.assertEquals(list, expectedMenu);
     }
 
     /**

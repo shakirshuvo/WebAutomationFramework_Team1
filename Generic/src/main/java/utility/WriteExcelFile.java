@@ -19,7 +19,17 @@ public class WriteExcelFile {
 
     public static void writeExcel(){
         XSSFWorkbook workbook = new XSSFWorkbook();
-        XSSFSheet sheet = workbook.createSheet("studentList");
+//        XSSFSheet sheet = workbook.createSheet("studentList");
+//
+//        Object[][] stDetails = {
+//                {"Sl", "FirstName", "LastName", "ContactNumber"},
+//                {"1", "Anika", "islam", "897598759"},
+//                {"2", "Mahid", "Samad", "997598759"},
+//                {"2", "Mezba", "Ahmed", "797598759"},
+//
+//        };
+
+        XSSFSheet sheet = workbook.createSheet("books");
 
         Object[][] stDetails = {
                 {"Sl", "FirstName", "LastName", "ContactNumber"},
