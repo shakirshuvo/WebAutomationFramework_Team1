@@ -33,6 +33,11 @@ public class HomePage extends CommonAPI {
     public WebElement sellVerificationText;
     @FindBy(how = How.XPATH, using = musicLinkXPathWebElement)
     public WebElement musicLink;
+    @FindBy(how = How.XPATH, using = advertisingLinkXPathWebElement)
+    public WebElement advertisingLink;
+    @FindBy(how = How.XPATH, using = advertisingTextXPath)
+    public WebElement advertisingText;
+
 
 
     /**
@@ -44,6 +49,10 @@ public class HomePage extends CommonAPI {
         return driver.getTitle().toString();
     }
 
+    /**
+     * This method returns the URL of the page.
+     * @return
+     */
     public String getURL(){
         return driver.getCurrentUrl();
     }
@@ -169,6 +178,34 @@ public class HomePage extends CommonAPI {
     public void verifyClickOnMusicLinkByTitle(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertTrue(getTitle().equals(musicTitleText));
+    }
+
+    /**
+     * This method will click on the Amazon Advertising link.
+     */
+    public void clickOnAmazonAdvertisingLink(){
+        advertisingLink.click();
+    }
+
+    /**
+     * This method verifies the URL of Amazon Advertising page.
+     */
+    public void verifyClickOnAmazonAdvertisingByURL(){
+        Assert.assertTrue(getURL().equals(advertisingURL));
+    }
+
+    /**
+     * This method verifies the title of Amazon Advertising page.
+     */
+    public void verifyClickOnAmazonAdvertisingByTitle(){
+        Assert.assertTrue(getTitle().equals(advertisingTitle));
+    }
+
+    /**
+     * This method verifies Amazon Advertising link by text.
+     */
+    public void verifyClickOnAmazonAdvertisingByText(){
+        Assert.assertTrue(advertisingText.isDisplayed());
     }
 
 }

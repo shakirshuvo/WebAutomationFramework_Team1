@@ -20,6 +20,10 @@ public class HomePageWebElements {
     public static final String musicLinkXPathWebElement = "//a[text()='Amazon Music']";
     public static final String musicURL = "https://music.amazon.com/home?ref=dm_aff_amz_com";
     public static final String musicTitleText = "Amazon Music Unlimited - Stream 60 million songs online now.";
+    public static final String advertisingLinkXPathWebElement = "//a[text()='Amazon Advertising']";
+    public static final String advertisingURL = "https://advertising.amazon.com/?ref=footer_advtsing_amzn_com";
+    public static final String advertisingTitle = "Amazon Advertising: Online advertising on Amazon";
+    public static final String advertisingTextXPath = "//h1[text()='Amazon Advertising']";
 
 
 

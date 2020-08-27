@@ -15,7 +15,7 @@ public class HomePageTest extends CommonAPI {
     }
 
     @Test
-    public void testValidateHomePageTitle(){
+    public void testValidateHomePageTitle() {
         homePage.validateHomePageTitle();
     }
 
@@ -32,25 +32,25 @@ public class HomePageTest extends CommonAPI {
     }
 
     @Test
-    public void testValidateClickCustomerServiceTab(){
+    public void testValidateClickCustomerServiceTab() {
         homePage.clickCustomerServiceTab();
         homePage.validateClickCustomerServiceTabByTitle();
     }
 
     @Test
-    public void testValidateClickCustomerServiceTabByText(){
+    public void testValidateClickCustomerServiceTabByText() {
         homePage.clickCustomerServiceTab();
         homePage.validateClickCustomerServiceTabByText();
     }
 
     @Test
-    public void testValidateClickGiftCardsTabByTitle(){
+    public void testValidateClickGiftCardsTabByTitle() {
         homePage.clickGiftCardsTab();
         homePage.validateClickGiftCardsTabByTitle();
     }
 
     @Test
-    public void testverifyClickGiftCardsTabByText(){
+    public void testverifyClickGiftCardsTabByText() {
         homePage.clickGiftCardsTab();
         homePage.verifyClickGiftCardsTabByText();
     }
@@ -83,6 +83,24 @@ public class HomePageTest extends CommonAPI {
     public void testVerifyClickOnMusicLinkByTitle() {
         homePage.clickOnMusicLink();
         homePage.verifyClickOnMusicLinkByTitle();
+    }
+
+    @Test
+    public void testVerifyClickOnAmazonAdvertisingByURL() {
+        homePage.clickOnAmazonAdvertisingLink();
+        homePage.verifyClickOnAmazonAdvertisingByURL();
+    }
+
+    @Test
+    public void testVerifyClickOnAmazonAdvertisingByTitle() {
+        homePage.clickOnAmazonAdvertisingLink();
+        homePage.verifyClickOnAmazonAdvertisingByTitle();
+    }
+
+    @Test
+    public void testVerifyClickOnAmazonAdvertisingByText() {
+        homePage.clickOnAmazonAdvertisingLink();
+        homePage.verifyClickOnAmazonAdvertisingByText();
     }
 
 }
