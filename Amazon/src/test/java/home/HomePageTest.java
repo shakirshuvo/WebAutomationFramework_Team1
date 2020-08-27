@@ -55,4 +55,34 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyClickGiftCardsTabByText();
     }
 
+    @Test
+    public void testValidateClickRegistryTabByTitle() {
+        homePage.clickRegistryTab();
+        homePage.validateClickRegistryTabByTitle();
+    }
+
+    @Test
+    public void testvalidateClickSellTabByTitle() {
+        homePage.clickSellTab();
+        homePage.validateClickSellTabByTitle();
+    }
+
+    @Test
+    public void testVerifySellVerificationTextIsDisplayed() {
+        homePage.clickSellTab();
+        homePage.verifySellVerificationTextIsDisplayed();
+    }
+
+    @Test
+    public void testVerifyClickOnMusicLink() {
+        homePage.clickOnMusicLink();
+        homePage.verifyClickOnMusicLinkByURL();
+    }
+
+    @Test
+    public void testVerifyClickOnMusicLinkByTitle() {
+        homePage.clickOnMusicLink();
+        homePage.verifyClickOnMusicLinkByTitle();
+    }
+
 }
