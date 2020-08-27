@@ -154,7 +154,7 @@ public class RegistrationPage extends CommonAPI {
     public void registerWithoutEmail() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickStartHere();
-        enterYourNameField(name);
+        enterYourNameField(randomName);
         enterYourPasswordField(password6Characters1);
         reEnterYourPasswordField(password6Characters1);
         clickCreateYourAmazonAccountButton();
@@ -185,7 +185,7 @@ public class RegistrationPage extends CommonAPI {
     public void registerWithoutPassword() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickStartHere();
-        enterYourNameField(name);
+        enterYourNameField(randomName);
         reEnterYourPasswordField(password6Characters1);
         clickCreateYourAmazonAccountButton();
     }
@@ -215,7 +215,7 @@ public class RegistrationPage extends CommonAPI {
     public void registerWithoutReEnteringPassword() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickStartHere();
-        enterYourNameField(name);
+        enterYourNameField(randomName);
         enterYourPasswordField(password6Characters1);
         clickCreateYourAmazonAccountButton();
     }
@@ -245,7 +245,7 @@ public class RegistrationPage extends CommonAPI {
     public void registerWith5CharacterPassword() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickStartHere();
-        enterYourNameField(name);
+        enterYourNameField(randomName);
         enterYourEmailField(email);
         enterYourPasswordField(password5Characters);
         reEnterYourPasswordField(password5Characters);
@@ -277,7 +277,7 @@ public class RegistrationPage extends CommonAPI {
     public void registerWithInvalidEmail() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickStartHere();
-        enterYourNameField(name);
+        enterYourNameField(randomName);
         enterYourEmailField(invalidEmail);
         enterYourPasswordField(password6Characters1);
         reEnterYourPasswordField(password6Characters1);
@@ -309,7 +309,7 @@ public class RegistrationPage extends CommonAPI {
     public void registerWithPasswordsNotMatching() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickStartHere();
-        enterYourNameField(name);
+        enterYourNameField(randomName);
         enterYourEmailField(email);
         enterYourPasswordField(password6Characters1);
         reEnterYourPasswordField(password6Characters2);
@@ -339,7 +339,7 @@ public class RegistrationPage extends CommonAPI {
     public void createANewAccount() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickStartHere();
-        enterYourNameField(name);
+        enterYourNameField(randomName);
         enterYourEmailField(randomEmail);
         enterYourPasswordField(password6Characters1);
         reEnterYourPasswordField(password6Characters1);

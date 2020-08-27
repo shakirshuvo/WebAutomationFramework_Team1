@@ -1,10 +1,14 @@
 package registration;
 
-import static registration.RandomGenerator.*;
+import com.github.javafaker.Faker;
 
 public class RegistrationWebElements {
 
-    public static String randomEmail = randomIdentifier()+"@"+"mydomain.com";
+    static Faker faker = new Faker();
+
+    public static final String randomName = faker.name().name();
+    public static final String randomEmail = faker.internet().safeEmailAddress();
+    public static final String randomPhoneNumber = faker.phoneNumber().phoneNumber();
     public static final String newAccountCaptchaXPathWebElement = "//span[text()=\"Please solve this puzzle so we know you're a real person\"]";
     public static final String helloSignInIDWebElement="nav-link-accountList";
     public static final String startHereXPathWebElement ="//div[@id='nav-flyout-ya-newCust']/a";
@@ -14,7 +18,6 @@ public class RegistrationWebElements {
     public static final String passwordFieldCSSWebElement = "#ap_password";
     public static final String passwordReEnterFieldCSSWebElement = "#ap_password_check";
     public static final String createYourAmazonAccountButtonCSSWebElement = "#continue";
-    public static final String name = "Shakir";
     public static final String email = "shakir@nosuchemail83.com";
     public static final String invalidEmail = "shakir@nosuchemail83";
     public static final String password5Characters = "BugBu";

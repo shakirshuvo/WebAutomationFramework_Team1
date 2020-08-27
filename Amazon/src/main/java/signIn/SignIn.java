@@ -35,12 +35,14 @@ public class SignIn extends CommonAPI {
     public WebElement invalidEmailAddressErrorMessage;
     @FindBy(how = How.XPATH, using = invalidPasswordErrorMessagePartialLinkText)
     public WebElement invalidPasswordErrorMessage;
+    @FindBy(how = How.ID, using = enterYourEmailOrMobilePhoneNumberAlertIDWebElement)
+    public WebElement enterYourEmailOrMobilePhoneNumberAlert;
 
     /**
      * This method allows the mouse to hover over "Hello, Sign in" button to view and then click on the
      * Sign In button.
      */
-    public void mouseOverHelloSign() {
+    public void clickStartHere() {
         Actions actions = new Actions(driver);
         WebElement features = helloSignIn;
         actions.moveToElement(features).build().perform();
@@ -104,7 +106,7 @@ public class SignIn extends CommonAPI {
     public void signIn(String email, String password) {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 //        driver.manage().deleteAllCookies();
-        mouseOverHelloSign();
+        clickStartHere();
 //        clickSignInMain();
         typeEmailAddress(email);
         clickContinueButtonAfterEmail();
@@ -133,7 +135,7 @@ public class SignIn extends CommonAPI {
      * This method tries to login with an invalid email address.
      */
     public void loginWithInvalidEmailAddress() {
-        mouseOverHelloSign();
+        clickStartHere();
         typeEmailAddress(invalidEmailAddress);
         clickContinueButtonAfterEmail();
     }
@@ -151,7 +153,7 @@ public class SignIn extends CommonAPI {
      */
     public void loginWithInvalidPassword() {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        mouseOverHelloSign();
+        clickStartHere();
         typeEmailAddress(validEmailAddress1);
         clickContinueButtonAfterEmail();
         typePassword(invalidPassword);
@@ -165,6 +167,31 @@ public class SignIn extends CommonAPI {
     public void verifyLoginWithInvalidPassword(){
         loginWithInvalidPassword();
         invalidPasswordErrorMessageIsDisplayed();
+    }
+
+    /**
+     * This method attempts to login without entering an Email (phone for mobile account).
+     */
+    public void signInWithoutEmail(){
+        clickStartHere();
+        clickContinueButtonAfterEmail();
+    }
+
+    /**
+     * When user attempts to login without entering an email or phone number,
+     * an alert 'Enter your email or mobile phone number' is displayed.
+     * @return
+     */
+    public boolean enterYourEmailOrMobilePhoneNumberAlertIsDisplayed(){
+        return enterYourEmailOrMobilePhoneNumberAlert.isDisplayed();
+    }
+
+    /**
+     * This method verifies that 'Enter your email or mobile phone number' alert is displayed
+     * when user attempts to log in without providing an email or phone number.
+     */
+    public void verifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed(){
+        Assert.assertTrue(enterYourEmailOrMobilePhoneNumberAlertIsDisplayed());
     }
 
 

@@ -21,7 +21,7 @@ public class SignInTest extends CommonAPI {
      */
     @Test
     public void testVerifySignInTitle(){
-        signIn.mouseOverHelloSign();
+        signIn.clickStartHere();
         signIn.verifySignInTitle();
     }
 
@@ -54,6 +54,12 @@ public class SignInTest extends CommonAPI {
     public void testVerifyLoginWithInvalidPassword(){
         signIn.loginWithInvalidPassword();
         signIn.invalidPasswordErrorMessageIsDisplayed();
+    }
+
+    @Test
+    public void testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed(){
+        signIn.signInWithoutEmail();
+        signIn.verifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed();
     }
 
 }
