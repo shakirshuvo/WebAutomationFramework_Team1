@@ -34,8 +34,8 @@ public class SignInTest extends CommonAPI {
 
     @DataProvider(name = "validLogins")
     public static Object[][] twoLoginsCredentials() {
-        return new Object[][]{{SignInWebElements.emailAddress1, SignInWebElements.password},
-                {SignInWebElements.emailAddress2, SignInWebElements.password}};
+        return new Object[][]{{SignInWebElements.validEmailAddress1, SignInWebElements.password},
+                {SignInWebElements.validEmailAddress2, SignInWebElements.password}};
     }
 
     @Test(dataProvider = "validLogins")
@@ -43,4 +43,17 @@ public class SignInTest extends CommonAPI {
         signIn.signIn(email, password);
         signIn.validateTwoUsersCanLogin();
     }
+
+    @Test
+    public void testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddress(){
+        signIn.loginWithInvalidEmailAddress();
+        signIn.verifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddress();
+    }
+
+    @Test
+    public void testVerifyLoginWithInvalidPassword(){
+        signIn.loginWithInvalidPassword();
+        signIn.invalidPasswordErrorMessageIsDisplayed();
+    }
+
 }

@@ -2,9 +2,13 @@ package signIn;
 
 public class SignInWebElements {
 
-    public static final String emailAddress1 = "shakir.jahangir83@gmail.com";
-    public static final String emailAddress2 = "ciara105@xhanimatedm.com";
+    public static final String validEmailAddress1 = "shakir.jahangir83@gmail.com";
+    public static final String validEmailAddress2 = "ciara105@xhanimatedm.com";
+    public static final String invalidEmailAddress = "ciara105@xhanimatedm";
+    public static final String invalidEmailAddressErrorMessageXPathWebElement = "//h4[text()='There was a problem']";
+    public static final String invalidPassword = "invalidPassword123";
     public static final String password = "BugBusters";
+    public static final String invalidPasswordErrorMessagePartialLinkText = "//h4[text()='There was a problem']";
     public static final String helloSignInIDWebElement="nav-link-accountList";
     public static final String signInMainCSSWebElement=".nav-action-inner";
     public static final String emailFieldCSSWebElement="#ap_email";
