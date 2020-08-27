@@ -27,9 +27,27 @@ public class RegistrationPageTest extends CommonAPI {
     }
 
     @Test
+    public void testVerifyEnterYourEmailAlertSignIsDisplayed(){
+        registrationPage.registerWithoutEmail();
+        registrationPage.verifyEnterYourEmailAlertSignIsDisplayed();
+    }
+
+    @Test
     public void testVerifyEnterAValidEmailAddressAlertSignIsDisplayed(){
         registrationPage.registerWithInvalidEmail();
         registrationPage.verifyEnterAValidEmailAddressAlertSignIsDisplayed();
+    }
+
+    @Test
+    public void testVerifyEnterYourPasswordAlertSignIsDisplayed(){
+        registrationPage.registerWithoutPassword();
+        registrationPage.verifyEnterYourPasswordAlertSignIsDisplayed();
+    }
+
+    @Test
+    public void testVerifyTypeYourPasswordAgainAlertSignIsDisplayed(){
+        registrationPage.registerWithoutReEnteringPassword();
+        registrationPage.verifyTypeYourPasswordAgainAlertSignIsDisplayed();
     }
 
     @Test
@@ -42,5 +60,12 @@ public class RegistrationPageTest extends CommonAPI {
     public void testVerifyEnterYourNameAlertSignIsDisplayed(){
         registrationPage.registerWithoutYourName();
         registrationPage.verifyEnterYourNameAlertSignIsDisplayed();
+    }
+
+    @Test
+    public void testVerifyNewAccountCaptchaIsDisplayed(){
+        registrationPage.createANewAccount();
+        registrationPage.verifyNewAccountCaptchaIsDisplayed();
+
     }
 }
