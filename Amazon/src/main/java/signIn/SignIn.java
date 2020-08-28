@@ -41,6 +41,10 @@ public class SignIn extends CommonAPI {
     public WebElement weCannotFindAnAccountWithThatEmailAddressAlert;
     @FindBy(how = How.XPATH, using = incorrectPhoneNumberAlertXpathWebElement)
     public WebElement incorrectPhoneNumberAlert;
+    @FindBy(how = How.ID, using = enterYourPasswordAlertIDWebElement)
+    public WebElement enterYourPasswordAlert;
+    @FindBy(how = How.ID, using = forgotYourPasswordLinkIDWebElement)
+    public WebElement forgotYourPasswordLink;
 
 
     /**
@@ -100,6 +104,13 @@ public class SignIn extends CommonAPI {
      */
     public void clickSignInButtonAfterPassword() {
         signInAfterPassword.click();
+    }
+
+    /**
+     * This method clicks on 'Forgot your password?' link when signing in.
+     */
+    public void clickForgotYourPassword(){
+        forgotYourPasswordLink.click();
     }
 
     /**
@@ -244,11 +255,55 @@ public class SignIn extends CommonAPI {
     }
 
     /**
-     * This method verifies that 'We cannot find an account with that mobile number alert is displayed
+     * This method verifies that 'We cannot find an account with that mobile number' alert is displayed
      * when user attempts to log in by providing an invalid phone number.
      */
     public void verifyIncorrectPhoneNumberAlertIsDispalyed(){
         Assert.assertTrue(incorrectPhoneNumberAlertIsDispalyed());
+    }
+
+    /**
+     * This method attempts to login without any password.
+     */
+    public void signInWithoutAPassword(){
+        clickStartHere();
+        typeEmailAddress(validEmailAddress1);
+        clickContinueButtonAfterEmail();
+        clickSignInButtonAfterPassword();
+    }
+
+    /**
+     * When user attempts to login without a password,
+     * an alert 'Enter your password' is displayed.
+     * @return
+     */
+    public boolean enterYourPasswordAlertIsDisplayed(){
+        return enterYourPasswordAlert.isDisplayed();
+    }
+
+    /**
+     * This method verifies that 'Enter your password' alert is displayed
+     * when user attempts to log in by providing an invalid phone number.
+     */
+    public void verifyEnterYourPasswordAlertIsDisplayed(){
+        Assert.assertTrue(enterYourPasswordAlertIsDisplayed());
+    }
+
+    /**
+     * This method takes user to 'Forgot your password? page.
+     */
+    public void forgotYourPasswordPage(){
+        clickStartHere();
+        typeEmailAddress(validEmailAddress1);
+        clickContinueButtonAfterEmail();
+        clickForgotYourPassword();
+    }
+
+    /**
+     * This method verifies the title of Forgot your Password page.
+     */
+    public void verifyForgotYourPasswordTitle(){
+        Assert.assertTrue(getTitle().equals(forgotYourPasswordTitleString));
     }
 
 }

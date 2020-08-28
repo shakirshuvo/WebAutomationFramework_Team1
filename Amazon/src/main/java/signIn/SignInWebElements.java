@@ -28,4 +28,7 @@ public class SignInWebElements {
     public static final String signInTitleText = "Amazon Sign-In";
     public static final String captchaXPath = "//*[@id=\"cvf-page-content\"]/p[1]";
     public static final String enterYourEmailOrMobilePhoneNumberAlertIDWebElement = "auth-email-missing-alert";
+    public static final String enterYourPasswordAlertIDWebElement = "auth-password-missing-alert";
+    public static final String forgotYourPasswordLinkIDWebElement = "auth-fpp-link-bottom";
+    public static final String forgotYourPasswordTitleString = "Amazon Password Assistance";
 }

@@ -16,7 +16,7 @@ public class SignInTest extends CommonAPI {
     }
 
     /**
-     * This method verifies that users can navigate to Sign-In page from the Homepage
+     * This test method verifies that users can navigate to Sign-In page from the Homepage
      * by verifying the title of the Sign-In page.
      */
     @Test
@@ -72,6 +72,22 @@ public class SignInTest extends CommonAPI {
     public void testVerifyIncorrectPhoneNumberAlertIsDispalyed(){
         signIn.signInWithAnIncorrectPhoneNumber();
         signIn.verifyIncorrectPhoneNumberAlertIsDispalyed();
+    }
+
+    @Test
+    public void testVerifyEnterYourPasswordAlertIsDisplayed(){
+        signIn.signInWithoutAPassword();
+        signIn.verifyEnterYourPasswordAlertIsDisplayed();
+    }
+
+    /**
+     * This test method verifies that users can navigate to 'Forgot Your Password?' page
+     * by verifying the title of the 'Forgot Your Password? page.
+     */
+    @Test
+    public void testVerifyForgotYourPasswordTitle(){
+        signIn.forgotYourPasswordPage();
+        signIn.verifyForgotYourPasswordTitle();
     }
 
 }
