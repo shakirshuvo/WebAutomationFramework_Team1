@@ -45,9 +45,9 @@ public class SignInTest extends CommonAPI {
     }
 
     @Test
-    public void testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddress(){
-        signIn.loginWithInvalidEmailAddress();
-        signIn.verifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddress();
+    public void testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat(){
+        signIn.loginWithInvalidEmailAddressFormat();
+        signIn.verifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat();
     }
 
     @Test
@@ -60,6 +60,18 @@ public class SignInTest extends CommonAPI {
     public void testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed(){
         signIn.signInWithoutEmail();
         signIn.verifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed();
+    }
+
+    @Test
+    public void testVerifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed(){
+        signIn.signInWithAnIncorrectEmail();
+        signIn.verifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed();
+    }
+
+    @Test
+    public void testVerifyIncorrectPhoneNumberAlertIsDispalyed(){
+        signIn.signInWithAnIncorrectPhoneNumber();
+        signIn.verifyIncorrectPhoneNumberAlertIsDispalyed();
     }
 
 }

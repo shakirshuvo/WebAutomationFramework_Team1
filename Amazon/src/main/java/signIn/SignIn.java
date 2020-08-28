@@ -37,6 +37,11 @@ public class SignIn extends CommonAPI {
     public WebElement invalidPasswordErrorMessage;
     @FindBy(how = How.ID, using = enterYourEmailOrMobilePhoneNumberAlertIDWebElement)
     public WebElement enterYourEmailOrMobilePhoneNumberAlert;
+    @FindBy(how = How.XPATH, using = weCannotFindAnAccountWithThatEmailAddressAlertXpathWebElement)
+    public WebElement weCannotFindAnAccountWithThatEmailAddressAlert;
+    @FindBy(how = How.XPATH, using = incorrectPhoneNumberAlertXpathWebElement)
+    public WebElement incorrectPhoneNumberAlert;
+
 
     /**
      * This method allows the mouse to hover over "Hello, Sign in" button to view and then click on the
@@ -134,9 +139,9 @@ public class SignIn extends CommonAPI {
     /**
      * This method tries to login with an invalid email address.
      */
-    public void loginWithInvalidEmailAddress() {
+    public void loginWithInvalidEmailAddressFormat() {
         clickStartHere();
-        typeEmailAddress(invalidEmailAddress);
+        typeEmailAddress(invalidEmailAddressFormat);
         clickContinueButtonAfterEmail();
     }
 
@@ -144,7 +149,7 @@ public class SignIn extends CommonAPI {
      * This method verifies that an error is displayed when user tries to login using an invalid
      * email address.
      */
-    public void verifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddress(){
+    public void verifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat(){
         Assert.assertTrue(invalidEmailAddressErrorMessageIsDisplayed());
     }
 
@@ -194,5 +199,56 @@ public class SignIn extends CommonAPI {
         Assert.assertTrue(enterYourEmailOrMobilePhoneNumberAlertIsDisplayed());
     }
 
+    /**
+     * This method attempts to login with an incorrect Email address.
+     */
+    public void signInWithAnIncorrectEmail(){
+        clickStartHere();
+        typeEmailAddress(incorrectEmailAddress);
+        clickContinueButtonAfterEmail();
+    }
+
+    /**
+     * When user attempts to login with an invalid email address,
+     * an alert 'We cannot find an account with that email address' is displayed.
+     * @return
+     */
+    public boolean weCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed(){
+        return weCannotFindAnAccountWithThatEmailAddressAlert.isDisplayed();
+    }
+
+    /**
+     * This method verifies that 'We cannot find an account with that email address' alert is displayed
+     * when user attempts to log in by providing an invalid email address.
+     */
+    public void verifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed(){
+        Assert.assertTrue(weCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed());
+    }
+
+    /**
+     * This method attempts to login with an incorrect phone number.
+     */
+    public void signInWithAnIncorrectPhoneNumber(){
+        clickStartHere();
+        typeEmailAddress(incorrectPhoneNumber);
+        clickContinueButtonAfterEmail();
+    }
+
+    /**
+     * When user attempts to login with an invalid phone number,
+     * an alert 'We cannot find an account with that mobile number' is displayed.
+     * @return
+     */
+    public boolean incorrectPhoneNumberAlertIsDispalyed(){
+        return incorrectPhoneNumberAlert.isDisplayed();
+    }
+
+    /**
+     * This method verifies that 'We cannot find an account with that mobile number alert is displayed
+     * when user attempts to log in by providing an invalid phone number.
+     */
+    public void verifyIncorrectPhoneNumberAlertIsDispalyed(){
+        Assert.assertTrue(incorrectPhoneNumberAlertIsDispalyed());
+    }
 
 }

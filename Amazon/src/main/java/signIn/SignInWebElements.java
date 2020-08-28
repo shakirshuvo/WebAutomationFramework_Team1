@@ -1,10 +1,18 @@
 package signIn;
 
+import com.github.javafaker.Faker;
+
 public class SignInWebElements {
+
+    static Faker faker = new Faker();
 
     public static final String validEmailAddress1 = "shakir.jahangir83@gmail.com";
     public static final String validEmailAddress2 = "ciara105@xhanimatedm.com";
-    public static final String invalidEmailAddress = "ciara105@xhanimatedm";
+    public static final String invalidEmailAddressFormat = faker.name().firstName()+"@xhanimatedm";
+    public static final String incorrectEmailAddress = faker.internet().safeEmailAddress();
+    public static final String weCannotFindAnAccountWithThatEmailAddressAlertXpathWebElement = "//div[@id='auth-error-message-box']/div/div/ul/li/span";
+    public static final String incorrectPhoneNumber = faker.phoneNumber().cellPhone();
+    public static final String incorrectPhoneNumberAlertXpathWebElement = "//h4[text()='Incorrect phone number']";
     public static final String invalidEmailAddressErrorMessageXPathWebElement = "//h4[text()='There was a problem']";
     public static final String invalidPassword = "invalidPassword123";
     public static final String password = "BugBusters";
