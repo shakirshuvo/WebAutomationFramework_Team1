@@ -109,7 +109,7 @@ public class SignIn extends CommonAPI {
     /**
      * This method clicks on 'Forgot your password?' link when signing in.
      */
-    public void clickForgotYourPassword(){
+    public void clickForgotYourPassword() {
         forgotYourPasswordLink.click();
     }
 
@@ -141,6 +141,7 @@ public class SignIn extends CommonAPI {
 
     /**
      * This method returns invalid email address message in the event of entering an invalid email address to log in.
+     *
      * @return
      */
     public boolean invalidEmailAddressErrorMessageIsDisplayed() {
@@ -160,7 +161,7 @@ public class SignIn extends CommonAPI {
      * This method verifies that an error is displayed when user tries to login using an invalid
      * email address.
      */
-    public void verifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat(){
+    public void verifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat() {
         Assert.assertTrue(invalidEmailAddressErrorMessageIsDisplayed());
     }
 
@@ -176,19 +177,26 @@ public class SignIn extends CommonAPI {
         clickSignInButtonAfterPassword();
     }
 
-    public boolean invalidPasswordErrorMessageIsDisplayed(){
+    /**
+     * This method returns "Invalid Password" message in the event of entering a wrong password while signing in.
+     *
+     * @return
+     */
+    public boolean invalidPasswordErrorMessageIsDisplayed() {
         return invalidPasswordErrorMessage.isDisplayed();
     }
 
-    public void verifyLoginWithInvalidPassword(){
-        loginWithInvalidPassword();
-        invalidPasswordErrorMessageIsDisplayed();
+    /**
+     * This method verifies that "Invalid Password" message is displayed in the event of entering a wrong password while siging in.
+     */
+    public void verifyLoginWithInvalidPassword() {
+        Assert.assertTrue(invalidPasswordErrorMessageIsDisplayed());
     }
 
     /**
      * This method attempts to login without entering an Email (phone for mobile account).
      */
-    public void signInWithoutEmail(){
+    public void signInWithoutEmail() {
         clickStartHere();
         clickContinueButtonAfterEmail();
     }
@@ -196,9 +204,10 @@ public class SignIn extends CommonAPI {
     /**
      * When user attempts to login without entering an email or phone number,
      * an alert 'Enter your email or mobile phone number' is displayed.
+     *
      * @return
      */
-    public boolean enterYourEmailOrMobilePhoneNumberAlertIsDisplayed(){
+    public boolean enterYourEmailOrMobilePhoneNumberAlertIsDisplayed() {
         return enterYourEmailOrMobilePhoneNumberAlert.isDisplayed();
     }
 
@@ -206,14 +215,14 @@ public class SignIn extends CommonAPI {
      * This method verifies that 'Enter your email or mobile phone number' alert is displayed
      * when user attempts to log in without providing an email or phone number.
      */
-    public void verifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed(){
+    public void verifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed() {
         Assert.assertTrue(enterYourEmailOrMobilePhoneNumberAlertIsDisplayed());
     }
 
     /**
      * This method attempts to login with an incorrect Email address.
      */
-    public void signInWithAnIncorrectEmail(){
+    public void signInWithAnIncorrectEmail() {
         clickStartHere();
         typeEmailAddress(incorrectEmailAddress);
         clickContinueButtonAfterEmail();
@@ -222,9 +231,10 @@ public class SignIn extends CommonAPI {
     /**
      * When user attempts to login with an invalid email address,
      * an alert 'We cannot find an account with that email address' is displayed.
+     *
      * @return
      */
-    public boolean weCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed(){
+    public boolean weCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed() {
         return weCannotFindAnAccountWithThatEmailAddressAlert.isDisplayed();
     }
 
@@ -232,14 +242,14 @@ public class SignIn extends CommonAPI {
      * This method verifies that 'We cannot find an account with that email address' alert is displayed
      * when user attempts to log in by providing an invalid email address.
      */
-    public void verifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed(){
+    public void verifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed() {
         Assert.assertTrue(weCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed());
     }
 
     /**
      * This method attempts to login with an incorrect phone number.
      */
-    public void signInWithAnIncorrectPhoneNumber(){
+    public void signInWithAnIncorrectPhoneNumber() {
         clickStartHere();
         typeEmailAddress(incorrectPhoneNumber);
         clickContinueButtonAfterEmail();
@@ -248,9 +258,10 @@ public class SignIn extends CommonAPI {
     /**
      * When user attempts to login with an invalid phone number,
      * an alert 'We cannot find an account with that mobile number' is displayed.
+     *
      * @return
      */
-    public boolean incorrectPhoneNumberAlertIsDispalyed(){
+    public boolean incorrectPhoneNumberAlertIsDispalyed() {
         return incorrectPhoneNumberAlert.isDisplayed();
     }
 
@@ -258,14 +269,14 @@ public class SignIn extends CommonAPI {
      * This method verifies that 'We cannot find an account with that mobile number' alert is displayed
      * when user attempts to log in by providing an invalid phone number.
      */
-    public void verifyIncorrectPhoneNumberAlertIsDispalyed(){
+    public void verifyIncorrectPhoneNumberAlertIsDispalyed() {
         Assert.assertTrue(incorrectPhoneNumberAlertIsDispalyed());
     }
 
     /**
      * This method attempts to login without any password.
      */
-    public void signInWithoutAPassword(){
+    public void signInWithoutAPassword() {
         clickStartHere();
         typeEmailAddress(validEmailAddress1);
         clickContinueButtonAfterEmail();
@@ -275,9 +286,10 @@ public class SignIn extends CommonAPI {
     /**
      * When user attempts to login without a password,
      * an alert 'Enter your password' is displayed.
+     *
      * @return
      */
-    public boolean enterYourPasswordAlertIsDisplayed(){
+    public boolean enterYourPasswordAlertIsDisplayed() {
         return enterYourPasswordAlert.isDisplayed();
     }
 
@@ -285,14 +297,14 @@ public class SignIn extends CommonAPI {
      * This method verifies that 'Enter your password' alert is displayed
      * when user attempts to log in by providing an invalid phone number.
      */
-    public void verifyEnterYourPasswordAlertIsDisplayed(){
+    public void verifyEnterYourPasswordAlertIsDisplayed() {
         Assert.assertTrue(enterYourPasswordAlertIsDisplayed());
     }
 
     /**
      * This method takes user to 'Forgot your password? page.
      */
-    public void forgotYourPasswordPage(){
+    public void forgotYourPasswordPage() {
         clickStartHere();
         typeEmailAddress(validEmailAddress1);
         clickContinueButtonAfterEmail();
@@ -302,7 +314,7 @@ public class SignIn extends CommonAPI {
     /**
      * This method verifies the title of Forgot your Password page.
      */
-    public void verifyForgotYourPasswordTitle(){
+    public void verifyForgotYourPasswordTitle() {
         Assert.assertTrue(getTitle().equals(forgotYourPasswordTitleString));
     }
 

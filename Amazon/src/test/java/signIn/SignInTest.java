@@ -53,7 +53,7 @@ public class SignInTest extends CommonAPI {
     @Test
     public void testVerifyLoginWithInvalidPassword(){
         signIn.loginWithInvalidPassword();
-        signIn.invalidPasswordErrorMessageIsDisplayed();
+        signIn.verifyLoginWithInvalidPassword();
     }
 
     @Test

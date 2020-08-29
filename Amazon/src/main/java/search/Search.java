@@ -2,14 +2,12 @@ package search;
 
 import base.CommonAPI;
 import dataSupply.DataSource;
-import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-import reporting.TestLogger;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -27,8 +25,14 @@ public class Search extends CommonAPI {
     public WebElement searchButton;
     @FindBy(how = How.XPATH, using = searchVerificationTextXPathWebElement)
     public WebElement searchVerificationText;
-    @FindBy(how = How.ID, using = searchAllDropDownIDWebElement)
-    public WebElement searchAllDropDown;
+    @FindBy(how = How.ID, using = allDropDownSearchIDWebElement)
+    public WebElement allDropDownSearch;
+    @FindBy(how = How.XPATH, using = booksOnAllDropDownXpathWebElement)
+    public WebElement booksOnAllDropDown;
+    @FindBy(how = How.XPATH, using = brandCheckBoxPurellXPathWebElement)
+    public WebElement brandCheckBoxPurell;
+    @FindBy(how = How.XPATH, using = purellAdvancedHandSanitizerPackOf250XPathWebElement)
+    public WebElement purellAdvancedHandSanitizerPackOf250;
 
 
     /**
@@ -69,9 +73,7 @@ public class Search extends CommonAPI {
         String actualResult = searchVerificationText.getText();
         String expectedResult = "\"Hand Sanitizer\"";
         Assert.assertEquals(actualResult, expectedResult, "Search item do not match!");
-
     }
-
 
     /**
      * This method clears the Amazon search field.
@@ -162,7 +164,7 @@ public class Search extends CommonAPI {
      * This method validates that all the values (items) were iterated from the locator.
      */
     public void validateAllDropDown() {
-        List<WebElement> element = getListOfWebElementsById(searchAllDropDownIDWebElement);
+        List<WebElement> element = getListOfWebElementsById(allDropDownSearchIDWebElement);
         List<String> listOfText = getListOfString(element);
         for (String st : listOfText) {
             System.out.println(st);
@@ -170,5 +172,81 @@ public class Search extends CommonAPI {
         List<String> expectedMenu = listOfText;
         Assert.assertEquals(listOfText, expectedMenu);
     }
+
+    /**
+     * This method clicks on 'Purell' on the 'Brand' checkbox after searching for 'Hand sanitizer'.
+     */
+    public void clickOnBrandCheckBoxPurell(){
+        brandCheckBoxPurell.click();
+    }
+
+
+    /**
+     * This method searches "Hand sanitizer" then clicks on 'Purell" option in 'Brand'checkbox.
+     */
+    public void searchByBrandPurellHandSanitizer(){
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        searchHandSanitizer();
+        clickOnBrandCheckBoxPurell();
+    }
+
+    /**
+     * This method returns if 'PURELL Advanced Hand Sanitizer Refreshing Gel,
+     * Clean Scent, 1 fl oz Flip-Cap Bottle (Pack of 250) – 3901-2C-250' is displayed.
+     * @return
+     */
+    public boolean purellAdvancedHandSanitizerPackOf250IsDisplayed(){
+        return purellAdvancedHandSanitizerPackOf250.isDisplayed();
+    }
+
+    /**
+     * This method verifies if 'PURELL Advanced Hand Sanitizer Refreshing Gel,
+     * Clean Scent, 1 fl oz Flip-Cap Bottle (Pack of 250) – 3901-2C-250' is displayed.
+     */
+    public void verifyPurellAdvancedHandSanitizerPackOf250IsDisplayed(){
+        Assert.assertTrue(purellAdvancedHandSanitizerPackOf250IsDisplayed());
+    }
+
+    /**
+     * This method searches random books.
+     */
+    public void searchRandomBook() {
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        searchField.sendKeys("books");
+        searchField.submit();
+        typeOnSearchField(randomBookSearch);
+        searchField.submit();
+    }
+
+    /**
+     * This method returns the URL of the page.
+     * @return
+     */
+    public String getURL(){
+        return driver.getCurrentUrl();
+    }
+
+    /**
+     * This method verifies the URL of the book being searched.
+     */
+    public void verifySearchRandomBookByURL(){
+        Assert.assertEquals(getURL(), expectedRandomBookSearchURL);
+    }
+
+    /**
+     * This method returns the title of the page.
+     * @return
+     */
+    public String getTitle() {
+        return driver.getTitle();
+    }
+
+    /**
+     * This method verifies the book being searched using the title of the page.
+     */
+    public void verifySearchRandomBookByTitle(){
+        Assert.assertEquals(getTitle(), expectedRandomBookSearchTitle);
+    }
+
 
 }

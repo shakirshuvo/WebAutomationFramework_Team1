@@ -12,7 +12,6 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static cart.CartWebElements.*;
-import static search.SearchWebElements.searchAllDropDownIDWebElement;
 
 
 public class Cart extends CommonAPI {
@@ -47,6 +46,7 @@ public class Cart extends CommonAPI {
     public WebElement qtyDropDownClass;
     @FindBy(how = How.CSS, using = cartHomePageCSSWebElement)
     public WebElement cartHomePage;
+
 
     /**
      * This method retrieves the title of the page when called.

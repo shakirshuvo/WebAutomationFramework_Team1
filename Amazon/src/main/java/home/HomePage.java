@@ -57,58 +57,100 @@ public class HomePage extends CommonAPI {
         return driver.getCurrentUrl();
     }
 
+    /**
+     * This method validates the homepage title.
+     */
     public void validateHomePageTitle() {
         Assert.assertEquals(getTitle(), homePageTitleText);
     }
 
+    /**
+     * This method clicks on the 'Today's Deal' tab.
+     */
     public void clickTodaysDealTab() {
         todaysDeaTab.click();
     }
 
+    /**
+     * This method clicks on 'Today's Deal' tab and gets the title of 'Today's Deal' page title.
+     */
     public void getTodaysDealTitle() {
         todaysDeaTab.click();
         driver.getTitle();
 
     }
 
+    /**
+     * This method validates 'Today's Deal' page by title.
+     */
     public void validateTodaysDealTabByTitle() {
         clickTodaysDealTab();
         Assert.assertTrue(true, todaysDealTitleText);
     }
 
+    /**
+     * This method validates 'Today's Deal' page by "Deals and Promotions" text.
+     */
     public void validateTodaysDealTabByDealsAndPromotionsText() {
         Assert.assertTrue(todaysDealPromotionsText.isDisplayed());
     }
 
+    /**
+     * This method clicks on 'Customer Service' tab.
+     */
     public void clickCustomerServiceTab() {
         customerServiceTab.click();
     }
 
+    /**
+     * This method validates 'Customer Service' page by title.
+     */
     public void validateClickCustomerServiceTabByTitle() {
         Assert.assertTrue(getTitle().equals(customerServiceTitleText));
     }
 
+    /**
+     * This method displays 'Hello. What can we hlp you with?' text in 'Customer Service' page.
+     * @return
+     */
     public boolean helloWhatCanWeHelpYouWithTextIsDisplayed() {
         customerServiceVerificationText.isDisplayed();
         return true;
     }
 
+
+    /**
+     * This method validates that 'Hello. What can we hlp you with?' text is displayed in 'Customer Service' page.
+     */
     public void validateClickCustomerServiceTabByText() {
         Assert.assertTrue(helloWhatCanWeHelpYouWithTextIsDisplayed());
     }
 
+    /**
+     * This method clicks on 'Gift Cards' tab.
+     */
     public void clickGiftCardsTab() {
         giftCardsTab.click();
     }
 
+    /**
+     * This method validates 'Gift Cards' page by title.
+     */
     public void validateClickGiftCardsTabByTitle() {
         Assert.assertTrue(getTitle().equals(giftCardsTitleText));
     }
 
+    /**
+     * This method returns if the "Gift Cards' text is displayed on 'Gift Cards' page.
+     * @return
+     */
     public boolean giftCardsTextIsDisplayed() {
         return GiftCardsVerificationText.isDisplayed();
     }
 
+    /**
+     * This method verifies that the "Gift Cards" text is displayed on 'Gift Cards' page.
+     */
     public void verifyClickGiftCardsTabByText() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertTrue(giftCardsTextIsDisplayed(),"Gift Cards text is not displayed!");
