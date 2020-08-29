@@ -2,6 +2,7 @@ package base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -30,9 +31,12 @@ public class CommonAPI {
     @Parameters({"url"})
 
     @BeforeMethod
-    public void setUp(@Optional("https://www.amazon.com") String url){
-        System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
+    public void setUp(@Optional("https://www.thehartford.com/") String url){
+//         /System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver1.exe");
+       // System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+       WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
         driver.get(url);
     }
 
