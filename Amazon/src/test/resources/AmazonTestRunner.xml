@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
@@ -7,8 +6,13 @@
 
     <test name="Amazon Home">
         <classes>
-<!--            <class name="search.SearchTest"></class>-->
-            <!--            <class name="home.HomePageTest"></class>-->
+            <class name="signIn.SignInTest"></class>
+            <class name="registration.RegistrationPageTest"></class>
+            <class name="cart.CartTest"></class>
+            <class name="home.HomePageTest"></class>
+            <class name="registration.RegistrationPageTest"></class>
+            <class name="search.SearchTest"></class>
+            <class name="signIn.SignInTest"></class>
         </classes>
 
     </test>
