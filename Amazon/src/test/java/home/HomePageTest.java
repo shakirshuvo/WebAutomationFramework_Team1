@@ -104,15 +104,21 @@ public class HomePageTest extends CommonAPI {
     }
 
     @Test
-    public void testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger(){
+    public void testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger() {
         homePage.navigateToComputersAndTabletsWithShopByCategoryHamburger();
         homePage.validateNavigateToComputersAndTabletsWithShopByCategoryHamburger();
     }
 
     @Test
-    public void testVerifyClickOnHPFeaturedBrandSelection(){
+    public void testVerifyClickOnHPFeaturedBrandSelection() {
         homePage.selectHpFromFeaturedBrandsOnComputersAndTabletsPage();
         homePage.verifyClickOnHPFeaturedBrandSelection();
+    }
+
+    @Test
+    public void testVerifyAmazonMusicByTitle() {
+        homePage.clickOnAmazonMusic();
+        homePage.verifyAmazonMusicByTitle();
     }
 
 }

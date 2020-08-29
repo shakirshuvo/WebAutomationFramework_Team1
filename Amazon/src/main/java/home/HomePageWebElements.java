@@ -30,6 +30,9 @@ public class HomePageWebElements {
     public static final String asusFeaturedBrandSelectionXpathWebElement = "//span[text()='ASUS']";
     public static final String hpFeaturedBrandSelectionXpathWebElement = "//span[text()='HP']";
     public static final String hpPageTextXpathWebElement = "//div[@id='search' and //span/text()='HP']";
+    public static final String amazonMusicXpathWebElement = "//a[text()='Amazon Music']";
+    public static final String amazonMusicTitle = "Amazon Music Unlimited - Stream 60 million songs online now.";
+
 
 
 

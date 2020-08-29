@@ -39,6 +39,7 @@ public class Search extends CommonAPI {
     public WebElement moviesAndTVOnAllDropDown;
 
 
+
     /**
      * This method enters a String in Amazon search field.
      * @param searchItem The user must provide a String value to be searched.

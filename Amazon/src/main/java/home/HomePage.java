@@ -43,11 +43,13 @@ public class HomePage extends CommonAPI {
     @FindBy(how = How.XPATH, using = computerAndTabletsInShopByCategoryHamburgerXpathWebElement)
     public WebElement computerAndTabletsInShopByCategoryHamburger;
     @FindBy(how = How.XPATH, using = asusFeaturedBrandSelectionXpathWebElement)
-    public WebElement ausFeaturedBrandSelection;
+    public WebElement asusFeaturedBrandsSelection;
     @FindBy(how = How.XPATH, using = hpFeaturedBrandSelectionXpathWebElement)
     public WebElement hpFeaturedBrandSelection;
     @FindBy(how = How.XPATH, using = hpPageTextXpathWebElement)
     public WebElement hpPageText;
+    @FindBy(how = How.XPATH, using = amazonMusicXpathWebElement)
+    public WebElement amazonMusic;
 
 
     /**
@@ -264,18 +266,32 @@ public class HomePage extends CommonAPI {
         Assert.assertTrue(advertisingText.isDisplayed());
     }
 
+    /**
+     * This method clicks on the 'Shop By Category' hamburger on Amazon homepage.
+     */
     public void clickOnShopByCategoryHamburger() {
         shopByCategoryHamburger.click();
     }
 
+    /**
+     * This method clicks on the 'Computer' option in 'Shop By Category' hamburger on Amazon homepage.
+     */
     public void clickOnComputerInShopByCategoryHamburger() {
         computerInShopByCategoryHamburger.click();
     }
 
+    /**
+     * This method clicks on the 'Computer & Tablets' option under 'Computer', which is under
+     * 'Shop By Category' hamburger on Amazon homepage.
+     */
     public void clickOnComputerAndTabletsInShopByCategoryHamburger() {
         computerAndTabletsInShopByCategoryHamburger.click();
     }
 
+    /**
+     * This method navigates user from Amazon homepage to 'Computers & Tablets' page using the
+     * 'Shop By Category' hamburger.
+     */
     public void navigateToComputersAndTabletsWithShopByCategoryHamburger() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickOnShopByCategoryHamburger();
@@ -283,18 +299,33 @@ public class HomePage extends CommonAPI {
         clickOnComputerAndTabletsInShopByCategoryHamburger();
     }
 
-    public boolean ausFeaturedBrandSelectionIsDisplayed() {
-        return ausFeaturedBrandSelection.isDisplayed();
+    /**
+     * This method returns if 'ASUS' option is available on the 'Featured Brands' options on
+     * 'Computers & Tablets' page.
+     * @return
+     */
+    public boolean asusFeaturedBrandSelectionIsDisplayed() {
+        return asusFeaturedBrandsSelection.isDisplayed();
     }
 
+    /**
+     * This method verifies if 'ASUS' option on 'Featured Brands' is displayed on 'Computers & Tablets page.
+     */
     public void validateNavigateToComputersAndTabletsWithShopByCategoryHamburger(){
-        Assert.assertTrue(ausFeaturedBrandSelectionIsDisplayed());
+        Assert.assertTrue(asusFeaturedBrandSelectionIsDisplayed());
     }
 
+    /**
+     * This method clicks on the 'HP' option of 'Featured Brands' on 'Computers & Tablets' page.
+     */
     public void clickOnHPFeaturedBrandSelection(){
         hpFeaturedBrandSelection.click();
     }
 
+    /**
+     * This method navigates user to 'Computers & Tablets' page using the 'Shop By Category' hamburger.
+     * Then, it clicks on the 'HP' option of 'Featured Brands' on 'Computers & Tablets' page.
+     */
     public void selectHpFromFeaturedBrandsOnComputersAndTabletsPage(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickOnShopByCategoryHamburger();
@@ -303,12 +334,36 @@ public class HomePage extends CommonAPI {
         clickOnHPFeaturedBrandSelection();
     }
 
+    /**
+     * This method returns if "HP" text is displayed after clicking on the 'HP' option on the 'Featured Brands' option
+     * on 'Computers & Tablets' page.
+     * @return
+     */
     public boolean hpPageTextIsDisplayed(){
         return hpPageText.isDisplayed();
     }
 
+    /**
+     * This method verifies that 'HP' text is displayed after clicking on the 'HP' option on the 'Featured Brands'
+     * option on 'Computers & Tablets' page.
+     */
     public void verifyClickOnHPFeaturedBrandSelection(){
         Assert.assertTrue(hpPageTextIsDisplayed());
+    }
+
+
+    /**
+     * This method clicks on Amazon Music link.
+     */
+    public void clickOnAmazonMusic(){
+        amazonMusic.click();
+    }
+
+    /**
+     * This method validates Amazon Music page by title.
+     */
+    public void verifyAmazonMusicByTitle(){
+        Assert.assertEquals(getTitle(), amazonMusicTitle);
     }
 
 }
