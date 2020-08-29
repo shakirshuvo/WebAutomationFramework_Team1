@@ -3,6 +3,7 @@ package base;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -30,8 +31,9 @@ public class CommonAPI {
     @Parameters({"url"})
 
     @BeforeMethod
-    public void setUp(@Optional("https://www.amazon.com") String url){
-        System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
+    public void setUp(@Optional("https://www.google.com") String url){
+        System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver1");
+        //"BrowserDriver/mac/chromedriver1"
         driver = new ChromeDriver();
         driver.get(url);
     }
@@ -116,5 +118,15 @@ public class CommonAPI {
             System.out.println("Exception while taking screenshot " + e.getMessage());
         }
 
+    }
+
+    public static void windowSwitch() {
+        for (String winHandle : driver.getWindowHandles()) {
+            driver.switchTo().window(winHandle);
+        }
+    }
+    public static void scrollUpDownByHeight() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
 }
