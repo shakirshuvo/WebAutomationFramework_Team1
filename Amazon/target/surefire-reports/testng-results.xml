@@ -1,0 +1,2606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="59" passed="47" failed="4" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\Amazon\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-08-29T13:59:14 PDT" name="Surefire suite" finished-at="2020-08-29T14:09:34 PDT" duration-ms="619871">
+    <groups>
+    </groups>
+    <test started-at="2020-08-29T13:59:14 PDT" name="Surefire test" finished-at="2020-08-29T14:09:34 PDT" duration-ms="619871">
+      <class name="signIn.SignInTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:07:55 PDT" name="setUp" finished-at="2020-08-29T14:08:01 PDT" duration-ms="5953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:01 PDT" name="startExtent" finished-at="2020-08-29T14:08:01 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:01 PDT" name="getInit" finished-at="2020-08-29T14:08:01 PDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:01 PDT" name="testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed" finished-at="2020-08-29T14:08:03 PDT" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:03 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:08:04 PDT" duration-ms="848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed status=SUCCESS method=SignInTest.testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed()[pri:0, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:04 PDT" name="cleanUp" finished-at="2020-08-29T14:08:04 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:04 PDT" name="setUp" finished-at="2020-08-29T14:08:09 PDT" duration-ms="5137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:09 PDT" name="startExtent" finished-at="2020-08-29T14:08:09 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testVerifyEnterYourPasswordAlertIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:09 PDT" name="getInit" finished-at="2020-08-29T14:08:09 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyEnterYourPasswordAlertIsDisplayed()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:09 PDT" name="testVerifyEnterYourPasswordAlertIsDisplayed" finished-at="2020-08-29T14:08:13 PDT" duration-ms="3756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyEnterYourPasswordAlertIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:13 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:08:13 PDT" duration-ms="844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyEnterYourPasswordAlertIsDisplayed status=SUCCESS method=SignInTest.testVerifyEnterYourPasswordAlertIsDisplayed()[pri:0, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:13 PDT" name="setUp" finished-at="2020-08-29T14:08:19 PDT" duration-ms="5192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:13 PDT" name="cleanUp" finished-at="2020-08-29T14:08:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:19 PDT" name="startExtent" finished-at="2020-08-29T14:08:19 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testVerifyForgotYourPasswordTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:19 PDT" name="getInit" finished-at="2020-08-29T14:08:19 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyForgotYourPasswordTitle()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:19 PDT" name="testVerifyForgotYourPasswordTitle" finished-at="2020-08-29T14:08:23 PDT" duration-ms="4094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyForgotYourPasswordTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:23 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:08:24 PDT" duration-ms="1054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyForgotYourPasswordTitle status=SUCCESS method=SignInTest.testVerifyForgotYourPasswordTitle()[pri:0, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:24 PDT" name="cleanUp" finished-at="2020-08-29T14:08:24 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:24 PDT" name="setUp" finished-at="2020-08-29T14:08:29 PDT" duration-ms="5622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:29 PDT" name="getInit" finished-at="2020-08-29T14:08:29 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:29 PDT" name="startExtent" finished-at="2020-08-29T14:08:29 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testVerifyIncorrectPhoneNumberAlertIsDispalyed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyIncorrectPhoneNumberAlertIsDispalyed()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:29 PDT" name="testVerifyIncorrectPhoneNumberAlertIsDispalyed" finished-at="2020-08-29T14:08:33 PDT" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyIncorrectPhoneNumberAlertIsDispalyed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:33 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:08:33 PDT" duration-ms="849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyIncorrectPhoneNumberAlertIsDispalyed status=SUCCESS method=SignInTest.testVerifyIncorrectPhoneNumberAlertIsDispalyed()[pri:0, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:33 PDT" name="cleanUp" finished-at="2020-08-29T14:08:33 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:33 PDT" name="setUp" finished-at="2020-08-29T14:08:39 PDT" duration-ms="5427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:39 PDT" name="getInit" finished-at="2020-08-29T14:08:39 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:39 PDT" name="startExtent" finished-at="2020-08-29T14:08:39 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testVerifyLoginWithInvalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyLoginWithInvalidPassword()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:39 PDT" name="testVerifyLoginWithInvalidPassword" finished-at="2020-08-29T14:08:45 PDT" duration-ms="5924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:45 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:08:46 PDT" duration-ms="1281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyLoginWithInvalidPassword status=SUCCESS method=SignInTest.testVerifyLoginWithInvalidPassword()[pri:0, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:46 PDT" name="cleanUp" finished-at="2020-08-29T14:08:46 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:46 PDT" name="setUp" finished-at="2020-08-29T14:08:51 PDT" duration-ms="5422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:51 PDT" name="startExtent" finished-at="2020-08-29T14:08:51 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:51 PDT" name="testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat" finished-at="2020-08-29T14:08:54 PDT" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:51 PDT" name="getInit" finished-at="2020-08-29T14:08:51 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:54 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:08:55 PDT" duration-ms="883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat status=SUCCESS method=SignInTest.testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat()[pri:0, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:55 PDT" name="setUp" finished-at="2020-08-29T14:09:00 PDT" duration-ms="5113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:08:55 PDT" name="cleanUp" finished-at="2020-08-29T14:08:55 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="testVerifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:00 PDT" name="testVerifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed" finished-at="2020-08-29T14:09:02 PDT" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:00 PDT" name="getInit" finished-at="2020-08-29T14:09:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:00 PDT" name="startExtent" finished-at="2020-08-29T14:09:00 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testVerifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:02 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:09:03 PDT" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed status=SUCCESS method=SignInTest.testVerifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed()[pri:0, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:03 PDT" name="cleanUp" finished-at="2020-08-29T14:09:03 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:03 PDT" name="setUp" finished-at="2020-08-29T14:09:08 PDT" duration-ms="5364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:08 PDT" name="getInit" finished-at="2020-08-29T14:09:08 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:08 PDT" name="startExtent" finished-at="2020-08-29T14:09:08 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testTwoUsersCanLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testTwoUsersCanLogin(java.lang.String, java.lang.String)[pri:1, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:08 PDT" name="testTwoUsersCanLogin" data-provider="validLogins" finished-at="2020-08-29T14:09:14 PDT" duration-ms="5119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shakir.jahangir83@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BugBusters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoUsersCanLogin -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:14 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:09:15 PDT" duration-ms="890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTwoUsersCanLogin status=SUCCESS method=SignInTest.testTwoUsersCanLogin(java.lang.String, java.lang.String)[pri:1, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:15 PDT" name="cleanUp" finished-at="2020-08-29T14:09:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:15 PDT" name="setUp" finished-at="2020-08-29T14:09:20 PDT" duration-ms="5767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:20 PDT" name="startExtent" finished-at="2020-08-29T14:09:20 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testTwoUsersCanLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testTwoUsersCanLogin(java.lang.String, java.lang.String)[pri:1, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:20 PDT" name="testTwoUsersCanLogin" data-provider="validLogins" finished-at="2020-08-29T14:09:25 PDT" duration-ms="4997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ciara105@xhanimatedm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BugBusters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoUsersCanLogin -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:20 PDT" name="getInit" finished-at="2020-08-29T14:09:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:25 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:09:26 PDT" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTwoUsersCanLogin status=SUCCESS method=SignInTest.testTwoUsersCanLogin(java.lang.String, java.lang.String)[pri:1, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:26 PDT" name="cleanUp" finished-at="2020-08-29T14:09:26 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:26 PDT" name="setUp" finished-at="2020-08-29T14:09:31 PDT" duration-ms="4993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:31 PDT" name="startExtent" finished-at="2020-08-29T14:09:31 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void signIn.SignInTest.testVerifySignInTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:31 PDT" name="getInit" finished-at="2020-08-29T14:09:31 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifySignInTitle()[pri:1, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:31 PDT" name="testVerifySignInTitle" finished-at="2020-08-29T14:09:33 PDT" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifySignInTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:33 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:09:34 PDT" duration-ms="907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifySignInTitle status=SUCCESS method=SignInTest.testVerifySignInTitle()[pri:1, instance:signIn.SignInTest@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:signIn.SignInTest@13b6aecc]" started-at="2020-08-29T14:09:34 PDT" name="cleanUp" finished-at="2020-08-29T14:09:34 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- signIn.SignInTest -->
+      <class name="cart.CartTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T13:59:12 PDT" name="extentSetup" finished-at="2020-08-29T13:59:14 PDT" duration-ms="1943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@36f2a2a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\Amazon\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T13:59:14 PDT" name="setUp" finished-at="2020-08-29T13:59:34 PDT" duration-ms="19697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T13:59:34 PDT" name="startExtent" finished-at="2020-08-29T13:59:34 PDT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cart.CartTest.TestValidateAllDropDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T13:59:34 PDT" name="getInit" finished-at="2020-08-29T13:59:34 PDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="TestValidateAllDropDown()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T13:59:34 PDT" name="TestValidateAllDropDown" finished-at="2020-08-29T13:59:53 PDT" duration-ms="18611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestValidateAllDropDown -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T13:59:53 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:00:15 PDT" duration-ms="22265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestValidateAllDropDown status=SUCCESS method=CartTest.TestValidateAllDropDown()[pri:0, instance:cart.CartTest@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:15 PDT" name="cleanUp" finished-at="2020-08-29T14:00:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:15 PDT" name="setUp" finished-at="2020-08-29T14:00:21 PDT" duration-ms="6151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:21 PDT" name="startExtent" finished-at="2020-08-29T14:00:21 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cart.CartTest.testCheckoutAfterAddingAnItemToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:21 PDT" name="getInit" finished-at="2020-08-29T14:00:21 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testCheckoutAfterAddingAnItemToCart()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:21 PDT" name="testCheckoutAfterAddingAnItemToCart" finished-at="2020-08-29T14:00:41 PDT" duration-ms="20123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutAfterAddingAnItemToCart -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:41 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:00:43 PDT" duration-ms="1320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutAfterAddingAnItemToCart status=SUCCESS method=CartTest.testCheckoutAfterAddingAnItemToCart()[pri:0, instance:cart.CartTest@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:43 PDT" name="cleanUp" finished-at="2020-08-29T14:00:43 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:43 PDT" name="setUp" finished-at="2020-08-29T14:00:49 PDT" duration-ms="5806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:49 PDT" name="startExtent" finished-at="2020-08-29T14:00:49 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cart.CartTest.testItemAddedToCartByGoingIntoCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:49 PDT" name="getInit" finished-at="2020-08-29T14:00:49 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testItemAddedToCartByGoingIntoCart()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:49 PDT" name="testItemAddedToCartByGoingIntoCart" finished-at="2020-08-29T14:00:56 PDT" duration-ms="7927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemAddedToCartByGoingIntoCart -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:56 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:00:57 PDT" duration-ms="957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testItemAddedToCartByGoingIntoCart status=SUCCESS method=CartTest.testItemAddedToCartByGoingIntoCart()[pri:0, instance:cart.CartTest@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:57 PDT" name="cleanUp" finished-at="2020-08-29T14:00:57 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:00:57 PDT" name="setUp" finished-at="2020-08-29T14:01:02 PDT" duration-ms="4857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:02 PDT" name="getInit" finished-at="2020-08-29T14:01:02 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:02 PDT" name="startExtent" finished-at="2020-08-29T14:01:02 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cart.CartTest.testItemAddedToCartWithoutGoingIntoCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testItemAddedToCartWithoutGoingIntoCart()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:02 PDT" name="testItemAddedToCartWithoutGoingIntoCart" finished-at="2020-08-29T14:01:08 PDT" duration-ms="5973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemAddedToCartWithoutGoingIntoCart -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:08 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:01:09 PDT" duration-ms="971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testItemAddedToCartWithoutGoingIntoCart status=SUCCESS method=CartTest.testItemAddedToCartWithoutGoingIntoCart()[pri:0, instance:cart.CartTest@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:09 PDT" name="cleanUp" finished-at="2020-08-29T14:01:09 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:09 PDT" name="setUp" finished-at="2020-08-29T14:01:15 PDT" duration-ms="5853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:15 PDT" name="startExtent" finished-at="2020-08-29T14:01:15 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cart.CartTest.testItemDeletedFromCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:15 PDT" name="getInit" finished-at="2020-08-29T14:01:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testItemDeletedFromCart()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:15 PDT" name="testItemDeletedFromCart" finished-at="2020-08-29T14:01:26 PDT" duration-ms="10772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemDeletedFromCart -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:26 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:01:27 PDT" duration-ms="1143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testItemDeletedFromCart status=SUCCESS method=CartTest.testItemDeletedFromCart()[pri:0, instance:cart.CartTest@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:01:27 PDT" name="cleanUp" finished-at="2020-08-29T14:01:27 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:cart.CartTest@bccb269]" started-at="2020-08-29T14:09:34 PDT" name="generateReport" finished-at="2020-08-29T14:09:34 PDT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- cart.CartTest -->
+      <class name="registration.RegistrationPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:04:48 PDT" name="setUp" finished-at="2020-08-29T14:04:53 PDT" duration-ms="5020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:04:53 PDT" name="startExtent" finished-at="2020-08-29T14:04:53 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testPasswordMustBeAtLeast6CharacterAlertSignIsEnabled()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:04:53 PDT" name="getInit" finished-at="2020-08-29T14:04:53 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testPasswordMustBeAtLeast6CharacterAlertSignIsEnabled()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:04:53 PDT" name="testPasswordMustBeAtLeast6CharacterAlertSignIsEnabled" finished-at="2020-08-29T14:04:57 PDT" duration-ms="3982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordMustBeAtLeast6CharacterAlertSignIsEnabled -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:04:57 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:04:59 PDT" duration-ms="1865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPasswordMustBeAtLeast6CharacterAlertSignIsEnabled status=SUCCESS method=RegistrationPageTest.testPasswordMustBeAtLeast6CharacterAlertSignIsEnabled()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:04:59 PDT" name="cleanUp" finished-at="2020-08-29T14:04:59 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:04:59 PDT" name="setUp" finished-at="2020-08-29T14:05:04 PDT" duration-ms="5329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:04 PDT" name="getInit" finished-at="2020-08-29T14:05:04 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:04 PDT" name="startExtent" finished-at="2020-08-29T14:05:04 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testVerifyClickStartHere()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyClickStartHere()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:04 PDT" name="testVerifyClickStartHere" finished-at="2020-08-29T14:05:06 PDT" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyClickStartHere -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:06 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:05:07 PDT" duration-ms="1329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyClickStartHere status=SUCCESS method=RegistrationPageTest.testVerifyClickStartHere()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:07 PDT" name="cleanUp" finished-at="2020-08-29T14:05:07 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:07 PDT" name="setUp" finished-at="2020-08-29T14:05:13 PDT" duration-ms="5409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:13 PDT" name="startExtent" finished-at="2020-08-29T14:05:13 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testVerifyEnterAValidEmailAddressAlertSignIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:13 PDT" name="getInit" finished-at="2020-08-29T14:05:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyEnterAValidEmailAddressAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:13 PDT" name="testVerifyEnterAValidEmailAddressAlertSignIsDisplayed" finished-at="2020-08-29T14:05:17 PDT" duration-ms="4336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyEnterAValidEmailAddressAlertSignIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:17 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:05:18 PDT" duration-ms="1253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyEnterAValidEmailAddressAlertSignIsDisplayed status=SUCCESS method=RegistrationPageTest.testVerifyEnterAValidEmailAddressAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:18 PDT" name="cleanUp" finished-at="2020-08-29T14:05:18 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:18 PDT" name="setUp" finished-at="2020-08-29T14:05:23 PDT" duration-ms="5232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:23 PDT" name="getInit" finished-at="2020-08-29T14:05:23 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:23 PDT" name="startExtent" finished-at="2020-08-29T14:05:23 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testVerifyEnterYourEmailAlertSignIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyEnterYourEmailAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:23 PDT" name="testVerifyEnterYourEmailAlertSignIsDisplayed" finished-at="2020-08-29T14:05:27 PDT" duration-ms="3402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyEnterYourEmailAlertSignIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:27 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:05:28 PDT" duration-ms="878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyEnterYourEmailAlertSignIsDisplayed status=SUCCESS method=RegistrationPageTest.testVerifyEnterYourEmailAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:28 PDT" name="setUp" finished-at="2020-08-29T14:05:33 PDT" duration-ms="5419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:28 PDT" name="cleanUp" finished-at="2020-08-29T14:05:28 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:33 PDT" name="startExtent" finished-at="2020-08-29T14:05:33 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testVerifyEnterYourNameAlertSignIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:33 PDT" name="getInit" finished-at="2020-08-29T14:05:33 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyEnterYourNameAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:33 PDT" name="testVerifyEnterYourNameAlertSignIsDisplayed" finished-at="2020-08-29T14:05:36 PDT" duration-ms="2461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyEnterYourNameAlertSignIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:36 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:05:36 PDT" duration-ms="795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyEnterYourNameAlertSignIsDisplayed status=SUCCESS method=RegistrationPageTest.testVerifyEnterYourNameAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:36 PDT" name="cleanUp" finished-at="2020-08-29T14:05:36 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:36 PDT" name="setUp" finished-at="2020-08-29T14:05:41 PDT" duration-ms="5064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:41 PDT" name="startExtent" finished-at="2020-08-29T14:05:41 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testVerifyEnterYourPasswordAlertSignIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:41 PDT" name="getInit" finished-at="2020-08-29T14:05:41 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyEnterYourPasswordAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:41 PDT" name="testVerifyEnterYourPasswordAlertSignIsDisplayed" finished-at="2020-08-29T14:05:44 PDT" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyEnterYourPasswordAlertSignIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:44 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:05:45 PDT" duration-ms="1329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyEnterYourPasswordAlertSignIsDisplayed status=SUCCESS method=RegistrationPageTest.testVerifyEnterYourPasswordAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:45 PDT" name="cleanUp" finished-at="2020-08-29T14:05:45 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:45 PDT" name="setUp" finished-at="2020-08-29T14:05:50 PDT" duration-ms="5116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:50 PDT" name="getInit" finished-at="2020-08-29T14:05:50 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:50 PDT" name="startExtent" finished-at="2020-08-29T14:05:50 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testVerifyNavigateToAmazonSellerSignUpPageByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyNavigateToAmazonSellerSignUpPageByTitle()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:50 PDT" name="testVerifyNavigateToAmazonSellerSignUpPageByTitle" finished-at="2020-08-29T14:05:57 PDT" duration-ms="6326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyNavigateToAmazonSellerSignUpPageByTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:57 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:05:58 PDT" duration-ms="985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyNavigateToAmazonSellerSignUpPageByTitle status=SUCCESS method=RegistrationPageTest.testVerifyNavigateToAmazonSellerSignUpPageByTitle()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:58 PDT" name="cleanUp" finished-at="2020-08-29T14:05:58 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:05:58 PDT" name="setUp" finished-at="2020-08-29T14:06:03 PDT" duration-ms="5591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:03 PDT" name="startExtent" finished-at="2020-08-29T14:06:03 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testVerifyNewAccountCaptchaIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:03 PDT" name="getInit" finished-at="2020-08-29T14:06:03 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyNewAccountCaptchaIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:03 PDT" name="testVerifyNewAccountCaptchaIsDisplayed" finished-at="2020-08-29T14:06:08 PDT" duration-ms="4405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyNewAccountCaptchaIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:08 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:06:09 PDT" duration-ms="1062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyNewAccountCaptchaIsDisplayed status=SUCCESS method=RegistrationPageTest.testVerifyNewAccountCaptchaIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:09 PDT" name="cleanUp" finished-at="2020-08-29T14:06:09 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:09 PDT" name="setUp" finished-at="2020-08-29T14:06:14 PDT" duration-ms="5361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:14 PDT" name="startExtent" finished-at="2020-08-29T14:06:14 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testVerifyPasswordsMustMatchAlertIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:14 PDT" name="getInit" finished-at="2020-08-29T14:06:14 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyPasswordsMustMatchAlertIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:14 PDT" name="testVerifyPasswordsMustMatchAlertIsDisplayed" finished-at="2020-08-29T14:06:18 PDT" duration-ms="3524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyPasswordsMustMatchAlertIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:18 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:06:19 PDT" duration-ms="1035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyPasswordsMustMatchAlertIsDisplayed status=SUCCESS method=RegistrationPageTest.testVerifyPasswordsMustMatchAlertIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:19 PDT" name="cleanUp" finished-at="2020-08-29T14:06:19 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:19 PDT" name="setUp" finished-at="2020-08-29T14:06:24 PDT" duration-ms="4897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:24 PDT" name="getInit" finished-at="2020-08-29T14:06:24 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:24 PDT" name="startExtent" finished-at="2020-08-29T14:06:24 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void registration.RegistrationPageTest.testVerifyTypeYourPasswordAgainAlertSignIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyTypeYourPasswordAgainAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:24 PDT" name="testVerifyTypeYourPasswordAgainAlertSignIsDisplayed" finished-at="2020-08-29T14:06:27 PDT" duration-ms="3847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTypeYourPasswordAgainAlertSignIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:27 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:06:28 PDT" duration-ms="879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyTypeYourPasswordAgainAlertSignIsDisplayed status=SUCCESS method=RegistrationPageTest.testVerifyTypeYourPasswordAgainAlertSignIsDisplayed()[pri:0, instance:registration.RegistrationPageTest@17f7cd29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:registration.RegistrationPageTest@17f7cd29]" started-at="2020-08-29T14:06:28 PDT" name="cleanUp" finished-at="2020-08-29T14:06:28 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- registration.RegistrationPageTest -->
+      <class name="search.SearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:28 PDT" name="setUp" finished-at="2020-08-29T14:06:33 PDT" duration-ms="5140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:33 PDT" name="startExtent" finished-at="2020-08-29T14:06:33 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testSearchMultipleItems()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:33 PDT" name="getInit" finished-at="2020-08-29T14:06:33 PDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testSearchMultipleItems()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:33 PDT" name="testSearchMultipleItems" finished-at="2020-08-29T14:06:40 PDT" duration-ms="6599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchMultipleItems -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:40 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:06:41 PDT" duration-ms="1037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchMultipleItems status=SUCCESS method=SearchTest.testSearchMultipleItems()[pri:0, instance:search.SearchTest@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:41 PDT" name="cleanUp" finished-at="2020-08-29T14:06:41 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:41 PDT" name="setUp" finished-at="2020-08-29T14:06:47 PDT" duration-ms="5747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:47 PDT" name="startExtent" finished-at="2020-08-29T14:06:47 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testSearchSingleItem()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:47 PDT" name="getInit" finished-at="2020-08-29T14:06:47 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testSearchSingleItem()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:47 PDT" name="testSearchSingleItem" finished-at="2020-08-29T14:06:51 PDT" duration-ms="4643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchSingleItem -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:51 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:06:52 PDT" duration-ms="1034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchSingleItem status=SUCCESS method=SearchTest.testSearchSingleItem()[pri:0, instance:search.SearchTest@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:52 PDT" name="setUp" finished-at="2020-08-29T14:06:58 PDT" duration-ms="5749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:52 PDT" name="cleanUp" finished-at="2020-08-29T14:06:52 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:58 PDT" name="startExtent" finished-at="2020-08-29T14:06:58 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testValidateAllDropDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testValidateAllDropDown()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:58 PDT" name="testValidateAllDropDown" finished-at="2020-08-29T14:06:59 PDT" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateAllDropDown -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:58 PDT" name="getInit" finished-at="2020-08-29T14:06:58 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:06:59 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:07:00 PDT" duration-ms="907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateAllDropDown status=SUCCESS method=SearchTest.testValidateAllDropDown()[pri:0, instance:search.SearchTest@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:00 PDT" name="setUp" finished-at="2020-08-29T14:07:05 PDT" duration-ms="5905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:00 PDT" name="cleanUp" finished-at="2020-08-29T14:07:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:05 PDT" name="getInit" finished-at="2020-08-29T14:07:05 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:05 PDT" name="startExtent" finished-at="2020-08-29T14:07:05 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testValidateSearchItemsFromMySQL() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testValidateSearchItemsFromMySQL()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:05 PDT" name="testValidateSearchItemsFromMySQL" finished-at="2020-08-29T14:07:12 PDT" duration-ms="6545" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:36067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b3aa08296937644d0462d67febd4b616]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:36067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b3aa08296937644d0462d67febd4b616
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+at search.Search.typeOnSearchField(Search.java:48)
+at search.Search.validateSearchItemsFromMySQL(Search.java:136)
+at search.SearchTest.testValidateSearchItemsFromMySQL(SearchTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSearchItemsFromMySQL -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:12 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:07:14 PDT" duration-ms="2136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateSearchItemsFromMySQL status=FAILURE method=SearchTest.testValidateSearchItemsFromMySQL()[pri:0, instance:search.SearchTest@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:14 PDT" name="cleanUp" finished-at="2020-08-29T14:07:14 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:14 PDT" name="setUp" finished-at="2020-08-29T14:07:19 PDT" duration-ms="4950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:19 PDT" name="getInit" finished-at="2020-08-29T14:07:19 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:19 PDT" name="startExtent" finished-at="2020-08-29T14:07:19 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testVerifyPurellAdvancedHandSanitizerPackOf250IsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyPurellAdvancedHandSanitizerPackOf250IsDisplayed()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:19 PDT" name="testVerifyPurellAdvancedHandSanitizerPackOf250IsDisplayed" finished-at="2020-08-29T14:07:25 PDT" duration-ms="6046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyPurellAdvancedHandSanitizerPackOf250IsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:25 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:07:26 PDT" duration-ms="1287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyPurellAdvancedHandSanitizerPackOf250IsDisplayed status=SUCCESS method=SearchTest.testVerifyPurellAdvancedHandSanitizerPackOf250IsDisplayed()[pri:0, instance:search.SearchTest@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:26 PDT" name="cleanUp" finished-at="2020-08-29T14:07:26 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:26 PDT" name="setUp" finished-at="2020-08-29T14:07:32 PDT" duration-ms="5904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testVerifySearchRandomBooksByTitle()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:32 PDT" name="testVerifySearchRandomBooksByTitle" finished-at="2020-08-29T14:07:40 PDT" duration-ms="7301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifySearchRandomBooksByTitle -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:32 PDT" name="startExtent" finished-at="2020-08-29T14:07:32 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testVerifySearchRandomBooksByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:32 PDT" name="getInit" finished-at="2020-08-29T14:07:32 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:40 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:07:41 PDT" duration-ms="1091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifySearchRandomBooksByTitle status=SUCCESS method=SearchTest.testVerifySearchRandomBooksByTitle()[pri:0, instance:search.SearchTest@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:41 PDT" name="setUp" finished-at="2020-08-29T14:07:47 PDT" duration-ms="5918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:41 PDT" name="cleanUp" finished-at="2020-08-29T14:07:41 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:47 PDT" name="startExtent" finished-at="2020-08-29T14:07:47 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testVerifySearchRandomBooksByURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:47 PDT" name="getInit" finished-at="2020-08-29T14:07:47 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifySearchRandomBooksByURL()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:47 PDT" name="testVerifySearchRandomBooksByURL" finished-at="2020-08-29T14:07:53 PDT" duration-ms="6642" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.amazon.com/s?k=All+the+King's+Men&i=stripbooks-intl-ship&ref=nb_sb_noss] but found [https://www.amazon.com/s?k=All+the+King%27s+Men&i=stripbooks-intl-ship&ref=nb_sb_noss_2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.amazon.com/s?k=All+the+King's+Men&i=stripbooks-intl-ship&ref=nb_sb_noss] but found [https://www.amazon.com/s?k=All+the+King%27s+Men&i=stripbooks-intl-ship&ref=nb_sb_noss_2]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at search.Search.verifySearchRandomBookByURL(Search.java:238)
+at search.SearchTest.testVerifySearchRandomBooksByURL(SearchTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifySearchRandomBooksByURL -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:53 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:07:55 PDT" duration-ms="1872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifySearchRandomBooksByURL status=FAILURE method=SearchTest.testVerifySearchRandomBooksByURL()[pri:0, instance:search.SearchTest@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7d8704ef]" started-at="2020-08-29T14:07:55 PDT" name="cleanUp" finished-at="2020-08-29T14:07:55 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- search.SearchTest -->
+      <class name="home.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:27 PDT" name="setUp" finished-at="2020-08-29T14:01:32 PDT" duration-ms="5467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:32 PDT" name="getInit" finished-at="2020-08-29T14:01:32 PDT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:32 PDT" name="startExtent" finished-at="2020-08-29T14:01:32 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateClickCustomerServiceTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testValidateClickCustomerServiceTab()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:32 PDT" name="testValidateClickCustomerServiceTab" finished-at="2020-08-29T14:01:34 PDT" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateClickCustomerServiceTab -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:34 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:01:36 PDT" duration-ms="1163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateClickCustomerServiceTab status=SUCCESS method=HomePageTest.testValidateClickCustomerServiceTab()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:36 PDT" name="cleanUp" finished-at="2020-08-29T14:01:36 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:36 PDT" name="setUp" finished-at="2020-08-29T14:01:41 PDT" duration-ms="5304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:41 PDT" name="startExtent" finished-at="2020-08-29T14:01:41 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateClickCustomerServiceTabByText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:41 PDT" name="getInit" finished-at="2020-08-29T14:01:41 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateClickCustomerServiceTabByText()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:41 PDT" name="testValidateClickCustomerServiceTabByText" finished-at="2020-08-29T14:01:44 PDT" duration-ms="3533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateClickCustomerServiceTabByText -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:44 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:01:46 PDT" duration-ms="1079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateClickCustomerServiceTabByText status=SUCCESS method=HomePageTest.testValidateClickCustomerServiceTabByText()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:46 PDT" name="cleanUp" finished-at="2020-08-29T14:01:46 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:46 PDT" name="setUp" finished-at="2020-08-29T14:01:51 PDT" duration-ms="5550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:51 PDT" name="startExtent" finished-at="2020-08-29T14:01:51 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateClickGiftCardsTabByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:51 PDT" name="getInit" finished-at="2020-08-29T14:01:51 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateClickGiftCardsTabByTitle()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:51 PDT" name="testValidateClickGiftCardsTabByTitle" finished-at="2020-08-29T14:01:54 PDT" duration-ms="3240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateClickGiftCardsTabByTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:54 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:01:56 PDT" duration-ms="1804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateClickGiftCardsTabByTitle status=SUCCESS method=HomePageTest.testValidateClickGiftCardsTabByTitle()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:56 PDT" name="cleanUp" finished-at="2020-08-29T14:01:56 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:01:56 PDT" name="setUp" finished-at="2020-08-29T14:02:02 PDT" duration-ms="5542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:02 PDT" name="startExtent" finished-at="2020-08-29T14:02:02 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateClickRegistryTabByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:02 PDT" name="getInit" finished-at="2020-08-29T14:02:02 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateClickRegistryTabByTitle()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:02 PDT" name="testValidateClickRegistryTabByTitle" finished-at="2020-08-29T14:02:04 PDT" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateClickRegistryTabByTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:04 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:02:05 PDT" duration-ms="1252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateClickRegistryTabByTitle status=SUCCESS method=HomePageTest.testValidateClickRegistryTabByTitle()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:05 PDT" name="cleanUp" finished-at="2020-08-29T14:02:05 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:05 PDT" name="setUp" finished-at="2020-08-29T14:02:11 PDT" duration-ms="5860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:11 PDT" name="startExtent" finished-at="2020-08-29T14:02:11 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateHomePageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:11 PDT" name="getInit" finished-at="2020-08-29T14:02:11 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateHomePageTitle()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:11 PDT" name="testValidateHomePageTitle" finished-at="2020-08-29T14:02:11 PDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateHomePageTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:11 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:02:12 PDT" duration-ms="952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateHomePageTitle status=SUCCESS method=HomePageTest.testValidateHomePageTitle()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:12 PDT" name="cleanUp" finished-at="2020-08-29T14:02:12 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:12 PDT" name="setUp" finished-at="2020-08-29T14:02:17 PDT" duration-ms="5285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:17 PDT" name="startExtent" finished-at="2020-08-29T14:02:17 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:17 PDT" name="getInit" finished-at="2020-08-29T14:02:17 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:17 PDT" name="testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger" finished-at="2020-08-29T14:02:23 PDT" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:23 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:02:24 PDT" duration-ms="1455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger status=SUCCESS method=HomePageTest.testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:24 PDT" name="cleanUp" finished-at="2020-08-29T14:02:24 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:24 PDT" name="setUp" finished-at="2020-08-29T14:02:30 PDT" duration-ms="5601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:30 PDT" name="startExtent" finished-at="2020-08-29T14:02:30 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateTodaysDealTabByDealsAndPromotionsText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:30 PDT" name="getInit" finished-at="2020-08-29T14:02:30 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateTodaysDealTabByDealsAndPromotionsText()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:30 PDT" name="testValidateTodaysDealTabByDealsAndPromotionsText" finished-at="2020-08-29T14:02:33 PDT" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateTodaysDealTabByDealsAndPromotionsText -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:33 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:02:34 PDT" duration-ms="1012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateTodaysDealTabByDealsAndPromotionsText status=SUCCESS method=HomePageTest.testValidateTodaysDealTabByDealsAndPromotionsText()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:34 PDT" name="cleanUp" finished-at="2020-08-29T14:02:34 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:34 PDT" name="setUp" finished-at="2020-08-29T14:02:40 PDT" duration-ms="5212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:40 PDT" name="startExtent" finished-at="2020-08-29T14:02:40 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateTodaysDealTabByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:40 PDT" name="getInit" finished-at="2020-08-29T14:02:40 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateTodaysDealTabByTitle()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:40 PDT" name="testValidateTodaysDealTabByTitle" finished-at="2020-08-29T14:02:43 PDT" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateTodaysDealTabByTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:43 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:02:44 PDT" duration-ms="845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateTodaysDealTabByTitle status=SUCCESS method=HomePageTest.testValidateTodaysDealTabByTitle()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:44 PDT" name="cleanUp" finished-at="2020-08-29T14:02:44 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:44 PDT" name="setUp" finished-at="2020-08-29T14:02:49 PDT" duration-ms="5440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:49 PDT" name="startExtent" finished-at="2020-08-29T14:02:49 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testVerifyAmazonMusicByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:49 PDT" name="getInit" finished-at="2020-08-29T14:02:49 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyAmazonMusicByTitle()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:49 PDT" name="testVerifyAmazonMusicByTitle" finished-at="2020-08-29T14:02:53 PDT" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyAmazonMusicByTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:53 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:02:54 PDT" duration-ms="1364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyAmazonMusicByTitle status=SUCCESS method=HomePageTest.testVerifyAmazonMusicByTitle()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:54 PDT" name="cleanUp" finished-at="2020-08-29T14:02:54 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:02:54 PDT" name="setUp" finished-at="2020-08-29T14:03:00 PDT" duration-ms="5242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:00 PDT" name="startExtent" finished-at="2020-08-29T14:03:00 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testVerifyClickOnAmazonAdvertisingByText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:00 PDT" name="getInit" finished-at="2020-08-29T14:03:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyClickOnAmazonAdvertisingByText()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:00 PDT" name="testVerifyClickOnAmazonAdvertisingByText" finished-at="2020-08-29T14:03:04 PDT" duration-ms="4539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyClickOnAmazonAdvertisingByText -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:04 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:03:06 PDT" duration-ms="1814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyClickOnAmazonAdvertisingByText status=SUCCESS method=HomePageTest.testVerifyClickOnAmazonAdvertisingByText()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:06 PDT" name="cleanUp" finished-at="2020-08-29T14:03:06 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:06 PDT" name="setUp" finished-at="2020-08-29T14:03:12 PDT" duration-ms="5580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:12 PDT" name="startExtent" finished-at="2020-08-29T14:03:12 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testVerifyClickOnAmazonAdvertisingByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:12 PDT" name="getInit" finished-at="2020-08-29T14:03:12 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyClickOnAmazonAdvertisingByTitle()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:12 PDT" name="testVerifyClickOnAmazonAdvertisingByTitle" finished-at="2020-08-29T14:03:15 PDT" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyClickOnAmazonAdvertisingByTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:15 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:03:16 PDT" duration-ms="1183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyClickOnAmazonAdvertisingByTitle status=SUCCESS method=HomePageTest.testVerifyClickOnAmazonAdvertisingByTitle()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:16 PDT" name="cleanUp" finished-at="2020-08-29T14:03:16 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:16 PDT" name="setUp" finished-at="2020-08-29T14:03:21 PDT" duration-ms="5206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:21 PDT" name="getInit" finished-at="2020-08-29T14:03:21 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:21 PDT" name="startExtent" finished-at="2020-08-29T14:03:21 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testVerifyClickOnAmazonAdvertisingByURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyClickOnAmazonAdvertisingByURL()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:21 PDT" name="testVerifyClickOnAmazonAdvertisingByURL" finished-at="2020-08-29T14:03:26 PDT" duration-ms="4381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyClickOnAmazonAdvertisingByURL -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:26 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:03:27 PDT" duration-ms="1337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyClickOnAmazonAdvertisingByURL status=SUCCESS method=HomePageTest.testVerifyClickOnAmazonAdvertisingByURL()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:27 PDT" name="cleanUp" finished-at="2020-08-29T14:03:27 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:27 PDT" name="setUp" finished-at="2020-08-29T14:03:33 PDT" duration-ms="5975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:33 PDT" name="startExtent" finished-at="2020-08-29T14:03:33 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testVerifyClickOnHPFeaturedBrandSelection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyClickOnHPFeaturedBrandSelection()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:33 PDT" name="testVerifyClickOnHPFeaturedBrandSelection" finished-at="2020-08-29T14:03:45 PDT" duration-ms="11518" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:34748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 78d0b37ce4cd8c79ff720a4ae34b84e4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:34748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 78d0b37ce4cd8c79ff720a4ae34b84e4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy15.click(Unknown Source)
+at home.HomePage.clickOnComputerAndTabletsInShopByCategoryHamburger(HomePage.java:290)
+at home.HomePage.selectHpFromFeaturedBrandsOnComputersAndTabletsPage(HomePage.java:335)
+at home.HomePageTest.testVerifyClickOnHPFeaturedBrandSelection(HomePageTest.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyClickOnHPFeaturedBrandSelection -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:33 PDT" name="getInit" finished-at="2020-08-29T14:03:33 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:45 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:03:46 PDT" duration-ms="1322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyClickOnHPFeaturedBrandSelection status=FAILURE method=HomePageTest.testVerifyClickOnHPFeaturedBrandSelection()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:46 PDT" name="cleanUp" finished-at="2020-08-29T14:03:46 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:46 PDT" name="setUp" finished-at="2020-08-29T14:03:51 PDT" duration-ms="4803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:51 PDT" name="startExtent" finished-at="2020-08-29T14:03:51 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testVerifyClickOnMusicLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:51 PDT" name="getInit" finished-at="2020-08-29T14:03:51 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyClickOnMusicLink()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:51 PDT" name="testVerifyClickOnMusicLink" finished-at="2020-08-29T14:03:54 PDT" duration-ms="3482" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at home.HomePage.verifyClickOnMusicLinkByURL(HomePage.java:232)
+at home.HomePageTest.testVerifyClickOnMusicLink(HomePageTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyClickOnMusicLink -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:54 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:03:57 PDT" duration-ms="2590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyClickOnMusicLink status=FAILURE method=HomePageTest.testVerifyClickOnMusicLink()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:57 PDT" name="cleanUp" finished-at="2020-08-29T14:03:57 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:03:57 PDT" name="setUp" finished-at="2020-08-29T14:04:02 PDT" duration-ms="4785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:02 PDT" name="startExtent" finished-at="2020-08-29T14:04:02 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testVerifyClickOnMusicLinkByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyClickOnMusicLinkByTitle()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:02 PDT" name="testVerifyClickOnMusicLinkByTitle" finished-at="2020-08-29T14:04:05 PDT" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyClickOnMusicLinkByTitle -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:02 PDT" name="getInit" finished-at="2020-08-29T14:04:02 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:05 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:04:06 PDT" duration-ms="1570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyClickOnMusicLinkByTitle status=SUCCESS method=HomePageTest.testVerifyClickOnMusicLinkByTitle()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:06 PDT" name="cleanUp" finished-at="2020-08-29T14:04:06 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:06 PDT" name="setUp" finished-at="2020-08-29T14:04:12 PDT" duration-ms="5345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:12 PDT" name="startExtent" finished-at="2020-08-29T14:04:12 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testVerifyClickOnStartASellingAccount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:12 PDT" name="getInit" finished-at="2020-08-29T14:04:12 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifyClickOnStartASellingAccount()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:12 PDT" name="testVerifyClickOnStartASellingAccount" finished-at="2020-08-29T14:04:16 PDT" duration-ms="4211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyClickOnStartASellingAccount -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:16 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:04:17 PDT" duration-ms="936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyClickOnStartASellingAccount status=SUCCESS method=HomePageTest.testVerifyClickOnStartASellingAccount()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:17 PDT" name="cleanUp" finished-at="2020-08-29T14:04:17 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:17 PDT" name="setUp" finished-at="2020-08-29T14:04:23 PDT" duration-ms="6318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:23 PDT" name="startExtent" finished-at="2020-08-29T14:04:23 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testVerifySellVerificationTextIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:23 PDT" name="getInit" finished-at="2020-08-29T14:04:23 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifySellVerificationTextIsDisplayed()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:23 PDT" name="testVerifySellVerificationTextIsDisplayed" finished-at="2020-08-29T14:04:27 PDT" duration-ms="3493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifySellVerificationTextIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:27 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:04:28 PDT" duration-ms="1009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifySellVerificationTextIsDisplayed status=SUCCESS method=HomePageTest.testVerifySellVerificationTextIsDisplayed()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:28 PDT" name="cleanUp" finished-at="2020-08-29T14:04:28 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:28 PDT" name="setUp" finished-at="2020-08-29T14:04:33 PDT" duration-ms="5593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:33 PDT" name="startExtent" finished-at="2020-08-29T14:04:33 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testvalidateClickSellTabByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:33 PDT" name="getInit" finished-at="2020-08-29T14:04:33 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testvalidateClickSellTabByTitle()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:33 PDT" name="testvalidateClickSellTabByTitle" finished-at="2020-08-29T14:04:37 PDT" duration-ms="3707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvalidateClickSellTabByTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:37 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:04:38 PDT" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testvalidateClickSellTabByTitle status=SUCCESS method=HomePageTest.testvalidateClickSellTabByTitle()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:38 PDT" name="cleanUp" finished-at="2020-08-29T14:04:38 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:38 PDT" name="setUp" finished-at="2020-08-29T14:04:43 PDT" duration-ms="5449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:43 PDT" name="getInit" finished-at="2020-08-29T14:04:43 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:43 PDT" name="startExtent" finished-at="2020-08-29T14:04:43 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testverifyClickGiftCardsTabByText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testverifyClickGiftCardsTabByText()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:43 PDT" name="testverifyClickGiftCardsTabByText" finished-at="2020-08-29T14:04:47 PDT" duration-ms="3416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testverifyClickGiftCardsTabByText -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:47 PDT" name="afterEachTestMethod" finished-at="2020-08-29T14:04:48 PDT" duration-ms="1402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testverifyClickGiftCardsTabByText status=SUCCESS method=HomePageTest.testverifyClickGiftCardsTabByText()[pri:0, instance:home.HomePageTest@609cd4d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@609cd4d8]" started-at="2020-08-29T14:04:48 PDT" name="cleanUp" finished-at="2020-08-29T14:04:48 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

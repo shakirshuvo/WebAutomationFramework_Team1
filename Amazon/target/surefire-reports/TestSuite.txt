@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 51, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 633.394 s <<< FAILURE! - in TestSuite
+home.HomePageTest.testVerifyClickOnHPFeaturedBrandSelection  Time elapsed: 11.522 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:34748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 78d0b37ce4cd8c79ff720a4ae34b84e4
+	at home.HomePageTest.testVerifyClickOnHPFeaturedBrandSelection(HomePageTest.java:114)
+
+home.HomePageTest.testVerifyClickOnMusicLink  Time elapsed: 3.455 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at home.HomePageTest.testVerifyClickOnMusicLink(HomePageTest.java:79)
+
+search.SearchTest.testValidateSearchItemsFromMySQL  Time elapsed: 6.541 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:36067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b3aa08296937644d0462d67febd4b616
+	at search.SearchTest.testValidateSearchItemsFromMySQL(SearchTest.java:41)
+
+search.SearchTest.testVerifySearchRandomBooksByURL  Time elapsed: 6.64 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.amazon.com/s?k=All+the+King's+Men&i=stripbooks-intl-ship&ref=nb_sb_noss] but found [https://www.amazon.com/s?k=All+the+King%27s+Men&i=stripbooks-intl-ship&ref=nb_sb_noss_2]
+	at search.SearchTest.testVerifySearchRandomBooksByURL(SearchTest.java:69)
+

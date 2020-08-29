@@ -136,7 +136,6 @@ public class Cart extends CommonAPI {
      * This method searches "WD 5tb hard drive" on Amazon search.
      */
     public void searchWD5TBHardDrive() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         typeOnSearchField("WD 5tb hard drive");
         submitSearch();
     }
@@ -146,7 +145,6 @@ public class Cart extends CommonAPI {
      * 'WD 5TB Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN' to the cart.
      */
     public void addWDPassportHardDriveToCart() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         searchWD5TBHardDrive();
         clickOnWD5TBHardDriveItem();
         addToCart();
@@ -163,7 +161,6 @@ public class Cart extends CommonAPI {
      * This method deletes 'WD 5TB Passport.
      */
     public void deleteItemFromQtyDropDown() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickOnQtyDropDownMenu();
         qtyDropDown0Delete.click();
     }
@@ -173,7 +170,6 @@ public class Cart extends CommonAPI {
      */
 
     public void qtyDropDown2() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickOnQtyDropDownMenu();
         qtyDropDown2.click();
     }
@@ -201,7 +197,6 @@ public class Cart extends CommonAPI {
      * WDBPKJ0050BBK-WESN' to the cart by going into the cart.
      */
     public void verifyThatWD5tbIsAddedToCartFromInsideCart() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickOnCart();
         Assert.assertTrue(WD5tbPassportIsDisplayed(), "Item did not match!");
     }
@@ -211,7 +206,6 @@ public class Cart extends CommonAPI {
      * Then, it deletes the item from the cart.
      */
     public void deleteWD5tbPassport() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         addWDPassportHardDriveToCart();
         clickOnCart();
         deleteItemFromQtyDropDown();
@@ -247,7 +241,6 @@ public class Cart extends CommonAPI {
      * Then, it takes the user to the cart and clicks on the Qty drop down.
      */
     public void clickOnQtyDropDown() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         addWDPassportHardDriveToCart();
         clickOnCart();
         clickOnQtyDropDownMenu();

@@ -19,7 +19,7 @@ public class SignInTest extends CommonAPI {
      * This test method verifies that users can navigate to Sign-In page from the Homepage
      * by verifying the title of the Sign-In page.
      */
-    @Test
+    @Test(enabled = true, priority = 1)
     public void testVerifySignInTitle(){
         signIn.clickStartHere();
         signIn.verifySignInTitle();

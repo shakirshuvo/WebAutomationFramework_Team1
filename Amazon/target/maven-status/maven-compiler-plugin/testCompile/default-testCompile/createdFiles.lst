@@ -1,0 +1,5 @@
+registration\RegistrationPageTest.class
+home\HomePageTest.class
+search\SearchTest.class
+signIn\SignInTest.class
+cart\CartTest.class
