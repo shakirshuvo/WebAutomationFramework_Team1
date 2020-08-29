@@ -4,7 +4,7 @@
 <suite name="New York Times Automation Test" parallel="false">
     <parameter name="url" value="https://www.nytimes.com/"></parameter>
 
-    <test name="New York Times Home">
+    <test name="New York Times home.Home">
         <classes>
 <!--<class name=""></class>-->
         </classes>

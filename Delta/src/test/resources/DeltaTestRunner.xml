@@ -4,7 +4,7 @@
 <suite name="Delta Automation Test" parallel="false">
     <parameter name="url" value="https://www.delta.com/"></parameter>
 
-    <test name="Delta Home">
+    <test name="Delta home.Home">
         <classes>
             <!--<class name=""></class>-->
         </classes>

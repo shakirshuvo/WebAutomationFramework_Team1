@@ -4,7 +4,7 @@
 <suite name="The Hartford Automation Test" parallel="false">
     <parameter name="url" value="https://www.thehartford.com/"></parameter>
 
-    <test name="The Hartford Home">
+    <test name="The Hartford home.Home">
         <classes>
             <!--<class name=""></class>-->
         </classes>

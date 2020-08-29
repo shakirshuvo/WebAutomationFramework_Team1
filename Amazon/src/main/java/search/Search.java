@@ -45,7 +45,7 @@ public class Search extends CommonAPI {
         submitSearchButton();
     }
 
-    //    @Test
+    @Test
     public void validateIphoneSearch() {
 
         Assert.assertEquals(getVerificationIphoneText(), "iphone");

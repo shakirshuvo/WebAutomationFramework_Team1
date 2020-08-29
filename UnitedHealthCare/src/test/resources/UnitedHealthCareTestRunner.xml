@@ -4,7 +4,7 @@
 <suite name="United Health Care Automation Test" parallel="false">
     <parameter name="url" value="https://www.uhc.com/"></parameter>
 
-    <test name="United Health Care Home">
+    <test name="United Health Care home.Home">
         <classes>
             <!--<class name=""></class>-->
         </classes>

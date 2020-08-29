@@ -4,7 +4,7 @@
 <suite name="Marriott Automation Test" parallel="false">
     <parameter name="url" value="https://www.marriott.com"></parameter>
 
-    <test name="Marriott Home">
+    <test name="Marriott home.Home">
         <classes>
             <!--<class name=""></class>-->
         </classes>
