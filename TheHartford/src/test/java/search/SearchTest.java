@@ -158,10 +158,29 @@ public class SearchTest extends CommonAPI {
         search.validateEEO();
 
     }
+
+    /**
+     * Test FeedBack
+     */
     @Test
     public void testFeedBack(){
         search.feedBackCheck();
         //search.validateFeedBack();
     }
-
+    /**
+     * Test Car Insurance Form Main Body
+     */
+    @Test
+    public void testCarInsurance(){
+        search.carInsuranceCheck();
+        search.validateCarInsurance();
+    }
+    /**
+     * Test Home Insuracne From Main Body
+     */
+    @Test
+    public void testHomeInsurance(){
+        search.homeInsuranceCheck();
+        search.validateHomeInsurance();
+    }
 }

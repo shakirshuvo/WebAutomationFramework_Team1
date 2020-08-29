@@ -85,6 +85,11 @@ public class Search extends CommonAPI {
     public WebElement eEO;
     @FindBy(how=How.XPATH,using = findFeedBack)
     public WebElement feedBack;
+    @FindBy(how=How.XPATH,using= findCarInsurance)
+    public WebElement carInsurance;
+    @FindBy(how=How.XPATH, using =findHomeInsurance)
+    public WebElement homeInsurance;
+
 
 
 
@@ -379,6 +384,35 @@ public class Search extends CommonAPI {
         expected="asdfasfd";
         Assert.assertEquals(actual,expected,"++++++Failed+++++++++++++");
 
+    }
+    /**
+     * Car Insurance Function Check From main Body
+     */
+    public void carInsuranceCheck(){
+        carInsurance.click();
+    }
+    /**
+     * Validate Car Insurance
+     */
+    public void validateCarInsurance(){
+        actual=driver.getCurrentUrl();
+        System.out.println(actual);
+        expected="https://www.thehartford.com/aarp/car-insurance";
+        Assert.assertEquals(actual,expected,"++++++++Failed+++++++");
+    }
+    /**
+     * Locate Home Insurance
+     */
+    public void homeInsuranceCheck(){
+        homeInsurance.click();
+    }
+    /**
+     * Validate Home Insurance
+     */
+    public void validateHomeInsurance(){
+        actual=driver.getCurrentUrl();
+        expected="https://www.thehartford.com/aarp/homeowners-insurance";
+        Assert.assertEquals(actual,expected,"++++++++Failed++++++++");
     }
 
 
