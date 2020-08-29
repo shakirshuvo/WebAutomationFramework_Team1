@@ -9,6 +9,7 @@ public class RegistrationWebElements {
     public static final String randomName = faker.name().name();
     public static final String randomEmail = faker.internet().safeEmailAddress();
     public static final String randomPhoneNumber = faker.phoneNumber().phoneNumber();
+    public static final String randomPasswordLength6to8 = faker.internet().password(6,8);
     public static final String newAccountCaptchaXPathWebElement = "//span[text()=\"Please solve this puzzle so we know you're a real person\"]";
     public static final String helloSignInIDWebElement="nav-link-accountList";
     public static final String startHereXPathWebElement ="//div[@id='nav-flyout-ya-newCust']/a";

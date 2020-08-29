@@ -2,7 +2,6 @@ package home;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
@@ -37,7 +36,18 @@ public class HomePage extends CommonAPI {
     public WebElement advertisingLink;
     @FindBy(how = How.XPATH, using = advertisingTextXPath)
     public WebElement advertisingText;
-
+    @FindBy(how = How.CSS, using = shopByCategoryHamburgerCSSWebElement)
+    public WebElement shopByCategoryHamburger;
+    @FindBy(how = How.XPATH, using = computerInShopByCategoryHamburgerXpathWebElement)
+    public WebElement computerInShopByCategoryHamburger;
+    @FindBy(how = How.XPATH, using = computerAndTabletsInShopByCategoryHamburgerXpathWebElement)
+    public WebElement computerAndTabletsInShopByCategoryHamburger;
+    @FindBy(how = How.XPATH, using = asusFeaturedBrandSelectionXpathWebElement)
+    public WebElement ausFeaturedBrandSelection;
+    @FindBy(how = How.XPATH, using = hpFeaturedBrandSelectionXpathWebElement)
+    public WebElement hpFeaturedBrandSelection;
+    @FindBy(how = How.XPATH, using = hpPageTextXpathWebElement)
+    public WebElement hpPageText;
 
 
     /**
@@ -51,9 +61,10 @@ public class HomePage extends CommonAPI {
 
     /**
      * This method returns the URL of the page.
+     *
      * @return
      */
-    public String getURL(){
+    public String getURL() {
         return driver.getCurrentUrl();
     }
 
@@ -111,6 +122,7 @@ public class HomePage extends CommonAPI {
 
     /**
      * This method displays 'Hello. What can we hlp you with?' text in 'Customer Service' page.
+     *
      * @return
      */
     public boolean helloWhatCanWeHelpYouWithTextIsDisplayed() {
@@ -142,6 +154,7 @@ public class HomePage extends CommonAPI {
 
     /**
      * This method returns if the "Gift Cards' text is displayed on 'Gift Cards' page.
+     *
      * @return
      */
     public boolean giftCardsTextIsDisplayed() {
@@ -153,71 +166,72 @@ public class HomePage extends CommonAPI {
      */
     public void verifyClickGiftCardsTabByText() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Assert.assertTrue(giftCardsTextIsDisplayed(),"Gift Cards text is not displayed!");
+        Assert.assertTrue(giftCardsTextIsDisplayed(), "Gift Cards text is not displayed!");
     }
 
     /**
      * This method clicks on the Registry tab.
      */
-    public void clickRegistryTab(){
+    public void clickRegistryTab() {
         registryTab.click();
     }
 
     /**
      * This method validates clickRegistryTab method.
      */
-    public void validateClickRegistryTabByTitle(){
+    public void validateClickRegistryTabByTitle() {
         Assert.assertTrue(getTitle().equals(registryTitleText));
     }
 
     /**
      * This method clicks on the Sell tab.
      */
-    public void clickSellTab(){
+    public void clickSellTab() {
         sellTab.click();
     }
 
     /**
      * This method validates clickSellTab method.
      */
-    public void validateClickSellTabByTitle(){
+    public void validateClickSellTabByTitle() {
         Assert.assertTrue(getTitle().equals(sellTitleText));
     }
 
     /**
      * This method looks for if teh "Amazon seller" text is displayed on the Sell page.
+     *
      * @return sellVerificationText is displayed.
      */
-    public boolean sellVerificationTextIsDisplayed(){
-       return sellVerificationText.isDisplayed();
+    public boolean sellVerificationTextIsDisplayed() {
+        return sellVerificationText.isDisplayed();
     }
 
     /**
      * This method validates the Sell tab by verifying that the "Amazon Seller" text is displayed
      * on Sell page.
      */
-    public void verifySellVerificationTextIsDisplayed(){
+    public void verifySellVerificationTextIsDisplayed() {
         Assert.assertTrue(sellVerificationTextIsDisplayed());
     }
 
     /**
      * This method clicks ont he Music link.
      */
-    public void clickOnMusicLink(){
+    public void clickOnMusicLink() {
         musicLink.click();
     }
 
     /**
      * This method verifies the URL of Music page.
      */
-    public void verifyClickOnMusicLinkByURL(){
+    public void verifyClickOnMusicLinkByURL() {
         Assert.assertTrue(getURL().equals(musicURL));
     }
 
     /**
      * This method verifies the title of the Music page.
      */
-    public void verifyClickOnMusicLinkByTitle(){
+    public void verifyClickOnMusicLinkByTitle() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertTrue(getTitle().equals(musicTitleText));
     }
@@ -225,29 +239,76 @@ public class HomePage extends CommonAPI {
     /**
      * This method will click on the Amazon Advertising link.
      */
-    public void clickOnAmazonAdvertisingLink(){
+    public void clickOnAmazonAdvertisingLink() {
         advertisingLink.click();
     }
 
     /**
      * This method verifies the URL of Amazon Advertising page.
      */
-    public void verifyClickOnAmazonAdvertisingByURL(){
+    public void verifyClickOnAmazonAdvertisingByURL() {
         Assert.assertTrue(getURL().equals(advertisingURL));
     }
 
     /**
      * This method verifies the title of Amazon Advertising page.
      */
-    public void verifyClickOnAmazonAdvertisingByTitle(){
+    public void verifyClickOnAmazonAdvertisingByTitle() {
         Assert.assertTrue(getTitle().equals(advertisingTitle));
     }
 
     /**
      * This method verifies Amazon Advertising link by text.
      */
-    public void verifyClickOnAmazonAdvertisingByText(){
+    public void verifyClickOnAmazonAdvertisingByText() {
         Assert.assertTrue(advertisingText.isDisplayed());
+    }
+
+    public void clickOnShopByCategoryHamburger() {
+        shopByCategoryHamburger.click();
+    }
+
+    public void clickOnComputerInShopByCategoryHamburger() {
+        computerInShopByCategoryHamburger.click();
+    }
+
+    public void clickOnComputerAndTabletsInShopByCategoryHamburger() {
+        computerAndTabletsInShopByCategoryHamburger.click();
+    }
+
+    public void navigateToComputersAndTabletsWithShopByCategoryHamburger() {
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        clickOnShopByCategoryHamburger();
+        clickOnComputerInShopByCategoryHamburger();
+        clickOnComputerAndTabletsInShopByCategoryHamburger();
+    }
+
+    public boolean ausFeaturedBrandSelectionIsDisplayed() {
+        return ausFeaturedBrandSelection.isDisplayed();
+    }
+
+    public void validateNavigateToComputersAndTabletsWithShopByCategoryHamburger(){
+        Assert.assertTrue(ausFeaturedBrandSelectionIsDisplayed());
+    }
+
+    public void clickOnHPFeaturedBrandSelection(){
+        hpFeaturedBrandSelection.click();
+    }
+
+    public void selectHpFromFeaturedBrandsOnComputersAndTabletsPage(){
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        clickOnShopByCategoryHamburger();
+        clickOnComputerInShopByCategoryHamburger();
+        clickOnComputerAndTabletsInShopByCategoryHamburger();
+        clickOnHPFeaturedBrandSelection();
+    }
+
+    public boolean hpPageTextIsDisplayed(){
+        return hpPageText.isDisplayed();
+    }
+
+    public void verifyClickOnHPFeaturedBrandSelection(){
+        Assert.assertTrue(hpPageTextIsDisplayed());
     }
 
 }

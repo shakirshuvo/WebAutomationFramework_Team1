@@ -341,8 +341,8 @@ public class RegistrationPage extends CommonAPI {
         clickStartHere();
         enterYourNameField(randomName);
         enterYourEmailField(randomEmail);
-        enterYourPasswordField(password6Characters1);
-        reEnterYourPasswordField(password6Characters1);
+        enterYourPasswordField(randomPasswordLength6to8);
+        reEnterYourPasswordField(randomPasswordLength6to8);
         clickCreateYourAmazonAccountButton();
     }
 

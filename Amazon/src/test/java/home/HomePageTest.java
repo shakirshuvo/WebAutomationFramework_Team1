@@ -103,4 +103,16 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyClickOnAmazonAdvertisingByText();
     }
 
+    @Test
+    public void testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger(){
+        homePage.navigateToComputersAndTabletsWithShopByCategoryHamburger();
+        homePage.validateNavigateToComputersAndTabletsWithShopByCategoryHamburger();
+    }
+
+    @Test
+    public void testVerifyClickOnHPFeaturedBrandSelection(){
+        homePage.selectHpFromFeaturedBrandsOnComputersAndTabletsPage();
+        homePage.verifyClickOnHPFeaturedBrandSelection();
+    }
+
 }

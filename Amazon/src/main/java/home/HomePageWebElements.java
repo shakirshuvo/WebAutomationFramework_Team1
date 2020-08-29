@@ -24,6 +24,13 @@ public class HomePageWebElements {
     public static final String advertisingURL = "https://advertising.amazon.com/?ref=footer_advtsing_amzn_com";
     public static final String advertisingTitle = "Amazon Advertising: Online advertising on Amazon";
     public static final String advertisingTextXPath = "//h1[text()='Amazon Advertising']";
+    public static final String shopByCategoryHamburgerCSSWebElement = "#nav-hamburger-menu";
+    public static final String computerInShopByCategoryHamburgerXpathWebElement = "//div[@id='hmenu-content']/ul[1]/li[7]/a/div";
+    public static final String computerAndTabletsInShopByCategoryHamburgerXpathWebElement = "//a[text()='Computers & Tablets']";
+    public static final String asusFeaturedBrandSelectionXpathWebElement = "//span[text()='ASUS']";
+    public static final String hpFeaturedBrandSelectionXpathWebElement = "//span[text()='HP']";
+    public static final String hpPageTextXpathWebElement = "//div[@id='search' and //span/text()='HP']";
+
 
 
 
