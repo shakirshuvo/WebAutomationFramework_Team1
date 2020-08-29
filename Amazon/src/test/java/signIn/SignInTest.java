@@ -25,13 +25,6 @@ public class SignInTest extends CommonAPI {
         signIn.verifySignInTitle();
     }
 
-    //    // This test tests that two users can successfully log in.
-//    @DataProvider(name = "validLogins")
-//    public static Object[][] twoLoginsCredentials() {
-//        return new Object[][]{{"shakir.jahangir83@gmail.com", "BugBusters"},
-//                {"ciara105@xhanimatedm.com", "BugBusters"}};
-//    }
-
     @DataProvider(name = "validLogins")
     public static Object[][] twoLoginsCredentials() {
         return new Object[][]{{SignInWebElements.validEmailAddress1, SignInWebElements.password},

@@ -50,6 +50,8 @@ public class HomePage extends CommonAPI {
     public WebElement hpPageText;
     @FindBy(how = How.XPATH, using = amazonMusicXpathWebElement)
     public WebElement amazonMusic;
+    @FindBy(how = How.XPATH, using = startASellingAccountLinkXpathWebElement)
+    public WebElement startASellingAccountLink;
 
 
     /**
@@ -364,6 +366,20 @@ public class HomePage extends CommonAPI {
      */
     public void verifyAmazonMusicByTitle(){
         Assert.assertEquals(getTitle(), amazonMusicTitle);
+    }
+
+    /**
+     * This method clicks on 'Start a Selling Account' link.
+     */
+    public void clickOnStartASellingAccount(){
+        startASellingAccountLink.click();
+    }
+
+    /**
+     * This method verifies the 'Sell on Amazon' title.
+     */
+    public void verifyClickOnStartASellingAccount(){
+        Assert.assertEquals(getTitle(), sellOnAmazonTitle);
     }
 
 }

@@ -31,5 +31,8 @@ public class RegistrationWebElements {
     public static final String typeYourPasswordAgainIDWebElement = "auth-passwordCheck-missing-alert";
     public static final String passwordsMustMatchAlertIDWebElement = "auth-password-mismatch-alert";
     public static final String enterYourNameAlertIDWebElement = "auth-customerName-missing-alert";
+    public static final String startASellingAccountLinkXpathWebElement = "//span[text()='Start a Selling Account']";
+    public static final String amazonSellerSignUpTabIDWebElement = "Sign_up_n";
+    public static final String amazonSellerSignUpPageTitle = "Amazon Next";
 
 }

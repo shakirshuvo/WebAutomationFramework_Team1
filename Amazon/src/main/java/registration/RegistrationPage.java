@@ -9,6 +9,7 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
+import static home.HomePageWebElements.startASellingAccountLinkXpathWebElement;
 import static registration.RegistrationWebElements.*;
 
 
@@ -44,6 +45,10 @@ public class RegistrationPage extends CommonAPI {
     public WebElement enterYourNameAlert;
     @FindBy(how = How.XPATH, using = newAccountCaptchaXPathWebElement)
     public WebElement newAccountCaptcha;
+    @FindBy(how = How.XPATH, using = startASellingAccountLinkXpathWebElement)
+    public WebElement startASellingAccountLink;
+    @FindBy(how = How.ID, using = amazonSellerSignUpTabIDWebElement)
+    public WebElement amazonSellerSignUpTab;
 
     /**
      * This method allows the mouse to hover over "Hello, Sign in" button to view and then click on the
@@ -362,6 +367,35 @@ public class RegistrationPage extends CommonAPI {
      */
     public void verifyNewAccountCaptchaIsDisplayed(){
         Assert.assertTrue(newAccountCaptchaIsDisplayed());
+    }
+
+    /**
+     * This method clicks on 'Start a Selling Account' link.
+     */
+    public void clickOnStartASellingAccount(){
+        startASellingAccountLink.click();
+    }
+
+    /**
+     * This method clicks on 'Sign up' tab on 'Amazon Seller' page.
+     */
+    public void clickOnAmazonSellerSignUpTab(){
+        amazonSellerSignUpTab.click();
+    }
+
+    /**
+     * This method navigates user to 'Amazon Seller' sign up page.
+     */
+    public void navigateToAmazonSellerSignUpPage(){
+        clickOnStartASellingAccount();
+        clickOnAmazonSellerSignUpTab();
+    }
+
+    /**
+     * This method verifies 'Amazon Seller' page by title.
+     */
+    public void verifyNavigateToAmazonSellerSignUpPageByTitle(){
+        Assert.assertEquals(getTitle(), amazonSellerSignUpPageTitle);
     }
 
 }

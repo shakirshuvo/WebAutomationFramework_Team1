@@ -15,57 +15,62 @@ public class RegistrationPageTest extends CommonAPI {
     }
 
     @Test
-    public void testVerifyClickStartHere(){
+    public void testVerifyClickStartHere() {
         registrationPage.clickStartHere();
         registrationPage.verifyClickStartHere();
     }
 
     @Test
-    public void testPasswordMustBeAtLeast6CharacterAlertSignIsEnabled(){
+    public void testPasswordMustBeAtLeast6CharacterAlertSignIsEnabled() {
         registrationPage.registerWith5CharacterPassword();
         registrationPage.verifyPasswordMustBeAtLeast6CharacterAlertIsDisplayed();
     }
 
     @Test
-    public void testVerifyEnterYourEmailAlertSignIsDisplayed(){
+    public void testVerifyEnterYourEmailAlertSignIsDisplayed() {
         registrationPage.registerWithoutEmail();
         registrationPage.verifyEnterYourEmailAlertSignIsDisplayed();
     }
 
     @Test
-    public void testVerifyEnterAValidEmailAddressAlertSignIsDisplayed(){
+    public void testVerifyEnterAValidEmailAddressAlertSignIsDisplayed() {
         registrationPage.registerWithInvalidEmail();
         registrationPage.verifyEnterAValidEmailAddressAlertSignIsDisplayed();
     }
 
     @Test
-    public void testVerifyEnterYourPasswordAlertSignIsDisplayed(){
+    public void testVerifyEnterYourPasswordAlertSignIsDisplayed() {
         registrationPage.registerWithoutPassword();
         registrationPage.verifyEnterYourPasswordAlertSignIsDisplayed();
     }
 
     @Test
-    public void testVerifyTypeYourPasswordAgainAlertSignIsDisplayed(){
+    public void testVerifyTypeYourPasswordAgainAlertSignIsDisplayed() {
         registrationPage.registerWithoutReEnteringPassword();
         registrationPage.verifyTypeYourPasswordAgainAlertSignIsDisplayed();
     }
 
     @Test
-    public void testVerifyPasswordsMustMatchAlertIsDisplayed(){
+    public void testVerifyPasswordsMustMatchAlertIsDisplayed() {
         registrationPage.registerWithPasswordsNotMatching();
         registrationPage.verifyPasswordsMustMatchAlertIsDisplayed();
     }
 
     @Test
-    public void testVerifyEnterYourNameAlertSignIsDisplayed(){
+    public void testVerifyEnterYourNameAlertSignIsDisplayed() {
         registrationPage.registerWithoutYourName();
         registrationPage.verifyEnterYourNameAlertSignIsDisplayed();
     }
 
     @Test
-    public void testVerifyNewAccountCaptchaIsDisplayed(){
+    public void testVerifyNewAccountCaptchaIsDisplayed() {
         registrationPage.createANewAccount();
         registrationPage.verifyNewAccountCaptchaIsDisplayed();
+    }
 
+    @Test
+    public void testVerifyNavigateToAmazonSellerSignUpPageByTitle(){
+        registrationPage.navigateToAmazonSellerSignUpPage();
+        registrationPage.verifyNavigateToAmazonSellerSignUpPageByTitle();
     }
 }

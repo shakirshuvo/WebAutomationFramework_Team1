@@ -121,4 +121,10 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyAmazonMusicByTitle();
     }
 
+    @Test
+    public void testVerifyClickOnStartASellingAccount() {
+        homePage.clickOnStartASellingAccount();
+        homePage.verifyClickOnStartASellingAccount();
+    }
+
 }

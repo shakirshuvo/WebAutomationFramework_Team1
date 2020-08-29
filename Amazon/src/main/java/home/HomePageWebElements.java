@@ -32,6 +32,8 @@ public class HomePageWebElements {
     public static final String hpPageTextXpathWebElement = "//div[@id='search' and //span/text()='HP']";
     public static final String amazonMusicXpathWebElement = "//a[text()='Amazon Music']";
     public static final String amazonMusicTitle = "Amazon Music Unlimited - Stream 60 million songs online now.";
+    public static final String startASellingAccountLinkXpathWebElement = "//span[text()='Start a Selling Account']";
+    public static final String sellOnAmazonTitle = "Sell on Amazon | Build Your Ecommerce Business";
 
 
 
