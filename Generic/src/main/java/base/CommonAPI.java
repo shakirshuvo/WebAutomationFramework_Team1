@@ -398,6 +398,11 @@ public class CommonAPI {
         return st;
     }
 
+    //Get title
+    public String getTitle() {
+        return driver.getTitle();
+    }
+
     public List<String> getListOfString(List<WebElement> list) {
         List<String> items = new ArrayList<String>();
         for (WebElement element : list) {

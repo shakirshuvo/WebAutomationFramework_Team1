@@ -15,7 +15,7 @@ public class SearchWebElements {
     public static final String allDropDownSearchIDWebElement = "searchDropdownBox";
     public static final String booksOnAllDropDownXpathWebElement = "//*[@id=\"searchDropdownBox\"]/option[6]";
     public static final String brandCheckBoxPurellXPathWebElement = "//span[text()='Purell']";
-    public static final String purellAdvancedHandSanitizerPackOf250XPathWebElement = "//span[text()='PURELL Advanced Hand Sanitizer Refreshing Gel, Clean Scent, 1 fl oz Flip-Cap Bottle (Pack of 250) – 3901-2C-250']";
+    public static final String purellTextXPathWebElement = "//span[@class='a-color-base a-text-bold' and text()='Purell']";
     public static final String moviesAndTVOnAllDropDownXpathWebElement = "//span[text()='Movies & TV']";
 
 

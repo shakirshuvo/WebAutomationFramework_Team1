@@ -5,16 +5,16 @@
       <![CDATA[Extent Report DirectoryC:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\TheHartford\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-08-30T19:58:07 PDT" name="Surefire suite" finished-at="2020-08-30T19:58:07 PDT" duration-ms="7">
+  <suite started-at="2020-08-30T20:51:18 PDT" name="Surefire suite" finished-at="2020-08-30T20:51:18 PDT" duration-ms="9">
     <groups>
     </groups>
-    <test started-at="2020-08-30T19:58:07 PDT" name="Surefire test" finished-at="2020-08-30T19:58:07 PDT" duration-ms="7">
+    <test started-at="2020-08-30T20:51:18 PDT" name="Surefire test" finished-at="2020-08-30T20:51:18 PDT" duration-ms="9">
       <class name="myAccount.MyAccountTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:myAccount.MyAccountTest@6743e411]" started-at="2020-08-30T19:58:06 PDT" name="extentSetup" finished-at="2020-08-30T19:58:07 PDT" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:myAccount.MyAccountTest@139982de]" started-at="2020-08-30T20:51:18 PDT" name="extentSetup" finished-at="2020-08-30T20:51:18 PDT" duration-ms="419" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@34f7234e]]>
+                <![CDATA[org.testng.TestRunner@366c4480]]>
               </value>
             </param>
           </params>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:myAccount.MyAccountTest@6743e411]" started-at="2020-08-30T19:58:07 PDT" name="generateReport" finished-at="2020-08-30T19:58:07 PDT" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:myAccount.MyAccountTest@139982de]" started-at="2020-08-30T20:51:18 PDT" name="generateReport" finished-at="2020-08-30T20:51:19 PDT" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

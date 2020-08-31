@@ -50,14 +50,14 @@ public class SearchTest extends CommonAPI {
     }
 
     /**
-     * This test verifies that the user will find the product (PURELL Advanced Hand Sanitizer Refreshing Gel,
-     * Clean Scent, 1 fl oz Flip-Cap Bottle (Pack of 250) – 3901-2C-250) after searching for "Hand sanitizer", then,
-     * click on the 'Purell' option on teh 'Brand' checkbox.
+     * This test verifies that the text 'Purell' is be displayed
+     * after searching for "Hand sanitizer", then,
+     * click on the 'Purell' option on the 'Brand' checkbox.
      */
     @Test
-    public void testVerifyPurellAdvancedHandSanitizerPackOf250IsDisplayed(){
+    public void testVerifyPurellTextIsDisplayed(){
         search.searchByBrandPurellHandSanitizer();
-        search.verifyPurellAdvancedHandSanitizerPackOf250IsDisplayed();
+        search.verifyPurellTextIsDisplayed();
     }
 
     /**

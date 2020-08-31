@@ -3,14 +3,10 @@ package search;
 import base.CommonAPI;
 import dataSupply.DataSource;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -34,8 +30,8 @@ public class Search extends CommonAPI {
     public WebElement booksOnAllDropDown;
     @FindBy(how = How.XPATH, using = brandCheckBoxPurellXPathWebElement)
     public WebElement brandCheckBoxPurell;
-    @FindBy(how = How.XPATH, using = purellAdvancedHandSanitizerPackOf250XPathWebElement)
-    public WebElement purellAdvancedHandSanitizerPackOf250;
+    @FindBy(how = How.XPATH, using = purellTextXPathWebElement)
+    public WebElement purellText;
     @FindBy(how = How.XPATH, using = moviesAndTVOnAllDropDownXpathWebElement)
     public WebElement moviesAndTVOnAllDropDown;
 
@@ -197,20 +193,18 @@ public class Search extends CommonAPI {
     }
 
     /**
-     * This method returns if 'PURELL Advanced Hand Sanitizer Refreshing Gel,
-     * Clean Scent, 1 fl oz Flip-Cap Bottle (Pack of 250) – 3901-2C-250' is displayed.
+     * This method returns if 'Purell' text is displayed.
      * @return
      */
-    public boolean purellAdvancedHandSanitizerPackOf250IsDisplayed(){
-        return purellAdvancedHandSanitizerPackOf250.isDisplayed();
+    public boolean purellTextIsDisplayed(){
+        return purellText.isDisplayed();
     }
 
     /**
-     * This method verifies if 'PURELL Advanced Hand Sanitizer Refreshing Gel,
-     * Clean Scent, 1 fl oz Flip-Cap Bottle (Pack of 250) – 3901-2C-250' is displayed.
+     * This method verifies if 'Purell' text is displayed.
      */
-    public void verifyPurellAdvancedHandSanitizerPackOf250IsDisplayed(){
-        Assert.assertTrue(purellAdvancedHandSanitizerPackOf250IsDisplayed());
+    public void verifyPurellTextIsDisplayed(){
+        Assert.assertTrue(purellTextIsDisplayed());
     }
 
     /**
@@ -239,18 +233,12 @@ public class Search extends CommonAPI {
         Assert.assertEquals(getURL(), expectedRandomBookSearchURL);
     }
 
-    /**
-     * This method returns the title of the page.
-     * @return
-     */
-    public String getTitle() {
-        return driver.getTitle();
-    }
 
     /**
      * This method verifies the book being searched using the title of the page.
      */
     public void verifySearchRandomBookByTitle(){
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertEquals(getTitle(), expectedRandomBookSearchTitle);
     }
 
