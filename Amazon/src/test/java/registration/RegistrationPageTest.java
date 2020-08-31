@@ -62,15 +62,15 @@ public class RegistrationPageTest extends CommonAPI {
         registrationPage.verifyEnterYourNameAlertSignIsDisplayed();
     }
 
-//    @Test
-//    public void testVerifyNewAccountCaptchaIsDisplayed() {
-//        registrationPage.createANewAccount();
-//        registrationPage.verifyNewAccountCaptchaIsDisplayed();
-//    }
+    @Test
+    public void testVerifyNewAccountCaptchaIsDisplayed() {
+        registrationPage.createANewAccount();
+        registrationPage.verifyNewAccountCaptchaIsDisplayed();
+    }
 
-//    @Test
-//    public void testVerifyNavigateToAmazonSellerSignUpPageByTitle(){
-//        registrationPage.navigateToAmazonSellerSignUpPage();
-//        registrationPage.verifyNavigateToAmazonSellerSignUpPageByTitle();
-//    }
+    @Test
+    public void testVerifyNavigateToAmazonSellerSignUpPageByTitle(){
+        registrationPage.navigateToAmazonSellerSignUpPage();
+        registrationPage.verifyNavigateToAmazonSellerSignUpPageByTitle();
+    }
 }

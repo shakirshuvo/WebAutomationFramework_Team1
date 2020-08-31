@@ -31,11 +31,11 @@ public class HomePageTest extends CommonAPI {
         homePage.validateTodaysDealTabByDealsAndPromotionsText();
     }
 
-//    @Test
-//    public void testValidateClickCustomerServiceTab() {
-//        homePage.clickCustomerServiceTab();
-//        homePage.validateClickCustomerServiceTabByTitle();
-//    }
+    @Test
+    public void testValidateClickCustomerServiceTab() {
+        homePage.clickCustomerServiceTab();
+        homePage.validateClickCustomerServiceTabByTitle();
+    }
 
     @Test
     public void testValidateClickCustomerServiceTabByText() {
