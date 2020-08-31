@@ -12,7 +12,7 @@
 
     <test name="The Hartford Home">
         <classes>
-            <class name="myAccount.MyAccountTest"></class>
+<!--            <class name="myAccount.MyAccountTest"></class>-->
         </classes>
 
     </test>
