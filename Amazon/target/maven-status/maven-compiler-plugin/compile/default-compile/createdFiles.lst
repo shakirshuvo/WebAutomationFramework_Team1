@@ -6,5 +6,6 @@ home\HomePageWebElements.class
 cart\Cart.class
 registration\RegistrationPage.class
 registration\RegistrationWebElements.class
+dataDriven\dataSupply\DataSource.class
 signIn\SignIn.class
 search\SearchWebElements.class

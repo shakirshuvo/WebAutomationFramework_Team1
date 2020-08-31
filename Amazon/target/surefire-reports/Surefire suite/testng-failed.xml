@@ -3,13 +3,24 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="cart.CartTest">
+        <methods>
+          <include name="testCheckoutAfterAddingAnItemToCart"/>
+          <include name="getInit"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- cart.CartTest -->
       <class name="search.SearchTest">
         <methods>
           <include name="afterEachTestMethod"/>
           <include name="generateReport"/>
           <include name="testVerifySearchRandomBooksByURL"/>
           <include name="extentSetup"/>
-          <include name="testValidateSearchItemsFromMySQL"/>
           <include name="setUp"/>
           <include name="startExtent"/>
           <include name="getInit"/>
@@ -19,11 +30,11 @@
       <class name="home.HomePageTest">
         <methods>
           <include name="afterEachTestMethod"/>
-          <include name="testVerifyClickOnMusicLink"/>
           <include name="getInit"/>
+          <include name="testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger"/>
           <include name="generateReport"/>
-          <include name="testVerifyClickOnHPFeaturedBrandSelection"/>
           <include name="extentSetup"/>
+          <include name="testVerifyClickOnMusicLinkByTitle"/>
           <include name="setUp"/>
           <include name="startExtent"/>
           <include name="cleanUp"/>

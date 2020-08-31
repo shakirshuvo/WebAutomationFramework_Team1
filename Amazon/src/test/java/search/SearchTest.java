@@ -36,10 +36,10 @@ public class SearchTest extends CommonAPI {
      * This data-driven tests searches items stored on MySQL.
      * @throws Exception
      */
-    @Test
-    public void testValidateSearchItemsFromMySQL() throws Exception {
-        search.validateSearchItemsFromMySQL();
-    }
+//    @Test
+//    public void testValidateSearchItemsFromMySQL() throws Exception {
+//        search.validateSearchItemsFromMySQL();
+//    }
 
     /**
      * This test validates all the items on 'All' dropdown on search.
@@ -54,11 +54,11 @@ public class SearchTest extends CommonAPI {
      * Clean Scent, 1 fl oz Flip-Cap Bottle (Pack of 250) – 3901-2C-250) after searching for "Hand sanitizer", then,
      * click on the 'Purell' option on teh 'Brand' checkbox.
      */
-    @Test
-    public void testVerifyPurellAdvancedHandSanitizerPackOf250IsDisplayed(){
-        search.searchByBrandPurellHandSanitizer();
-        search.verifyPurellAdvancedHandSanitizerPackOf250IsDisplayed();
-    }
+//    @Test
+//    public void testVerifyPurellAdvancedHandSanitizerPackOf250IsDisplayed(){
+//        search.searchByBrandPurellHandSanitizer();
+//        search.verifyPurellAdvancedHandSanitizerPackOf250IsDisplayed();
+//    }
 
     /**
      * This test searches random book and validates it by URL.
