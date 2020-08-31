@@ -1,27 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 43, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 459.873 s <<< FAILURE! - in TestSuite
-cart.CartTest.testCheckoutAfterAddingAnItemToCart  Time elapsed: 7.729 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at cart.CartTest.testCheckoutAfterAddingAnItemToCart(CartTest.java:40)
-
-home.HomePageTest.testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger  Time elapsed: 11.395 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=85.0.4183.83)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:3129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2be06ad8f86297421095294f113cc054
-	at home.HomePageTest.testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger(HomePageTest.java:108)
-
-home.HomePageTest.testVerifyClickOnMusicLinkByTitle  Time elapsed: 1.52 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at home.HomePageTest.testVerifyClickOnMusicLinkByTitle(HomePageTest.java:85)
-
-search.SearchTest.testVerifySearchRandomBooksByURL  Time elapsed: 4.868 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://www.amazon.com/s?k=The+Needle's+Eye&i=stripbooks-intl-ship&ref=nb_sb_noss] but found [https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Dstripbooks-intl-ship&field-keywords=The+Needle%27s+Eye]
-	at search.SearchTest.testVerifySearchRandomBooksByURL(SearchTest.java:69)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.265 s - in TestSuite
