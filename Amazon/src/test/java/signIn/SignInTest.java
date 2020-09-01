@@ -5,6 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class SignInTest extends CommonAPI {
 
@@ -21,6 +22,8 @@ public class SignInTest extends CommonAPI {
      */
     @Test(enabled = true, priority = 1)
     public void testVerifySignInTitle(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signIn.clickStartHere();
         signIn.verifySignInTitle();
     }
@@ -43,6 +46,8 @@ public class SignInTest extends CommonAPI {
      */
     @Test(dataProvider = "validLogins", priority = 1)
     public void testTwoUsersCanLogin(String email, String password) {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signIn.signIn(email, password);
         signIn.validateTwoUsersCanLogin();
     }
@@ -52,6 +57,8 @@ public class SignInTest extends CommonAPI {
      */
     @Test
     public void testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signIn.loginWithInvalidEmailAddressFormat();
         signIn.verifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat();
     }
@@ -61,6 +68,8 @@ public class SignInTest extends CommonAPI {
      */
     @Test
     public void testVerifyLoginWithInvalidPassword(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signIn.loginWithInvalidPassword();
         signIn.verifyLoginWithInvalidPassword();
     }
@@ -71,24 +80,32 @@ public class SignInTest extends CommonAPI {
      */
     @Test
     public void testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signIn.signInWithoutEmail();
         signIn.verifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed();
     }
 
     @Test
     public void testVerifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signIn.signInWithAnIncorrectEmail();
         signIn.verifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed();
     }
 
     @Test
     public void testVerifyIncorrectPhoneNumberAlertIsDispalyed(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signIn.signInWithAnIncorrectPhoneNumber();
         signIn.verifyIncorrectPhoneNumberAlertIsDispalyed();
     }
 
     @Test
     public void testVerifyEnterYourPasswordAlertIsDisplayed(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signIn.signInWithoutAPassword();
         signIn.verifyEnterYourPasswordAlertIsDisplayed();
     }
@@ -99,6 +116,8 @@ public class SignInTest extends CommonAPI {
      */
     @Test
     public void testVerifyForgotYourPasswordTitle(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signIn.forgotYourPasswordPage();
         signIn.verifyForgotYourPasswordTitle();
     }

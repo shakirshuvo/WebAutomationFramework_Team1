@@ -4,8 +4,8 @@ signIn\SignInWebElements.class
 search\Search.class
 home\HomePageWebElements.class
 cart\Cart.class
+datadriven\DataSource.class
 registration\RegistrationPage.class
 registration\RegistrationWebElements.class
-dataDriven\dataSupply\DataSource.class
 signIn\SignIn.class
 search\SearchWebElements.class

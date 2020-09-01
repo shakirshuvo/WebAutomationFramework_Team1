@@ -37,7 +37,7 @@ public class DataSource {
     //Database
     public static List<String> getItemsListFromDB() throws Exception, IOException, SQLException, ClassNotFoundException {
         List<String> list = new ArrayList<>();
-        list = connectToSqlDB.readDataBase("AmazonItems", "items");
+        list = connectToSqlDB.readDataBase("movie", "title");
         return list;
     }
 

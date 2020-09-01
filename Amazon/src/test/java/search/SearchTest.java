@@ -20,6 +20,8 @@ public class SearchTest extends CommonAPI {
      */
     @Test
     public void testSearchSingleItem() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.searchHandSanitizer();
         search.validateSearchHandSanitizerText();
     }
@@ -28,17 +30,22 @@ public class SearchTest extends CommonAPI {
      * This test searches multiple items.
      */
     @Test
-    public void testSearchMultipleItems(){
+    public void testSearchMultipleItems() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.clearTypeAndClickOnSearch();
         search.validateSearchMultipleItems();
     }
 
     /**
      * This data-driven tests searches items stored on MySQL.
+     *
      * @throws Exception
      */
     @Test
     public void testValidateSearchItemsFromMySQL() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.validateSearchItemsFromMySQL();
     }
 
@@ -46,7 +53,9 @@ public class SearchTest extends CommonAPI {
      * This test validates all the items on 'All' dropdown on search.
      */
     @Test
-    public void testValidateAllDropDown(){
+    public void testValidateAllDropDown() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.validateAllDropDown();
     }
 
@@ -54,9 +63,12 @@ public class SearchTest extends CommonAPI {
      * This test verifies that the text 'Purell' is be displayed
      * after searching for "Hand sanitizer", then,
      * click on the 'Purell' option on the 'Brand' checkbox.
+     * Finally, validate with 'Purell' checkbox in 'brand' selection being enabled.
      */
     @Test
-    public void testVerifyPurellTextIsDisplayed(){
+    public void testVerifyPurellTextIsDisplayed() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.searchByBrandPurellHandSanitizer();
         search.verifyPurellTextIsDisplayed();
     }
@@ -66,6 +78,8 @@ public class SearchTest extends CommonAPI {
      */
     @Test
     public void testVerifySearchRandomBooksByURL() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.searchRandomBook();
         search.verifySearchRandomBookByURL();
     }
@@ -75,16 +89,19 @@ public class SearchTest extends CommonAPI {
      */
     @Test
     public void testVerifySearchRandomBooksByTitle() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.searchRandomBook();
         search.verifySearchRandomBookByTitle();
     }
 
-    @Test
-    public void testSearchBoxCheckGetItemsListFromExcel() throws Exception {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        search.searchBoxCheckGetItemsListFromExcel();
-
-    }
+//    @Test
+//    public void testSearchBoxCheckGetItemsListFromExcel() throws Exception {
+//            TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//    }.getClass().getEnclosingMethod().getName()));
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        search.searchBoxCheckGetItemsListFromExcel();
+//    }
 
 }

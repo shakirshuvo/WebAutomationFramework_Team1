@@ -213,18 +213,18 @@ public class Search extends CommonAPI {
     }
 
     /**
-     * This method returns if 'Purell' text is displayed.
+     * This method returns if 'Purell' checkbox in 'Brand' selection is enabled.
      * @return
      */
-    public boolean purellTextIsDisplayed(){
-        return purellText.isDisplayed();
+    public boolean purellCheckboxIsEnabled(){
+        return brandCheckBoxPurell.isEnabled();
     }
 
     /**
      * This method verifies if 'Purell' text is displayed.
      */
     public void verifyPurellTextIsDisplayed(){
-        Assert.assertTrue(purellTextIsDisplayed());
+        Assert.assertTrue(purellCheckboxIsEnabled());
     }
 
     /**
@@ -242,15 +242,15 @@ public class Search extends CommonAPI {
      * This method returns the URL of the page.
      * @return
      */
-    public String getURL(){
-        return driver.getCurrentUrl();
-    }
+//    public String getURL(){
+//        return driver.getCurrentUrl();
+//    }
 
     /**
      * This method verifies the URL of the book being searched.
      */
     public void verifySearchRandomBookByURL(){
-        Assert.assertEquals(getURL(), expectedRandomBookSearchURL);
+        Assert.assertEquals(getCurrentPageUrl(), expectedRandomBookSearchURL);
     }
 
 
