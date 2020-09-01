@@ -1,0 +1,12 @@
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/databases/Student.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/reporting/ExtentTestManager.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/reporting/TestLogger.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/databases/ConnectToMongoDB.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/reporting/ApplicationLog.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/utility/WriteExcelFile.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/databases/ConnectToSqlDB.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/base/CommonAPI.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/databases/User.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/reporting/ExtentManager.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/utility/ReadExcel.java
+/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/src/main/java/utility/DataReader.java

@@ -19,7 +19,7 @@ public class SearchTest extends CommonAPI {
     /**
      * Test SearchBox
      */
-    @Test
+    @Test(enabled = true)
     public void testSearchBoxCheck() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         search.searchBoxCheck("Life Insurance");
@@ -29,156 +29,155 @@ public class SearchTest extends CommonAPI {
          */
 
     }
-    @Test
-    public void testFindAnAgentButton() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        search.findAnAgentCheck();
-        search.validateFindAnAgentCheck();
-    }
-    /**
-     * Test the Home Tab is Working or Not
-     */
-    @Test
-    public void testHomeTab() {
-        search.setHomeElementCheck();
-        search.validateSetHomeElementCheck();
-    }
-    /**
-     * Test Business Tab Function
-     */
-    @Test
-    public void testBusinessTab() {
-        search.businessElementCheck();
-        search.validateBusinessTab();
-    }
-    /**
-     * Test Employee Banifts Function
-     */
-    @Test
-    public void testEmployeeBanifits() {
-        search.employeeBanifits();
-        search.validateEmpBanifits();
-    }
-    /**
-     * Test The HartFord is Image is Location and Functioning
-     */
-    @Test
-    public void testtheHartFordImage() {
-        search.theHartFordImage();
-        search.validateHartFordImage1();
-    }
-    /**
-     * Test About Us Function
-     */
-    @Test
-    public void testAboutUs() {
-        search.findAboutUs();
-        search.validateAboutUs();
-    }
-    /**
-     * Test Agent and Producers Web Web Element Function
-     */
-    @Test
-    public void testAgentAndProducers() {
-        search.agentProducersCheck();
-        search.validateAgentProducers();
-
-    }
-    /**
-     * Test Report Claim Function
-     * //
-     */
-    @Test
-    public void testReportClaim() {
-        search.reportClaimCheck();
-        search.validateReportClaim();
-    }
-    /**
-     * Test Mobile App
-     */
-    @Test
-    public void testMobileApp() {
-        search.mobileAppCheck();
-        search.validateMobileApp();
-    }
-    /**
-     * Test Contact Us
-     */
-    @Test
-    public void TestContactUs() {
-        search.contactUsCheck();
-        search.validateContactUs();
-    }
-    /**
-     * Test  SmallBusiness
-     */
-    @Test
-    public void testSmallBiz() {
-        search.smallBusinessCheck();
-        search.validateSmallBusiness();
-    }
-    /**
-     * Test Privacy Check
-     */
-    @Test
-    public void testPrivacyPolicy() {
-        search.privacyPolicyCheck();
-        search.validatePrivacyPolicy();
-    }
-    /**
-     * Test legal Notice
-     */
-    @Test
-    public void testLegalNotice() {
-        search.legalNoticeCheck();
-        search.validateLegalNotice();
-    }
-    /**
-     * Test Accessiblity Statement
-     */
-    @Test
-    public void testAccessStat() {
-        search.accessiblityCehck();
-        search.validateAccessibilityStat();
-    }
-    /**
-     * Test Producers Compensation
-     */
-    @Test
-    public void testProdCompensation(){
-        search.producerCompendationCheck();
-        search.validateProdCompansation();
-    }
-    /**
-     * Test EEO
-     */
-    @Test
-    public void testEEO(){
-        search.eEOCheck();
-        search.validateEEO();
-
-    }
-
-    /**
-     * Test FeedBack
-     */
-    @Test
-    public void testFeedBack(){
-        search.feedBackCheck();
-        //search.validateFeedBack();
-    }
-    /**
-     * Test Car Insurance Form Main Body
-     */
-    @Test
-    public void testCarInsurance(){
-        search.carInsuranceCheck();
-        search.validateCarInsurance();
-    }
+//    @Test(enabled = true)
+//    public void testFindAnAgentButton() {
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        search.findAnAgentCheck();
+//        search.validateFindAnAgentCheck();
+//    }
+//    /**
+//     * Test the Home Tab is Working or Not
+//     */
+//    @Test(enabled = true)
+//    public void testHomeTab() {
+//        search.setHomeElementCheck();
+//        search.validateSetHomeElementCheck();
+//    }
+//    /**
+//     * Test Business Tab Function
+//     */
+//    @Test(enabled = true)
+//    public void testBusinessTab() {
+//        search.businessElementCheck();
+//        search.validateBusinessTab();
+//    }
+//    /**
+//     * Test Employee Banifts Function
+//     */
+//    @Test(enabled = true)
+//    public void testEmployeeBanifits() {
+//        search.employeeBanifits();
+//        search.validateEmpBanifits();
+//    }
+//    /**
+//     * Test The HartFord is Image is Location and Functioning
+//     */
+//    @Test(enabled = true)
+//    public void testtheHartFordImage() {
+//        search.theHartFordImage();
+//        search.validateHartFordImage1();
+//    }
+//    /**
+//     * Test About Us Function
+//     */
+//    @Test (enabled = true)
+//    public void testAboutUs() {
+//        search.findAboutUs();
+//        search.validateAboutUs();
+//    }
+//    /**
+//     * Test Agent and Producers Web Web Element Function
+//     */
+//    @Test (enabled = true)
+//    public void testAgentAndProducers() {
+//        search.agentProducersCheck();
+//        search.validateAgentProducers();
+//
+//    }
+//    /**
+//     * Test Report Claim Function
+//     * //
+//     */
+//    @Test (enabled = true)
+//    public void testReportClaim() {
+//        search.reportClaimCheck();
+//        search.validateReportClaim();
+//    }
+//    /**
+//     * Test Mobile App
+//     */
+//    @Test (enabled = true)
+//    public void testMobileApp() {
+//        search.mobileAppCheck();
+//        search.validateMobileApp();
+//    }
+//    /**
+//     * Test Contact Us
+//     */
+//    @Test (enabled = true)
+//    public void TestContactUs() {
+//        search.contactUsCheck();
+//        search.validateContactUs();
+//    }
+//    /**
+//     * Test  SmallBusiness
+//     */
+//    @Test (enabled = true)
+//    public void testSmallBiz() {
+//        search.smallBusinessCheck();
+//        search.validateSmallBusiness();
+//    }
+//    /**
+//     * Test Privacy Check
+//     */
+//    @Test (enabled = true)
+//    public void testPrivacyPolicy() {
+//        search.privacyPolicyCheck();
+//        search.validatePrivacyPolicy();
+//    }
+//    /**
+//     * Test legal Notice
+//     */
+//    @Test (enabled = true)
+//    public void testLegalNotice() {
+//        search.legalNoticeCheck();
+//        search.validateLegalNotice();
+//    }
+//    /**
+//     * Test Accessiblity Statement
+//     */
+//    @Test (enabled = true)
+//    public void testAccessStat() {
+//        search.accessiblityCehck();
+//        search.validateAccessibilityStat();
+//    }
+//    /**
+//     * Test Producers Compensation
+//     */
+//    @Test (enabled = true)
+//    public void testProdCompensation(){
+//        search.producerCompendationCheck();
+//        search.validateProdCompansation();
+//    }
+//    /**
+//     * Test EEO
+//     */
+//    @Test(enabled = true)
+//    public void testEEO(){
+//        search.eEOCheck();
+//        search.validateEEO();
+//
+//    }
+//    /**
+//     * Test FeedBack
+//     */
+//    @Test (enabled = true)
+//    public void testFeedBack(){
+//        search.feedBackCheck();
+//        //search.validateFeedBack();
+//    }
+//    /**
+//     * Test Car Insurance Form Main Body
+//     */
+//    @Test (enabled = true)
+//    public void testCarInsurance(){
+//        search.carInsuranceCheck();
+//        search.validateCarInsurance();
+//    }
     /**
      * Test Home Insuracne From Main Body
      */
-    @Test
+    @Test (enabled = true)
     public void testHomeInsurance(){
         search.homeInsuranceCheck();
         search.validateHomeInsurance();

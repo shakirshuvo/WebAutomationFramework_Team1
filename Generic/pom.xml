@@ -83,14 +83,10 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
         </dependency>
-
-
 
     </dependencies>
 

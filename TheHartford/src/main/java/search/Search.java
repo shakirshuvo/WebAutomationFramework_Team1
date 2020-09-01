@@ -21,42 +21,28 @@ public class Search extends CommonAPI {
 
     @FindBy(how = How.XPATH, using = searchFieldWebElementXPATH)
     public WebElement searchField;
-
     @FindBy(how = How.XPATH, using = searchButtonHWebElementXPATH)
     public WebElement searchButton;
-
     @FindBy(how = How.XPATH, using = searchVerificationWebElementXPATH)
     public WebElement searchText;
-
     @FindBy(how = How.XPATH, using = findAgentWebElementXPATH)
     public WebElement findAnAgentButton;
-
     @FindBy(how = How.XPATH, using = validationElementFindAgentXPAT)
     public WebElement validateFIndAgent;
-
-
     @FindBy(how = How.XPATH, using = findHomeTab)
     public WebElement homeElement;
-
     @FindBy(how = How.XPATH, using = findBusinessTab)
     public WebElement businessElement;
-
-
     @FindBy(how = How.XPATH, using = findEmployeeBanifits)
     public WebElement webElementEmployeeBanifits;
-
     @FindBy(how = How.XPATH, using = findTheHartFordTopIMG)
     public WebElement theHartWebElement1;
-
     @FindBy(how = How.XPATH, using = findAboutUs)
     public WebElement aboutUsWebElement;
-
     @FindBy(how = How.XPATH, using = findAgentAndProducers)
     public WebElement agentAndProducersWebElement;
-
     @FindBy(how = How.XPATH, using = agentProducerValidateXPATH)
     public WebElement agentValidation;
-
     @FindBy(how = How.XPATH, using = findContactUsXPATH)
     public WebElement contactUsWebElement;
     @FindBy(how = How.XPATH, using = contactUsValidateXPATH)
@@ -273,11 +259,11 @@ public class Search extends CommonAPI {
      */
     public void validateMobileApp(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-       // driver.switchTo().window(browserTabs.get(1));
-       actual=validateMobileApp.getText();
-        actual=driver.getTitle();
+       // windowSwitch();
+       actual=driver.getCurrentUrl();
+//        actual=driver.getTitle();
         System.out.println(actual);
-        expected="The Hartford App";
+        expected="https://www.thehartford.com/mobile-tools";
         Assert.assertEquals(actual,expected,"++++++++=Failed++++++++++++++++");
 
     }
