@@ -23,14 +23,13 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class CommonAPI {
-
     public static WebDriver driver = null;
 //    String url = "https://www.amazon.com";
 
     @Parameters({"url"})
 
     @BeforeMethod
-    public void setUp(@Optional("https://www.amazon.com") String url){
+    public void setUp(@Optional("https://www.delta.com/") String url){
         System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(url);
@@ -116,5 +115,8 @@ public class CommonAPI {
             System.out.println("Exception while taking screenshot " + e.getMessage());
         }
 
+    }
+
+    public void Baggage() {
     }
 }
