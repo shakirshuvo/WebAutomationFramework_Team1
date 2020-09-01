@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class SearchTest extends CommonAPI {
 
@@ -78,5 +79,12 @@ public class SearchTest extends CommonAPI {
         search.verifySearchRandomBookByTitle();
     }
 
+    @Test
+    public void testSearchBoxCheckGetItemsListFromExcel() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.searchBoxCheckGetItemsListFromExcel();
+
+    }
 
 }

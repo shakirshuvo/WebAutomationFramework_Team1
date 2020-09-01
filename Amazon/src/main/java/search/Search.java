@@ -1,7 +1,7 @@
 package search;
 
 import base.CommonAPI;
-import dataSupply.DataSource;
+import datadriven.DataSource;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -34,6 +34,8 @@ public class Search extends CommonAPI {
     public WebElement purellText;
     @FindBy(how = How.XPATH, using = moviesAndTVOnAllDropDownXpathWebElement)
     public WebElement moviesAndTVOnAllDropDown;
+    @FindBy(how = How.XPATH, using = searchTextXpathWebElement)
+    public WebElement searchText;
 
 
 
@@ -173,6 +175,24 @@ public class Search extends CommonAPI {
         }
         List<String> expectedMenu = listOfText;
         Assert.assertEquals(listOfText, expectedMenu);
+    }
+
+    public void searchBoxCheckGetItemsListFromExcel() throws Exception {
+        List<String> itemList= DataSource.getItemsListFromExcel();
+        for (int i=1; i<itemList.size();i++){
+            String item=itemList.get(i);
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            searchField.sendKeys(item);
+            searchField.submit();
+            String expectedResult=item;
+            System.out.println("Expected Result : "+expectedResult);
+            String actualResult = searchText.getText();
+            System.out.println("Actual Result : "+actualResult);
+            Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
+//            sleepFor(4);
+            searchField.clear();
+        }
+
     }
 
     /**
