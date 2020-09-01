@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-The_Hartford_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testCarInsurance">testCarInsurance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-The_Hartford_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testFindAnAgentButton">testFindAnAgentButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,6 +143,13 @@
                   <a name="testCarInsurance">
                   </a> <!-- testCarInsurance -->
                   <span class="method-name">testCarInsurance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindAnAgentButton">
+                  </a> <!-- testFindAnAgentButton -->
+                  <span class="method-name">testFindAnAgentButton</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -215,24 +227,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSearchBoxCheck')
 data.setCell(0, 2, 'search.SearchTest')
-data.setCell(0, 3, 2728);
+data.setCell(0, 3, 3101);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testCarInsurance')
+data.setCell(1, 1, 'testFindAnAgentButton')
 data.setCell(1, 2, 'search.SearchTest')
-data.setCell(1, 3, 1012);
+data.setCell(1, 3, 1092);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testHomeInsurance')
+data.setCell(2, 1, 'testCarInsurance')
 data.setCell(2, 2, 'search.SearchTest')
-data.setCell(2, 3, 1001);
+data.setCell(2, 3, 908);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testHomeInsurance')
+data.setCell(3, 2, 'search.SearchTest')
+data.setCell(3, 3, 763);
 window.suiteTableData['The_Hartford_Automation_Test']= { tableData: data, tableDiv: 'times-div-The_Hartford_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-The_Hartford_Automation_Test">
               </div> <!-- times-div-The_Hartford_Automation_Test -->
             </div> <!-- times-div -->
@@ -260,84 +276,108 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">search.SearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@1cb37ee4)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@95bb2a2)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, 10, chrome-options, 8gi5.0, https://www.thehartford.com/)</span>
-                <span class="method-start">263 ms</span>
+                <span class="method-start">363 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void search.SearchTest.testCarInsurance())</span>
-                <span class="method-start">4261 ms</span>
+                <span class="method-start">5237 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">4269 ms</span>
+                <span class="method-start">5241 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCarInsurance</span>
-                <span class="method-start">4334 ms</span>
+                <span class="method-start">5279 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=testCarInsurance status=SUCCESS method=SearchTest.testCarInsurance()[pri:0, instanc...)</span>
-                <span class="method-start">5350 ms</span>
+                <span class="method-start">6190 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">5803 ms</span>
+                <span class="method-start">6579 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, 10, chrome-options, 8gi5.0, https://www.thehartford.com/)</span>
-                <span class="method-start">5805 ms</span>
+                <span class="method-start">6580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testFindAnAgentButton())</span>
+                <span class="method-start">10903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">10904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFindAnAgentButton</span>
+                <span class="method-start">10910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testFindAnAgentButton status=SUCCESS method=SearchTest.testFindAnAgentButton()[pri:...)</span>
+                <span class="method-start">12003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">12164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, 10, chrome-options, 8gi5.0, https://www.thehartford.com/)</span>
+                <span class="method-start">12165 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void search.SearchTest.testHomeInsurance())</span>
-                <span class="method-start">9631 ms</span>
+                <span class="method-start">16103 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">9632 ms</span>
+                <span class="method-start">16104 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomeInsurance</span>
-                <span class="method-start">9639 ms</span>
+                <span class="method-start">16112 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=testHomeInsurance status=SUCCESS method=SearchTest.testHomeInsurance()[pri:0, insta...)</span>
-                <span class="method-start">10640 ms</span>
+                <span class="method-start">16875 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">10829 ms</span>
+                <span class="method-start">17005 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, 10, chrome-options, 8gi5.0, https://www.thehartford.com/)</span>
-                <span class="method-start">10831 ms</span>
+                <span class="method-start">17006 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void search.SearchTest.testSearchBoxCheck())</span>
-                <span class="method-start">14386 ms</span>
+                <span class="method-start">20043 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">14387 ms</span>
+                <span class="method-start">20043 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchBoxCheck</span>
-                <span class="method-start">14396 ms</span>
+                <span class="method-start">20049 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheck status=SUCCESS method=SearchTest.testSearchBoxCheck()[pri:0, ins...)</span>
-                <span class="method-start">17124 ms</span>
+                <span class="method-start">23150 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">17275 ms</span>
+                <span class="method-start">23266 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">17325 ms</span>
+                <span class="method-start">23293 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

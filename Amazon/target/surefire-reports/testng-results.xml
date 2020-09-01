@@ -4,17 +4,20 @@
     <line>
       <![CDATA[Extent Report Directory/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire-reports/html]]>
     </line>
+    <line>
+      <![CDATA[HomePageTest: test Search Box Check Get Items List From DB]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-08-31T23:03:07 MDT" name="TestSuite" finished-at="2020-08-31T23:03:28 MDT" duration-ms="20595">
+  <suite started-at="2020-09-01T10:30:51 MDT" name="TestSuite" finished-at="2020-09-01T10:31:28 MDT" duration-ms="37145">
     <groups>
     </groups>
-    <test started-at="2020-08-31T23:03:07 MDT" name="Amazon Home" finished-at="2020-08-31T23:03:28 MDT" duration-ms="20595">
+    <test started-at="2020-09-01T10:30:51 MDT" name="Amazon Home" finished-at="2020-09-01T10:31:28 MDT" duration-ms="37145">
       <class name="testhome.HomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testhome.HomePageTest@568ff82]" started-at="2020-08-31T23:03:07 MDT" name="extentSetup" finished-at="2020-08-31T23:03:07 MDT" duration-ms="279" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testhome.HomePageTest@55740540]" started-at="2020-09-01T10:30:51 MDT" name="extentSetup" finished-at="2020-09-01T10:30:51 MDT" duration-ms="280" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2f5ac102]]>
+                <![CDATA[org.testng.TestRunner@cb7fa71]]>
               </value>
             </param>
           </params>
@@ -24,7 +27,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testhome.HomePageTest@568ff82]" started-at="2020-08-31T23:03:07 MDT" name="setUp" finished-at="2020-08-31T23:03:11 MDT" duration-ms="3574" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testhome.HomePageTest@55740540]" started-at="2020-09-01T10:30:51 MDT" name="setUp" finished-at="2020-09-01T10:30:55 MDT" duration-ms="3793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhome.HomePageTest@568ff82]" started-at="2020-08-31T23:03:11 MDT" name="startExtent" finished-at="2020-08-31T23:03:11 MDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhome.HomePageTest@55740540]" started-at="2020-09-01T10:30:55 MDT" name="startExtent" finished-at="2020-09-01T10:30:55 MDT" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,30 +79,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testhome.HomePageTest@568ff82]" started-at="2020-08-31T23:03:11 MDT" name="getInit" finished-at="2020-08-31T23:03:11 MDT" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testhome.HomePageTest@55740540]" started-at="2020-09-01T10:30:55 MDT" name="getInit" finished-at="2020-09-01T10:30:55 MDT" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testhome.HomePageTest@568ff82]" started-at="2020-08-31T23:03:11 MDT" name="testSearchBoxCheckGetItemsListFromDB" finished-at="2020-08-31T23:03:27 MDT" duration-ms="16268" status="PASS">
+        <test-method signature="testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testhome.HomePageTest@55740540]" started-at="2020-09-01T10:30:55 MDT" name="testSearchBoxCheckGetItemsListFromDB" finished-at="2020-09-01T10:31:27 MDT" duration-ms="32608" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Search Box Check Get Items List From DB]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testSearchBoxCheckGetItemsListFromDB -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhome.HomePageTest@568ff82]" started-at="2020-08-31T23:03:27 MDT" name="afterEachTestMethod" finished-at="2020-08-31T23:03:28 MDT" duration-ms="690" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhome.HomePageTest@55740540]" started-at="2020-09-01T10:31:27 MDT" name="afterEachTestMethod" finished-at="2020-09-01T10:31:28 MDT" duration-ms="692" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSearchBoxCheckGetItemsListFromDB status=SUCCESS method=HomePageTest.testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testhome.HomePageTest@568ff82] output={null}]]]>
+                <![CDATA[[TestResult name=testSearchBoxCheckGetItemsListFromDB status=SUCCESS method=HomePageTest.testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testhome.HomePageTest@55740540] output=HomePageTest: test Search Box Check Get Items List From DB]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testhome.HomePageTest@568ff82]" started-at="2020-08-31T23:03:28 MDT" name="cleanUp" finished-at="2020-08-31T23:03:28 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testhome.HomePageTest@55740540]" started-at="2020-09-01T10:31:28 MDT" name="cleanUp" finished-at="2020-09-01T10:31:28 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:testhome.HomePageTest@568ff82]" started-at="2020-08-31T23:03:28 MDT" name="generateReport" finished-at="2020-08-31T23:03:28 MDT" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testhome.HomePageTest@55740540]" started-at="2020-09-01T10:31:28 MDT" name="generateReport" finished-at="2020-09-01T10:31:28 MDT" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

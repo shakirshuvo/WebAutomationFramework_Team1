@@ -68,7 +68,7 @@ public class HomePage extends CommonAPI {
             String actualResult = searchText.getText();
             System.out.println("Actual Result : "+actualResult);
             Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
-            //sleepFor(3);
+            sleepFor(3);
             searchBox.clear();
         }
     }
@@ -84,7 +84,7 @@ public class HomePage extends CommonAPI {
             String actualResult = searchText.getText();
             System.out.println("Actual Result : "+actualResult);
             Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
-            //sleepFor(3);
+            sleepFor(3);
             searchBox.clear();
         }
 
@@ -103,7 +103,7 @@ public class HomePage extends CommonAPI {
             String actualResult = searchText.getText();
             System.out.println("Actual Result : "+actualResult);
             Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
-           // sleepFor(3);
+            sleepFor(3);
             searchBox.clear();
         }
 

@@ -29,15 +29,15 @@ public class SearchTest extends CommonAPI {
          */
 
     }
-//    @Test(enabled = true)
-//    public void testFindAnAgentButton() {
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        search.findAnAgentCheck();
-//        search.validateFindAnAgentCheck();
-//    }
-//    /**
-//     * Test the Home Tab is Working or Not
-//     */
+    @Test(enabled = true)
+    public void testFindAnAgentButton() {
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        search.findAnAgentCheck();
+        search.validateFindAnAgentCheck();
+    }
+    /**
+     * Test the Home Tab is Working or Not
+     */
 //    @Test(enabled = true)
 //    public void testHomeTab() {
 //        search.setHomeElementCheck();
@@ -161,19 +161,19 @@ public class SearchTest extends CommonAPI {
 //    /**
 //     * Test FeedBack
 //     */
-//    @Test (enabled = true)
-//    public void testFeedBack(){
-//        search.feedBackCheck();
-//        //search.validateFeedBack();
-//    }
+////    @Test (enabled = true)
+////    public void testFeedBack(){
+////        search.feedBackCheck();
+////        //search.validateFeedBack();
+////    }
 //    /**
 //     * Test Car Insurance Form Main Body
 //     */
-//    @Test (enabled = true)
-//    public void testCarInsurance(){
-//        search.carInsuranceCheck();
-//        search.validateCarInsurance();
-//    }
+    @Test (enabled = true)
+    public void testCarInsurance(){
+        search.carInsuranceCheck();
+        search.validateCarInsurance();
+    }
     /**
      * Test Home Insuracne From Main Body
      */

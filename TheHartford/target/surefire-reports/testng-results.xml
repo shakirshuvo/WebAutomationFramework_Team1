@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report Directory/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/TheHartford/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-08-31T23:03:31 MDT" name="The Hartford Automation Test" finished-at="2020-08-31T23:03:48 MDT" duration-ms="17031">
+  <suite started-at="2020-09-01T10:31:31 MDT" name="The Hartford Automation Test" finished-at="2020-09-01T10:31:54 MDT" duration-ms="22929">
     <groups>
     </groups>
-    <test started-at="2020-08-31T23:03:31 MDT" name="The Hartford Home" finished-at="2020-08-31T23:03:48 MDT" duration-ms="17031">
+    <test started-at="2020-09-01T10:31:31 MDT" name="The Hartford Home" finished-at="2020-09-01T10:31:54 MDT" duration-ms="22929">
       <class name="search.SearchTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:30 MDT" name="extentSetup" finished-at="2020-08-31T23:03:31 MDT" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:30 MDT" name="extentSetup" finished-at="2020-09-01T10:31:31 MDT" duration-ms="339" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1cb37ee4]]>
+                <![CDATA[org.testng.TestRunner@95bb2a2]]>
               </value>
             </param>
           </params>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:31 MDT" name="setUp" finished-at="2020-08-31T23:03:35 MDT" duration-ms="3997" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:31 MDT" name="setUp" finished-at="2020-09-01T10:31:36 MDT" duration-ms="4873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:35 MDT" name="startExtent" finished-at="2020-08-31T23:03:35 MDT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:36 MDT" name="startExtent" finished-at="2020-09-01T10:31:36 MDT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,30 +76,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:35 MDT" name="getInit" finished-at="2020-08-31T23:03:35 MDT" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:36 MDT" name="getInit" finished-at="2020-09-01T10:31:36 MDT" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testCarInsurance()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:35 MDT" name="testCarInsurance" finished-at="2020-08-31T23:03:36 MDT" duration-ms="1012" status="PASS">
+        <test-method signature="testCarInsurance()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:36 MDT" name="testCarInsurance" finished-at="2020-09-01T10:31:37 MDT" duration-ms="908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCarInsurance -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:36 MDT" name="afterEachTestMethod" finished-at="2020-08-31T23:03:36 MDT" duration-ms="453" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:37 MDT" name="afterEachTestMethod" finished-at="2020-09-01T10:31:37 MDT" duration-ms="389" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCarInsurance status=SUCCESS method=SearchTest.testCarInsurance()[pri:0, instance:search.SearchTest@2f54a33d] output={null}]]]>
+                <![CDATA[[TestResult name=testCarInsurance status=SUCCESS method=SearchTest.testCarInsurance()[pri:0, instance:search.SearchTest@7748410a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:36 MDT" name="cleanUp" finished-at="2020-08-31T23:03:36 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:37 MDT" name="cleanUp" finished-at="2020-09-01T10:31:37 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:36 MDT" name="setUp" finished-at="2020-08-31T23:03:40 MDT" duration-ms="3826" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:37 MDT" name="setUp" finished-at="2020-09-01T10:31:41 MDT" duration-ms="4323" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -140,7 +140,82 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:40 MDT" name="startExtent" finished-at="2020-08-31T23:03:40 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:41 MDT" name="startExtent" finished-at="2020-09-01T10:31:41 MDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testFindAnAgentButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:41 MDT" name="getInit" finished-at="2020-09-01T10:31:41 MDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testFindAnAgentButton()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:41 MDT" name="testFindAnAgentButton" finished-at="2020-09-01T10:31:42 MDT" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAnAgentButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:42 MDT" name="afterEachTestMethod" finished-at="2020-09-01T10:31:43 MDT" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFindAnAgentButton status=SUCCESS method=SearchTest.testFindAnAgentButton()[pri:0, instance:search.SearchTest@7748410a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:43 MDT" name="cleanUp" finished-at="2020-09-01T10:31:43 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:43 MDT" name="setUp" finished-at="2020-09-01T10:31:47 MDT" duration-ms="3938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8gi5.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:47 MDT" name="startExtent" finished-at="2020-09-01T10:31:47 MDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,30 +226,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:40 MDT" name="getInit" finished-at="2020-08-31T23:03:40 MDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:47 MDT" name="getInit" finished-at="2020-09-01T10:31:47 MDT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testHomeInsurance()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:40 MDT" name="testHomeInsurance" finished-at="2020-08-31T23:03:41 MDT" duration-ms="1001" status="PASS">
+        <test-method signature="testHomeInsurance()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:47 MDT" name="testHomeInsurance" finished-at="2020-09-01T10:31:47 MDT" duration-ms="763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeInsurance -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:41 MDT" name="afterEachTestMethod" finished-at="2020-08-31T23:03:41 MDT" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:47 MDT" name="afterEachTestMethod" finished-at="2020-09-01T10:31:47 MDT" duration-ms="130" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testHomeInsurance status=SUCCESS method=SearchTest.testHomeInsurance()[pri:0, instance:search.SearchTest@2f54a33d] output={null}]]]>
+                <![CDATA[[TestResult name=testHomeInsurance status=SUCCESS method=SearchTest.testHomeInsurance()[pri:0, instance:search.SearchTest@7748410a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:41 MDT" name="cleanUp" finished-at="2020-08-31T23:03:41 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:47 MDT" name="cleanUp" finished-at="2020-09-01T10:31:47 MDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:41 MDT" name="setUp" finished-at="2020-08-31T23:03:45 MDT" duration-ms="3555" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:47 MDT" name="setUp" finished-at="2020-09-01T10:31:50 MDT" duration-ms="3037" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,7 +290,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:45 MDT" name="startExtent" finished-at="2020-08-31T23:03:45 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:50 MDT" name="getInit" finished-at="2020-09-01T10:31:51 MDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:50 MDT" name="startExtent" finished-at="2020-09-01T10:31:50 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,30 +305,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:45 MDT" name="getInit" finished-at="2020-08-31T23:03:45 MDT" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testSearchBoxCheck()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:45 MDT" name="testSearchBoxCheck" finished-at="2020-08-31T23:03:47 MDT" duration-ms="2728" status="PASS">
+        <test-method signature="testSearchBoxCheck()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:51 MDT" name="testSearchBoxCheck" finished-at="2020-09-01T10:31:54 MDT" duration-ms="3101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchBoxCheck -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:47 MDT" name="afterEachTestMethod" finished-at="2020-08-31T23:03:48 MDT" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:54 MDT" name="afterEachTestMethod" finished-at="2020-09-01T10:31:54 MDT" duration-ms="116" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSearchBoxCheck status=SUCCESS method=SearchTest.testSearchBoxCheck()[pri:0, instance:search.SearchTest@2f54a33d] output={null}]]]>
+                <![CDATA[[TestResult name=testSearchBoxCheck status=SUCCESS method=SearchTest.testSearchBoxCheck()[pri:0, instance:search.SearchTest@7748410a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:48 MDT" name="cleanUp" finished-at="2020-08-31T23:03:48 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:54 MDT" name="cleanUp" finished-at="2020-09-01T10:31:54 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:search.SearchTest@2f54a33d]" started-at="2020-08-31T23:03:48 MDT" name="generateReport" finished-at="2020-08-31T23:03:48 MDT" duration-ms="47" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:search.SearchTest@7748410a]" started-at="2020-09-01T10:31:54 MDT" name="generateReport" finished-at="2020-09-01T10:31:54 MDT" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
