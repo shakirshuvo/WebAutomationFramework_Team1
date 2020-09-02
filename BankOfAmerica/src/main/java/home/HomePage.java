@@ -44,7 +44,7 @@ public class HomePage extends CommonAPI {
      */
     public void clickOnPersonal() throws InterruptedException {
         //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-      Thread.sleep(3000);
+      Thread.sleep(15000);
        clickOnElement(personalWebElementID);
         //personal.click();
         //System.out.println("this is personal");
