@@ -43,6 +43,7 @@ public class HomePage extends CommonAPI {
      * test clicking on Personal element
      */
     public void clickOnPersonal(){
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         personal.click();
     }
 

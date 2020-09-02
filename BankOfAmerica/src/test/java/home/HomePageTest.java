@@ -35,7 +35,7 @@ public class HomePageTest extends CommonAPI {
     @Test
     public void testClickOnPersonal(){
         homePage.clickOnPersonal();
-        homePage.validateClickOnPersonal();
+       // homePage.validateClickOnPersonal();
     }
 
     /**
@@ -50,11 +50,11 @@ public class HomePageTest extends CommonAPI {
     /**
      * test small business element
      */
-    @Test
-    public void testClickOnSmallBusiness(){
-        homePage.clickOnSmallBusiness();
-        homePage.validateSmallBusinessElement();
-    }
+//    @Test
+//    public void testClickOnSmallBusiness(){
+//        homePage.clickOnSmallBusiness();
+//        homePage.validateSmallBusinessElement();
+//    }
 
     /**
      * test clink on Wealth management tag
