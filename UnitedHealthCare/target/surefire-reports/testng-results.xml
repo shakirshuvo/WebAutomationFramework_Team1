@@ -5,12 +5,12 @@
       <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\UnitedHealthCare\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-01T22:35:08 EDT" name="Surefire suite" finished-at="2020-09-01T22:35:08 EDT" duration-ms="5">
+  <suite started-at="2020-09-01T22:50:20 EDT" name="Surefire suite" finished-at="2020-09-01T22:50:20 EDT" duration-ms="5">
     <groups>
     </groups>
-    <test started-at="2020-09-01T22:35:08 EDT" name="Surefire test" finished-at="2020-09-01T22:35:08 EDT" duration-ms="5">
+    <test started-at="2020-09-01T22:50:20 EDT" name="Surefire test" finished-at="2020-09-01T22:50:20 EDT" duration-ms="5">
       <class name="home.UHomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.UHomePageTest@4afcd809]" started-at="2020-09-01T22:35:08 EDT" name="extentSetup" finished-at="2020-09-01T22:35:08 EDT" duration-ms="290" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.UHomePageTest@4afcd809]" started-at="2020-09-01T22:50:20 EDT" name="extentSetup" finished-at="2020-09-01T22:50:20 EDT" duration-ms="286" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.UHomePageTest@4afcd809]" started-at="2020-09-01T22:35:08 EDT" name="generateReport" finished-at="2020-09-01T22:35:08 EDT" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.UHomePageTest@4afcd809]" started-at="2020-09-01T22:50:20 EDT" name="generateReport" finished-at="2020-09-01T22:50:21 EDT" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

@@ -115,6 +115,9 @@
 &lt;suite name=&quot;Amazon Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.com/&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Amazon Home&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;search.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Amazon Home --&gt;
 &lt;/suite&gt; &lt;!-- Amazon Automation Test --&gt;
             </pre>
@@ -127,7 +130,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Amazon Home (0 classes)</span>
+                <span class="test-name">Amazon Home (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,6 +186,16 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">search.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@57ea113a)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -5,16 +5,16 @@
       <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\BankOfAmerica\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-01T22:35:11 EDT" name="Bank of America Automation Test" finished-at="2020-09-01T22:35:29 EDT" duration-ms="17777">
+  <suite started-at="2020-09-01T22:50:22 EDT" name="Bank of America Automation Test" finished-at="2020-09-01T22:50:41 EDT" duration-ms="18626">
     <groups>
     </groups>
-    <test started-at="2020-09-01T22:35:11 EDT" name="Bank of America Home" finished-at="2020-09-01T22:35:29 EDT" duration-ms="17777">
+    <test started-at="2020-09-01T22:50:22 EDT" name="Bank of America Home" finished-at="2020-09-01T22:50:41 EDT" duration-ms="18626">
       <class name="home.HomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:11 EDT" name="extentSetup" finished-at="2020-09-01T22:35:11 EDT" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:22 EDT" name="extentSetup" finished-at="2020-09-01T22:50:22 EDT" duration-ms="236" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4992613f]]>
+                <![CDATA[org.testng.TestRunner@11a00961]]>
               </value>
             </param>
           </params>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:11 EDT" name="setUp" finished-at="2020-09-01T22:35:16 EDT" duration-ms="4748" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:22 EDT" name="setUp" finished-at="2020-09-01T22:50:28 EDT" duration-ms="5640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:16 EDT" name="startExtent" finished-at="2020-09-01T22:35:16 EDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:28 EDT" name="startExtent" finished-at="2020-09-01T22:50:28 EDT" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,15 +46,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:16 EDT" name="getInit" finished-at="2020-09-01T22:35:16 EDT" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:28 EDT" name="getInit" finished-at="2020-09-01T22:50:28 EDT" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testClickOnPersonal()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:16 EDT" name="testClickOnPersonal" finished-at="2020-09-01T22:35:18 EDT" duration-ms="2053" status="PASS">
+        <test-method signature="testClickOnPersonal()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:28 EDT" name="testClickOnPersonal" finished-at="2020-09-01T22:50:32 EDT" duration-ms="3786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickOnPersonal -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:18 EDT" name="afterEachTestMethod" finished-at="2020-09-01T22:35:19 EDT" duration-ms="1026" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:32 EDT" name="afterEachTestMethod" finished-at="2020-09-01T22:50:33 EDT" duration-ms="1024" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,11 +65,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:19 EDT" name="cleanUp" finished-at="2020-09-01T22:35:19 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:33 EDT" name="cleanUp" finished-at="2020-09-01T22:50:33 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:19 EDT" name="setUp" finished-at="2020-09-01T22:35:24 EDT" duration-ms="5111" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:33 EDT" name="setUp" finished-at="2020-09-01T22:50:38 EDT" duration-ms="4813" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:24 EDT" name="startExtent" finished-at="2020-09-01T22:35:24 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:38 EDT" name="startExtent" finished-at="2020-09-01T22:50:38 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,15 +91,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:24 EDT" name="getInit" finished-at="2020-09-01T22:35:24 EDT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:38 EDT" name="getInit" finished-at="2020-09-01T22:50:38 EDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testClickOnSmallBusiness()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:24 EDT" name="testClickOnSmallBusiness" finished-at="2020-09-01T22:35:28 EDT" duration-ms="3973" status="PASS">
+        <test-method signature="testClickOnSmallBusiness()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:38 EDT" name="testClickOnSmallBusiness" finished-at="2020-09-01T22:50:40 EDT" duration-ms="2531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickOnSmallBusiness -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:28 EDT" name="afterEachTestMethod" finished-at="2020-09-01T22:35:29 EDT" duration-ms="784" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:40 EDT" name="afterEachTestMethod" finished-at="2020-09-01T22:50:41 EDT" duration-ms="758" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,11 +110,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:29 EDT" name="cleanUp" finished-at="2020-09-01T22:35:29 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:41 EDT" name="cleanUp" finished-at="2020-09-01T22:50:41 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:35:29 EDT" name="generateReport" finished-at="2020-09-01T22:35:29 EDT" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@55f616cf]" started-at="2020-09-01T22:50:41 EDT" name="generateReport" finished-at="2020-09-01T22:50:41 EDT" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
