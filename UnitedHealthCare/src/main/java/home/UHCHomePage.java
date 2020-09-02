@@ -72,7 +72,7 @@ public class UHCHomePage extends CommonAPI {
     public void checkForProviders   () {
 
         forProviders.click();
-        windowSwitch();
+//        windowSwitch();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
     }
@@ -152,7 +152,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkFindYourPlan   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         findYourPlan.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -169,7 +169,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkIndividualAndFamilyHealthPlan   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         individualAndFamilyHealthPlan.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -186,7 +186,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkMedicareHealthPlan   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         medicareHealthPlan.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -203,7 +203,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkSmallBusinessHealthPlan   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         smallBusinessHealthPlan.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -220,7 +220,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkShortTermInsurenceHealthPlan   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         shortTermInsurenceHealthPlan.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -237,7 +237,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkMedicaidHealthPlan   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         medicaidHealthPlan.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -254,7 +254,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkDentalHealthPlan   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         dentalHealthPlan.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -271,7 +271,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkContactUs   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         contactUs.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -288,7 +288,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkCareer   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         career.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -305,9 +305,9 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkNewsRoom   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         newsRoom.click();
-        windowSwitch();
+//        windowSwitch();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
     }
@@ -323,7 +323,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkAboutUs   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         aboutUs.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -340,7 +340,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkAccessibility   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         accessibility.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -357,7 +357,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkLegal   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         legal.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());
@@ -374,7 +374,7 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkPrivacy   () {
 
-        scrollUpDownByHeight();
+//        scrollUpDownByHeight();
         privacy.click();
         driver.getCurrentUrl();
         System.out.println(driver.getCurrentUrl());

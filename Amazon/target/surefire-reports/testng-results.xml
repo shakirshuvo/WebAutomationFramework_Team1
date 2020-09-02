@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-02T00:18:28 EDT" name="Amazon Automation Test" finished-at="2020-09-02T00:18:46 EDT" duration-ms="17824">
+    <groups>
+    </groups>
+    <test started-at="2020-09-02T00:18:28 EDT" name="Amazon Home" finished-at="2020-09-02T00:18:46 EDT" duration-ms="17824">
+      <class name="home.HomePageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:28 EDT" name="extentSetup" finished-at="2020-09-02T00:18:28 EDT" duration-ms="341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@486bc9a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:28 EDT" name="setUp" finished-at="2020-09-02T00:18:35 EDT" duration-ms="6749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:35 EDT" name="startExtent" finished-at="2020-09-02T00:18:35 EDT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateBestSeller()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:35 EDT" name="getInit" finished-at="2020-09-02T00:18:35 EDT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateBestSeller()[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:35 EDT" name="testValidateBestSeller" finished-at="2020-09-02T00:18:37 EDT" duration-ms="2067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateBestSeller -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:37 EDT" name="afterEachTestMethod" finished-at="2020-09-02T00:18:38 EDT" duration-ms="893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateBestSeller status=SUCCESS method=HomePageTest.testValidateBestSeller()[pri:0, instance:home.HomePageTest@63070bab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:38 EDT" name="cleanUp" finished-at="2020-09-02T00:18:38 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:38 EDT" name="setUp" finished-at="2020-09-02T00:18:42 EDT" duration-ms="4664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:42 EDT" name="startExtent" finished-at="2020-09-02T00:18:42 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testValidateSearchBox()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:42 EDT" name="getInit" finished-at="2020-09-02T00:18:42 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateSearchBox()[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:42 EDT" name="testValidateSearchBox" finished-at="2020-09-02T00:18:45 EDT" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSearchBox -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:45 EDT" name="afterEachTestMethod" finished-at="2020-09-02T00:18:46 EDT" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateSearchBox status=SUCCESS method=HomePageTest.testValidateSearchBox()[pri:0, instance:home.HomePageTest@63070bab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:46 EDT" name="cleanUp" finished-at="2020-09-02T00:18:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@63070bab]" started-at="2020-09-02T00:18:46 EDT" name="generateReport" finished-at="2020-09-02T00:18:46 EDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.HomePageTest -->
+    </test> <!-- Amazon Home -->
+  </suite> <!-- Amazon Automation Test -->
+</testng-results>

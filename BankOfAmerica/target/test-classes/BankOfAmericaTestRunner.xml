@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Bank of America Automation Test" parallel="false">
+    <parameter name="url" value="https://www.bankofamerica.com/"/>
+
+
+    <test name="Bank of America Home">
+        <classes>
+<!--            <class name=""></class>-->
+        </classes>
+    </test>
+
+
+</suite>
