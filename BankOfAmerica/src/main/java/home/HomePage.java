@@ -44,8 +44,9 @@ public class HomePage extends CommonAPI {
      */
     public void clickOnPersonal(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-       // personal.click();
-        System.out.println("this is personal");
+       clickOnElement(personalWebElementID);
+        //personal.click();
+        //System.out.println("this is personal");
     }
 
     /**
