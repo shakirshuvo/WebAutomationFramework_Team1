@@ -13,10 +13,10 @@ public class SearchTest extends CommonAPI {
     public void getInit() {
         search = PageFactory.initElements(driver, Search.class);
     }
-
-    @Test
-    public void testSearchIphone() {
-        search.searchIphone();
-        search.validateIphoneSearch();
-    }
+//
+//    @Test
+//    public void testSearchIphone() {
+//        search.searchIphone();
+//        search.validateIphoneSearch();
+//    }
 }
