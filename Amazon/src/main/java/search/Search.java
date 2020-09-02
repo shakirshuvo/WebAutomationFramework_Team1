@@ -14,6 +14,8 @@ public class Search extends CommonAPI {
     @FindBy(how = How.ID, using = searchFieldIDWebElement)
     public WebElement searchField;
 
+
+
     @FindBy(how = How.XPATH, using = searchButtonXPATHWebElement)
     public WebElement searchButton;
 

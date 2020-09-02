@@ -4,9 +4,11 @@
 <suite name="Amazon Automation Test" parallel="false">
    <parameter name="url" value="https://www.amazon.com/"></parameter>
 
+
     <test name="Amazon Home">
         <classes>
-            <class name="search.SearchTest"></class>
+<!--            <class name="search.SearchTest"></class>-->
+<!--            <class name="home.HomePageTest"></class>-->
         </classes>
 
     </test>

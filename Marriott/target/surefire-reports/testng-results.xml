@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Marriott\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-01T22:35:32 EDT" name="Surefire suite" finished-at="2020-09-01T22:35:32 EDT" duration-ms="4">
+    <groups>
+    </groups>
+    <test started-at="2020-09-01T22:35:32 EDT" name="Surefire test" finished-at="2020-09-01T22:35:32 EDT" duration-ms="4">
+      <class name="home.MarriottHomePageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.MarriottHomePageTest@175c2241]" started-at="2020-09-01T22:35:32 EDT" name="extentSetup" finished-at="2020-09-01T22:35:32 EDT" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49872d67]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Marriott\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.MarriottHomePageTest@175c2241]" started-at="2020-09-01T22:35:32 EDT" name="generateReport" finished-at="2020-09-01T22:35:32 EDT" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.MarriottHomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

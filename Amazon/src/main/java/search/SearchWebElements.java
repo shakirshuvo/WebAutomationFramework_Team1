@@ -7,4 +7,6 @@ public class SearchWebElements {
     public static final String searchVerificationPartialTextWebElement = "\"iphone\"";
     public static final String searchItem1 = "iphone";
 
+    public static final String  findAndReserveXPathWebElement = "//*[@id=\"MainNavLinkde94\"]/a";
+
 }
