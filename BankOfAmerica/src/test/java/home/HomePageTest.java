@@ -33,7 +33,7 @@ public class HomePageTest extends CommonAPI {
      * test click On personal element
      */
     @Test
-    public void testClickOnPersonal(){
+    public void testClickOnPersonal() throws InterruptedException {
         homePage.clickOnPersonal();
        // homePage.validateClickOnPersonal();
     }

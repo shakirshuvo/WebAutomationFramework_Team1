@@ -42,8 +42,9 @@ public class HomePage extends CommonAPI {
     /**
      * test clicking on Personal element
      */
-    public void clickOnPersonal(){
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    public void clickOnPersonal() throws InterruptedException {
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+      Thread.sleep(3000);
        clickOnElement(personalWebElementID);
         //personal.click();
         //System.out.println("this is personal");
@@ -53,7 +54,7 @@ public class HomePage extends CommonAPI {
      * validate click on personal
      */
     public void validateClickOnPersonal(){
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+      //  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String actual = hereToHelp.getText();
         Assert.assertEquals(actual, heretoHelpExpectedText);
     }
@@ -108,7 +109,7 @@ public class HomePage extends CommonAPI {
     /**
      * click on open account button
      */
-    public void clickOpenAccount(){
+    public void clickOpenAccount() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickOnPersonal();
         openAccount.click();
