@@ -39,7 +39,8 @@ public class HomePageTest extends CommonAPI {
 //    }
     @Test
     public void testWholeFoods(){
-        homePage.find_a_giftCheck();
+//        homePage.find_a_giftCheck();
+        System.out.println("Lala");
     }
 //    @Test
 //    public void testGiftCards(){
