@@ -14,11 +14,11 @@ public class HomeTest extends CommonAPI {
         home = PageFactory.initElements(driver, Home.class);
     }
 
-    @Test
-    public void testVerifyClickChecking(){
-        home.clickChecking();
-        home.verifyClickChecking();
-    }
+//    @Test
+//    public void testVerifyClickChecking(){
+//        home.clickChecking();
+//        home.verifyClickChecking();
+//    }
 //    @Test
 //    public void testVerifyClickSaving(){
 //        home.clickSaving();
