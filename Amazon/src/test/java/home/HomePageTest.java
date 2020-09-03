@@ -12,11 +12,11 @@ public class HomePageTest extends CommonAPI {
     public void getInit() {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
-@Test
-    public void testBestSellers(){
-        homePage.bestSellersCheck();
-        homePage.validateBestSellers();
-}
+//@Test
+//    public void testBestSellers(){
+//        homePage.bestSellersCheck();
+//        homePage.validateBestSellers();
+//}
 //    @Test
 //    public void testCustomerService(){
 //        homePage.customerServiceCheck();
@@ -37,10 +37,10 @@ public class HomePageTest extends CommonAPI {
 //        homePage.find_a_giftCheck();
 //        homePage.validatefind_a_gift();
 //    }
-//    @Test
-//    public void testWholeFoods(){
-//        homePage.find_a_giftCheck();
-//    }
+    @Test
+    public void testWholeFoods(){
+        homePage.find_a_giftCheck();
+    }
 //    @Test
 //    public void testGiftCards(){
 //        homePage.giftCardsCheck();
