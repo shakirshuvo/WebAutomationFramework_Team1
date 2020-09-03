@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="United Health Care Automation Test" parallel="false">
+    <parameter name="url" value="https://www.uhc.com/"></parameter>
+
+    <test name="United Health Care home.Home">
+        <classes>
+            <!--<class name=""></class>-->
+        </classes>
+
+    </test>
+
+
+
+
+
+</suite>

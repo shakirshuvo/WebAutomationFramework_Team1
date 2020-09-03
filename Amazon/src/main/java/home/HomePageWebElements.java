@@ -2,6 +2,11 @@ package home;
 
 public class HomePageWebElements {
 
+    public static final String webElementSearchBox="#twotabsearchtextbox";
+    public static final String webElementSearchButton="#nav-search > form > div.nav-right > div > input";
+    public static final String webElementSearchText="//span[@class='a-color-state a-text-bold']";
+
+
     public static final String bestSellersXPATH="//div[@id='nav-xshop']/a[1]";
     public static final String customerServiceLinkTest="Customer Service";
     public static final String todaysDealsLinkTest="Today's Deals";

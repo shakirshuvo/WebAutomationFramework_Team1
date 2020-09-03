@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="The Hartford Automation Test" parallel="false">
+    <parameter name="url" value="https://www.thehartford.com/"></parameter>
+
+    <test name="The Hartford home.Home">
+        <classes>
+            <!--<class name=""></class>-->
+        </classes>
+
+    </test>
+
+
+
+
+
+</suite>
