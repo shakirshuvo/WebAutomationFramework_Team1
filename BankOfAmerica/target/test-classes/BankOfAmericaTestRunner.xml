@@ -12,7 +12,7 @@
 
     <test name="Bank of America Home">
         <classes>
-            <class name="home.HomeTest"></class>
+<!--            <class name="home.HomeTest"></class>-->
         </classes>
 
     </test>
