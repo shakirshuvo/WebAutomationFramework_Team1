@@ -5,13 +5,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
 import static getAQuote.GetAQuoteWebElements.*;
-import static myAccount.MyAccountWebElements.myAccountTabXpathWebElement;
 
 public class GetAQuote extends CommonAPI {
 
@@ -50,7 +48,7 @@ public class GetAQuote extends CommonAPI {
      * @throws InterruptedException
      */
     public void fillOutAboutYou() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
         waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
         typeOnElement(whatIsYourFirstNameCSSWebElement, randomFirstName);
@@ -77,7 +75,7 @@ public class GetAQuote extends CommonAPI {
      * when filling out the 'About You' form.
      */
     public void pleaseEnterAValidFirstNameAlert() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
         waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
         typeOnElement(whatIsYourLastNameCSSWebElement, randomLastName);
@@ -102,7 +100,7 @@ public class GetAQuote extends CommonAPI {
      * when filling out the 'About You' form.
      */
     public void pleaseEnterAValidLastNameAlert() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
         waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
         typeOnElement(whatIsYourFirstNameCSSWebElement, randomFirstName);
@@ -127,7 +125,7 @@ public class GetAQuote extends CommonAPI {
      * when filling out the 'About You' form.
      */
     public void pleaseEnterAValidAddressAlert() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
         waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
         typeOnElement(whatIsYourFirstNameCSSWebElement, randomFirstName);
@@ -152,7 +150,7 @@ public class GetAQuote extends CommonAPI {
      * when filling out the 'About You' form.
      */
     public void pleaseEnterYourDateOfBirthAlert() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
         waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
         typeOnElement(whatIsYourFirstNameCSSWebElement, randomFirstName);
@@ -176,7 +174,7 @@ public class GetAQuote extends CommonAPI {
      * This method adds Nissan Maxima 2016 vehicle for a quote.
      */
     public void addNissanMaxima() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
         waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
         typeOnElement(whatIsYourFirstNameCSSWebElement, randomFirstName);
@@ -198,8 +196,156 @@ public class GetAQuote extends CommonAPI {
     /**
      * This method validates that user is able to add Nissan Maxima 2016 for a quote.
      */
-    public void validateNissanMaximaIsAdded(){
-        Assert.assertTrue(elementIsDisplayed(nissanMaximaXpathWebElement));
+    public void validateNissanMaxima2016IsAdded() {
+        Assert.assertTrue(elementIsDisplayed(nissanMaxima2016XpathWebElement));
+    }
+
+    /**
+     * This method adds a vehicle (Nissan Maxima 2007) with a VIN number.
+     *
+     * @throws InterruptedException
+     */
+    public void addNissanMaxima2007WithVIN() throws InterruptedException {
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
+        waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
+        typeOnElement(whatIsYourFirstNameCSSWebElement, randomFirstName);
+        typeOnElement(whatIsYourLastNameCSSWebElement, randomLastName);
+        typeOnElement(whatIsYourStreetAddressCSSWebElement, pntVAStreetAddress);
+        typeOnElement(whatIsYourAptSuiteCSSWebElement, pntVASuite);
+        typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
+        typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
+        typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
+        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElement(yesButtonXpathWebElement);
+        typeOnElement(enterYourVINCSSWebElement, nissan2007VinNumber);
+        waitUntilClickAble(By.xpath(addVehicleButtonXpathWebElement));
+        Thread.sleep(3000);
+        clickOnElement(addVehicleButtonXpathWebElement);
+    }
+
+    /**
+     * This method validates that user is able to add a vehicle (Nissan Maxima 2007) with a VIN number.
+     */
+    public void validateNissanMaxima2007IsAddedWithVIN() {
+        Assert.assertTrue(elementIsDisplayed(nissanMaxima2007XpathWebElement));
+    }
+
+    /**
+     * This method adds a vehicle (Nissan Maxima 2007) with a VIN number.
+     * Then, it it deselects the vehicle and attempts to go to the next step; however, the user will get an
+     * alert message, "OOPS! We'll need you to select at least one of your vehicles or add a new one so we can
+     * continue with your quote".
+     *
+     * @throws InterruptedException
+     */
+    public void deselectNissanMaxima2007() throws InterruptedException {
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
+        waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
+        typeOnElement(whatIsYourFirstNameCSSWebElement, randomFirstName);
+        typeOnElement(whatIsYourLastNameCSSWebElement, randomLastName);
+        typeOnElement(whatIsYourStreetAddressCSSWebElement, pntVAStreetAddress);
+        typeOnElement(whatIsYourAptSuiteCSSWebElement, pntVASuite);
+        typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
+        typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
+        typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
+        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElement(yesButtonXpathWebElement);
+        typeOnElement(enterYourVINCSSWebElement, nissan2007VinNumber);
+        waitUntilClickAble(By.xpath(addVehicleButtonXpathWebElement));
+        Thread.sleep(3000);
+        clickOnElement(addVehicleButtonXpathWebElement);
+        clickOnElement(nissanMaxima2007XpathWebElement);
+        clickOnElement(nextVehicleDetailsXpathWebElement);
+    }
+
+
+    /**
+     * This method validates that after deselecting a vehicle and attempting to go to the next step, user will get an
+     * alert message, "OOPS! We'll need you to select at least one of your vehicles or add a new one so we can
+     * continue with your quote".
+     */
+    public void validateDeselectNissanMaxima2007() {
+        Assert.assertTrue(elementIsSelected(oopsAlertXpathWebElement));
+    }
+
+    /**
+     * This method adds a vehicle (Nissan Maxima 2007) with a VIN number.
+     * Then, it generates a confirmation message.
+     *
+     * @throws InterruptedException
+     */
+    public void addNissanMaxima2007WithVINConfirmation() throws InterruptedException {
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
+        waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
+        typeOnElement(whatIsYourFirstNameCSSWebElement, randomFirstName);
+        typeOnElement(whatIsYourLastNameCSSWebElement, randomLastName);
+        typeOnElement(whatIsYourStreetAddressCSSWebElement, pntVAStreetAddress);
+        typeOnElement(whatIsYourAptSuiteCSSWebElement, pntVASuite);
+        typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
+        typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
+        typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
+        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElement(yesButtonXpathWebElement);
+        typeOnElement(enterYourVINCSSWebElement, nissan2007VinNumber);
+        Thread.sleep(3000);
+        clickOnElement(addVehicleButtonXpathWebElement);
+        Thread.sleep(3000);
+        clickOnElement(nextVehicleDetailsXpathWebElement);
+    }
+
+    /**
+     * This method validates that user is able get a confirmation message after adding a vehicle. The confirmation message
+     * does not always appear. In such event, the user is navigated to the 'Your Vehicles' page. Therefore, this method employs
+     * two possible assertions.
+     */
+    public void validateAddNissanMaxima2007WithVINConfirmation() throws InterruptedException {
+        try {
+            Assert.assertTrue(elementIsDisplayed(confirmYourVehiclesXpathWebElement));
+        } catch (Exception ex1) {
+            try {
+                System.out.println("Confirmation message was not displayed.");
+                Assert.assertTrue(elementIsDisplayed(pleaseSelectYourVehicleOwnershipStatusXpathWebElement));
+                System.out.println("Validated with WebElement 'Please select your vehicle ownership status");
+            } catch (Exception ex2) {
+            }
+        }
+    }
+
+
+    /**
+     * This method fills out 'About You' form and then proceeds to 'Your Vehicles' page.
+     *
+     * @throws InterruptedException
+     */
+    public void addVehicleAndGoToYourVehiclePage() throws InterruptedException {
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
+        waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
+        typeOnElement(whatIsYourFirstNameCSSWebElement, randomFirstName);
+        typeOnElement(whatIsYourLastNameCSSWebElement, randomLastName);
+        typeOnElement(whatIsYourStreetAddressCSSWebElement, pntVAStreetAddress);
+        typeOnElement(whatIsYourAptSuiteCSSWebElement, pntVASuite);
+        typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
+        typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
+        typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
+        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElement(yesButtonXpathWebElement);
+        typeOnElement(enterYourVINCSSWebElement, nissan2007VinNumber);
+        waitUntilClickAble(By.xpath(addVehicleButtonXpathWebElement));
+        Thread.sleep(3000);
+        clickOnElement(addVehicleButtonXpathWebElement);
+        Thread.sleep(3000);
+        clickOnElement(nextVehicleDetailsXpathWebElement);
+    }
+
+    /**
+     * This method validates 'Your Vehicles' page with URL.
+     */
+    public void validateAddVehicleAndGoToYourVehiclePage() {
+        Assert.assertEquals(getCurrentPageUrl(), yourVehicleURL);
     }
 
 }

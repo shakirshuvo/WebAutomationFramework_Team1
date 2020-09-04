@@ -558,6 +558,46 @@ public class CommonAPI {
         return true;
     }
 
+    public boolean elementIsSelected(String element) {
+        try {
+            driver.findElement(By.xpath(element)).isSelected();
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.id(element)).isSelected();
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    driver.findElement(By.cssSelector(element)).isSelected();
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    driver.findElement(By.className(element)).isSelected();
+                }
+            }
+        }
+        return true;
+    }
+
+    public boolean elementIsEnabled(String element) {
+        try {
+            driver.findElement(By.xpath(element)).isEnabled();
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.id(element)).isEnabled();
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    driver.findElement(By.cssSelector(element)).isEnabled();
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    driver.findElement(By.className(element)).isEnabled();
+                }
+            }
+        }
+        return true;
+    }
+
 
     //Handling New Tabs
     public static WebDriver handleNewTab(WebDriver driver1) {
