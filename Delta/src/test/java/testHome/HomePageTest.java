@@ -3,12 +3,9 @@ package testHome;
 
 import base.CommonAPI;
 import home.HomePage;
-import jdk.jfr.Enabled;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import static home.HomePage.Destination;
 
 public class HomePageTest extends CommonAPI {
 
@@ -73,36 +70,60 @@ public class HomePageTest extends CommonAPI {
 //        homePage.VerifyclickFlightProtection();
 
   //}
+//
+//
+//    /**
+//     * testing click on pet travel
+//     * @Author: Lemlem
+//     */
+//    @Test(enabled =false)
+//    public void testClickOnPetTravel(){
+//        homePage.clickOnNeedHelp();
+//        homePage.clickOnPetTravel();
+//        homePage.validateClickOnPetTravel();
+//    }
+//
+//@Test
+//    public void testClickOnVaccationDeals(){
+//        homePage.clickonVaccationDeals();
+//        homePage.validateVaccationDeals();
+//
+//}
+//@Test
+//    public void testClickOnDeltaAmexCAerds(){
+//        homePage.clickonDeltaAmexCards();
+//        homePage.validateDeltaAmexCards();
+//}
+//@Test
+//    public void testClickOnShopHotels(){
+//        homePage.clickOnShopHotels();
+//        homePage.validateShopHotels();
+//}
+//@Test
+//    public void testClickOnGiftCards(){
+//        homePage.clickGiftCards();
+//        homePage.validateGiftCards();
+//}
+//
+//   @Test
+//public void testClickOnCommonCheckedBaggageFees(){
+//        homePage.clickCommonCheeckedBaggageFees();
+//        homePage.validateCommonCheeckedBaggageFees();
+//   }
 
-
-    /**
-     * testing click on pet travel
-     * @Author: Lemlem
-     */
-    @Test(enabled =false)
-    public void testClickOnPetTravel(){
-        homePage.clickOnNeedHelp();
-        homePage.clickOnPetTravel();
-        homePage.validateClickOnPetTravel();
+    @Test
+    public void testValidateNavigateToAccessibleTravelServices(){
+        homePage.navigateToAccessibleTravelServices();
+        homePage.validateNavigateToAccessibleTravelServices();
     }
 
-@Test
-    public void testClickOnVaccationDeals(){
-        homePage.clickonVaccationDeals();
-        homePage.validateVaccationDeals();
+    @Test
+    public void testValidateNavigateToSpecialCircumstances(){
+        homePage.navigateToSpecialCircumstances();
+        homePage.validateNavigateToSpecialCircumstances();
+    }
 
 }
-@Test
-    public void testClickOnDeltaAmexCAerds(){
-        homePage.clickonDeltaAmexCards();
-        homePage.validateDeltaAmexCards();
-}
-@Test
-    public void testClickOnShopHotels(){
-        homePage.clickOnShopHotels();
-        homePage.validateShopHotels();
-}
-    }
 
 
 

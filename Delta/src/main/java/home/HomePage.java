@@ -7,40 +7,43 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
 
-import javax.print.attribute.standard.Destination;
+import java.util.concurrent.TimeUnit;
 
 import static home.HomePageWebElements.*;
 import static org.testng.Assert.assertEquals;
 
-public class HomePage<webElementSearchBox, webElementSearch, webElement> extends CommonAPI {
+public class HomePage extends CommonAPI {
 
 
     @FindBy (how = How.XPATH, using =webelementSignUpXPATH )
     public WebElement signUp;
+    @FindBy (how = How.XPATH, using =accessibleTravelServicesXpath )
+    public WebElement accessibleTravelServices;
 
     @FindBy(how=How.XPATH, using=webelementLoginXpath)
     public WebElement login;
     @FindBy(how=How.XPATH,using=bookWebElementXpath)
     public WebElement book;
-    @FindBy(how=How.XPATH,using= flightStatusTitle)
-    public webElement flightStatus;
+//    @FindBy(how=How.XPATH,using= flightStatusTitle)
+//    public webElement flightStatus;
     @FindBy(how=How.XPATH, using="//*[@id=\"navPrimary\"]/li[6]/a[2]")
     public WebElement Baggage;
-    @FindBy(how=How.XPATH, using="//a[@id=\"headSectab2\"]")
-    public webElement Skymiles;
-    @FindBy(how=How.XPATH, using="Flight Deals: Find Cheap Airfare & Discounts on Airline Tickets : Delta")
-    public webElement FlightDeals;
-    @FindBy(how=How.XPATH, using = "//*[@id=\"headPrimary2\"]")
-    public webElement Destinations;
-    @FindBy(how=How.XPATH ,using= flightProtection)
-    public webElement FlightProtection;
-    @FindBy(how=How.XPATH , using = feed)
-    public webElement Feed;
+//    @FindBy(how=How.XPATH, using="//a[@id=\"headSectab2\"]")
+//    public webElement Skymiles;
+//    @FindBy(how=How.XPATH, using="Flight Deals: Find Cheap Airfare & Discounts on Airline Tickets : Delta")
+//    public webElement FlightDeals;
+//    @FindBy(how=How.XPATH, using = "//*[@id=\"headPrimary2\"]")
+//    public webElement Destinations;
+//    @FindBy(how=How.XPATH ,using= flightProtection)
+//    public webElement FlightProtection;
+//    @FindBy(how=How.XPATH , using = feed)
+//    public webElement Feed;
 
 
     Public ObjectClick;
     private Object Click;
     public static Object Destination;
+    public Object rentACar;
 
     public static void VerifyFlightDeals() {
     }
@@ -78,9 +81,9 @@ public class HomePage<webElementSearchBox, webElementSearch, webElement> extends
     public void verifyClickBook(){
         assertEquals(getTitle(), bookTitle );
     }
-    public void clickFlighStatus(){
-        flightStatus.getClass();
-    }
+//    public void clickFlighStatus(){
+//        flightStatus.getClass();
+//    }
 public void verifyFlightStatus(){
 
 }
@@ -102,10 +105,10 @@ public void verifyBaggaeTitle(){
 
        
     }
-    public void VerifyclickFlightProtection(){
-        FlightProtection();
-    
-}
+//    public void clickFlightProtection(){
+//        FlightProtection.notify();
+//
+//}
 
 
     @FindBy(how=How.ID, using =needHelpElementID)
@@ -195,13 +198,73 @@ WebElement shopHotels;
          String expected="Delta - Deals & Discounts for Hotel Reservations from Luxury Hotels to Budget Accommodations";
          Assert.assertEquals(actual,expected);
      }
-    private void FlightProtection() {
-    }
 
-    public void Destinations() {
-    }
 
-    public void flightStatus() {
-    }
+
+    //@FindBy(how=How.XPATH, using = rentACarXpath(){
+    //  Webelement rentACarXpath
+    // }
+    // public void rentACar() {
+        //    rentACar.click;
+    @FindBy(how=How.XPATH, using=giftCardsXpath)
+    WebElement giftcards;
+    /**
+     * click on giftcard
+     * @Author Lemlem
+     */
+public void clickGiftCards(){
+    giftcards.click();
 }
+/**
+ * validating Giftcards
+ * @Author Lemlem
+ */
+public void validateGiftCards(){
+    String actual=driver.getTitle();
+    String expected="Airline & Flight Gift Cards : Give the Gift of Travel : Delta Air Lines";
+    Assert.assertEquals(actual,expected);
+}
+@FindBy(how=How.XPATH, using =commonCheckedBaggageFeesXpath)
+    WebElement commonCheckedBaggageFees;
+/**
+ * click on commonCheckedBaggageFees
+ *  @Author Lemlem
+ */
+public void clickCommonCheeckedBaggageFees(){
+    commonCheckedBaggageFees.click();
+
+}
+/**
+ *   validating Giftcards
+ *   @Author Lemlem
+ */
+public void validateCommonCheeckedBaggageFees(){
+    String actual=driver.getTitle();
+    String expected="Baggage Policy and Fees | Delta Air Lines";
+    Assert.assertEquals(actual,expected);
+}
+
+public void navigateToAccessibleTravelServices(){
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    driver.manage().window().maximize();
+    mouseHoverByID(needHelpElementID);
+    clickOnElement(accessibleTravelServicesXpath);
+}
+
+public void validateNavigateToAccessibleTravelServices(){
+    Assert.assertEquals(getURL(), accessibleTravelServicesURL);
+}
+    public void navigateToSpecialCircumstances(){
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        mouseHoverByID(needHelpElementID);
+        clickOnElement(specialCircumstancesXpath);
+    }
+
+    public void validateNavigateToSpecialCircumstances(){
+        Assert.assertEquals(getURL(), getSpecialCircumstancesURL);
+    }
+
+}
+
 
