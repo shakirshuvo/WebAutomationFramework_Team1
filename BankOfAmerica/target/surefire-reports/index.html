@@ -142,6 +142,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Bank of America Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;10&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;85.0&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome-options&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.bankofamerica.com/&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Bank of America Home&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
@@ -189,12 +195,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testClickOnPersonal')
 data.setCell(0, 2, 'home.HomePageTest')
-data.setCell(0, 3, 2764);
+data.setCell(0, 3, 25600);
 window.suiteTableData['Bank_of_America_Automation_Test']= { tableData: data, tableDiv: 'times-div-Bank_of_America_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Bank_of_America_Automation_Test">
               </div> <!-- times-div-Bank_of_America_Automation_Test -->
             </div> <!-- times-div -->
@@ -222,36 +228,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">home.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@2f7dcef2)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@540dbda9)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(https://www.bankofamerica.com/)</span>
-                <span class="method-start">228 ms</span>
+                <span class="method-name">setUp(false, browserstack, Windows, 10, chrome-options, 85.0, https://www.bankofamerica.com/)</span>
+                <span class="method-start">205 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">startExtent(public void home.HomePageTest.testClickOnPersonal())</span>
-                <span class="method-start">6830 ms</span>
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickOnPersonal() throws java.lang.InterruptedException)</span>
+                <span class="method-start">5065 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">6837 ms</span>
+                <span class="method-start">5070 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testClickOnPersonal</span>
-                <span class="method-start">6885 ms</span>
+                <span class="method-start">5098 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=testClickOnPersonal status=SUCCESS method=HomePageTest.testClickOnPersonal()[pri:0,...)</span>
-                <span class="method-start">9653 ms</span>
+                <span class="method-start">30702 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">10941 ms</span>
+                <span class="method-start">31773 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">10972 ms</span>
+                <span class="method-start">31792 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

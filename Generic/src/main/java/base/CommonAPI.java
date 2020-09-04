@@ -123,8 +123,8 @@ public class CommonAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "shakirjahangir1";
-    public String browserstack_accesskey = "REz3o29QHkEXvcj7ausZ";
+    public String browserstack_username = "waqaschaudhry2";
+    public String browserstack_accesskey = "oxjsCEXYgMe55p8Mt1jh";
     public String saucelabs_username = "BugBuster";
     public String saucelabs_accesskey = "e68d96f6-4900-4dec-942b-1da200d5923c";
 
@@ -591,5 +591,14 @@ public class CommonAPI {
     public String getTextByWebElement(WebElement webElement) {
         String text = webElement.getText();
         return text;
+    }
+
+    // scroll method
+    /**
+     * Mobin added scrollUpDownByHeight to scoroll up and down in the window
+     */
+    public static void scrollUpDownByHeight() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
 }

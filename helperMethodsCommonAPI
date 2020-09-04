@@ -1,0 +1,126 @@
+//helper methods
+    public void clickOnElement(String locator)
+
+    public void typeOnElement(String locator, String value)
+
+    public static void typeOnElementNEnter(String locator, String value)
+
+    public static void typeOnElementNEnter(String locator, String value, WebDriver driver1)
+
+    public void clearField(String locator)
+
+    public void navigateBack()
+
+    public static void clickOnElement(String locator, WebDriver driver1)
+
+    public void typeOnInputField(String locator, String value)
+
+    public void clickByXpath(String locator) {
+        driver.findElement(By.xpath(locator)).click();
+    }
+
+    public void typeByCss(String locator, String value) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(value);
+    }
+
+    public void typeByCssNEnter(String locator, String value) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
+    }
+
+    public void typeByXpath(String locator, String value) {
+        driver.findElement(By.xpath(locator)).sendKeys(value);
+    }
+
+    public void takeEnterKeys(String locator) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+    }
+
+    public void clearInputField(String locator) {
+        driver.findElement(By.cssSelector(locator)).clear();
+    }
+
+    public List<WebElement> getListOfWebElementsById(String locator) {
+        List<WebElement> list = new ArrayList<WebElement>();
+        list = driver.findElements(By.id(locator));
+        return list;
+    }
+
+    public static List<String> getTextFromWebElements(String locator)
+
+    public static List<String> getTextFromWebElements(String locator, WebDriver driver1)
+
+    public static List<WebElement> getListOfWebElementsByCss(String locator)
+    public static List<WebElement> getListOfWebElementsByCss(String locator, WebDriver driver1)
+
+    public List<WebElement> getListOfWebElementsByXpath(String locator)
+    public String getCurrentPageUrl()
+
+    public void navigateForward()
+
+    public String getTextByCss(String locator)
+
+    public String getTextByXpath(String locator)
+
+    public String getTextById(String locator)
+
+    public String getTextByName(String locator)
+
+    //Get title
+    public String getTitle()
+
+    public List<String> getListOfString(List<WebElement> list)
+
+    public void selectOptionByVisibleText(WebElement element, String value)
+
+    public static void sleepFor(int sec) throws InterruptedException
+
+    public void mouseHoverByCSS(String locator)
+
+//    public void mouseHoverByXpath(String locator)
+
+    public void mouseHoverByXpath(String locator)
+
+    //handling Alert
+    public void okAlert()
+
+    public void cancelAlert()
+
+    //iFrame Handle
+    public void iframeHandle(WebElement element)
+    //get Links
+    public void getLinks(String locator)
+    //Taking Screen shots
+    public void takeScreenShot() throws IOException
+
+    //Synchronization
+    public void waitUntilClickAble(By locator)
+
+    public void waitUntilVisible(By locator)
+
+    public void waitUntilSelectable(By locator)
+
+    public void upLoadFile(String locator, String path)
+
+    public void clearInput(String locator)
+    public void keysInput(String locator)
+
+    //Handling New Tabs
+    public static WebDriver handleNewTab(WebDriver driver1)
+
+    public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator)
+
+    public void typeOnInputBox(String locator, String value)
+
+    // Customer Made Helper Methods for Amex.com
+    public void brokenLink() throws IOException
+
+    public void inputValueInTextBoxByWebElement(WebElement webElement, String value)
+    public void clearInputBox(WebElement webElement)
+
+    public String getTextByWebElement(WebElement webElement)
+
+    // scroll method
+    /**
+     * Mobin added scrollUpDownByHeight to scoroll up and down in the window
+     */
+    public static void scrollUpDownByHeight()
