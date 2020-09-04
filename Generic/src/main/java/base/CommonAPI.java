@@ -132,7 +132,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("windows") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.amazon.com") String url) throws IOException {
+                              String browserVersion, @Optional("https://www.thehartford.com/") String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -234,7 +234,7 @@ public class CommonAPI {
 
     public static void typeOnElementNEnter(String locator, String value) {
         try {
-            driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
+            driver.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
         } catch (Exception ex1) {
             try {
                 System.out.println("First Attempt was not successful");
@@ -242,7 +242,7 @@ public class CommonAPI {
             } catch (Exception ex2) {
                 try {
                     System.out.println("Second Attempt was not successful");
-                    driver.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
+                    driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
                 } catch (Exception ex3) {
                     System.out.println("Third Attempt was not successful");
                     driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
@@ -515,6 +515,27 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
 
+    public boolean elementIsDisplayed(String element) {
+        try {
+            driver.findElement(By.xpath(element)).isDisplayed();
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.id(element)).isDisplayed();
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    driver.findElement(By.cssSelector(element)).isDisplayed();
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    driver.findElement(By.className(element)).isDisplayed();
+                }
+            }
+        }
+        return true;
+    }
+
+
     //Handling New Tabs
     public static WebDriver handleNewTab(WebDriver driver1) {
         String oldTab = driver1.getWindowHandle();
@@ -526,6 +547,11 @@ public class CommonAPI {
 
     public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator) {
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
+        return value;
+    }
+
+    public static boolean isPopUpWindowDisplayedXpath(WebDriver driver1, String locator) {
+        boolean value = driver1.findElement(By.xpath(locator)).isDisplayed();
         return value;
     }
 
@@ -591,5 +617,11 @@ public class CommonAPI {
     public String getTextByWebElement(WebElement webElement) {
         String text = webElement.getText();
         return text;
+    }
+
+    // Scroll up/down
+    public static void scrollUpDownByHeight() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
 }
