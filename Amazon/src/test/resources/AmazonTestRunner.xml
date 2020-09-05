@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Amazon Automation Test" parallel="false">
-   <parameter name="url" value="https://www.amazon.com/"></parameter>
 
-    <test name="Amazon Home">
+<suite name="Amzon Automation Test" parallel="false">
+
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="catalina"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="85.0"/>
+    <parameter name="url" value="https://www.amazon.com/"/>
+
+
+    <test name="amazon Home">
         <classes>
-<!--            <class name="search.SearchTest"></class>-->
-<!--            <class name="home.HomePageTest"></class>-->
+            <class name="search.SearchTest">
+                <methods>
+<!--                     <exclude name="setSearchFieldTest"></exclude>-->
+                </methods>
+            </class>
+            <class name="home.HomePageTest">
+                <methods>
+                    <exclude name="setBestSellerTest"></exclude>
+                    <exclude name="setCustomerServiceTest"></exclude>
+                    <exclude name="setTodayDealTest"></exclude>
+                    <exclude name="setNewReleaseTest"></exclude>
+                    <exclude name="setFindGiftTest"></exclude>
+                    <exclude name="setGiftCardTest"></exclude>
+                    <exclude name="setWholeFoodTest"></exclude>
+                    <exclude name="setFreeShippingTest"></exclude>
+                    <exclude name="setRegistryTest"></exclude>
+                    <exclude name="setSellButtonTest"></exclude>
+                    <exclude name="setCouponsTest"></exclude>
+                    <exclude name="setAmazonBasicsTest"></exclude>
+                </methods>
+            </class>
+
         </classes>
 
     </test>
-
-
-
 
 
 </suite>

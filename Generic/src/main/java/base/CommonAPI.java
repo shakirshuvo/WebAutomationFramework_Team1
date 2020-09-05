@@ -122,8 +122,8 @@ public class CommonAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "shakirjahangir1";
-    public String browserstack_accesskey = "REz3o29QHkEXvcj7ausZ";
+    public String browserstack_username = "ramdane3";
+    public String browserstack_accesskey = "up2xVcPdG1zAMHyc55xs";
     public String saucelabs_username = "BugBuster";
     public String saucelabs_accesskey = "e68d96f6-4900-4dec-942b-1da200d5923c";
 
@@ -145,7 +145,7 @@ public class CommonAPI {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
     }
 
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {

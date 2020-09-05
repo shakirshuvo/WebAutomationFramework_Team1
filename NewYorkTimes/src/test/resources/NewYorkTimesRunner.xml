@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Amazon Automation Test" parallel="false">
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="catalina"/>
@@ -10,17 +10,9 @@
     <parameter name="browserVersion" value="85.0"/>
     <parameter name="url" value="https://www.newyorktimes.com/"></parameter>
 
-    <test name="Amazon Home">
+    <test name="NewYorkTimes Home">
         <classes>
-            <!--            <class name="signIn.SignInTest"></class>-->
-            <!--            <class name="registration.RegistrationPageTest"></class>-->
-            <!--            <class name="cart.CartTest"></class>-->
-            <!--            <class name="home.HomePageTest"></class>-->
-            <!--            <class name="registration.RegistrationPageTest"></class>-->
-<!--            <class name="homeTest.HomePageTest"></class>-->
-            <!--            <class name="signIn.SignInTest"></class>-->
-<!--            <class name="homeTest.SearchClassTest"></class>-->
-            <class name="homeTest.HomePageTest"></class>
+          <class name="homeTest.HomePageTest"></class>
         </classes>
 
     </test>

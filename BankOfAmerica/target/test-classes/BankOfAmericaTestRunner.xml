@@ -3,13 +3,27 @@
 
 
 <suite name="Bank of America Automation Test" parallel="false">
+
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="catalina"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="85.0"/>
     <parameter name="url" value="https://www.bankofamerica.com/"/>
 
 
     <test name="Bank of America Home">
         <classes>
-<!--            <class name=""></class>-->
+            <class name="homePageTest.HomeTest">
+                <methods>
+<!--                    <exclude name="setCheckingButtonTest"></exclude>-->
+                </methods>
+            </class>
+
         </classes>
+
     </test>
 
 

@@ -129,9 +129,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-                    <!--                    <suiteXmlFiles>-->
-                    <!--                        <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>-->
-                    <!--                    </suiteXmlFiles>-->
+                                        <suiteXmlFiles>
+                                            <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>
+                                              <suiteXmlFiles>target/test-classes/BankOfAmericaTestRunner.xml</suiteXmlFiles>-->
+
+
+                                        </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>

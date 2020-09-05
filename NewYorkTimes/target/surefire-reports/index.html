@@ -142,18 +142,18 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Amazon Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;true&quot;/&gt;
   &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
   &lt;parameter name=&quot;os_version&quot; value=&quot;catalina&quot;/&gt;
   &lt;parameter name=&quot;browserVersion&quot; value=&quot;85.0&quot;/&gt;
   &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
   &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.newyorktimes.com/&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon Home&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NewYorkTimes Home&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;homeTest.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Amazon Home --&gt;
+  &lt;/test&gt; &lt;!-- NewYorkTimes Home --&gt;
 &lt;/suite&gt; &lt;!-- Amazon Automation Test --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -165,7 +165,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Amazon Home (1 class)</span>
+                <span class="test-name">NewYorkTimes Home (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,7 +195,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'setWebLogoTest')
 data.setCell(0, 2, 'homeTest.HomePageTest')
-data.setCell(0, 3, 1634);
+data.setCell(0, 3, 1344);
 window.suiteTableData['Amazon_Automation_Test']= { tableData: data, tableDiv: 'times-div-Amazon_Automation_Test'}
 return data;
 }
@@ -228,36 +228,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">homeTest.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@29c5ee1d)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@64d43929)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.newyorktimes.com/)</span>
-                <span class="method-start">241 ms</span>
+                <span class="method-name">setUp(true, browserstack, OS X, catalina, chrome, 85.0, https://www.newyorktimes.com/)</span>
+                <span class="method-start">188 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void homeTest.HomePageTest.setWebLogoTest())</span>
-                <span class="method-start">4192 ms</span>
+                <span class="method-start">19326 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">4196 ms</span>
+                <span class="method-start">19328 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">setWebLogoTest</span>
-                <span class="method-start">4230 ms</span>
+                <span class="method-start">19351 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=setWebLogoTest status=SUCCESS method=HomePageTest.setWebLogoTest()[pri:19, instance...)</span>
-                <span class="method-start">5867 ms</span>
+                <span class="method-start">20697 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">6250 ms</span>
+                <span class="method-start">21173 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">6274 ms</span>
+                <span class="method-start">21186 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

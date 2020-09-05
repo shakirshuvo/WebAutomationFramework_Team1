@@ -10,45 +10,19 @@ import org.testng.annotations.Test;
 import static search.SearchWebElements.*;
 
 public class Search extends CommonAPI {
-
-    @FindBy(how = How.ID, using = searchFieldIDWebElement)
+    @FindBy(how = How.XPATH,using = searchFieldXP)
     public WebElement searchField;
-
-    @FindBy(how = How.XPATH, using = searchButtonXPATHWebElement)
+    @FindBy(how = How.XPATH,using = searchButtonXP)
     public WebElement searchButton;
+    @FindBy(how = How.XPATH,using = searchFieldValidationXP)
+    public WebElement searchFieldValidation;
 
-    @FindBy(how = How.LINK_TEXT, using = searchVerificationPartialTextWebElement)
-    public WebElement searchVerificationText;
-
-    public String getVerificationIphoneText() {
-        String myValue = searchVerificationText.getText();
-        return myValue;
-
-    }
-
-
-
-    public void typeOnSearchField(String searchItem) {
-        searchField.sendKeys(searchItem);
-    }
-
-    public void clickOnSearchButton() {
+    public void setSearchField(){
+        searchField.sendKeys(itemSearched);
         searchButton.click();
-    }
-
-    public void submitSearchButton() {
-        searchField.submit();
-    }
-
-    public void searchIphone() {
-        typeOnSearchField("iphone");
-        submitSearchButton();
-    }
-
-    //    @Test
-    public void validateIphoneSearch() {
-
-        Assert.assertEquals(getVerificationIphoneText(), "iphone");
+        String actualText=searchFieldValidation.getText();
+        String expectedText="\"iphone 11\"";
+        Assert.assertEquals(actualText,expectedText,"text doesn't match");
     }
 
 }

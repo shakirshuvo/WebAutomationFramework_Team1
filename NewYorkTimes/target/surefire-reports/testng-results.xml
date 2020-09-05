@@ -5,16 +5,16 @@
       <![CDATA[Extent Report Directory/Users/ramdaneameur/IdeaProjects/WebAutomationFramework_Team1/NewYorkTimes/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-02T01:37:18 EDT" name="Amazon Automation Test" finished-at="2020-09-02T01:37:24 EDT" duration-ms="6027">
+  <suite started-at="2020-09-03T19:25:49 EDT" name="Amazon Automation Test" finished-at="2020-09-03T19:26:10 EDT" duration-ms="21007">
     <groups>
     </groups>
-    <test started-at="2020-09-02T01:37:18 EDT" name="Amazon Home" finished-at="2020-09-02T01:37:24 EDT" duration-ms="6027">
+    <test started-at="2020-09-03T19:25:49 EDT" name="NewYorkTimes Home" finished-at="2020-09-03T19:26:10 EDT" duration-ms="21007">
       <class name="homeTest.HomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:homeTest.HomePageTest@1dac5ef]" started-at="2020-09-02T01:37:18 EDT" name="extentSetup" finished-at="2020-09-02T01:37:18 EDT" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:25:49 EDT" name="extentSetup" finished-at="2020-09-03T19:25:49 EDT" duration-ms="168" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@29c5ee1d]]>
+                <![CDATA[org.testng.TestRunner@64d43929]]>
               </value>
             </param>
           </params>
@@ -24,11 +24,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageTest@1dac5ef]" started-at="2020-09-02T01:37:18 EDT" name="setUp" finished-at="2020-09-02T01:37:22 EDT" duration-ms="3950" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:25:49 EDT" name="setUp" finished-at="2020-09-03T19:26:09 EDT" duration-ms="19137" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[false]]>
+                <![CDATA[true]]>
               </value>
             </param>
             <param index="1">
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageTest@1dac5ef]" started-at="2020-09-02T01:37:22 EDT" name="startExtent" finished-at="2020-09-02T01:37:22 EDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:09 EDT" name="startExtent" finished-at="2020-09-03T19:26:09 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,34 +76,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="init()[pri:0, instance:homeTest.HomePageTest@1dac5ef]" started-at="2020-09-02T01:37:22 EDT" name="init" finished-at="2020-09-02T01:37:22 EDT" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:09 EDT" name="init" finished-at="2020-09-03T19:26:09 EDT" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="setWebLogoTest()[pri:19, instance:homeTest.HomePageTest@1dac5ef]" started-at="2020-09-02T01:37:22 EDT" name="setWebLogoTest" finished-at="2020-09-02T01:37:24 EDT" duration-ms="1634" status="PASS">
+        <test-method signature="setWebLogoTest()[pri:19, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:09 EDT" name="setWebLogoTest" finished-at="2020-09-03T19:26:10 EDT" duration-ms="1344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setWebLogoTest -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageTest@1dac5ef]" started-at="2020-09-02T01:37:24 EDT" name="afterEachTestMethod" finished-at="2020-09-02T01:37:24 EDT" duration-ms="383" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:10 EDT" name="afterEachTestMethod" finished-at="2020-09-03T19:26:10 EDT" duration-ms="476" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=setWebLogoTest status=SUCCESS method=HomePageTest.setWebLogoTest()[pri:19, instance:homeTest.HomePageTest@1dac5ef] output={null}]]]>
+                <![CDATA[[TestResult name=setWebLogoTest status=SUCCESS method=HomePageTest.setWebLogoTest()[pri:19, instance:homeTest.HomePageTest@3c87521] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageTest@1dac5ef]" started-at="2020-09-02T01:37:24 EDT" name="cleanUp" finished-at="2020-09-02T01:37:24 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:10 EDT" name="cleanUp" finished-at="2020-09-03T19:26:10 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:homeTest.HomePageTest@1dac5ef]" started-at="2020-09-02T01:37:24 EDT" name="generateReport" finished-at="2020-09-02T01:37:24 EDT" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:10 EDT" name="generateReport" finished-at="2020-09-03T19:26:10 EDT" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- homeTest.HomePageTest -->
-    </test> <!-- Amazon Home -->
+    </test> <!-- NewYorkTimes Home -->
   </suite> <!-- Amazon Automation Test -->
 </testng-results>
