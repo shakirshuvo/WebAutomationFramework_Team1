@@ -2,17 +2,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="New York Times Automation Test" parallel="false">
-    <parameter name="url" value="https://www.nytimes.com/"></parameter>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="85.0"/>
+    <parameter name="url" value="https://www.nytimes.com//"></parameter>
 
-    <test name="New York Times home.Home">
+    <test name="New York Times Home">
         <classes>
-<!--<class name=""></class>-->
+            <class name="test.HomePageTest"></class>
         </classes>
 
     </test>
-
-
-
-
 
 </suite>
