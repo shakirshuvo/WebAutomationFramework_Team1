@@ -512,7 +512,12 @@ public class CommonAPI {
     }
 
     public void keysInput(String locator) {
-        driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+        try {
+            driver.findElement(By.xpath(locator)).sendKeys(Keys.ENTER);
+
+        }catch (Exception e){
+            driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+        }
     }
 
     //Handling New Tabs

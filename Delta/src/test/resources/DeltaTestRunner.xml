@@ -14,8 +14,9 @@
 
         <test name="Delta Home">
             <classes>
-               <class name="home.HomePageTest"></class>
+<!--               <class name="home.HomePageTest"></class>-->
                 <!--            <class name="signIn.SignInTest"></class>-->
+                <class name="search.SearchTest"></class>
             </classes>
 
         </test>
