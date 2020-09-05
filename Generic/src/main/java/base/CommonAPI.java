@@ -620,18 +620,23 @@ public class CommonAPI {
 
     public void typeOnInputBox(String locator, String value) {
         try {
-            driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
+            driver.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
         } catch (Exception ex1) {
+            System.out.println("XPath locator didn't work");
+        }
+        try {
+            driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
+        } catch (Exception ex2) {
             System.out.println("ID locator didn't work");
         }
         try {
             driver.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
-        } catch (Exception ex2) {
+        } catch (Exception ex3) {
             System.out.println("Name locator didn't work");
         }
         try {
             driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
-        } catch (Exception ex3) {
+        } catch (Exception ex4) {
             System.out.println("CSS locator didn't work");
         }
     }

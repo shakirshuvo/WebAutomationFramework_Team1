@@ -13,7 +13,7 @@
     <test name="The Hartford Home">
         <classes>
             <class name="myAccount.MyAccountTest"></class>
-            <class name="getAQuote.GetAQuoteTest"></class>
+            <class name="getAQuoteAuto.GetAQuoteAutoTest"></class>
 
         </classes>
 

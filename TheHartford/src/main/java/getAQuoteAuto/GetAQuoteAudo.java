@@ -1,4 +1,4 @@
-package getAQuote;
+package getAQuoteAuto;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
@@ -9,10 +9,12 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
-import static getAQuote.GetAQuoteWebElements.*;
+import static getAQuoteAuto.GetAQuoteAutoWebElements.*;
 
-public class GetAQuote extends CommonAPI {
+public class GetAQuoteAudo extends CommonAPI {
 
+    @FindBy(how = How.XPATH, using = zipCodeFieldXpathWebElement)
+    public WebElement zipCodeField;
     @FindBy(how = How.XPATH, using = vehicleYearDropdownCSSWebElement)
     public WebElement vehicleYearDropdown;
     @FindBy(how = How.XPATH, using = vehicleMakeDropdownCSSWebElement)
@@ -24,6 +26,22 @@ public class GetAQuote extends CommonAPI {
     @FindBy(how = How.XPATH, using = sedan0214XpathWebElement)
     public WebElement sedan0214;
 
+
+    /**
+     * This method triggers an alert 'Enter five-digit zip code' when user does not provide a Zip Code and tries to
+     * proceed to Quote.
+     */
+    public void quoteWithoutZipCode() {
+        typeOnInputBox(zipCodeFieldXpathWebElement, "");
+    }
+
+    /**
+     * This method  validates that an alert 'Enter five-digit zip code' is triggered
+     * when user does not provide a Zip Code and tries to proceed to Quote.
+     */
+    public void validateQuoteWithoutZipCode() {
+        Assert.assertTrue(elementIsDisplayed(enterFiveDigitZipCodeAlertXpathWebElement));
+    }
 
     /**
      * This method allows user to enter a zip code and submit to take the user to the next page to fill out "About You' form.
@@ -346,6 +364,22 @@ public class GetAQuote extends CommonAPI {
      */
     public void validateAddVehicleAndGoToYourVehiclePage() {
         Assert.assertEquals(getCurrentPageUrl(), yourVehicleURL);
+    }
+
+    /**
+     * This method navigates user to 'Home & Condo
+     */
+    public void homeAndCondoQuote() {
+        clickOnElement(homeAndCondoButtonXpathWebElement);
+        typeOnElementNEnter(homeAndCondoZipCodeField, vaZipCode);
+    }
+
+    /**
+     * This method validates 'Home & Condo Quote' page by URL.
+     */
+    public void validateHomeAndCondoQuoteByURL() throws InterruptedException {
+        Thread.sleep(3000);
+        Assert.assertEquals(getCurrentPageUrl(), homeAndCondoAboutYouURL);
     }
 
 }

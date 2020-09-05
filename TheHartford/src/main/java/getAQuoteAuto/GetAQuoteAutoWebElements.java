@@ -1,21 +1,22 @@
-package getAQuote;
+package getAQuoteAuto;
 
 import com.github.javafaker.Faker;
 
-public class GetAQuoteWebElements {
+public class GetAQuoteAutoWebElements {
 
     static Faker faker = new Faker();
 
     public static final String randomEmailAddress = faker.internet().emailAddress();
     public static final String randomFirstName = faker.name().firstName();
     public static final String randomLastName = faker.name().lastName();
+    public static final String enterFiveDigitZipCodeAlertXpathWebElement = "//*[text()='Enter five-digit zip code']";
     public static final String vaZipCode = "22182";
     public static final String pntVAStreetAddress = "1604 Spring Hill Rd";
     public static final String pntVASuite = "302";
     public static final String dateOfBirth = "03/16/1983";
     public static final String randomPhoneNumber = faker.phoneNumber().phoneNumber();
     public static final String nissan2007VinNumber = "1N4BA41E67C837695";
-    public static final String zipCodeFieldXpathWebElement = "//*[@id=\"cqb-1444641621794\"]/article/form/div[2]/input";
+    public static final String zipCodeFieldXpathWebElement = "//div[@id=\"cqb-1444641621794\"]/article/form/div[2]/input";
     public static final String aboutYourURL = "https://quote.thehartford.com/sales/auto/about-me";
     public static final String whatIsYourFirstNameCSSWebElement = "#firstName";
     public static final String whatIsYourLastNameCSSWebElement = "#lastName";
@@ -51,4 +52,5 @@ public class GetAQuoteWebElements {
     public static final String continueButtonXpathWebElement = "//div[@id='AllVehicleAddedModal']/div/div/div/div[4]/button";
     public static final String yourVehicleURL = "https://quote.thehartford.com/sales/auto/vehicle";
     public static final String pleaseSelectYourVehicleOwnershipStatusXpathWebElement = "//span[text()='Please select your vehicle ownership status.']";
+
 }
