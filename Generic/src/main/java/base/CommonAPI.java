@@ -168,7 +168,7 @@ public class CommonAPI {
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/mac/geckodriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/windows/geckodriver.exe");
             }
@@ -592,6 +592,25 @@ public class CommonAPI {
         String text = webElement.getText();
         return text;
     }
+
+    /**
+     * Mobin added windowSwitch for handling new pop up tabs
+     */
+    public static void windowSwitch() {
+        for (String winHandle : driver.getWindowHandles()) {
+            driver.switchTo().window(winHandle);
+        }
+    }
+
+    /**
+     * Mobin added scrollUpDownByHeight to scoroll up and down in the window
+     */
+    public static void scrollUpDownByHeight() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+    }
+
+
 }
 
 

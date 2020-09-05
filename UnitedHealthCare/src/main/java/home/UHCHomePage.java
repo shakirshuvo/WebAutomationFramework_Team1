@@ -39,30 +39,26 @@ public class UHCHomePage extends CommonAPI {
      *
      * @return the title of the page in String.
      */
-    public String getTitle() {
-        return driver.getTitle().toString();
-    }
+    //public String getTitle() {return driver.getTitle().toString(); }
 
     /**
      * This method returns the URL of the page.
      * @return
      */
-    public String getURL(){
-        return driver.getCurrentUrl();
-    }
+   // public String getURL(){return driver.getCurrentUrl();}
 
 
     // Action Method
     public void checkMedicare() {
 
         medicare.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateMedicare(){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();;
         String expectedResult = "https://www.uhc.com/medicare";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -72,14 +68,15 @@ public class UHCHomePage extends CommonAPI {
     public void checkForProviders   () {
 
         forProviders.click();
-//        windowSwitch();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        //windowSwitch();
+        handleNewTab(driver);
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateForProviders   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhcprovider.com/";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -89,13 +86,13 @@ public class UHCHomePage extends CommonAPI {
     public void checkForEmployers   () {
 
         forEmployers.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateForEmployers   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/employer";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -105,13 +102,13 @@ public class UHCHomePage extends CommonAPI {
     public void checkForBrokers   () {
 
         forBrokers.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateForBrokers   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/broker";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -121,13 +118,13 @@ public class UHCHomePage extends CommonAPI {
     public void checkLanguageChange   () {
 
         languageChange.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateLanguageChange   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/es/latino";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -137,13 +134,13 @@ public class UHCHomePage extends CommonAPI {
     public void checkFindADoctor   () {
 
         findADoctor.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateFindADoctor   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/find-a-physician";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -152,15 +149,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkFindYourPlan   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         findYourPlan.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateFindYourPlan   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/shop-online-health-insurance-plans";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -169,15 +166,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkIndividualAndFamilyHealthPlan   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         individualAndFamilyHealthPlan.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateIndividualAndFamilyHealthPlan   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/individual-and-family";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -186,15 +183,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkMedicareHealthPlan   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         medicareHealthPlan.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateMedicareHealthPlan   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/medicare";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -203,15 +200,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkSmallBusinessHealthPlan   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         smallBusinessHealthPlan.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateSmallBusinessHealthPlan   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/employer/small-business";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -220,15 +217,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkShortTermInsurenceHealthPlan   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         shortTermInsurenceHealthPlan.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateShortTermInsurenceHealthPlan   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/individual-and-family/short-term-health-insurance";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -237,15 +234,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkMedicaidHealthPlan   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         medicaidHealthPlan.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateMedicaidHealthPlan   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/individual-and-family/health-insurance-plans/medicare-medicaid/what-is-medicaid";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -254,15 +251,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkDentalHealthPlan   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         dentalHealthPlan.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateDentalHealthPlan   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/individual-and-family/dental-insurance";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -271,15 +268,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkContactUs   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         contactUs.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateContactUs   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/contact-us";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -288,15 +285,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkCareer   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         career.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateCareer   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/about-us/careers";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -305,16 +302,16 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkNewsRoom   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         newsRoom.click();
-//        windowSwitch();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        windowSwitch();
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateNewsRoom   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://newsroom.uhc.com/";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -323,15 +320,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkAboutUs   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         aboutUs.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateAboutUs   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/about-us";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -340,15 +337,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkAccessibility   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         accessibility.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateAccessibility   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/legal/accessibility";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -357,15 +354,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkLegal   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         legal.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validateLegal   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/legal";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
@@ -374,15 +371,15 @@ public class UHCHomePage extends CommonAPI {
     // Action Method
     public void checkPrivacy   () {
 
-//        scrollUpDownByHeight();
+        scrollUpDownByHeight();
         privacy.click();
-        driver.getCurrentUrl();
-        System.out.println(driver.getCurrentUrl());
+        getCurrentPageUrl();
+        System.out.println(getCurrentPageUrl());
     }
 
     // Validation Method
     public void validatePrivacy   (){
-        String actualResult = getURL();
+        String actualResult = getCurrentPageUrl();
         String expectedResult = "https://www.uhc.com/privacy";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }

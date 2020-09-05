@@ -14,18 +14,18 @@ public class HomePageTest extends CommonAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
-    @Test
-    public void testValidateSearchBox() {
-        homePage.CheckSearchBox("Mask");
-        homePage.validateSearchBox();
-    }
+//    @Test
+//    public void testValidateSearchBox() throws InterruptedException {
+//        homePage.CheckSearchBox("Mask");
+//        homePage.validateSearchBox();
+//    }
 
-    @Test
-    public void testValidateBestSeller() {
-        homePage.checkBestSeller();
-        homePage.validateBestSeller();
-    }
-
+//    @Test
+//    public void testValidateBestSeller() {
+//        homePage.checkBestSeller();
+//        homePage.validateBestSeller();
+//    }
+//
 //    @Test
 //    public void testValidateNewReleases() {
 //        homePage.checkNewReleases();
@@ -182,11 +182,11 @@ public class HomePageTest extends CommonAPI {
 //        homePage.validateWholeFood();
 //    }
 //
-//    @Test
-//    public void testValidateWholeFoodBeverages() {
-//        homePage.checkWholeFoodBeverages();
-//        homePage.validateWholeFoodBeverages();
-//    }
+    @Test
+    public void testValidateWholeFoodBeverages() {
+        homePage.checkWholeFoodBeverages();
+        homePage.validateWholeFoodBeverages();
+    }
 //
 //    @Test
 //    public void testValidateGiftCards() {

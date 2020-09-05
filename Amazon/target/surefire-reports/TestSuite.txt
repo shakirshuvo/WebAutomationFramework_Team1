@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.129 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.644 s <<< FAILURE! - in TestSuite
+home.HomePageTest.testValidateWholeFoodBeverages  Time elapsed: 4.579 s  <<< FAILURE!
+java.lang.AssertionError: Test failed expected [Amazon.com: Whole Foods Market] but found [Amazon.com: Beverages: Whole Foods Market]
+	at home.HomePageTest.testValidateWholeFoodBeverages(HomePageTest.java:188)
+

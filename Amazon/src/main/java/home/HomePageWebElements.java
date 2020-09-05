@@ -1,5 +1,9 @@
 package home;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
 public class HomePageWebElements {
 
     public static final String searchBoxCSS = "#twotabsearchtextbox";
@@ -35,4 +39,8 @@ public class HomePageWebElements {
     public static final String wholeFoodBeveragesCSS = "#nav-subnav > a:nth-child(6) > span.nav-a-content";
     public static final String giftCardsCSS = "#nav-xshop > a:nth-child(8)";
 
+
+    @FindBy(how = How.CSS, using = searchBoxCSS) public static WebElement searchBox;
 }
+
+

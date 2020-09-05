@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 135.674 s <<< FAILURE! - in TestSuite
+home.MarriottHomePageTest.testAndValidateDestinationBox  Time elapsed: 5.415 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#find-a-hotel-homePage-form > div.l-form-group.m-field-wrap.l-hsearch-labels.clearfix > div.m-field-control.l-margin-bottom-three-quarters.l-datepicker-open.l-xl-col-4.l-pos-relative.js-clearinput.l-hsearch-loc.l-clear.clearfix.js-location.js-auto-complete.sub-takeover.hasOpened > div.l-display-flex > div"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:dd48:c953:d91f:a80d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:52176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9828e985788c9d69be9649433a190492
+*** Element info: {Using=css selector, value=#find-a-hotel-homePage-form > div.l-form-group.m-field-wrap.l-hsearch-labels.clearfix > div.m-field-control.l-margin-bottom-three-quarters.l-datepicker-open.l-xl-col-4.l-pos-relative.js-clearinput.l-hsearch-loc.l-clear.clearfix.js-location.js-auto-complete.sub-takeover.hasOpened > div.l-display-flex > div}
+	at home.MarriottHomePageTest.testAndValidateDestinationBox(MarriottHomePageTest.java:32)
+
+home.MarriottHomePageTest.testAndValidateDeutsch  Time elapsed: 5.388 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QuickLinkItem3e94"]"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:dd48:c953:d91f:a80d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:52348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: af3175b922780763eb9a118fee436189
+*** Element info: {Using=xpath, value=//*[@id="QuickLinkItem3e94"]}
+	at home.MarriottHomePageTest.testAndValidateDeutsch(MarriottHomePageTest.java:20)
+
+home.MarriottHomePageTest.testAndValidateEspanol  Time elapsed: 5.527 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QuickLinkItem3e94"]"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:dd48:c953:d91f:a80d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:52511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a323da28d943b184f8b95061579ae98c
+*** Element info: {Using=xpath, value=//*[@id="QuickLinkItem3e94"]}
+	at home.MarriottHomePageTest.testAndValidateEspanol(MarriottHomePageTest.java:26)
+

@@ -12,7 +12,7 @@ import static home.HomePageWebElements.*;
 public class HomePage extends CommonAPI {
     // Action Class: All the action methods and Validate methods
 
-    @FindBy(how = How.CSS, using = searchBoxCSS) public WebElement searchBox;
+   // @FindBy(how = How.CSS, using = searchBoxCSS) public WebElement searchBox;
     @FindBy(how = How.CSS, using = searchButtonCSS) public WebElement searchButton;
     @FindBy(how = How.XPATH, using = searchTextXPath) public WebElement searchText;
     @FindBy(how = How.CSS, using = bestSellerCSS) public WebElement bestSeller;
@@ -52,20 +52,20 @@ public class HomePage extends CommonAPI {
      *
      * @return the title of the page in String.
      */
-    public String getTitle() {
-        return driver.getTitle().toString();
-    }
+    //public String getTitle() { return driver.getTitle().toString(); }
 
     /**
      * This method returns the URL of the page.
      * @return
      */
-    public String getURL(){
-        return driver.getCurrentUrl();
-    }
+    //public String getURL(){return driver.getCurrentUrl();  }
 
     // Action Method
-    public void CheckSearchBox(String searchItem){
+    public void CheckSearchBox(String searchItem) throws InterruptedException {
+        searchBox.sendKeys(searchItem);
+        clearInputField(searchBoxCSS);
+        clearInputBox(searchBox);
+        sleepFor(5);
         searchBox.sendKeys(searchItem);
         searchBox.submit();
         //searchButton.click();
