@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class GetAQuoteAutoTest extends CommonAPI {
 
@@ -30,6 +31,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateQuoteWithoutZipCode()  {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.quoteWithoutZipCode();
         getAQuoteAuto.validateQuoteWithoutZipCode();
     }
@@ -41,6 +44,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateStartQuote() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.startQuote();
         getAQuoteAuto.validateStartQuote();
     }
@@ -52,6 +57,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testFillOutAboutYou() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.fillOutAboutYou();
         getAQuoteAuto.validateAddVehiclePopUpIsDisplayed();
     }
@@ -62,6 +69,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidatePleaseEnterAValidFirstNameAlert() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.pleaseEnterAValidFirstNameAlert();
         getAQuoteAuto.validatePleaseEnterAValidFirstNameAlert();
     }
@@ -72,6 +81,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidatePleaseEnterAValidLastNameAlert() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.pleaseEnterAValidLastNameAlert();
         getAQuoteAuto.validatePleaseEnterAValidLastNameAlert();
     }
@@ -82,6 +93,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidatePleaseEnterAValidAddressAlert() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.pleaseEnterAValidAddressAlert();
         getAQuoteAuto.validatePleaseEnterAValidAddressAlert();
     }
@@ -92,6 +105,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidatePleaseEnterYourDateOfBirthAlert() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.pleaseEnterYourDateOfBirthAlert();
         getAQuoteAuto.validatePleaseEnterYourDateOfBirthAlert();
     }
@@ -101,6 +116,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateNissanMaxima2016IsAdded() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.addNissanMaxima();
         getAQuoteAuto.validateNissanMaxima2016IsAdded();
     }
@@ -110,6 +127,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateNissanMaxima2007IsAddedWithVIN() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.addNissanMaxima2007WithVIN();
         getAQuoteAuto.validateNissanMaxima2007IsAddedWithVIN();
     }
@@ -121,6 +140,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateDeselectNissanMaxima2007() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.deselectNissanMaxima2007();
         getAQuoteAuto.validateDeselectNissanMaxima2007();
     }
@@ -132,6 +153,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateAddNissanMaxima2007WithVINConfirmation() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.addNissanMaxima2007WithVINConfirmation();
         getAQuoteAuto.validateAddNissanMaxima2007WithVINConfirmation();
     }
@@ -141,6 +164,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateAddVehicleAndGoToYourVehiclePage() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.addVehicleAndGoToYourVehiclePage();
         getAQuoteAuto.validateAddVehicleAndGoToYourVehiclePage();
     }

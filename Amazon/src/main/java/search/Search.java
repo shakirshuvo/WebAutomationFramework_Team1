@@ -2,7 +2,7 @@ package search;
 
 import base.CommonAPI;
 //import datadriven.DataSource;
-import datadriven.DataSource;
+import dataSupply.DataSource;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -39,9 +39,9 @@ public class Search extends CommonAPI {
     public WebElement searchText;
 
 
-
     /**
      * This method enters a String in Amazon search field.
+     *
      * @param searchItem The user must provide a String value to be searched.
      */
     public void typeOnSearchField(String searchItem) {
@@ -65,7 +65,7 @@ public class Search extends CommonAPI {
     /**
      * This method searches "Hand Sanitizer" on Amazon search.
      */
-    public void searchHandSanitizer(){
+    public void searchHandSanitizer() {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         typeOnElementNEnter(searchFieldIDWebElement, "Hand Sanitizer");
         submitSearch();
@@ -109,25 +109,47 @@ public class Search extends CommonAPI {
     /**
      * This method validates data-driven technique.
      * Values are iterated from a table on MySQL and are searched on Amazon sequentially.
+     *
      * @throws Exception
      * @throws IOException
      * @throws SQLException
      * @throws ClassNotFoundException
      */
     public void validateSearchItemsFromMySQL() throws Exception, IOException, SQLException, ClassNotFoundException {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        List<String> list = DataSource.getItemsListFromDB();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        List<String> list = dataSupply.DataSource.getItemsListFromDB();
         for (int i = 0; i < list.size(); i++) {
+            String item = list.get(i);
             typeOnSearchField(list.get(i));
             submitSearch();
             clearSearchField();
+            String expectedURL = "https://www.amazon.com/s?k=" + item.replace(" ", "+") + "&ref=nb_sb_noss";
+            sleepFor(2);
+            Assert.assertEquals(getCurrentPageUrl(), expectedURL);
         }
-        List<String> expectedMenu = list;
-        Assert.assertEquals(list, expectedMenu);
+    }
+
+    /**
+     * This method validates keyword-driven technique.
+     * Values are iterated from a Excel sheet and are searched on Amazon sequentially.
+     * @throws Exception
+     */
+    public void searchBoxCheckGetItemsListFromExcel() throws Exception {
+        List<String> itemList = DataSource.getItemsListFromExcel();
+        for (int i = 1; i < itemList.size(); i++) {
+            String item = itemList.get(i);
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            typeOnElementNEnter(searchFieldIDWebElement, item);
+            String expectedURL = "https://www.amazon.com/s?k=" + item.replace(" ", "+") + "&ref=nb_sb_noss";;
+            sleepFor(2);
+            Assert.assertEquals(getCurrentPageUrl(), expectedURL);
+            searchField.clear();
+        }
     }
 
     /**
      * This method creates a list of values from a locator.
+     *
      * @param locator requires an ID type locator.
      * @return list of values from the locator.
      */
@@ -139,6 +161,7 @@ public class Search extends CommonAPI {
 
     /**
      * This method iterates list from the getListOfWebElementsByID method.
+     *
      * @param list list of values from the locator.
      * @return items from the list of getListOfWebElementsByID method.
      */
@@ -163,28 +186,10 @@ public class Search extends CommonAPI {
         Assert.assertEquals(listOfText, expectedMenu);
     }
 
-    public void searchBoxCheckGetItemsListFromExcel() throws Exception {
-        List<String> itemList= DataSource.getItemsListFromExcel();
-        for (int i=1; i<itemList.size();i++){
-            String item=itemList.get(i);
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            searchField.sendKeys(item);
-            searchField.submit();
-            String expectedResult=item;
-            System.out.println("Expected Result : "+expectedResult);
-            String actualResult = searchText.getText();
-            System.out.println("Actual Result : "+actualResult);
-            Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
-//            sleepFor(4);
-            searchField.clear();
-        }
-
-    }
-
     /**
      * This method clicks on 'Purell' on the 'Brand' checkbox after searching for 'Hand sanitizer'.
      */
-    public void clickOnBrandCheckBoxPurell(){
+    public void clickOnBrandCheckBoxPurell() {
         brandCheckBoxPurell.click();
     }
 
@@ -192,7 +197,7 @@ public class Search extends CommonAPI {
     /**
      * This method searches "Hand sanitizer" then clicks on 'Purell" option in 'Brand'checkbox.
      */
-    public void searchByBrandPurellHandSanitizer(){
+    public void searchByBrandPurellHandSanitizer() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         searchHandSanitizer();
         clickOnBrandCheckBoxPurell();
@@ -200,16 +205,17 @@ public class Search extends CommonAPI {
 
     /**
      * This method returns if 'Purell' checkbox in 'Brand' selection is enabled.
+     *
      * @return
      */
-    public boolean purellCheckboxIsEnabled(){
+    public boolean purellCheckboxIsEnabled() {
         return brandCheckBoxPurell.isEnabled();
     }
 
     /**
      * This method verifies if 'Purell' text is displayed.
      */
-    public void verifyPurellTextIsDisplayed(){
+    public void verifyPurellTextIsDisplayed() {
         Assert.assertTrue(purellCheckboxIsEnabled());
     }
 
@@ -217,7 +223,7 @@ public class Search extends CommonAPI {
      * This method searches random books.
      */
     public void searchRandomBook() {
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         searchField.sendKeys("books");
         searchField.submit();
         typeOnSearchField(randomBookSearch);
@@ -235,7 +241,7 @@ public class Search extends CommonAPI {
     /**
      * This method verifies the URL of the book being searched.
      */
-    public void verifySearchRandomBookByURL(){
+    public void verifySearchRandomBookByURL() {
         Assert.assertEquals(getCurrentPageUrl(), expectedRandomBookSearchURL);
     }
 
@@ -243,7 +249,7 @@ public class Search extends CommonAPI {
     /**
      * This method verifies the book being searched using the title of the page.
      */
-    public void verifySearchRandomBookByTitle(){
+    public void verifySearchRandomBookByTitle() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertEquals(getTitle(), expectedRandomBookSearchTitle);
     }

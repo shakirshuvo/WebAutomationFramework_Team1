@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class MyAccountTest extends CommonAPI {
 
@@ -20,6 +21,8 @@ public class MyAccountTest extends CommonAPI {
      */
     @Test(enabled = true)
     public void testValidateNavigateToImAnEmployerOrPlanAdministratorLogin(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         myAccount.navigateToImAnEmployerOrPlanAdministrator();
         myAccount.validateNavigateToImAnEmployerOrPlanAdministratorLogin();
     }
@@ -29,6 +32,8 @@ public class MyAccountTest extends CommonAPI {
      */
     @Test
     public void testValidateNavigateToImAnEmployerOrPlanAdministratorRegister(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         myAccount.navigateToImAnEmployerOrPlanAdministratorRegister();
         myAccount.validateNavigateToImAnEmployerOrPlanAdministratorRegister();
     }

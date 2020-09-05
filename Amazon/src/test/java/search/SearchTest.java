@@ -49,6 +49,18 @@ public class SearchTest extends CommonAPI {
     }
 
     /**
+     * This keyword-driven tests searches items stored on Excel sheet.
+     *
+     * @throws Exception
+     */
+    @Test
+    public void testValidateSearchItemsFromExcel() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.searchBoxCheckGetItemsListFromExcel();
+    }
+
+    /**
      * This test validates all the items on 'All' dropdown on search.
      */
     @Test
@@ -93,14 +105,4 @@ public class SearchTest extends CommonAPI {
         search.searchRandomBook();
         search.verifySearchRandomBookByTitle();
     }
-
-//    @Test
-//    public void testSearchBoxCheckGetItemsListFromExcel() throws Exception {
-//            TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//    }.getClass().getEnclosingMethod().getName()));
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        search.searchBoxCheckGetItemsListFromExcel();
-//    }
-
 }

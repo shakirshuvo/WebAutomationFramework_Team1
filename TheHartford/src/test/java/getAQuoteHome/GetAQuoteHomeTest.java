@@ -5,6 +5,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class GetAQuoteHomeTest extends CommonAPI {
 
@@ -25,6 +26,8 @@ public class GetAQuoteHomeTest extends CommonAPI {
      */
     @Test
     public void testValidateHomeAndCondoQuoteByURL() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteHome.homeAndCondoQuote();
         getAQuoteHome.validateHomeAndCondoQuoteByURL();
     }
@@ -35,6 +38,8 @@ public class GetAQuoteHomeTest extends CommonAPI {
      */
     @Test
     public void testValidateFillOutAboutYouPageWithoutFirstName() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteHome.fillOutAboutYouPageWithoutFirstName();
         getAQuoteHome.validateFillOutAboutYouPageWithoutFirstName();
     }
@@ -45,6 +50,8 @@ public class GetAQuoteHomeTest extends CommonAPI {
      */
     @Test
     public void testValidateFillOutAboutYouPageWithoutLastName() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteHome.fillOutAboutYouPageWithoutLastName();
         getAQuoteHome.validateFillOutAboutYouPageWithoutLastName();
     }
@@ -55,6 +62,8 @@ public class GetAQuoteHomeTest extends CommonAPI {
      */
     @Test
     public void testValidateFillOutAboutYouPageWithoutDateOfBirth() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteHome.fillOutAboutYouPageWithoutDateOfBirth();
         getAQuoteHome.validateFillOutAboutYouPageWithoutDateOfBirth();
     }
@@ -65,6 +74,8 @@ public class GetAQuoteHomeTest extends CommonAPI {
      */
     @Test
     public void testValidateFillOutAboutYouPageWithoutGender() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteHome.fillOutAboutYouPageWithoutGender();
         getAQuoteHome.validateFillOutAboutYouPageWithoutGender();
     }
@@ -76,6 +87,8 @@ public class GetAQuoteHomeTest extends CommonAPI {
      */
     @Test
     public void testValidateFillOutAboutYouPageWithoutMaritalStatus() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteHome.fillOutAboutYouPageWithoutMaritalStatus();
         getAQuoteHome.validateFillOutAboutYouPageWithoutMaritalStatus();
     }
@@ -86,6 +99,8 @@ public class GetAQuoteHomeTest extends CommonAPI {
      */
     @Test
     public void testValidateFillOutAboutYouPageWithoutAddress() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteHome.fillOutAboutYouPageWithoutAddress();
         getAQuoteHome.validateFillOutAboutYouPageWithoutAddress();
     }
@@ -97,6 +112,8 @@ public class GetAQuoteHomeTest extends CommonAPI {
      */
     @Test
     public void testValidateFillOutAboutYouPageWithoutConfirmingMailingAddress() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteHome.fillOutAboutYouPageWithoutConfirmingMailingAddress();
         getAQuoteHome.validateFillOutAboutYouPageWithoutConfirmingMailingAddress();
     }
