@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import static getAQuoteAuto.GetAQuoteAutoWebElements.*;
 
-public class GetAQuoteAudo extends CommonAPI {
+public class GetAQuoteAuto extends CommonAPI {
 
     @FindBy(how = How.XPATH, using = zipCodeFieldXpathWebElement)
     public WebElement zipCodeField;
@@ -364,22 +364,6 @@ public class GetAQuoteAudo extends CommonAPI {
      */
     public void validateAddVehicleAndGoToYourVehiclePage() {
         Assert.assertEquals(getCurrentPageUrl(), yourVehicleURL);
-    }
-
-    /**
-     * This method navigates user to 'Home & Condo
-     */
-    public void homeAndCondoQuote() {
-        clickOnElement(homeAndCondoButtonXpathWebElement);
-        typeOnElementNEnter(homeAndCondoZipCodeField, vaZipCode);
-    }
-
-    /**
-     * This method validates 'Home & Condo Quote' page by URL.
-     */
-    public void validateHomeAndCondoQuoteByURL() throws InterruptedException {
-        Thread.sleep(3000);
-        Assert.assertEquals(getCurrentPageUrl(), homeAndCondoAboutYouURL);
     }
 
 }

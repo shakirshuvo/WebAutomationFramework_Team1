@@ -27,12 +27,12 @@ public class GetAQuoteHomeWebElements {
     public static final String homeAndCondoAboutYouResidenceTypeDropdownCSSWebElement = "#maritalStatus";
     public static final String homeAndCondoAboutYouAddressCSSWebElement = "#insureAddress";
     public static final String homeAndCondoAboutYouSuiteCSSWebElement = "#insureApt";
-    public static final String homeAndCondoAboutYouMailingAddressRadioYesXpathWebElement = "//input[@name='mailingAddressStatus' and @value='Yes']";
+    public static final String homeAndCondoAboutYouIsThisYourMailingAddressRadioYesXpathWebElement = "//input[@name='mailingAddressStatus' and @value='Yes']";
     public static final String homeAndCondoAboutYouMailingAddress3YearsRadioYesXpathWebElement = "//input[@name='previousAddressReqd' and @value='Yes']";
     public static final String pleaseEnterAValidFirstNameAlertXpathWebElement = "//span[text()='Please enter a valid first name']";
     public static final String pleaseEnterAValidLastNameAlertXpathWebElement = "//span[text()='Please enter a valid last name']";
     public static final String pleaseEnterYourDateOfBirthAlertXpathWebElement = "//span[text()='Please enter your date of birth']";
-    public static final String pleaseEnterAGenderAlertXpathWebElement = "//span[text()='Please select a gender']";
+    public static final String pleaseSelectAGenderAlertXpathWebElement = "//span[text()='Please select a gender']";
     public static final String pleaseSelectAMaritalStatusAlertXpathWebElement = "//span[text()='Please select a marital status']";
     public static final String pleaseEnterAValidAddressAlertXpathWebElement = "//span[text()='Please enter a valid address']";
     public static final String pleaseSelectAValueAlertXpathWebElement = "//span[text()='Please select a value']";

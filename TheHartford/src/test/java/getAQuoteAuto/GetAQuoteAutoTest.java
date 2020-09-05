@@ -7,11 +7,11 @@ import org.testng.annotations.Test;
 
 public class GetAQuoteAutoTest extends CommonAPI {
 
-    GetAQuoteAudo getAQuoteAudo;
+    GetAQuoteAuto getAQuoteAuto;
 
     @BeforeMethod
     public void getInit(){
-        getAQuoteAudo = PageFactory.initElements(driver, GetAQuoteAudo.class);
+        getAQuoteAuto = PageFactory.initElements(driver, GetAQuoteAuto.class);
     }
 
     @BeforeMethod
@@ -30,8 +30,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateQuoteWithoutZipCode()  {
-        getAQuoteAudo.quoteWithoutZipCode();
-        getAQuoteAudo.validateQuoteWithoutZipCode();
+        getAQuoteAuto.quoteWithoutZipCode();
+        getAQuoteAuto.validateQuoteWithoutZipCode();
     }
 
     /**
@@ -41,8 +41,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateStartQuote() throws InterruptedException {
-        getAQuoteAudo.startQuote();
-        getAQuoteAudo.validateStartQuote();
+        getAQuoteAuto.startQuote();
+        getAQuoteAuto.validateStartQuote();
     }
 
     /**
@@ -52,8 +52,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testFillOutAboutYou() {
-        getAQuoteAudo.fillOutAboutYou();
-        getAQuoteAudo.validateAddVehiclePopUpIsDisplayed();
+        getAQuoteAuto.fillOutAboutYou();
+        getAQuoteAuto.validateAddVehiclePopUpIsDisplayed();
     }
 
     /**
@@ -62,8 +62,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidatePleaseEnterAValidFirstNameAlert() {
-        getAQuoteAudo.pleaseEnterAValidFirstNameAlert();
-        getAQuoteAudo.validatePleaseEnterAValidFirstNameAlert();
+        getAQuoteAuto.pleaseEnterAValidFirstNameAlert();
+        getAQuoteAuto.validatePleaseEnterAValidFirstNameAlert();
     }
 
     /**
@@ -72,8 +72,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidatePleaseEnterAValidLastNameAlert() {
-        getAQuoteAudo.pleaseEnterAValidLastNameAlert();
-        getAQuoteAudo.validatePleaseEnterAValidLastNameAlert();
+        getAQuoteAuto.pleaseEnterAValidLastNameAlert();
+        getAQuoteAuto.validatePleaseEnterAValidLastNameAlert();
     }
 
     /**
@@ -82,8 +82,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidatePleaseEnterAValidAddressAlert() {
-        getAQuoteAudo.pleaseEnterAValidAddressAlert();
-        getAQuoteAudo.validatePleaseEnterAValidAddressAlert();
+        getAQuoteAuto.pleaseEnterAValidAddressAlert();
+        getAQuoteAuto.validatePleaseEnterAValidAddressAlert();
     }
 
     /**
@@ -92,8 +92,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidatePleaseEnterYourDateOfBirthAlert() {
-        getAQuoteAudo.pleaseEnterYourDateOfBirthAlert();
-        getAQuoteAudo.validatePleaseEnterYourDateOfBirthAlert();
+        getAQuoteAuto.pleaseEnterYourDateOfBirthAlert();
+        getAQuoteAuto.validatePleaseEnterYourDateOfBirthAlert();
     }
 
     /**
@@ -101,8 +101,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateNissanMaxima2016IsAdded() {
-        getAQuoteAudo.addNissanMaxima();
-        getAQuoteAudo.validateNissanMaxima2016IsAdded();
+        getAQuoteAuto.addNissanMaxima();
+        getAQuoteAuto.validateNissanMaxima2016IsAdded();
     }
 
     /**
@@ -110,8 +110,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateNissanMaxima2007IsAddedWithVIN() throws InterruptedException {
-        getAQuoteAudo.addNissanMaxima2007WithVIN();
-        getAQuoteAudo.validateNissanMaxima2007IsAddedWithVIN();
+        getAQuoteAuto.addNissanMaxima2007WithVIN();
+        getAQuoteAuto.validateNissanMaxima2007IsAddedWithVIN();
     }
 
     /**
@@ -121,8 +121,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateDeselectNissanMaxima2007() throws InterruptedException {
-        getAQuoteAudo.deselectNissanMaxima2007();
-        getAQuoteAudo.validateDeselectNissanMaxima2007();
+        getAQuoteAuto.deselectNissanMaxima2007();
+        getAQuoteAuto.validateDeselectNissanMaxima2007();
     }
 
     /**
@@ -132,8 +132,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateAddNissanMaxima2007WithVINConfirmation() throws InterruptedException {
-        getAQuoteAudo.addNissanMaxima2007WithVINConfirmation();
-        getAQuoteAudo.validateAddNissanMaxima2007WithVINConfirmation();
+        getAQuoteAuto.addNissanMaxima2007WithVINConfirmation();
+        getAQuoteAuto.validateAddNissanMaxima2007WithVINConfirmation();
     }
 
     /**
@@ -141,13 +141,8 @@ public class GetAQuoteAutoTest extends CommonAPI {
      */
     @Test
     public void testValidateAddVehicleAndGoToYourVehiclePage() throws InterruptedException {
-        getAQuoteAudo.addVehicleAndGoToYourVehiclePage();
-        getAQuoteAudo.validateAddVehicleAndGoToYourVehiclePage();
+        getAQuoteAuto.addVehicleAndGoToYourVehiclePage();
+        getAQuoteAuto.validateAddVehicleAndGoToYourVehiclePage();
     }
 
-    @Test
-    public void testValidateHomeAndCondoQuoteByURL() throws InterruptedException {
-        getAQuoteAudo.homeAndCondoQuote();
-        getAQuoteAudo.validateHomeAndCondoQuoteByURL();
-    }
 }

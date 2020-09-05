@@ -1,6 +1,7 @@
 package search;
 
 import base.CommonAPI;
+//import datadriven.DataSource;
 import datadriven.DataSource;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -65,8 +66,8 @@ public class Search extends CommonAPI {
      * This method searches "Hand Sanitizer" on Amazon search.
      */
     public void searchHandSanitizer(){
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        typeOnSearchField("Hand Sanitizer");
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        typeOnElementNEnter(searchFieldIDWebElement, "Hand Sanitizer");
         submitSearch();
     }
 
@@ -87,38 +88,23 @@ public class Search extends CommonAPI {
     }
 
     /**
-     * This method returns a List of Strings.
-     * @return list of String values.
-     */
-    public List<String> getItems(){
-        List<String> itemsList = new ArrayList<>();
-        itemsList.add("watch");
-        itemsList.add("Rage Against The Machine");
-
-        return itemsList;
-    }
-
-    /**
      * This method iterates the method 'getItems()'.
      * As it iterates, it types each value and enters it into the Amazon search.
      * Then, it submits the search. Once, the search is done, it types the next
      * item from the List into the search field and submits.
      */
-    public void clearTypeAndClickOnSearch(){
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        List<String> list = getItems();
-        for (int i = 0; i < list.size(); i++) {
-            clearSearchField();
-            typeOnSearchField(list.get(i));
-            submitSearch();
+    public void clearTypeAndClickOnSearch() throws InterruptedException {
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        List<String> list = dataSupply.DataSource.getItems();
+        for (String item : list) {
+            typeOnElementNEnter(searchFieldIDWebElement, item);
+            String expectedURL = "https://www.amazon.com/s?k=" + item.replace(" ", "+") + "&ref=nb_sb_noss";
+            sleepFor(3);
+            Assert.assertEquals(getCurrentPageUrl(), expectedURL);
+            clearField(searchFieldIDWebElement);
         }
     }
 
-    public void validateSearchMultipleItems(){
-        clearSearchField();
-        Assert.assertNotNull(getItems(), "watch");
-        Assert.assertNotNull(getItems(), "Rage Against The Machine");
-    }
 
     /**
      * This method validates data-driven technique.

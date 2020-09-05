@@ -132,7 +132,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("windows") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.thehartford.com/") String url) throws IOException {
+                              String browserVersion, @Optional("https://www.amazon.com/") String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -227,8 +227,14 @@ public class CommonAPI {
     public void typeOnElement(String locator, String value) {
         try {
             driver.findElement(By.cssSelector(locator)).sendKeys(value);
-        } catch (Exception ex) {
-            driver.findElement(By.xpath(locator)).sendKeys(value);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.xpath(locator)).sendKeys(value);
+            } catch (Exception ex2) {
+                System.out.println("Second Attempt was not successful");
+                driver.findElement(By.name(locator)).sendKeys(value);
+            }
         }
     }
 
@@ -238,14 +244,14 @@ public class CommonAPI {
         } catch (Exception ex1) {
             try {
                 System.out.println("First Attempt was not successful");
-                driver.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
+                driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
             } catch (Exception ex2) {
                 try {
                     System.out.println("Second Attempt was not successful");
                     driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
                 } catch (Exception ex3) {
                     System.out.println("Third Attempt was not successful");
-                    driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
+                    driver.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
                 }
             }
         }
@@ -333,6 +339,17 @@ public class CommonAPI {
         List<WebElement> element = new ArrayList<WebElement>();
         List<String> text = new ArrayList<String>();
         element = driver.findElements(By.cssSelector(locator));
+        for (WebElement web : element) {
+            String st = web.getText();
+            text.add(st);
+        }
+        return text;
+    }
+
+    public static List<String> getTextFromXpathWebElements(String locator) {
+        List<WebElement> element = new ArrayList<WebElement>();
+        List<String> text = new ArrayList<String>();
+        element = driver.findElements(By.xpath(locator));
         for (WebElement web : element) {
             String st = web.getText();
             text.add(st);

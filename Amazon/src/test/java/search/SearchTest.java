@@ -27,14 +27,13 @@ public class SearchTest extends CommonAPI {
     }
 
     /**
-     * This test searches multiple items.
+     * This test searches multiple items on Amazon and validates with URL.
      */
     @Test
-    public void testSearchMultipleItems() {
+    public void testSearchMultipleItems() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         search.clearTypeAndClickOnSearch();
-        search.validateSearchMultipleItems();
     }
 
     /**
