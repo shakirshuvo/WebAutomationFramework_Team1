@@ -95,7 +95,7 @@ public class Search extends CommonAPI {
      */
     public void clearTypeAndClickOnSearch() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        List<String> list = dataSupply.DataSource.getItems();
+        List<String> list = DataSource.getItems();
         for (String item : list) {
             typeOnElementNEnter(searchFieldIDWebElement, item);
             String expectedURL = "https://www.amazon.com/s?k=" + item.replace(" ", "+") + "&ref=nb_sb_noss";
@@ -117,14 +117,14 @@ public class Search extends CommonAPI {
      */
     public void validateSearchItemsFromMySQL() throws Exception, IOException, SQLException, ClassNotFoundException {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        List<String> list = dataSupply.DataSource.getItemsListFromDB();
+        List<String> list = DataSource.getItemsListFromDB();
         for (int i = 0; i < list.size(); i++) {
             String item = list.get(i);
             typeOnSearchField(list.get(i));
             submitSearch();
             clearSearchField();
             String expectedURL = "https://www.amazon.com/s?k=" + item.replace(" ", "+") + "&ref=nb_sb_noss";
-            sleepFor(2);
+            sleepFor(3);
             Assert.assertEquals(getCurrentPageUrl(), expectedURL);
         }
     }
@@ -141,7 +141,7 @@ public class Search extends CommonAPI {
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             typeOnElementNEnter(searchFieldIDWebElement, item);
             String expectedURL = "https://www.amazon.com/s?k=" + item.replace(" ", "+") + "&ref=nb_sb_noss";;
-            sleepFor(2);
+            sleepFor(3);
             Assert.assertEquals(getCurrentPageUrl(), expectedURL);
             searchField.clear();
         }
