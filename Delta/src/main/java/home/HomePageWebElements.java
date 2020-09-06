@@ -5,6 +5,7 @@ import org.seleniumhq.jetty9.server.PushBuilder;
 import javax.xml.transform.sax.SAXResult;
 
 public class HomePageWebElements {
+    //public static final String vaccationDealsElementXpath = "//span[text()='Vacation Deals']"
     public static final String vaccationDealsElementXpath = "//span[text()='Vacation Deals']";
     public static final String bookElementCSS = "#headPrimary1";
     public static final String fromOriginElementCSS = "//a[@id=\"fromAirportName\"]/span[1]";

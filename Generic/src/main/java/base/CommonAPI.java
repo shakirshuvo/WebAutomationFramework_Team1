@@ -606,4 +606,13 @@ public class CommonAPI {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
+
+    /**
+     * scroll as much as needed
+     */
+    public void scrollUntilElementVisible(String locator) throws InterruptedException {
+        WebElement element = driver.findElement(By.xpath(locator));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+       // Thread.sleep(500);
+    }
 }

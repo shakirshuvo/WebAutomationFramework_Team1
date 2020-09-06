@@ -14,14 +14,15 @@ public class HomePageTest extends CommonAPI {
     public void getInit(){
         homePage = PageFactory.initElements(driver, HomePage.class);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
     }
 /**
  * test click on Vaccation Deals
  */
-@Test(enabled = true)
-    public void testClickOnVaccationDeals(){
-   //homePage.clickOnVaccationDeals();
+@Test(enabled = false)
+    public void testClickOnVaccationDeals() throws InterruptedException {
+   homePage.clickOnVaccationDeals();
     homePage.validateClickOnVaccationDeals();
 
 }
@@ -37,11 +38,11 @@ public class HomePageTest extends CommonAPI {
 ///**
 // * test check IN
 // */
-//@Test
-//    public void testClickCheckIn(){
-//    homePage.clickCheckIn();
-//    homePage.validateClickCheckIn();
-//}
+@Test
+    public void testClickCheckIn(){
+    homePage.clickCheckIn();
+    homePage.validateClickCheckIn();
+}
 
     /**
      * test my trips element

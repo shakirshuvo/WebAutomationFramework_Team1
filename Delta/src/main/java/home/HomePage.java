@@ -1,6 +1,7 @@
 package home;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -19,8 +20,10 @@ public class HomePage extends CommonAPI {
 /**
  * click on Vaccations deals
  */
-public void clickOnVaccationDeals(){
+public void clickOnVaccationDeals() throws InterruptedException {
 
+  //  scrollUntilElementVisible(vaccationDealsElementXpath);
+  //  waitUntilVisible(By.xpath(vaccationDealsElementXpath));
    clickOnElement(vaccationDealsElementXpath);
 }
 
@@ -29,10 +32,10 @@ public void clickOnVaccationDeals(){
  * Author: Waqas
  */
 public void validateClickOnVaccationDeals(){
-    String actual = getTitle();
-    System.out.println(actual);
-    String expected = "Airline Tickets & Flights: Book Direct with Delta Air Lines - Official Site";
-    Assert.assertEquals(actual, expected);
+    //String actual = getTitle();
+   // System.out.println(actual);
+    String expected = "Delta Vacations";
+    Assert.assertEquals(getTitle(), expected);
 }
 
 /**
