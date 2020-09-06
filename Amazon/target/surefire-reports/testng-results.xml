@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Amazon\target\surefire-reports\html]]>
     </line>
-    <line>
-      <![CDATA[SearchTest: test Search Single Item]]>
-    </line>
   </reporter-output>
-  <suite started-at="2020-09-05T21:34:58 EDT" name="Surefire suite" finished-at="2020-09-05T21:35:16 EDT" duration-ms="17789">
+  <suite started-at="2020-09-05T21:49:20 EDT" name="Surefire suite" finished-at="2020-09-05T21:49:20 EDT" duration-ms="6">
     <groups>
     </groups>
-    <test started-at="2020-09-05T21:34:58 EDT" name="Surefire test" finished-at="2020-09-05T21:35:16 EDT" duration-ms="17789">
+    <test started-at="2020-09-05T21:49:20 EDT" name="Surefire test" finished-at="2020-09-05T21:49:20 EDT" duration-ms="6">
       <class name="search.SearchTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.SearchTest@752325ad]" started-at="2020-09-05T21:34:58 EDT" name="extentSetup" finished-at="2020-09-05T21:34:58 EDT" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.SearchTest@229f66ed]" started-at="2020-09-05T21:49:20 EDT" name="extentSetup" finished-at="2020-09-05T21:49:20 EDT" duration-ms="266" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@38eb2fb0]]>
+                <![CDATA[org.testng.TestRunner@5f9678e1]]>
               </value>
             </param>
           </params>
@@ -27,85 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@752325ad]" started-at="2020-09-05T21:34:58 EDT" name="setUp" finished-at="2020-09-05T21:35:08 EDT" duration-ms="9426" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[34]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.amazon.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@752325ad]" started-at="2020-09-05T21:35:08 EDT" name="startExtent" finished-at="2020-09-05T21:35:08 EDT" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void search.SearchTest.testSearchSingleItem()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@752325ad]" started-at="2020-09-05T21:35:08 EDT" name="getInit" finished-at="2020-09-05T21:35:08 EDT" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testSearchSingleItem()[pri:0, instance:search.SearchTest@752325ad]" started-at="2020-09-05T21:35:08 EDT" name="testSearchSingleItem" finished-at="2020-09-05T21:35:15 EDT" duration-ms="7142" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[SearchTest: test Search Single Item]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testSearchSingleItem -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@752325ad]" started-at="2020-09-05T21:35:15 EDT" name="afterEachTestMethod" finished-at="2020-09-05T21:35:16 EDT" duration-ms="1169" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSearchSingleItem status=SUCCESS method=SearchTest.testSearchSingleItem()[pri:0, instance:search.SearchTest@752325ad] output=SearchTest: test Search Single Item]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@752325ad]" started-at="2020-09-05T21:35:16 EDT" name="cleanUp" finished-at="2020-09-05T21:35:16 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:search.SearchTest@752325ad]" started-at="2020-09-05T21:35:16 EDT" name="generateReport" finished-at="2020-09-05T21:35:16 EDT" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:search.SearchTest@229f66ed]" started-at="2020-09-05T21:49:20 EDT" name="generateReport" finished-at="2020-09-05T21:49:20 EDT" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

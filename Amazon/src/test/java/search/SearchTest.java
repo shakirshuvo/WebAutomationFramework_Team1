@@ -18,13 +18,13 @@ public class SearchTest extends CommonAPI {
     /**
      * This test searches a single item, 'Hand sanitizer' and verifies it with "Hand sanitizer" text on the page.
      */
-    @Test
-    public void testSearchSingleItem() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        search.searchHandSanitizer();
-        search.validateSearchHandSanitizerText();
-    }
+//    @Test
+//    public void testSearchSingleItem() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        search.searchHandSanitizer();
+//        search.validateSearchHandSanitizerText();
+  //  }
 
 //    /**
 //     * This test searches multiple items.

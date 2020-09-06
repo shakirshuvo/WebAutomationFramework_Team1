@@ -5,12 +5,12 @@
       <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\NewYorkTimes\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-05T21:35:19 EDT" name="Surefire suite" finished-at="2020-09-05T21:35:19 EDT" duration-ms="7">
+  <suite started-at="2020-09-05T21:49:24 EDT" name="Surefire suite" finished-at="2020-09-05T21:49:24 EDT" duration-ms="5">
     <groups>
     </groups>
-    <test started-at="2020-09-05T21:35:19 EDT" name="Surefire test" finished-at="2020-09-05T21:35:19 EDT" duration-ms="7">
+    <test started-at="2020-09-05T21:49:24 EDT" name="Surefire test" finished-at="2020-09-05T21:49:24 EDT" duration-ms="5">
       <class name="home.NYTHomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.NYTHomePageTest@31190526]" started-at="2020-09-05T21:35:19 EDT" name="extentSetup" finished-at="2020-09-05T21:35:19 EDT" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.NYTHomePageTest@31190526]" started-at="2020-09-05T21:49:23 EDT" name="extentSetup" finished-at="2020-09-05T21:49:24 EDT" duration-ms="292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.NYTHomePageTest@31190526]" started-at="2020-09-05T21:35:19 EDT" name="generateReport" finished-at="2020-09-05T21:35:20 EDT" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.NYTHomePageTest@31190526]" started-at="2020-09-05T21:49:24 EDT" name="generateReport" finished-at="2020-09-05T21:49:24 EDT" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

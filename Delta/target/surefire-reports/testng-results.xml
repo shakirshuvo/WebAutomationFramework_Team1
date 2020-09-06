@@ -5,16 +5,16 @@
       <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Delta\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-05T21:35:33 EDT" name="Delta Automation Test" finished-at="2020-09-05T21:36:01 EDT" duration-ms="28195">
+  <suite started-at="2020-09-05T21:53:21 EDT" name="Delta Automation Test" finished-at="2020-09-05T21:53:54 EDT" duration-ms="32692">
     <groups>
     </groups>
-    <test started-at="2020-09-05T21:35:33 EDT" name="Delta Home" finished-at="2020-09-05T21:36:01 EDT" duration-ms="28195">
+    <test started-at="2020-09-05T21:53:21 EDT" name="Delta Home" finished-at="2020-09-05T21:53:54 EDT" duration-ms="32692">
       <class name="home.HomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@62e7f11d]" started-at="2020-09-05T21:35:32 EDT" name="extentSetup" finished-at="2020-09-05T21:35:33 EDT" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@19d481b]" started-at="2020-09-05T21:53:20 EDT" name="extentSetup" finished-at="2020-09-05T21:53:21 EDT" duration-ms="1172" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4a5905d9]]>
+                <![CDATA[org.testng.TestRunner@9255c05]]>
               </value>
             </param>
           </params>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@62e7f11d]" started-at="2020-09-05T21:35:33 EDT" name="setUp" finished-at="2020-09-05T21:35:39 EDT" duration-ms="5950" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@19d481b]" started-at="2020-09-05T21:53:21 EDT" name="setUp" finished-at="2020-09-05T21:53:31 EDT" duration-ms="9345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@62e7f11d]" started-at="2020-09-05T21:35:39 EDT" name="startExtent" finished-at="2020-09-05T21:35:39 EDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@19d481b]" started-at="2020-09-05T21:53:31 EDT" name="startExtent" finished-at="2020-09-05T21:53:31 EDT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,30 +76,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@62e7f11d]" started-at="2020-09-05T21:35:39 EDT" name="getInit" finished-at="2020-09-05T21:35:39 EDT" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@19d481b]" started-at="2020-09-05T21:53:31 EDT" name="getInit" finished-at="2020-09-05T21:53:31 EDT" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testFlightStatus()[pri:0, instance:home.HomePageTest@62e7f11d]" started-at="2020-09-05T21:35:39 EDT" name="testFlightStatus" finished-at="2020-09-05T21:36:00 EDT" duration-ms="21164" status="PASS">
+        <test-method signature="testFlightStatus()[pri:0, instance:home.HomePageTest@19d481b]" started-at="2020-09-05T21:53:31 EDT" name="testFlightStatus" finished-at="2020-09-05T21:53:52 EDT" duration-ms="20806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlightStatus -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@62e7f11d]" started-at="2020-09-05T21:36:00 EDT" name="afterEachTestMethod" finished-at="2020-09-05T21:36:01 EDT" duration-ms="1012" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@19d481b]" started-at="2020-09-05T21:53:52 EDT" name="afterEachTestMethod" finished-at="2020-09-05T21:53:54 EDT" duration-ms="2479" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testFlightStatus status=SUCCESS method=HomePageTest.testFlightStatus()[pri:0, instance:home.HomePageTest@62e7f11d] output={null}]]]>
+                <![CDATA[[TestResult name=testFlightStatus status=SUCCESS method=HomePageTest.testFlightStatus()[pri:0, instance:home.HomePageTest@19d481b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@62e7f11d]" started-at="2020-09-05T21:36:01 EDT" name="cleanUp" finished-at="2020-09-05T21:36:01 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@19d481b]" started-at="2020-09-05T21:53:54 EDT" name="cleanUp" finished-at="2020-09-05T21:53:54 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@62e7f11d]" started-at="2020-09-05T21:36:01 EDT" name="generateReport" finished-at="2020-09-05T21:36:02 EDT" duration-ms="704" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@19d481b]" started-at="2020-09-05T21:53:54 EDT" name="generateReport" finished-at="2020-09-05T21:53:54 EDT" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
