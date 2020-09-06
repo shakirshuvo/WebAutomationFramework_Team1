@@ -21,7 +21,7 @@ public class HomePageTest extends CommonAPI {
  */
 @Test(enabled = true)
     public void testClickOnVaccationDeals(){
-   // homePage.clickOnVaccationDeals();
+   //homePage.clickOnVaccationDeals();
     homePage.validateClickOnVaccationDeals();
 
 }

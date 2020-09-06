@@ -31,8 +31,8 @@ public void clickOnVaccationDeals(){
 public void validateClickOnVaccationDeals(){
     String actual = getTitle();
     System.out.println(actual);
-    String expected = "Delta Vacations";
-    //Assert.assertEquals(actual, expected);
+    String expected = "Airline Tickets & Flights: Book Direct with Delta Air Lines - Official Site";
+    Assert.assertEquals(actual, expected);
 }
 
 /**
