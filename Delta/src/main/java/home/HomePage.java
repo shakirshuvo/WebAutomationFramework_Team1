@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
 
+import java.util.concurrent.TimeUnit;
+
 import static home.HomePageWebElements.*;
 
 public class HomePage extends CommonAPI {
@@ -100,7 +102,7 @@ public void validateMyTrips(){
  * click on flight status
  */
 public  void clickFlightStatus() throws InterruptedException {
-    sleepFor(3);
+   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     clickOnElement(flightStatusCSS);
 }
 
