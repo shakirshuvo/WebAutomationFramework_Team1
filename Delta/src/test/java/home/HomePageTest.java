@@ -19,11 +19,11 @@ public class HomePageTest extends CommonAPI {
 /**
  * test click on Vaccation Deals
  */
-@Test(enabled = false)
-    public void testClickOnVaccationDeals(){
-    homePage.clickOnVaccationDeals();
-    homePage.validateClickOnVaccationDeals();
-}
+//@Test(enabled = false)
+//    public void testClickOnVaccationDeals(){
+//    homePage.clickOnVaccationDeals();
+//    homePage.validateClickOnVaccationDeals();
+//}
 
 ///**
 // * test click on book
@@ -56,11 +56,9 @@ public class HomePageTest extends CommonAPI {
      * test flight status
      */
     @Test
-    public void testFlightStatus(){
+    public void testFlightStatus() throws InterruptedException {
         homePage.clickFlightStatus();
         homePage.validateClickFlightStatus();
     }
-
-
 
 }// end homePageTest

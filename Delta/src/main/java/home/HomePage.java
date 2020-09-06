@@ -99,7 +99,8 @@ public void validateMyTrips(){
 /**
  * click on flight status
  */
-public  void clickFlightStatus(){
+public  void clickFlightStatus() throws InterruptedException {
+    sleepFor(3);
     clickOnElement(flightStatusCSS);
 }
 
