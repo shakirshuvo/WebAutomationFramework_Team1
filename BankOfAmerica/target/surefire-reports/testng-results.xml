@@ -5,16 +5,16 @@
       <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\BankOfAmerica\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-05T22:11:57 EDT" name="Surefire suite" finished-at="2020-09-05T22:11:57 EDT" duration-ms="5">
+  <suite started-at="2020-09-05T23:25:51 EDT" name="Surefire suite" finished-at="2020-09-05T23:25:51 EDT" duration-ms="5">
     <groups>
     </groups>
-    <test started-at="2020-09-05T22:11:57 EDT" name="Surefire test" finished-at="2020-09-05T22:11:57 EDT" duration-ms="5">
+    <test started-at="2020-09-05T23:25:51 EDT" name="Surefire test" finished-at="2020-09-05T23:25:51 EDT" duration-ms="5">
       <class name="home.HomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@31190526]" started-at="2020-09-05T22:11:56 EDT" name="extentSetup" finished-at="2020-09-05T22:11:57 EDT" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@31190526]" started-at="2020-09-05T23:25:50 EDT" name="extentSetup" finished-at="2020-09-05T23:25:51 EDT" duration-ms="267" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@340b9973]]>
+                <![CDATA[org.testng.TestRunner@c4ed84]]>
               </value>
             </param>
           </params>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@31190526]" started-at="2020-09-05T22:11:57 EDT" name="generateReport" finished-at="2020-09-05T22:11:57 EDT" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@31190526]" started-at="2020-09-05T23:25:51 EDT" name="generateReport" finished-at="2020-09-05T23:25:51 EDT" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
