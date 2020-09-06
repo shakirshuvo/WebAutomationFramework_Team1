@@ -103,7 +103,7 @@ public void validateMyTrips(){
  */
 public  void clickFlightStatus() throws InterruptedException {
    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    clickOnElement(flightStatusCSS);
+    clickOnElement(flightStatusXpath);
 }
 
 /**

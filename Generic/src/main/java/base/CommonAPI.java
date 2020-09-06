@@ -210,8 +210,7 @@ public class CommonAPI {
     //helper methods
     public void clickOnElement(String locator) {
         try {
-            driver.findElement(By.cssSelector(locator)).click();
-
+            driver.findElement(By.xpath(locator)).click();
         } catch (Exception ex) {
             try {
                 driver.findElement(By.id(locator)).click();
@@ -219,7 +218,7 @@ public class CommonAPI {
                 try {
                     driver.findElement(By.className(locator)).click();
                 } catch (Exception ex3) {
-                    driver.findElement(By.xpath(locator)).click();
+                    driver.findElement(By.cssSelector(locator)).click();
                 }
             }
         }

@@ -28,7 +28,7 @@ public class HomePageWebElements {
     public static final String tripDetialsElementID = "bc-pg-tripDetails_current_top";
 
     //flight Status
-    public static final String flightStatusCSS= "#headPrimary4";
+    public static final String flightStatusXpath= "//*[@id=\"headPrimary4\"]";
     public static final String statusByDateCSS = "#searchBydateLbl";
 
     // sign up
