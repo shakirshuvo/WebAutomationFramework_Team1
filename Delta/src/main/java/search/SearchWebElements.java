@@ -6,6 +6,23 @@ public class SearchWebElements {
 
     public static final String searchBoxElementXpath = "//input[@id=\"search_input\"]";
     public static final String searchFlights = "flights";
-   public static final String searchResultsElement = "//div[@id=\"resultContWrap\"]//div[@class='searchPageHeader']";
+    public static final String searchResultsElement = "//div[@id=\"resultContWrap\"]//div[@class='searchPageHeader']";
    // public static final String chroPath = "//div[@class='searchPageHeader'][contains(text(),'Search Results')]";
+
+    //search button sub selections
+    //coronavirus tab
+    public static final String coronaVirusElement = "//ngc-flyout-search//li/a[text()='Coronavirus']";
+    public static final String coronaUpdateCenterElement = "//*[@id=\"maincontent\"]/div[1]/div/div/div/div/div[1]/span";
+
+    //face mask tab
+    public static final String faceMaskElementXpath = "//ngc-flyout-search//li/a[text()='Face Mask']";
+
+    // eCredits
+    public static final String eCreditsElementXpath = "//ngc-flyout-search//li/a[text()='eCredits']";
+    // change flight
+    public static final String changeFlightElementXpath = "//ngc-flyout-search//li/a[text()='Change Flight']";
+    public static final String changeFlightText = "//*[@id=\"maincontent\"]/div[1]//span/h1";
+
+
+
 }

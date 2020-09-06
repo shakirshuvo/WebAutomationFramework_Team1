@@ -52,4 +52,89 @@ public class Search extends CommonAPI {
         Assert.assertEquals(actual, expected, "test failed");
         }
 
-}
+    /**
+     * click on Coronavirus tab under search button
+     */
+
+
+    public void clickOnCoronavirusTab(){
+        clickSearchBtn();
+        waitUntilVisible(By.xpath(coronaVirusElement));
+        clickOnElement(coronaVirusElement);
+    }
+
+    /**
+     * validate  coronavirus tab
+     */
+    public void validateCoronavirusTab(){
+        String actual = getTextByXpath(coronaUpdateCenterElement);
+        String expect = "Coronavirus Update Center ";
+        Assert.assertEquals(actual, expect, "test failed");
+    }
+
+    /**
+     * click on face mask tab
+     */
+    public void clickOnFaceMaskTab(){
+        clickSearchBtn();
+        waitUntilVisible(By.xpath(faceMaskElementXpath));
+        clickOnElement(faceMaskElementXpath);
+    }
+
+    /**
+     * validate  coronavirus tab
+     */
+    public void validateFaceMaskTab(){
+        String actual = getTitle();
+        String expect = "Onboard Experience: Face Masks and Extra Space | Delta Air Lines";
+        Assert.assertEquals(actual, expect, "test failed");
+    }
+
+    /**
+     * click on face mask tab
+     */
+    public void clickOnECreditsTab(){
+        clickSearchBtn();
+        waitUntilVisible(By.xpath(eCreditsElementXpath));
+        clickOnElement(eCreditsElementXpath);
+    }
+
+    /**
+     * validate  coronavirus tab
+     */
+    public void validateECreditsTab(){
+        String actual = getTitle();
+        String expect = "How to Change or Cancel Flight | Delta Air Lines";
+        Assert.assertEquals(actual, expect, "test failed");
+    }
+
+    /**
+     * click on change flight tab
+     */
+    public void clickOnchangeFlightTab(){
+        clickSearchBtn();
+        waitUntilVisible(By.xpath(changeFlightElementXpath));
+        clickOnElement(changeFlightElementXpath);
+    }
+
+    /**
+     * validate change flight tab
+     */
+    public void validateChangeFlightTab(){
+        String actual = getTextByXpath(changeFlightText);
+        String expect = "Can I Cancel/Change My Flight Without Fees?";
+        Assert.assertEquals(actual, expect, "test failed");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}// ends class search

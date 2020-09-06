@@ -6,6 +6,7 @@
 
         <parameter name="useCloudEnv" value="false"/>
         <parameter name="cloudEnvName" value="browserstack"/>
+        <parameter name="cloudEnvName" value="saucelab"/>
         <parameter name="os" value="Windows"/>
         <parameter name="os_version" value="10"/>
         <parameter name="browserName" value="chrome-options"/>
@@ -14,9 +15,9 @@
 
         <test name="Delta Home">
             <classes>
-<!--               <class name="home.HomePageTest"></class>-->
+               <class name="home.HomePageTest"></class>
                 <!--            <class name="signIn.SignInTest"></class>-->
-                <class name="search.SearchTest"></class>
+<!--                <class name="search.SearchTest"></class>-->
             </classes>
 
         </test>
