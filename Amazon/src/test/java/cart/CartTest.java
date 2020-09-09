@@ -56,4 +56,14 @@ public class CartTest extends CommonAPI {
         cart.clickOnQtyDropDown();
         cart.validateAllDropDown();
     }
+
+    /**
+     * This test validates that there are two items of 'WD 5TB Passport - WDBPKJ0050BBK-WESN' added to the cart.
+     * @throws InterruptedException
+     */
+    @Test
+    public void testValidateIncreaseQuantityTo2() throws InterruptedException {
+        cart.increaseQtyTo2();
+        cart.validateIncreaseQuantityTo2();
+    }
 }

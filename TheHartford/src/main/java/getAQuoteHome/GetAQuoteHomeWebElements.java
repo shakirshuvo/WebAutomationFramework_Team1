@@ -40,4 +40,5 @@ public class GetAQuoteHomeWebElements {
     public static final String phoneFirstNameWebElement = "phoneFirst";
     public static final String phoneSecondNameWebElement = "phoneSecond";
     public static final String phoneThirdNameWebElement = "phoneThird";
+    public static final String thankYouURL = "https://homequote.thehartford.com/sales/#/thankYou";
 }

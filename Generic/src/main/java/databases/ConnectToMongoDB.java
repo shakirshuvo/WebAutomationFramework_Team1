@@ -20,7 +20,7 @@ public class ConnectToMongoDB {
 
     public static MongoDatabase connectToMongoDB() {
         MongoClient mongoClient = new MongoClient();
-        mongoDatabase = mongoClient.getDatabase("students");
+        mongoDatabase = mongoClient.getDatabase("Amazon");
         System.out.println("Database Connected");
 
         return mongoDatabase;
@@ -101,5 +101,6 @@ public class ConnectToMongoDB {
         for(User person:user){
             System.out.println(person.getStName()+ " "+ person.getStID());
         }
+
     }
 }

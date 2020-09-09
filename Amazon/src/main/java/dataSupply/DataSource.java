@@ -1,14 +1,26 @@
 package dataSupply;
 
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
 import databases.ConnectToSqlDB;
+import org.bson.Document;
 import utility.DataReader;
 
 import java.io.IOException;
+import java.sql.Array;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class DataSource {
+
+    public static void main(String[] args) throws Exception, IOException, SQLException, ClassNotFoundException {
+        List<String> list = new ArrayList<>();
+        list = connectToSqlDB.readDataBase("movie", "title");
+        System.out.println(list.get(0));
+
+    }
 
     public static ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
     public static DataReader excelReader = new DataReader();
@@ -28,12 +40,6 @@ public class DataSource {
         return list;
     }
 
-    public static void main(String[] args) throws Exception, IOException, SQLException, ClassNotFoundException {
-        List<String> list = new ArrayList<>();
-        list = connectToSqlDB.readDataBase("movie", "title");
-        System.out.println(list.get(0));
-    }
-
     public static List<String> getItemsListFromExcel() throws Exception, IOException, SQLException, ClassNotFoundException{
         String path = "../Amazon/DataTest/AmazonData.xlsx";
         String[] myStringArray = excelReader.fileReader2(path, 0);
@@ -49,6 +55,5 @@ public class DataSource {
         }
         return list;
     }
-
 
 }

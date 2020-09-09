@@ -16,6 +16,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -456,6 +457,29 @@ public class CommonAPI {
         }
     }
 
+    public void selectOptionByVisibleText(String element, String text) {
+        try {
+            Select select = new Select(driver.findElement(By.cssSelector(element)));
+            select.selectByVisibleText(text);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select select = new Select(driver.findElement(By.xpath(element)));
+                select.selectByVisibleText(text);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.id(element)));
+                    select.selectByVisibleText(text);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.className(element)));
+                    select.selectByVisibleText(text);
+                }
+            }
+        }
+    }
+
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
     }
@@ -553,6 +577,37 @@ public class CommonAPI {
 
     public void keysInput(String locator) {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+    }
+
+    //Validate by title
+    public void validateByTitle(String title) {
+        Assert.assertEquals(title, driver.getTitle());
+    }
+
+    //Validate by test
+    public void validateByTextWithXPath(String element, String text) {
+        Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
+    }
+
+    public void validateByText(String element, String text) {
+        try {
+            Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
+        } catch (Exception ex) {
+            try {
+                Assert.assertEquals(text, driver.findElement(By.id(element)).getText());
+            } catch (Exception ex2) {
+                try {
+                    Assert.assertEquals(text, driver.findElement(By.cssSelector(element)).getText());
+                } catch (Exception ex3) {
+                    Assert.assertEquals(text, driver.findElement(By.name(element)).getText());
+                }
+            }
+        }
+    }
+
+    //Validate by URL
+    public void validateByURL(String url) {
+        Assert.assertEquals(url, driver.getCurrentUrl());
     }
 
     public boolean elementIsDisplayed(String element) {

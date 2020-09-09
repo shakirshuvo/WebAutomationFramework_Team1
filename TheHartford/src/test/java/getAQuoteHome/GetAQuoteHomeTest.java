@@ -117,4 +117,14 @@ public class GetAQuoteHomeTest extends CommonAPI {
         getAQuoteHome.fillOutAboutYouPageWithoutConfirmingMailingAddress();
         getAQuoteHome.validateFillOutAboutYouPageWithoutConfirmingMailingAddress();
     }
+
+    /**
+     * This test verifies that 'About You' form is submitted with URL.
+     * @throws InterruptedException
+     */
+    @Test
+    public void testVerifyFillOutAboutYouPage() throws InterruptedException {
+        getAQuoteHome.fillOutAboutYouPage();
+        getAQuoteHome.verifyFillOutAboutYouPage();
+    }
 }

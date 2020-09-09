@@ -20,8 +20,8 @@ public class Cart extends CommonAPI {
     public WebElement searchField;
     @FindBy(how = How.XPATH, using = searchButtonXPathWebElement)
     public WebElement searchButton;
-    @FindBy(how = How.XPATH, using = WD5TBPassportXpathWebElement)
-    public WebElement WD5TBPassportItem;
+    @FindBy(how = How.XPATH, using = wd5TBPassportXpathWebElement)
+    public WebElement wd5TBPassportItem;
     @FindBy(how = How.ID, using = addToCartIDWebElement)
     public WebElement addToCart;
     @FindBy(how = How.ID, using = addedToCartVerificationIDWebElement)
@@ -84,7 +84,7 @@ public class Cart extends CommonAPI {
      * "WD 5TB My Passport Portable External Hard Drive, Black - WDBPKJ0050BBK-WESN".
      */
     public void clickOnWD5TBHardDriveItem() {
-        WD5TBPassportItem.click();
+        wd5TBPassportItem.click();
     }
 
     /**
@@ -123,7 +123,7 @@ public class Cart extends CommonAPI {
     }
 
     public boolean WD5tbPassportIsDisplayed() {
-        WD5TBPassportItem.isDisplayed();
+        wd5TBPassportItem.isDisplayed();
         return true;
     }
 
@@ -284,5 +284,26 @@ public class Cart extends CommonAPI {
         List<String> expectedMenu = listOfText;
         Assert.assertEquals(listOfText, expectedMenu);
     }
+
+    /**
+     * This method adds 'WD 5TB Passport - WDBPKJ0050BBK-WESN' adds to cart and then increases the quantity to 2.
+     * @throws InterruptedException
+     */
+    public void increaseQtyTo2() throws InterruptedException {
+        driver.manage().window().maximize();
+        addWDPassportHardDriveToCart();
+        navigateBack();
+        addToCart();
+        sleepFor(1);
+        clickOnCart();
+    }
+
+    /**
+     * This method validates that there are 2 items in the cart.
+     */
+    public void validateIncreaseQuantityTo2() {
+        validateByText(subtotalIDWebElement, "Subtotal (2 items):");
+    }
+
 
 }

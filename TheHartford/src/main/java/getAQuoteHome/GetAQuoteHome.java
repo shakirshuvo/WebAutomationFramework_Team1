@@ -200,4 +200,31 @@ public class GetAQuoteHome extends CommonAPI {
     public void validateFillOutAboutYouPageWithoutConfirmingMailingAddress(){
         Assert.assertTrue(elementIsDisplayed(pleaseSelectAValueAlertXpathWebElement));
     }
+
+    /**
+     * This method completes the 'About You' form and submits.
+     */
+    public void fillOutAboutYouPage(){
+        clickOnElement(homeAndCondoButtonXpathWebElement);
+        typeOnElementNEnter(homeAndCondoZipCodeField, vaZipCode);
+        typeOnElement(homeAndCondoAboutYouFirstNameCSSWebElement, randomFirstName);
+        typeOnElement(homeAndCondoAboutYouLastNameCSSWebElement, randomLastName);
+        typeOnElement(homeAndCondoAboutYouDateOfBirthCSSWebElement, dateOfBirth);
+        clickOnElement(homeAndCondoAboutYouRadioMaleXpathWebElement);
+        selectOptionByValue(homeAndCondoAboutYouMaritalStatusDropdownCSSWebElement, "string:S");
+        typeOnElement(homeAndCondoAboutYouAddressCSSWebElement, pntVAStreetAddress);
+        clickOnElement(homeAndCondoAboutYouIsThisYourMailingAddressRadioYesXpathWebElement);
+        clickOnElement(continueButtonIDWebElement);
+    }
+
+    /**
+     * This method verifies that 'About You' form is submitted.
+     * @throws InterruptedException
+     */
+    public void verifyFillOutAboutYouPage() throws InterruptedException {
+        sleepFor(3);
+        Assert.assertEquals(getCurrentPageUrl(), thankYouURL);
+    }
+
+
 }
