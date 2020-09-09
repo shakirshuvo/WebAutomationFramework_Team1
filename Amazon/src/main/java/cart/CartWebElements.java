@@ -21,4 +21,6 @@ public class CartWebElements {
     public static final String proceedToCheckoutButtonNameWebElement = "proceedToRetailCheckout";
     public static final String signInTitleString = "Amazon Sign-In";
 
+
+
 }

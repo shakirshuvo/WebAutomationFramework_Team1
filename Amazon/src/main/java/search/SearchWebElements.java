@@ -16,9 +16,12 @@ public class SearchWebElements extends CommonAPI {
     public static final String searchVerificationTextXPathWebElement = "//span[text()='\"Hand Sanitizer\"']";
     public static final String allDropDownSearchIDWebElement = "searchDropdownBox";
     public static final String booksOnAllDropDownXpathWebElement = "//*[@id=\"searchDropdownBox\"]/option[6]";
+    public static final String computersOnAllDropDownXpathWebElement = "//option[text()='Computers']";
     public static final String brandCheckBoxPurellXPathWebElement = "//span[text()='Purell']";
     public static final String purellTextXPathWebElement = "//*[@id=\"search\"]/span/div/span/h1/div/div[1]/div/div/a/span";
     public static final String moviesAndTVOnAllDropDownXpathWebElement = "//span[text()='Movies & TV']";
+    public static final String computersTabletsAndITAccessoriesTextXpathWebElement = "//b[text()='Computers, Tablets and IT Accessories']";
+    public static final String departmentTextXpathWebElement = "//*[@id=\"fst-hybrid-dynamic-h1\"]/div/h1/b";
 
 
 }

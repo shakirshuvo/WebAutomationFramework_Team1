@@ -132,6 +132,7 @@ public class Search extends CommonAPI {
     /**
      * This method validates keyword-driven technique.
      * Values are iterated from a Excel sheet and are searched on Amazon sequentially.
+     *
      * @throws Exception
      */
     public void searchBoxCheckGetItemsListFromExcel() throws Exception {
@@ -140,7 +141,8 @@ public class Search extends CommonAPI {
             String item = itemList.get(i);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             typeOnElementNEnter(searchFieldIDWebElement, item);
-            String expectedURL = "https://www.amazon.com/s?k=" + item.replace(" ", "+") + "&ref=nb_sb_noss";;
+            String expectedURL = "https://www.amazon.com/s?k=" + item.replace(" ", "+") + "&ref=nb_sb_noss";
+            ;
             sleepFor(3);
             Assert.assertEquals(getCurrentPageUrl(), expectedURL);
             searchField.clear();
@@ -253,5 +255,16 @@ public class Search extends CommonAPI {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertEquals(getTitle(), expectedRandomBookSearchTitle);
     }
+
+    public void selectComputersFromAllDropdown() {
+        selectOptionByVisibleText(allDropDownSearchIDWebElement, "Computers");
+    }
+
+    public void validateSelectComputersFromAllDropdown() {
+        submitSearch();
+        validateByText(computersTabletsAndITAccessoriesTextXpathWebElement, "Computers, Tablets and IT Accessories");
+//        elementIsDisplayed(computersTabletsAndITAccessoriesTextXpathWebElement);
+    }
+
 
 }

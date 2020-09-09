@@ -277,6 +277,26 @@ public class CommonAPI {
         }
     }
 
+    public void submitOnElementByID(String locator){
+        driver.findElement(By.id(locator)).submit();
+    }
+
+    public void submitOnElement(String locator) {
+        try {
+            driver.findElement(By.xpath(locator)).submit();
+        } catch (Exception ex) {
+            try {
+                driver.findElement(By.id(locator)).submit();
+            } catch (Exception ex2) {
+                try {
+                    driver.findElement(By.cssSelector(locator)).submit();
+                } catch (Exception ex3) {
+                    driver.findElement(By.className(locator)).submit();
+                }
+            }
+        }
+    }
+
     public void clearField(String locator) {
         driver.findElement(By.id(locator)).clear();
     }
@@ -429,32 +449,14 @@ public class CommonAPI {
         return items;
     }
 
-    public void selectOptionByVisibleText(WebElement element, String value) {
+    public void selectOptionByVisibleTextByWebElement(WebElement element, String value) {
         Select select = new Select(element);
         select.selectByVisibleText(value);
     }
 
-    public void selectOptionByValue(String element, String value) {
-        try {
-            Select vehicleYear = new Select(driver.findElement(By.cssSelector(element)));
-            vehicleYear.selectByValue(value);
-        } catch (Exception ex1) {
-            try {
-                System.out.println("First Attempt was not successful");
-                Select vehicleYear = new Select(driver.findElement(By.xpath(element)));
-                vehicleYear.selectByValue(value);
-            } catch (Exception ex2) {
-                try {
-                    System.out.println("Second Attempt was not successful");
-                    Select vehicleYear = new Select(driver.findElement(By.id(element)));
-                    vehicleYear.selectByValue(value);
-                } catch (Exception ex3) {
-                    System.out.println("Third Attempt was not successful");
-                    Select vehicleYear = new Select(driver.findElement(By.className(element)));
-                    vehicleYear.selectByValue(value);
-                }
-            }
-        }
+    public void selectOptionByVisibleTextByID(String element, String text) {
+        Select select = new Select(driver.findElement(By.id(element)));
+        select.selectByVisibleText(text);
     }
 
     public void selectOptionByVisibleText(String element, String text) {
@@ -475,6 +477,29 @@ public class CommonAPI {
                     System.out.println("Third Attempt was not successful");
                     Select select = new Select(driver.findElement(By.className(element)));
                     select.selectByVisibleText(text);
+                }
+            }
+        }
+    }
+
+    public void selectOptionByValue(String element, String value) {
+        try {
+            Select vehicleYear = new Select(driver.findElement(By.cssSelector(element)));
+            vehicleYear.selectByValue(value);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select vehicleYear = new Select(driver.findElement(By.xpath(element)));
+                vehicleYear.selectByValue(value);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.id(element)));
+                    vehicleYear.selectByValue(value);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.className(element)));
+                    vehicleYear.selectByValue(value);
                 }
             }
         }
