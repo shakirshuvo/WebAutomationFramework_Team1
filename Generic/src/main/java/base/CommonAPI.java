@@ -419,7 +419,7 @@ public class CommonAPI {
         Thread.sleep(sec * 1000);
     }
 
-    public void mouseHoverByCSS(String locator) {
+    public void mouseHoverByCSS(String locator) throws InterruptedException {
         try {
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);

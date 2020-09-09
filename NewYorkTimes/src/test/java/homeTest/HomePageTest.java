@@ -19,20 +19,20 @@ public class HomePageTest extends CommonAPI {
     public void setWebLogoTest() {
         homepage.setWebLogo();
     }
-//    @Test(priority =20 )
-//    public void setWordButtonTest(){
-//        homepage.setWordButton();
-//    }
-//
-//    @Test(priority = 21)
-//    public void  setWordButtonVerificationTest(){
-//        setWordButtonTest();
-//        homepage.setWordButtonVerification();
-//    }
-//    @Test(priority = 22)
-//    public void setUsButtonTest(){
-//        homepage.setUsButton();
-//    }
+    @Test(priority =20 )
+    public void setWordButtonTest(){
+        homepage.setWordButton();
+    }
+
+    @Test(priority = 21)
+    public void  setWordButtonVerificationTest(){
+        setWordButtonTest();
+        homepage.setWordButtonVerification();
+    }
+    @Test(priority = 22)
+    public void setUsButtonTest(){
+        homepage.setUsButton();
+    }
 //
 //    @Test(priority = 23)
 //    public void setUsButtonVerificationTest(){

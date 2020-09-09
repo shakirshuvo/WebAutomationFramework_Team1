@@ -34,7 +34,7 @@
                     <exclude name="setRegistryTest"></exclude>
                     <exclude name="setSellButtonTest"></exclude>
                     <exclude name="setCouponsTest"></exclude>
-                    <exclude name="setAmazonBasicsTest"></exclude>
+<!--                    <exclude name="setAmazonBasicsTest"></exclude>-->
                 </methods>
             </class>
 

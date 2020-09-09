@@ -2,11 +2,32 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="T-Mobile Automation Test" parallel="false">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="catalina"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="85.0"/>
     <parameter name="url" value="https://www.t-mobile.com/"></parameter>
 
     <test name="T-Mobile Home">
         <classes>
-            <!--<class name=""></class>-->
+        <class name="homeTest.HomePageTest">
+            <methods>
+                <exclude name="setLogoSignTest"></exclude>
+                <exclude name="mouseHoverByCSS"></exclude>
+                <exclude name="setPhoneDevisesTest"></exclude>
+                <exclude name="setDealsTest"></exclude>
+                <exclude name="setCoverageTest"></exclude>
+                <exclude name="setBenefitsTest"></exclude>
+<!--                <exclude name="setFindStoreTest"></exclude>-->
+            </methods>
+        </class>
+            <class name="homeTest.MyAccountTest">
+                <methods>
+                    <exclude name="setMyAccountTest"></exclude>
+                </methods>
+            </class>
         </classes>
 
     </test>
