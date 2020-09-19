@@ -23,6 +23,21 @@ public class SearchWebElements {
     public static final String changeFlightElementXpath = "//ngc-flyout-search//li/a[text()='Change Flight']";
     public static final String changeFlightText = "//*[@id=\"maincontent\"]/div[1]//span/h1";
 
+    // cancel flight element
+    public static final String cancelFlightElementXpath = "//ngc-flyout-search//li/a[text()='Cancel Flight']";
+
+    // receipts element under search options
+    public static final String recieptsElementXpath = "//ngc-flyout-search//li/a[text()='Receipts']";
+
+    // refunds element
+    public static final String refundsElement = "//ngc-flyout-search//li/a[text()='Refunds']";
+
+    // baggage element
+    public static final String baggageElement = "//ngc-flyout-search//li/a[text()='Baggage']";
+
+    // pets under search button element
+    public static final String petsElement = "//ngc-flyout-search//li/a[text()='Baggage']";
+
 
 
 }

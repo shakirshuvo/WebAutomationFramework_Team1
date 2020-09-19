@@ -10,11 +10,11 @@ import java.util.concurrent.TimeUnit;
 public class SearchTest extends CommonAPI {
     Search search;
 
-//    @BeforeMethod
-//    public void getInit(){
-//        search = PageFactory.initElements(driver, Search.class);
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//    }
+    @BeforeMethod
+    public void getInit(){
+        search = PageFactory.initElements(driver, Search.class);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
 //
 //    /**
 //     * test click on search button
@@ -78,7 +78,45 @@ public class SearchTest extends CommonAPI {
 //        search.validateChangeFlightTab();
 //    }
 //
+//    /**
+//     * test cancel flights element
+//     */
+//    @Test
+//    public void testCanceFlights() throws InterruptedException {
+//        search.clickCancelFlights();
+//        sleepFor(3);
+//        search.validateClickCancelFlights();
+//    }
 
+//    /**
+//     * test reciepts element
+//     */
+//    @Test
+//    public void testReciepts() throws InterruptedException {
+//        search.clickReciepts();
+//        sleepFor(3);
+//        search.validateClickReciepts();
+//    }
 
+//
+//    /**
+//     * test baggage element
+//     */
+//    @Test
+//    public void testRefunds() throws InterruptedException {
+//        search.clickBaggage();
+//        sleepFor(3);
+//        search.validateClickBaggage();
+//    }
+
+    /**
+     * test pets element
+     */
+    @Test
+    public void testPetsElement() throws InterruptedException {
+        search.clickPets();
+        sleepFor(3);
+        search.validateClickPets();
+    }
 
 }

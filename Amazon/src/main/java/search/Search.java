@@ -259,7 +259,7 @@ public class Search extends CommonAPI {
      */
     public void verifySearchRandomBookByTitle(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Assert.assertEquals(getTitle(), expectedRandomBookSearchTitle);
+       Assert.assertEquals(driver.getTitle(), expectedRandomBookSearchTitle);
     }
 
 }

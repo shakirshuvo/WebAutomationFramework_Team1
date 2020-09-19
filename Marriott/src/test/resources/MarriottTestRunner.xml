@@ -13,7 +13,7 @@
     <test name="Marriott Home">
         <classes>
 
-            <!--            <class name="signIn.SignInTest"></class>-->
+                     <class name="home.MarriottHomePageTest"></class>
         </classes>
 
     </test>
