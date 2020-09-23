@@ -35,7 +35,7 @@ public class TestSearch  extends CommonAPI {
        // sleepFor(3);
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testSearchBoxCheckUsingClassValues() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -47,7 +47,7 @@ public class TestSearch  extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         searchBoxCheckGetItemsListFromDB();
     }
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testSearchBoxCheckGetItemsListFromExcel() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

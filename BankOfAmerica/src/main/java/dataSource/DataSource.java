@@ -45,7 +45,6 @@ public class DataSource {
         for(int i=1;i<myStringArray.length; i++)
             System.out.println(myStringArray[i] + " ");
         ArrayList<String> list = new ArrayList<String>();
-
         // Using add() method to add elements in array_list
         //System.out.println();
         for (int i = 0; i < myStringArray.length; i++) {
@@ -54,7 +53,5 @@ public class DataSource {
         }
         return list;
     }
-
-
 
 }

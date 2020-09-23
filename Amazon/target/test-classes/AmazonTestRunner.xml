@@ -1,61 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="TestSuite">
-    <!--    thread-count="2" parallel="tests"-->
-    <!--    Cross Browser Testing-->
-    <!--    Parameter to pass the value to WebAPI-->
+<suite name="Amazon Automation Test" parallel="false">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
-    <!--<parameter name="cloudEnvName" value="saucelabs"/>-->
-    <!--    <parameter name="os" value="windows"/>-->
-    <parameter name="os" value="OS X"/>
-<!--    <parameter name="os" value="windows"/>-->
+<!--    <parameter name="os" value="Windows"/>-->
 <!--    <parameter name="os_version" value="10"/>-->
-        <parameter name="os_version" value="Sierra"/>
-    <!--    <parameter name="browserName" value="chrome"/>-->
-    <!--    <parameter name="browserVersion" value="84"/>-->
-    <parameter name="url" value="https://www.amazon.com"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="catalina"/>
+    <parameter name="browserName" value="chrome-options"/>
+    <parameter name="browserVersion" value="85.0"/>
+    <parameter name="url" value="https://www.amazon.com/"></parameter>
 
     <test name="Amazon Home">
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="85"/>
         <classes>
-            <class name="testhome.HomePageTest">
-                <methods>
-                    <exclude name="testSearchBoxCheck"></exclude>
-                    <exclude name="testSearchBoxCheck1"></exclude>
-<!--                    <exclude name="HomePageTest"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
-                    <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->
-                </methods>
-            </class>
-
-            <class name="testhome.RegistrationPageTest"></class>
-
+<!--            <class name="cart.CartTest"></class>-->
+<!--            <class name="home.HomePageTest"></class>-->
+<!--            <class name="registration.RegistrationPageTest"></class>-->
+            <class name="search.SearchTest"></class>
+<!--            <class name="datadriven.DataSource"></class>-->
         </classes>
 
     </test>
 
-    <!--        <test name="Firefox browser">-->
-    <!--            <parameter name="browserName" value="firefox"/>-->
-    <!--            <parameter name="browserVersion" value="80"/>-->
-    <!--            <classes>-->
-    <!--                <class name="testhome.HomePageTest">-->
-    <!--                    <methods>-->
-    <!--                        &lt;!&ndash;                    <exclude name="testSearchBoxCheck1"></exclude>&ndash;&gt;-->
-    <!--                    </methods>-->
-    <!--                </class>-->
-
-    <!--                <class name="testhome.RegistrationPageTest"></class>-->
-    <!--            </classes>-->
-    <!--        </test>-->
-
 </suite>
-
-
-
-
-
