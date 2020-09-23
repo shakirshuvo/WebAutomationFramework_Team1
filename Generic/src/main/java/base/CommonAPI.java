@@ -123,8 +123,8 @@ public class CommonAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "shakirjahangir1";
-    public String browserstack_accesskey = "REz3o29QHkEXvcj7ausZ";
+    public String browserstack_username = "syedsammarraza1";
+    public String browserstack_accesskey = "wq7LisPE3Ef9YU6QSzBJ";
     public String saucelabs_username = "BugBuster";
     public String saucelabs_accesskey = "e68d96f6-4900-4dec-942b-1da200d5923c";
 
@@ -224,11 +224,11 @@ public class CommonAPI {
         }
     }
 
-    public void typeOnElement(String locator, String value) {
+    public static void typeOnElement(String locator, String value) {
         try {
-            driver.findElement(By.cssSelector(locator)).sendKeys(value);
-        } catch (Exception ex) {
             driver.findElement(By.xpath(locator)).sendKeys(value);
+        } catch (Exception ex) {
+            driver.findElement(By.cssSelector(locator)).sendKeys(value);
         }
     }
 
@@ -253,7 +253,7 @@ public class CommonAPI {
 
     public static void typeOnElementNEnter(String locator, String value, WebDriver driver1) {
         try {
-            driver1.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
+            driver1.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
         } catch (Exception ex1) {
             try {
                 System.out.println("First Attempt was not successful");
@@ -264,7 +264,7 @@ public class CommonAPI {
                     driver1.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
                 } catch (Exception ex3) {
                     System.out.println("Third Attempt was not successful");
-                    driver1.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
+                    driver1.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
                 }
             }
         }
@@ -299,7 +299,7 @@ public class CommonAPI {
 
     }
 
-    public void clickByXpath(String locator) {
+    public static void clickByXpath(String locator) {
         driver.findElement(By.xpath(locator)).click();
     }
 
@@ -384,7 +384,7 @@ public class CommonAPI {
         return st;
     }
 
-    public String getTextByXpath(String locator) {
+    public static String getTextByXpath(String locator) {
         String st = driver.findElement(By.xpath(locator)).getText();
         return st;
     }
@@ -577,13 +577,11 @@ public class CommonAPI {
             System.out.println(activeLinks.get(j).getAttribute("href") + "--------->>> " + response);
         }
     }
-
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value) {
 
         webElement.sendKeys(value + Keys.ENTER);
 
     }
-
     public void clearInputBox(WebElement webElement) {
         webElement.clear();
     }
@@ -591,5 +589,12 @@ public class CommonAPI {
     public String getTextByWebElement(WebElement webElement) {
         String text = webElement.getText();
         return text;
+    }
+    /**
+     * Mobin Wrote the Method
+     */
+    public static void scrollUpDownByHeight() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
 }

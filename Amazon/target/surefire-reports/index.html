@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-TestSuite" class="navigator-link">
-              <span class="suite-name border-passed">TestSuite</span>
+              <span class="suite-name border-failed">TestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
-                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods failed suite-TestSuite"> (hide)</a> <!-- hide-methods failed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods failed suite-TestSuite"> (show)</a> <!-- show-methods failed suite-TestSuite -->
                     </span>
-                    <div class="method-list-content passed suite-TestSuite">
+                    <div class="method-list-content failed suite-TestSuite">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheckGetItemsListFromDB">testSearchBoxCheckGetItemsListFromDB</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-TestSuite -->
+                    </div> <!-- method-list-content failed suite-TestSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestSuite" class="panel TestSuite">
-          <div class="suite-TestSuite-class-passed">
+          <div class="suite-TestSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testhome.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,10 +128,37 @@
                   <a name="testSearchBoxCheckGetItemsListFromDB">
                   </a> <!-- testSearchBoxCheckGetItemsListFromDB -->
                   <span class="method-name">testSearchBoxCheckGetItemsListFromDB</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;a-color-state a-text-bold&apos;]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 802b6767b45ea5423630df74711c65ce
+*** Element info: {Using=xpath, value=//span[@class=&apos;a-color-state a-text-bold&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.getText(Unknown Source)
+	at home.HomePage.searchBoxCheckGetItemsListFromDB(HomePage.java:103)
+	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB(HomePageTest.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestSuite-class-passed -->
+          </div> <!-- suite-TestSuite-class-failed -->
         </div> <!-- panel TestSuite -->
         <div panel-name="test-xml-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -144,7 +171,7 @@
 &lt;suite name=&quot;TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
   &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
-  &lt;parameter name=&quot;os_version&quot; value=&quot;10&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;Sierra&quot;/&gt;
   &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.com&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Amazon Home&quot; verbose=&quot;0&quot;&gt;
@@ -201,12 +228,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSearchBoxCheckGetItemsListFromDB')
 data.setCell(0, 2, 'testhome.HomePageTest')
-data.setCell(0, 3, 32608);
+data.setCell(0, 3, 16817);
 window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-TestSuite">
               </div> <!-- times-div-TestSuite -->
             </div> <!-- times-div -->
@@ -253,36 +280,38 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testhome.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@cb7fa71)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@5cbe2654)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, 10, chrome, 85, https://www.amazon.com)</span>
-                <span class="method-start">298 ms</span>
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 85, https://www.amazon.com)</span>
+                <span class="method-start">310 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB() throws java.lang.Exception)</span>
-                <span class="method-start">4092 ms</span>
+                <span class="method-start">4144 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">4097 ms</span>
+                <span class="method-start">4151 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testSearchBoxCheckGetItemsListFromDB</span>
-                <span class="method-start">4119 ms</span>
+                <span class="method-start">4188 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckGetItemsListFromDB status=SUCCESS method=HomePageTest.testSearchB...)</span>
-                <span class="method-start">36731 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckGetItemsListFromDB status=FAILURE method=HomePageTest.testSearchB...)</span>
+                <span class="method-start">21013 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">37424 ms</span>
+                <span class="method-start">23814 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">37465 ms</span>
+                <span class="method-start">23858 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
