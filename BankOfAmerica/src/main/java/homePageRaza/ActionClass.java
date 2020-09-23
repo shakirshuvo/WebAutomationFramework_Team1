@@ -1,4 +1,4 @@
-package searchDataDriven;
+package homePageRaza;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
-import static searchDataDriven.ElementsBOA.*;
+import static homePageRaza.ElementsBOA.*;
 
 public class ActionClass extends CommonAPI {
 

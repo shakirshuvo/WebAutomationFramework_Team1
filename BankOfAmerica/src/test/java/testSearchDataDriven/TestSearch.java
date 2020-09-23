@@ -5,11 +5,11 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-import searchDataDriven.ActionClass;
-import searchDataDriven.DataDrivenAction;
+import homePageRaza.ActionClass;
+import homePageRaza.DataDrivenAction;
 
-import static searchDataDriven.ActionClass.*;
-import static searchDataDriven.DataDrivenAction.*;
+import static homePageRaza.ActionClass.*;
+import static homePageRaza.DataDrivenAction.*;
 
 public class TestSearch  extends CommonAPI {
 

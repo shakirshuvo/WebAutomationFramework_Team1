@@ -1,4 +1,4 @@
-package searchDataDriven;
+package homePageRaza;
 
 import base.CommonAPI;
 import dataSource.DataSource;
@@ -8,10 +8,9 @@ import org.openqa.selenium.support.How;
 import org.testng.Assert;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-import static searchDataDriven.ElementsBOA.searchBoxLocator;
-import static searchDataDriven.ElementsBOA.searchValidationLocator;
+import static homePageRaza.ElementsBOA.searchBoxLocator;
+import static homePageRaza.ElementsBOA.searchValidationLocator;
 
 public class DataDrivenAction extends CommonAPI {
 

@@ -2,17 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Delta Automation Test" parallel="false">
-    <parameter name="url" value="https://www.delta.com/"></parameter>
-
-    <test name="Delta Home">
+    <parameter name="url" value="https://www.delta.com/ca/en"></parameter>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="catalina"/>
+    <!--    <parameter name="os" value="Windows"/>-->
+    <!--    <parameter name="os_version" value="10"/>-->
+    <parameter name="browserName" value="chrome-options"/>
+    <parameter name="browserVersion" value="85"/>
+    <test name="Delta">
         <classes>
-            <!--<class name=""></class>-->
+            <class name="deltaHomePageRaza.TestDeltaRaza"></class>
+            <!--            <class name="testSearchDataDriven.TestSearch"></class>-->
+            <!--            <class name="myAccount.MyAccountTest"></class>-->
         </classes>
 
     </test>
-
-
-
-
-
 </suite>

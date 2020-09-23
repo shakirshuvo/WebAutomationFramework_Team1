@@ -309,59 +309,126 @@
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
 																	<td class='timestamp'>21:58:52</td>
-																	<td class='step-details'>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='query']"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:65497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ad107dd4652ab91a873978c8f2297b2c
-*** Element info: {Using=xpath, value=//span[@class='query']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.getTextByXpath(CommonAPI.java:388)
-	at searchDataDriven.DataDrivenAction.searchBoxCheckGetItemsListFromDB(DataDrivenAction.java:54)
-	at testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromDB(TestSearch.java:48)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)</td>
+																	<td class='step-details'>org.openqa.selenium.NoSuchElementException:
+                                                                        no such element: Unable to locate element:
+                                                                        {"method":"xpath","selector":"//span[@class='query']"}
+                                                                        (Session info: chrome=85.0.4183.121)
+                                                                        For documentation on this error, please visit:
+                                                                        https://www.seleniumhq.org/exceptions/no_such_element.html
+                                                                        Build info: version: '3.141.59', revision:
+                                                                        'e82be7d358', time: '2018-11-14T08:17:03'
+                                                                        System info: host: 'Syeds-MBP.ed.shawcable.net',
+                                                                        ip: '2604:3d09:6e80:4500:0:0:0:6034%en0',
+                                                                        os.name: 'Mac OS X', os.arch: 'x86_64',
+                                                                        os.version: '10.15.6', java.version: '11.0.7'
+                                                                        Driver info:
+                                                                        org.openqa.selenium.chrome.ChromeDriver
+                                                                        Capabilities {acceptInsecureCerts: false,
+                                                                        browserName: chrome, browserVersion:
+                                                                        85.0.4183.121, chrome: {chromedriverVersion:
+                                                                        84.0.4147.30 (48b3e868b4cc0..., userDataDir:
+                                                                        /var/folders/xh/fygjm06s7q9...},
+                                                                        goog:chromeOptions: {debuggerAddress:
+                                                                        localhost:65497}, javascriptEnabled: true,
+                                                                        networkConnectionEnabled: false,
+                                                                        pageLoadStrategy: normal, platform: MAC,
+                                                                        platformName: MAC, proxy: Proxy(),
+                                                                        setWindowRect: true, strictFileInteractability:
+                                                                        false, timeouts: {implicit: 0, pageLoad: 300000,
+                                                                        script: 30000}, unhandledPromptBehavior: dismiss
+                                                                        and notify, webauthn:virtualAuthenticators:
+                                                                        true}
+                                                                        Session ID: ad107dd4652ab91a873978c8f2297b2c
+                                                                        *** Element info: {Using=xpath,
+                                                                        value=//span[@class='query']}
+                                                                        at
+                                                                        java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native
+                                                                        Method)
+                                                                        at
+                                                                        java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                                                                        at
+                                                                        java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                                                                        at
+                                                                        java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+                                                                        at
+                                                                        org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                                                                        at
+                                                                        org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                                                                        at
+                                                                        org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                                                                        at
+                                                                        org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                                                                        at
+                                                                        org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                                                                        at
+                                                                        org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                                                                        at
+                                                                        org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                                                                        at
+                                                                        org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                                                                        at
+                                                                        org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                                                                        at
+                                                                        org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                                                                        at
+                                                                        base.CommonAPI.getTextByXpath(CommonAPI.java:388)
+                                                                        at
+                                                                        homePageRaza.DataDrivenAction.searchBoxCheckGetItemsListFromDB(DataDrivenAction.java:54)
+                                                                        at
+                                                                        testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromDB(TestSearch.java:48)
+                                                                        at
+                                                                        java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native
+                                                                        Method)
+                                                                        at
+                                                                        java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                                                                        at
+                                                                        java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                                                                        at
+                                                                        java.base/java.lang.reflect.Method.invoke(Method.java:566)
+                                                                        at
+                                                                        org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+                                                                        at
+                                                                        org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+                                                                        at
+                                                                        org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+                                                                        at
+                                                                        org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                                                                        at
+                                                                        org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+                                                                        at
+                                                                        org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+                                                                        at
+                                                                        org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                                                                        at
+                                                                        org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                                                                        at
+                                                                        java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+                                                                        at
+                                                                        org.testng.TestRunner.privateRun(TestRunner.java:766)
+                                                                        at
+                                                                        org.testng.TestRunner.run(TestRunner.java:587)
+                                                                        at
+                                                                        org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+                                                                        at
+                                                                        org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+                                                                        at
+                                                                        org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+                                                                        at
+                                                                        org.testng.SuiteRunner.run(SuiteRunner.java:286)
+                                                                        at
+                                                                        org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+                                                                        at
+                                                                        org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+                                                                        at
+                                                                        org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+                                                                        at
+                                                                        org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+                                                                        at org.testng.TestNG.runSuites(TestNG.java:1039)
+                                                                        at org.testng.TestNG.run(TestNG.java:1007)
+                                                                        at
+                                                                        com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+                                                                        at
+                                                                        com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)</td>
 																</tr>
 														</tbody>
 													</table>
@@ -407,36 +474,65 @@ Session ID: ad107dd4652ab91a873978c8f2297b2c
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
 																	<td class='timestamp'>21:59:01</td>
 																	<td class='step-details'>java.lang.NullPointerException
-	at dataSource.DataSource.getItemsListFromExcel(DataSource.java:44)
-	at searchDataDriven.DataDrivenAction.searchBoxCheckGetItemsListFromExcel(DataDrivenAction.java:66)
-	at testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromExcel(TestSearch.java:54)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)</td>
+                                                                        at
+                                                                        dataSource.DataSource.getItemsListFromExcel(DataSource.java:44)
+                                                                        at
+                                                                        homePageRaza.DataDrivenAction.searchBoxCheckGetItemsListFromExcel(DataDrivenAction.java:66)
+                                                                        at
+                                                                        testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromExcel(TestSearch.java:54)
+                                                                        at
+                                                                        java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native
+                                                                        Method)
+                                                                        at
+                                                                        java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                                                                        at
+                                                                        java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                                                                        at
+                                                                        java.base/java.lang.reflect.Method.invoke(Method.java:566)
+                                                                        at
+                                                                        org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+                                                                        at
+                                                                        org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+                                                                        at
+                                                                        org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+                                                                        at
+                                                                        org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                                                                        at
+                                                                        org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+                                                                        at
+                                                                        org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+                                                                        at
+                                                                        org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                                                                        at
+                                                                        org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                                                                        at
+                                                                        java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+                                                                        at
+                                                                        org.testng.TestRunner.privateRun(TestRunner.java:766)
+                                                                        at
+                                                                        org.testng.TestRunner.run(TestRunner.java:587)
+                                                                        at
+                                                                        org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+                                                                        at
+                                                                        org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+                                                                        at
+                                                                        org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+                                                                        at
+                                                                        org.testng.SuiteRunner.run(SuiteRunner.java:286)
+                                                                        at
+                                                                        org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+                                                                        at
+                                                                        org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+                                                                        at
+                                                                        org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+                                                                        at
+                                                                        org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+                                                                        at org.testng.TestNG.runSuites(TestNG.java:1039)
+                                                                        at org.testng.TestNG.run(TestNG.java:1007)
+                                                                        at
+                                                                        com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+                                                                        at
+                                                                        com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)</td>
 																</tr>
 														</tbody>
 													</table>
