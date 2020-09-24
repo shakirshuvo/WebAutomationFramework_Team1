@@ -13,15 +13,34 @@ public class TestDeltaRaza extends CommonAPI {
     HomeDeltaRaza homePage;
 
 
+
     @BeforeMethod
     public void getInit() {
 
         homePage = PageFactory.initElements(driver, HomeDeltaRaza.class);
         driver.manage().window().maximize();
-//        homePage.handleHomePageAlert();
+    }
 
+    @Test(enabled = true)
+    public void testCheckBooking(){
+        homePage.checkBooking();
+        homePage.validateCheckBooking();
+    }
+    @Test(enabled = true)
+    public void testCheckCheckIn(){
+        homePage.checkCheckIn();
+        homePage.validatecheckCheckIn();
+    }
 
-
+    @Test(enabled = true)
+    public void testCheckMyTrip(){
+        homePage.checkMyTrip();
+        homePage.validatecheckMyTrip();
+    }
+    @Test(enabled = true)
+    public void testCheckFlightStatus(){
+        homePage.checkFlightStatus();
+        homePage.validateFlightStatus();
     }
 
     @Test(enabled = true)
@@ -32,7 +51,6 @@ public class TestDeltaRaza extends CommonAPI {
         sleepFor(3);
         homePage.searchBoxCheck("Toronto");
         homePage.validateSearchBoxCheck();
-
     }
 
     @Test(enabled = true)
