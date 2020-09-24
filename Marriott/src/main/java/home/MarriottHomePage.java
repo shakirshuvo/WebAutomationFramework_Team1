@@ -35,7 +35,7 @@ public class MarriottHomePage extends CommonAPI {
      * validate click on language selector
      */
     public void validateLanguageSelector(){
-        String actual = getTextByWebElement(selectLanguageVerifier);
+        String actual = getTextByXpath(selectLanguageVerifierElementXpath);
         String expected = "Please select your preferred language";
         Assert.assertEquals(actual, expected, "Test failed");
     }

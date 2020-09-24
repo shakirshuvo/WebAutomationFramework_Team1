@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Bank of America Automation Test" parallel="false">
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
@@ -12,13 +12,8 @@
 
     <test name="Bank of America Home">
         <classes>
-            <!--            <class name="signIn.SignInTest"></class>-->
-            <!--            <class name="registration.RegistrationPageTest"></class>-->
-            <!--            <class name="cart.CartTest"></class>-->
-            <!--            <class name="home.home.HomePageTest"></class>-->
-            <!--            <class name="registration.RegistrationPageTest"></class>-->
-<!--            <class name="home.HomePageTest"></class>-->
-            <!--            <class name="signIn.SignInTest"></class>-->
+
+            <class name="home.HomePageTest"></class>
         </classes>
 
     </test>

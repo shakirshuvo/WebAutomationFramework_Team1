@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-import java.util.concurrent.TimeUnit;
+
 
 import static home.HomePageWebElements.*;
 
@@ -43,8 +43,7 @@ public class HomePage extends CommonAPI {
      * test clicking on Personal element
      */
     public void clickOnPersonal() throws InterruptedException {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+        sleepFor(5);
        clickOnElement(personalWebElementID);
         //personal.click();
         //System.out.println("this is personal");
@@ -54,7 +53,6 @@ public class HomePage extends CommonAPI {
      * validate click on personal
      */
     public void validateClickOnPersonal(){
-      //  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String actual = hereToHelp.getText();
         Assert.assertEquals(actual, heretoHelpExpectedText);
     }
@@ -68,7 +66,6 @@ public class HomePage extends CommonAPI {
      */
 
     public void clickOnChecking(){
-      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         checkingWebElement.click();
     }
 
@@ -77,7 +74,6 @@ public class HomePage extends CommonAPI {
      * @Author: waqas
      */
     public void validateClickOnChecking(){
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String actualText = stayFlexibleText.getText();
         Assert.assertEquals(actualText,stayFlexibleExpectedText);
     }
@@ -94,7 +90,6 @@ public class HomePage extends CommonAPI {
      */
     public void validateAdvantageBanking(){
        /// clickOnAdvantageBanking();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String actual = advantageBanking.getText();
         System.out.println(actual);
         Assert.assertEquals(actual, advantageBankingExpectedText);
@@ -110,7 +105,6 @@ public class HomePage extends CommonAPI {
      * click on open account button
      */
     public void clickOpenAccount() throws InterruptedException {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickOnPersonal();
         openAccount.click();
     }
@@ -119,7 +113,6 @@ public class HomePage extends CommonAPI {
      * validate click on open account
      */
     public void validateClickOpenAccount(){
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String actual = safeBalance.getText();
         Assert.assertEquals(actual, safeBalanceExpectedText);
     }
@@ -134,7 +127,6 @@ public class HomePage extends CommonAPI {
      * click on small business
      */
     public void clickOnSmallBusiness(){
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         smallBusiness.click();
     }
 
@@ -187,6 +179,22 @@ public class HomePage extends CommonAPI {
     public void validateClickBusinessInstitutions(){
         String actual = economicsOfReopening.getText();
         Assert.assertEquals(actual, erExpectedText);
+    }
+
+    /**
+     * security tab on homepage
+     */
+    public void clickOnSecurityTab(){
+        clickOnElement(securityElementXPath);
+    }
+
+    /**
+     * validate click on Security tab
+     */
+    public void validateClickOnSecurityTab(){
+        String actual = driver.getTitle();
+        String expected = "Privacy & Security Center at Bank of America";
+        Assert.assertEquals(actual, expected, "test failed");
     }
 
     // About us

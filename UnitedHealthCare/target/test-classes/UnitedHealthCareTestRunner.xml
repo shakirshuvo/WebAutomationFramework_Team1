@@ -13,7 +13,7 @@
     <test name="United HealthcareHome">
         <classes>
 
-            <!--            <class name="signIn.SignInTest"></class>-->
+                        <class name="home.UHomePageTest"></class>
         </classes>
 
     </test>

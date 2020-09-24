@@ -14,52 +14,54 @@ public class UHomePageTest extends CommonAPI {
     public void getInit(){
 
         homePage = PageFactory.initElements(driver , UHomePage.class);
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
-//    /**
-//     * test search element
-//     */
-//    @Test
-//    public void testSearchElement(){
-//        homePage.searchBox();
-//        homePage.clickOnSearchButton();
-//        homePage.validateSearch();
-//    }
-//
-//    /**
-//     * test brokers tab
-//     *
-//     */
-//    @Test
-//    public void testBrokers(){
-//        homePage.clickOnBrokers();
-//        homePage.validateClickOnBrokers();
-//    }
-//
-//    /**
-//     * test medicare tab
-//     */
-//    @Test
-//    public void testClickOnMedicare(){
-//        homePage.clickOnMedicare();
-//        homePage.validateClickOnMedicare();
-//    }
-//
-//    /**
-//     * test for providers tab
-//     */
-//    @Test
-//    public void testClickOnForProviders(){
-//        homePage.clickOnForProviders();
-//        homePage.validateClickOnForProviders();
-//    }
-//
-//    /**
-//     * test click on for employers tab
-//     */
-//    @Test
-//    public void testClickOnForEmployers(){
-//        homePage.clickOnForEmployersTab();
-//        homePage.validateClickOnForEmployers();
-//    }
+    /**
+     * test search element
+     */
+    @Test
+    public void testSearchBoxElement(){
+        homePage.searchBox();
+        homePage.clickOnSearchButton();
+        homePage.validateSearch();
+    }
+
+    /**
+     * test brokers tab
+     *
+     */
+    @Test
+    public void testBrokers(){
+        homePage.clickOnBrokers();
+        homePage.validateClickOnBrokers();
+    }
+
+    /**
+     * test medicare tab
+     */
+    @Test
+    public void testClickOnMedicare(){
+        homePage.clickOnMedicare();
+        homePage.validateClickOnMedicare();
+    }
+
+    /**
+     * test for providers tab
+     */
+    @Test
+    public void testClickOnForProviders(){
+        homePage.clickOnForProviders();
+        homePage.validateClickOnForProviders();
+    }
+
+    /**
+     * test click on for employers tab
+     */
+    @Test
+    public void testClickOnForEmployers(){
+        homePage.clickOnForEmployersTab();
+        homePage.validateClickOnForEmployers();
+    }
 }

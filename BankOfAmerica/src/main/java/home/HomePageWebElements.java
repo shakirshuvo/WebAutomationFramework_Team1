@@ -4,13 +4,6 @@ import com.mysql.cj.util.DnsSrv;
 
 public class HomePageWebElements {
 
-    // Checking
-    public static final String checkingWebElementXPath = "//*[@id=\"navChecking\"]";
-    public static final String stayFlexibleTextWebElementXPath = "//p[text()='Stay flexible with Bank of']";
-    public static final String stayFlexibleExpectedText = "Stay flexible with Bank of";
-    //public static final String stayFlexibleTextWebElementID = "advantageBanking";
-   // public static final String checkingExpectedText = "Bank of America - Banking, Credit Cards, Loans and Merrill Investing";
-
     public static final String advantageBankingTextWebElementXPath = "//a[text()='Bank of America Advantage Banking']";
     public static final String advantageBankingExpectedText = "Bank of America Advantage Banking";
 
@@ -44,10 +37,26 @@ public class HomePageWebElements {
     public static final String economicsOfReopeningXPath = "//*[@id=\"full_click\"]/a/div/div/h1";
     public static final String erExpectedText  = "The Economics of Reopening";
 
+    // security tab on homepage
+    public static final String securityElementXPath = "//a[@id=\"NAV_SECURITY\"]";
+
+
     //about us
     public static final String aboutUsElementXPath = "/html/body/header/div[1]/div/ul[1]/li[5]/a";
     public static final String whoWeArElementID = "\"who-we-are\"";
     public static final String whoExpectedText = "Who we are";
+
+
+    // Checking
+    public static final String checkingWebElementXPath = "//*[@id=\"navChecking\"]";
+    public static final String stayFlexibleTextWebElementXPath = "//p[text()='Stay flexible with Bank of']";
+    public static final String stayFlexibleExpectedText = "Stay flexible with Bank of";
+    //public static final String stayFlexibleTextWebElementID = "advantageBanking";
+    // public static final String checkingExpectedText = "Bank of America - Banking, Credit Cards, Loans and Merrill Investing";
+
+
+    //Savings
+    public static final String savingsWebElementXPath = "//a[@id=\"navSavings\"]";
 
 
 
