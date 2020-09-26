@@ -14,11 +14,11 @@ public class HomePageTest extends CommonAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
-    @Test
-    public void testValidateSearchBox() throws InterruptedException {
-        homePage.CheckSearchBox("Mask");
-        homePage.validateSearchBox();
-    }
+//    @Test
+//    public void testValidateSearchBox() throws InterruptedException {
+//        homePage.CheckSearchBox("Mask");
+//        homePage.validateSearchBox();
+//    }
 
     @Test
     public void testValidateBestSeller() {
@@ -76,8 +76,8 @@ public class HomePageTest extends CommonAPI {
 
     @Test
     public void testValidateNewPCGamesv() {
-        homePage.checkNewPCGamesv();
-        homePage.validateNewPCGamesv();
+        homePage.checkNewPCGames();
+        homePage.validateNewPCGames();
     }
 
     @Test

@@ -15,8 +15,8 @@ public class HomePageWebElements {
     public static final String mostWishedForCSS = "#zg_tabs > ul > li.zg_selected > div > a";
     public static final String giftIdeasCSS = "#zg_tabs > ul > li:nth-child(5) > div > a";
     public static final String customerServiceCSS = "#nav-xshop > a:nth-child(3)";
-    public static final String todaysDealCSS = "#nav-xshop > a:nth-child(4)";
-    public static final String newReleases1CSS ="#nav-xshop > a:nth-child(5)";
+    public static final String todaysDealCSS = "#nav-xshop > a:nth-child(6)";
+    public static final String newReleases1CSS ="#nav-xshop > a:nth-child(4)";
     public static final String newGamesCSS = "#zg_left_col1 > div:nth-child(1) > div.zg_homeListLink > a";
     public static final String newPCGamesCSS = "#zg_browseRoot > ul > ul > li:nth-child(1) > a";
     public static final String newVideoGamesCSS = "#zg_browseRoot > ul > li > span";
@@ -34,7 +34,7 @@ public class HomePageWebElements {
     public static final String moreSystemsCSS = "#zg_browseRoot > ul > ul > li:nth-child(13) > a";
     public static final String newNintendoSwitchCSS = "#zg_browseRoot > ul > ul > li:nth-child(14) > a";
     public static final String microconsolesCSS = "#zg_browseRoot > ul > ul > li:nth-child(15) > a";
-    public static final String findAGiftCSS = "#nav-xshop > a:nth-child(6)";
+    public static final String findAGiftCSS = "#nav-xshop > a:nth-child(8)";
     public static final String wholeFoodCSS = "#nav-xshop > a:nth-child(7)";
     public static final String wholeFoodBeveragesCSS = "#nav-subnav > a:nth-child(6) > span.nav-a-content";
     public static final String giftCardsCSS = "#nav-xshop > a:nth-child(8)";

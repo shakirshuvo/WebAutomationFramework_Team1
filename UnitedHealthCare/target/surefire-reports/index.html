@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-United_Health_Care_Automation_Test" class="navigator-link">
+              <span class="suite-name border-failed">United Health Care Automation Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-United_Health_Care_Automation_Test" class="navigator-link ">
+                    <span>UnitedHealthCareTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-United_Health_Care_Automation_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-United_Health_Care_Automation_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-United_Health_Care_Automation_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-United_Health_Care_Automation_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-United_Health_Care_Automation_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-United_Health_Care_Automation_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 1 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-United_Health_Care_Automation_Test" class="hide-methods failed suite-United_Health_Care_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-United_Health_Care_Automation_Test -->
+                      <a href="#" panel-name="suite-United_Health_Care_Automation_Test" class="show-methods failed suite-United_Health_Care_Automation_Test"> (show)</a> <!-- show-methods failed suite-United_Health_Care_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-United_Health_Care_Automation_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateSigninError">testValidateSigninError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-United_Health_Care_Automation_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-United_Health_Care_Automation_Test" class="hide-methods passed suite-United_Health_Care_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-United_Health_Care_Automation_Test -->
+                      <a href="#" panel-name="suite-United_Health_Care_Automation_Test" class="show-methods passed suite-United_Health_Care_Automation_Test"> (show)</a> <!-- show-methods passed suite-United_Health_Care_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-United_Health_Care_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateAboutUs">testValidateAboutUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateAccessibility">testValidateAccessibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateCareer">testValidateCareer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateContactUs">testValidateContactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateDentalHealthPlan">testValidateDentalHealthPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateFindADoctor">testValidateFindADoctor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateFindYourPlan">testValidateFindYourPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateForBrokers">testValidateForBrokers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateForEmployers">testValidateForEmployers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateForProviders">testValidateForProviders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateIndividualAndFamilyHealthPlan">testValidateIndividualAndFamilyHealthPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateLanguageChange">testValidateLanguageChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateLegal">testValidateLegal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateMedicaidHealthPlan">testValidateMedicaidHealthPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateMedicare">testValidateMedicare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateMedicareHealthPlan">testValidateMedicareHealthPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateNewsRoom">testValidateNewsRoom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidatePrivacy">testValidatePrivacy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateShortTermInsurenceHealthPlan">testValidateShortTermInsurenceHealthPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-United_Health_Care_Automation_Test" title="home.UHCHomePageTest" class="method navigator-link" hash-for-method="testValidateSmallBusinessHealthPlan">testValidateSmallBusinessHealthPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-United_Health_Care_Automation_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-United_Health_Care_Automation_Test" class="panel United_Health_Care_Automation_Test">
+          <div class="suite-United_Health_Care_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">home.UHCHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateSigninError">
+                  </a> <!-- testValidateSigninError -->
+                  <span class="method-name">testValidateSigninError</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;671978824-list1599767959824&quot;]/li[2]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Farjanas-Air&apos;, ip: &apos;2604:2000:1700:1c:aca7:63da:436f:f5a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:50075}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 68428e0288ffeb297a1b4b27b0dc77e7
+*** Element info: {Using=xpath, value=//*[@id=&quot;671978824-list1599767959824&quot;]/li[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.UHCHomePage.clickSignInButton(UHCHomePage.java:455)
+	at home.UHCHomePageTest.testValidateSigninError(UHCHomePageTest.java:159)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-United_Health_Care_Automation_Test-class-failed -->
+          <div class="suite-United_Health_Care_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">home.UHCHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateAboutUs">
+                  </a> <!-- testValidateAboutUs -->
+                  <span class="method-name">testValidateAboutUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateAccessibility">
+                  </a> <!-- testValidateAccessibility -->
+                  <span class="method-name">testValidateAccessibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateCareer">
+                  </a> <!-- testValidateCareer -->
+                  <span class="method-name">testValidateCareer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateContactUs">
+                  </a> <!-- testValidateContactUs -->
+                  <span class="method-name">testValidateContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateDentalHealthPlan">
+                  </a> <!-- testValidateDentalHealthPlan -->
+                  <span class="method-name">testValidateDentalHealthPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateFindADoctor">
+                  </a> <!-- testValidateFindADoctor -->
+                  <span class="method-name">testValidateFindADoctor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateFindYourPlan">
+                  </a> <!-- testValidateFindYourPlan -->
+                  <span class="method-name">testValidateFindYourPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateForBrokers">
+                  </a> <!-- testValidateForBrokers -->
+                  <span class="method-name">testValidateForBrokers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateForEmployers">
+                  </a> <!-- testValidateForEmployers -->
+                  <span class="method-name">testValidateForEmployers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateForProviders">
+                  </a> <!-- testValidateForProviders -->
+                  <span class="method-name">testValidateForProviders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateIndividualAndFamilyHealthPlan">
+                  </a> <!-- testValidateIndividualAndFamilyHealthPlan -->
+                  <span class="method-name">testValidateIndividualAndFamilyHealthPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateLanguageChange">
+                  </a> <!-- testValidateLanguageChange -->
+                  <span class="method-name">testValidateLanguageChange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateLegal">
+                  </a> <!-- testValidateLegal -->
+                  <span class="method-name">testValidateLegal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateMedicaidHealthPlan">
+                  </a> <!-- testValidateMedicaidHealthPlan -->
+                  <span class="method-name">testValidateMedicaidHealthPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateMedicare">
+                  </a> <!-- testValidateMedicare -->
+                  <span class="method-name">testValidateMedicare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateMedicareHealthPlan">
+                  </a> <!-- testValidateMedicareHealthPlan -->
+                  <span class="method-name">testValidateMedicareHealthPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateNewsRoom">
+                  </a> <!-- testValidateNewsRoom -->
+                  <span class="method-name">testValidateNewsRoom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidatePrivacy">
+                  </a> <!-- testValidatePrivacy -->
+                  <span class="method-name">testValidatePrivacy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateShortTermInsurenceHealthPlan">
+                  </a> <!-- testValidateShortTermInsurenceHealthPlan -->
+                  <span class="method-name">testValidateShortTermInsurenceHealthPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateSmallBusinessHealthPlan">
+                  </a> <!-- testValidateSmallBusinessHealthPlan -->
+                  <span class="method-name">testValidateSmallBusinessHealthPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-United_Health_Care_Automation_Test-class-passed -->
+        </div> <!-- panel United_Health_Care_Automation_Test -->
+        <div panel-name="test-xml-United_Health_Care_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/UnitedHealthCare/target/test-classes/UnitedHealthCareTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;United Health Care Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;Sierra&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;85.0&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome-options&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.uhc.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UnitedHealthCare Home&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;home.UHCHomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UnitedHealthCare Home --&gt;
+&lt;/suite&gt; &lt;!-- United Health Care Automation Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-United_Health_Care_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for United Health Care Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UnitedHealthCare Home (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-United_Health_Care_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for United Health Care Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-United_Health_Care_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for United Health Care Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_United_Health_Care_Automation_Test');
+function tableData_United_Health_Care_Automation_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testValidateDentalHealthPlan')
+data.setCell(0, 2, 'home.UHCHomePageTest')
+data.setCell(0, 3, 22507);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testValidateSigninError')
+data.setCell(1, 2, 'home.UHCHomePageTest')
+data.setCell(1, 3, 15244);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testValidateMedicareHealthPlan')
+data.setCell(2, 2, 'home.UHCHomePageTest')
+data.setCell(2, 3, 11289);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testValidateForProviders')
+data.setCell(3, 2, 'home.UHCHomePageTest')
+data.setCell(3, 3, 10802);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testValidateCareer')
+data.setCell(4, 2, 'home.UHCHomePageTest')
+data.setCell(4, 3, 9514);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testValidateMedicaidHealthPlan')
+data.setCell(5, 2, 'home.UHCHomePageTest')
+data.setCell(5, 3, 9351);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testValidateSmallBusinessHealthPlan')
+data.setCell(6, 2, 'home.UHCHomePageTest')
+data.setCell(6, 3, 8472);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testValidateNewsRoom')
+data.setCell(7, 2, 'home.UHCHomePageTest')
+data.setCell(7, 3, 8400);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testValidateLanguageChange')
+data.setCell(8, 2, 'home.UHCHomePageTest')
+data.setCell(8, 3, 7585);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testValidatePrivacy')
+data.setCell(9, 2, 'home.UHCHomePageTest')
+data.setCell(9, 3, 7247);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testValidateIndividualAndFamilyHealthPlan')
+data.setCell(10, 2, 'home.UHCHomePageTest')
+data.setCell(10, 3, 7227);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testValidateFindADoctor')
+data.setCell(11, 2, 'home.UHCHomePageTest')
+data.setCell(11, 3, 6573);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testValidateContactUs')
+data.setCell(12, 2, 'home.UHCHomePageTest')
+data.setCell(12, 3, 6549);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testValidateForEmployers')
+data.setCell(13, 2, 'home.UHCHomePageTest')
+data.setCell(13, 3, 6489);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testValidateShortTermInsurenceHealthPlan')
+data.setCell(14, 2, 'home.UHCHomePageTest')
+data.setCell(14, 3, 6407);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testValidateAboutUs')
+data.setCell(15, 2, 'home.UHCHomePageTest')
+data.setCell(15, 3, 6323);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testValidateMedicare')
+data.setCell(16, 2, 'home.UHCHomePageTest')
+data.setCell(16, 3, 6321);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testValidateAccessibility')
+data.setCell(17, 2, 'home.UHCHomePageTest')
+data.setCell(17, 3, 6139);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testValidateLegal')
+data.setCell(18, 2, 'home.UHCHomePageTest')
+data.setCell(18, 3, 6103);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testValidateFindYourPlan')
+data.setCell(19, 2, 'home.UHCHomePageTest')
+data.setCell(19, 3, 6098);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testValidateForBrokers')
+data.setCell(20, 2, 'home.UHCHomePageTest')
+data.setCell(20, 3, 6060);
+window.suiteTableData['United_Health_Care_Automation_Test']= { tableData: data, tableDiv: 'times-div-United_Health_Care_Automation_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-United_Health_Care_Automation_Test">
+              </div> <!-- times-div-United_Health_Care_Automation_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-United_Health_Care_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for United Health Care Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-United_Health_Care_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-United_Health_Care_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">home.UHCHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@4d464510)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateAboutUs() throws java.lang.InterruptedException)</span>
+                <span class="method-start">9443 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">9486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateAboutUs</span>
+                <span class="method-start">9724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateAboutUs status=SUCCESS method=UHCHomePageTest.testValidateAboutUs()[pri...)</span>
+                <span class="method-start">16058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">17008 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">17012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateAccessibility() throws java.lang.InterruptedException)</span>
+                <span class="method-start">22698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">22700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateAccessibility</span>
+                <span class="method-start">22705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateAccessibility status=SUCCESS method=UHCHomePageTest.testValidateAccessi...)</span>
+                <span class="method-start">28845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">29158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">29159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateCareer() throws java.lang.InterruptedException)</span>
+                <span class="method-start">35226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">35227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateCareer</span>
+                <span class="method-start">35232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateCareer status=SUCCESS method=UHCHomePageTest.testValidateCareer()[pri:0...)</span>
+                <span class="method-start">44754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">45215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">45217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateContactUs() throws java.lang.InterruptedException)</span>
+                <span class="method-start">51461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">51461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateContactUs</span>
+                <span class="method-start">51467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateContactUs status=SUCCESS method=UHCHomePageTest.testValidateContactUs()...)</span>
+                <span class="method-start">58021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">58458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">58460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateDentalHealthPlan() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">65667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">65673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateDentalHealthPlan</span>
+                <span class="method-start">65678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateDentalHealthPlan status=SUCCESS method=UHCHomePageTest.testValidateDent...)</span>
+                <span class="method-start">88222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">89488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">89489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateFindADoctor() throws java.lang.InterruptedException)</span>
+                <span class="method-start">99283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">99301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateFindADoctor</span>
+                <span class="method-start">99320 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateFindADoctor status=SUCCESS method=UHCHomePageTest.testValidateFindADoct...)</span>
+                <span class="method-start">105899 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">106274 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">106276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateFindYourPlan() throws java.lang.InterruptedException)</span>
+                <span class="method-start">112520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">112521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateFindYourPlan</span>
+                <span class="method-start">112524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateFindYourPlan status=SUCCESS method=UHCHomePageTest.testValidateFindYour...)</span>
+                <span class="method-start">118622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">118908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">118909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateForBrokers() throws java.lang.InterruptedException)</span>
+                <span class="method-start">124295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">124296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateForBrokers</span>
+                <span class="method-start">124299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateForBrokers status=SUCCESS method=UHCHomePageTest.testValidateForBrokers...)</span>
+                <span class="method-start">130360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">130616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">130617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateForEmployers() throws java.lang.InterruptedException)</span>
+                <span class="method-start">140061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">140062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateForEmployers</span>
+                <span class="method-start">140064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateForEmployers status=SUCCESS method=UHCHomePageTest.testValidateForEmplo...)</span>
+                <span class="method-start">146554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">146852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">146853 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateForProviders() throws java.lang.InterruptedException)</span>
+                <span class="method-start">152071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">152072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateForProviders</span>
+                <span class="method-start">152074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateForProviders status=SUCCESS method=UHCHomePageTest.testValidateForProvi...)</span>
+                <span class="method-start">162900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">163487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">163489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateIndividualAndFamilyHealthPlan() throws java.lang.Interr...)</span>
+                <span class="method-start">171127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">171145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateIndividualAndFamilyHealthPlan</span>
+                <span class="method-start">171153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateIndividualAndFamilyHealthPlan status=SUCCESS method=UHCHomePageTest.tes...)</span>
+                <span class="method-start">178387 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">181182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">181185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateLanguageChange() throws java.lang.InterruptedException)</span>
+                <span class="method-start">189755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">189767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateLanguageChange</span>
+                <span class="method-start">189774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateLanguageChange status=SUCCESS method=UHCHomePageTest.testValidateLangua...)</span>
+                <span class="method-start">197361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">197630 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">197632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateLegal() throws java.lang.InterruptedException)</span>
+                <span class="method-start">203002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">203003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateLegal</span>
+                <span class="method-start">203005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateLegal status=SUCCESS method=UHCHomePageTest.testValidateLegal()[pri:0, ...)</span>
+                <span class="method-start">209108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">209412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">209413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateMedicaidHealthPlan() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">214626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">214627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateMedicaidHealthPlan</span>
+                <span class="method-start">214628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateMedicaidHealthPlan status=SUCCESS method=UHCHomePageTest.testValidateMe...)</span>
+                <span class="method-start">223979 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">224495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">224496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateMedicare() throws java.lang.InterruptedException)</span>
+                <span class="method-start">231955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">231965 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateMedicare</span>
+                <span class="method-start">231968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateMedicare status=SUCCESS method=UHCHomePageTest.testValidateMedicare()[p...)</span>
+                <span class="method-start">238292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">238647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">238648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateMedicareHealthPlan() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">244098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">244103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateMedicareHealthPlan</span>
+                <span class="method-start">244106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateMedicareHealthPlan status=SUCCESS method=UHCHomePageTest.testValidateMe...)</span>
+                <span class="method-start">255398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">255805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">255808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateNewsRoom() throws java.lang.InterruptedException)</span>
+                <span class="method-start">261960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">261961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateNewsRoom</span>
+                <span class="method-start">261964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateNewsRoom status=SUCCESS method=UHCHomePageTest.testValidateNewsRoom()[p...)</span>
+                <span class="method-start">270368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">270779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">270782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidatePrivacy() throws java.lang.InterruptedException)</span>
+                <span class="method-start">277856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">277856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidatePrivacy</span>
+                <span class="method-start">277858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidatePrivacy status=SUCCESS method=UHCHomePageTest.testValidatePrivacy()[pri...)</span>
+                <span class="method-start">285105 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">285346 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">285347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateShortTermInsurenceHealthPlan() throws java.lang.Interru...)</span>
+                <span class="method-start">290807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">290807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateShortTermInsurenceHealthPlan</span>
+                <span class="method-start">290808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateShortTermInsurenceHealthPlan status=SUCCESS method=UHCHomePageTest.test...)</span>
+                <span class="method-start">297215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">297460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">297462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateSigninError() throws java.lang.InterruptedException)</span>
+                <span class="method-start">302904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">302904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateSigninError</span>
+                <span class="method-start">302905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateSigninError status=FAILURE method=UHCHomePageTest.testValidateSigninErr...)</span>
+                <span class="method-start">318168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">319001 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.uhc.com/)</span>
+                <span class="method-start">319002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.UHCHomePageTest.testValidateSmallBusinessHealthPlan() throws java.lang.InterruptedE...)</span>
+                <span class="method-start">323731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">323732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateSmallBusinessHealthPlan</span>
+                <span class="method-start">323735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testValidateSmallBusinessHealthPlan status=SUCCESS method=UHCHomePageTest.testValid...)</span>
+                <span class="method-start">332208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">332469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">332596 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

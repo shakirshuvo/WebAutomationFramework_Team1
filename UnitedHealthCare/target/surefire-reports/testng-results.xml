@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/UnitedHealthCare/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-26T02:13:02 EDT" name="United Health Care Automation Test" finished-at="2020-09-26T02:18:34 EDT" duration-ms="331862">
+    <groups>
+    </groups>
+    <test started-at="2020-09-26T02:13:02 EDT" name="UnitedHealthCare Home" finished-at="2020-09-26T02:18:34 EDT" duration-ms="331862">
+      <class name="home.UHCHomePageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:02 EDT" name="extentSetup" finished-at="2020-09-26T02:13:02 EDT" duration-ms="614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d464510]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/UnitedHealthCare/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:02 EDT" name="setUp" finished-at="2020-09-26T02:13:11 EDT" duration-ms="8780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:11 EDT" name="startExtent" finished-at="2020-09-26T02:13:11 EDT" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateAboutUs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:11 EDT" name="getInit" finished-at="2020-09-26T02:13:11 EDT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateAboutUs()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:11 EDT" name="testValidateAboutUs" finished-at="2020-09-26T02:13:18 EDT" duration-ms="6323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateAboutUs -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:18 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:13:19 EDT" duration-ms="950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateAboutUs status=SUCCESS method=UHCHomePageTest.testValidateAboutUs()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:19 EDT" name="cleanUp" finished-at="2020-09-26T02:13:19 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:19 EDT" name="setUp" finished-at="2020-09-26T02:13:24 EDT" duration-ms="5686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:24 EDT" name="startExtent" finished-at="2020-09-26T02:13:24 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateAccessibility() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:24 EDT" name="getInit" finished-at="2020-09-26T02:13:24 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateAccessibility()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:24 EDT" name="testValidateAccessibility" finished-at="2020-09-26T02:13:31 EDT" duration-ms="6139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateAccessibility -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:31 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:13:31 EDT" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateAccessibility status=SUCCESS method=UHCHomePageTest.testValidateAccessibility()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:31 EDT" name="cleanUp" finished-at="2020-09-26T02:13:31 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:31 EDT" name="setUp" finished-at="2020-09-26T02:13:37 EDT" duration-ms="6067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:37 EDT" name="startExtent" finished-at="2020-09-26T02:13:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateCareer() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:37 EDT" name="getInit" finished-at="2020-09-26T02:13:37 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateCareer()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:37 EDT" name="testValidateCareer" finished-at="2020-09-26T02:13:47 EDT" duration-ms="9514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateCareer -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:47 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:13:47 EDT" duration-ms="461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateCareer status=SUCCESS method=UHCHomePageTest.testValidateCareer()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:47 EDT" name="cleanUp" finished-at="2020-09-26T02:13:47 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:47 EDT" name="setUp" finished-at="2020-09-26T02:13:53 EDT" duration-ms="6244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:53 EDT" name="getInit" finished-at="2020-09-26T02:13:53 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:53 EDT" name="startExtent" finished-at="2020-09-26T02:13:53 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateContactUs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testValidateContactUs()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:13:53 EDT" name="testValidateContactUs" finished-at="2020-09-26T02:14:00 EDT" duration-ms="6549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateContactUs -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:00 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:14:00 EDT" duration-ms="437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateContactUs status=SUCCESS method=UHCHomePageTest.testValidateContactUs()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:00 EDT" name="cleanUp" finished-at="2020-09-26T02:14:00 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:00 EDT" name="setUp" finished-at="2020-09-26T02:14:07 EDT" duration-ms="7205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:07 EDT" name="startExtent" finished-at="2020-09-26T02:14:07 EDT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateDentalHealthPlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:07 EDT" name="getInit" finished-at="2020-09-26T02:14:07 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateDentalHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:07 EDT" name="testValidateDentalHealthPlan" finished-at="2020-09-26T02:14:30 EDT" duration-ms="22507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateDentalHealthPlan -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:30 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:14:31 EDT" duration-ms="1265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateDentalHealthPlan status=SUCCESS method=UHCHomePageTest.testValidateDentalHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:31 EDT" name="cleanUp" finished-at="2020-09-26T02:14:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:31 EDT" name="setUp" finished-at="2020-09-26T02:14:41 EDT" duration-ms="9791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:41 EDT" name="startExtent" finished-at="2020-09-26T02:14:41 EDT" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateFindADoctor() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:41 EDT" name="getInit" finished-at="2020-09-26T02:14:41 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateFindADoctor()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:41 EDT" name="testValidateFindADoctor" finished-at="2020-09-26T02:14:48 EDT" duration-ms="6573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateFindADoctor -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:48 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:14:48 EDT" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateFindADoctor status=SUCCESS method=UHCHomePageTest.testValidateFindADoctor()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:48 EDT" name="cleanUp" finished-at="2020-09-26T02:14:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:48 EDT" name="setUp" finished-at="2020-09-26T02:14:54 EDT" duration-ms="6244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:54 EDT" name="startExtent" finished-at="2020-09-26T02:14:54 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateFindYourPlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:54 EDT" name="getInit" finished-at="2020-09-26T02:14:54 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateFindYourPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:14:54 EDT" name="testValidateFindYourPlan" finished-at="2020-09-26T02:15:00 EDT" duration-ms="6098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateFindYourPlan -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:00 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:15:01 EDT" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateFindYourPlan status=SUCCESS method=UHCHomePageTest.testValidateFindYourPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:01 EDT" name="cleanUp" finished-at="2020-09-26T02:15:01 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:01 EDT" name="setUp" finished-at="2020-09-26T02:15:06 EDT" duration-ms="5386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:06 EDT" name="startExtent" finished-at="2020-09-26T02:15:06 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateForBrokers() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:06 EDT" name="getInit" finished-at="2020-09-26T02:15:06 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateForBrokers()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:06 EDT" name="testValidateForBrokers" finished-at="2020-09-26T02:15:12 EDT" duration-ms="6060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateForBrokers -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:12 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:15:12 EDT" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateForBrokers status=SUCCESS method=UHCHomePageTest.testValidateForBrokers()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:12 EDT" name="cleanUp" finished-at="2020-09-26T02:15:12 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:12 EDT" name="setUp" finished-at="2020-09-26T02:15:22 EDT" duration-ms="9444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:22 EDT" name="startExtent" finished-at="2020-09-26T02:15:22 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateForEmployers() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:22 EDT" name="getInit" finished-at="2020-09-26T02:15:22 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateForEmployers()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:22 EDT" name="testValidateForEmployers" finished-at="2020-09-26T02:15:28 EDT" duration-ms="6489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateForEmployers -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:28 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:15:29 EDT" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateForEmployers status=SUCCESS method=UHCHomePageTest.testValidateForEmployers()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:29 EDT" name="cleanUp" finished-at="2020-09-26T02:15:29 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:29 EDT" name="setUp" finished-at="2020-09-26T02:15:34 EDT" duration-ms="5218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:34 EDT" name="startExtent" finished-at="2020-09-26T02:15:34 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateForProviders() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:34 EDT" name="getInit" finished-at="2020-09-26T02:15:34 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateForProviders()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:34 EDT" name="testValidateForProviders" finished-at="2020-09-26T02:15:45 EDT" duration-ms="10802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateForProviders -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:45 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:15:45 EDT" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateForProviders status=SUCCESS method=UHCHomePageTest.testValidateForProviders()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:45 EDT" name="cleanUp" finished-at="2020-09-26T02:15:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:45 EDT" name="setUp" finished-at="2020-09-26T02:15:53 EDT" duration-ms="7630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:53 EDT" name="startExtent" finished-at="2020-09-26T02:15:53 EDT" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateIndividualAndFamilyHealthPlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:53 EDT" name="getInit" finished-at="2020-09-26T02:15:53 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateIndividualAndFamilyHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:15:53 EDT" name="testValidateIndividualAndFamilyHealthPlan" finished-at="2020-09-26T02:16:00 EDT" duration-ms="7227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateIndividualAndFamilyHealthPlan -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:00 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:16:03 EDT" duration-ms="2795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateIndividualAndFamilyHealthPlan status=SUCCESS method=UHCHomePageTest.testValidateIndividualAndFamilyHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:03 EDT" name="cleanUp" finished-at="2020-09-26T02:16:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:03 EDT" name="setUp" finished-at="2020-09-26T02:16:12 EDT" duration-ms="8566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:12 EDT" name="startExtent" finished-at="2020-09-26T02:16:12 EDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateLanguageChange() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:12 EDT" name="getInit" finished-at="2020-09-26T02:16:12 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateLanguageChange()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:12 EDT" name="testValidateLanguageChange" finished-at="2020-09-26T02:16:19 EDT" duration-ms="7585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLanguageChange -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:19 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:16:19 EDT" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateLanguageChange status=SUCCESS method=UHCHomePageTest.testValidateLanguageChange()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:19 EDT" name="cleanUp" finished-at="2020-09-26T02:16:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:19 EDT" name="setUp" finished-at="2020-09-26T02:16:25 EDT" duration-ms="5370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:25 EDT" name="startExtent" finished-at="2020-09-26T02:16:25 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateLegal() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:25 EDT" name="getInit" finished-at="2020-09-26T02:16:25 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateLegal()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:25 EDT" name="testValidateLegal" finished-at="2020-09-26T02:16:31 EDT" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLegal -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:31 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:16:31 EDT" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateLegal status=SUCCESS method=UHCHomePageTest.testValidateLegal()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:31 EDT" name="cleanUp" finished-at="2020-09-26T02:16:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:31 EDT" name="setUp" finished-at="2020-09-26T02:16:36 EDT" duration-ms="5213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:36 EDT" name="startExtent" finished-at="2020-09-26T02:16:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateMedicaidHealthPlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:36 EDT" name="getInit" finished-at="2020-09-26T02:16:36 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateMedicaidHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:36 EDT" name="testValidateMedicaidHealthPlan" finished-at="2020-09-26T02:16:46 EDT" duration-ms="9351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateMedicaidHealthPlan -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:46 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:16:46 EDT" duration-ms="516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateMedicaidHealthPlan status=SUCCESS method=UHCHomePageTest.testValidateMedicaidHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:46 EDT" name="cleanUp" finished-at="2020-09-26T02:16:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:46 EDT" name="setUp" finished-at="2020-09-26T02:16:54 EDT" duration-ms="7457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:54 EDT" name="startExtent" finished-at="2020-09-26T02:16:54 EDT" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateMedicare() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:54 EDT" name="getInit" finished-at="2020-09-26T02:16:54 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateMedicare()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:16:54 EDT" name="testValidateMedicare" finished-at="2020-09-26T02:17:00 EDT" duration-ms="6321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateMedicare -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:00 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:17:00 EDT" duration-ms="354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateMedicare status=SUCCESS method=UHCHomePageTest.testValidateMedicare()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:00 EDT" name="cleanUp" finished-at="2020-09-26T02:17:00 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:00 EDT" name="setUp" finished-at="2020-09-26T02:17:06 EDT" duration-ms="5449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:06 EDT" name="startExtent" finished-at="2020-09-26T02:17:06 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateMedicareHealthPlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:06 EDT" name="getInit" finished-at="2020-09-26T02:17:06 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateMedicareHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:06 EDT" name="testValidateMedicareHealthPlan" finished-at="2020-09-26T02:17:17 EDT" duration-ms="11289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateMedicareHealthPlan -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:17 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:17:18 EDT" duration-ms="407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateMedicareHealthPlan status=SUCCESS method=UHCHomePageTest.testValidateMedicareHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:18 EDT" name="cleanUp" finished-at="2020-09-26T02:17:18 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:18 EDT" name="setUp" finished-at="2020-09-26T02:17:24 EDT" duration-ms="6151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:24 EDT" name="startExtent" finished-at="2020-09-26T02:17:24 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateNewsRoom() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:24 EDT" name="getInit" finished-at="2020-09-26T02:17:24 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateNewsRoom()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:24 EDT" name="testValidateNewsRoom" finished-at="2020-09-26T02:17:32 EDT" duration-ms="8400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateNewsRoom -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:32 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:17:33 EDT" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateNewsRoom status=SUCCESS method=UHCHomePageTest.testValidateNewsRoom()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:33 EDT" name="cleanUp" finished-at="2020-09-26T02:17:33 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:33 EDT" name="setUp" finished-at="2020-09-26T02:17:40 EDT" duration-ms="7073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:40 EDT" name="getInit" finished-at="2020-09-26T02:17:40 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:40 EDT" name="startExtent" finished-at="2020-09-26T02:17:40 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidatePrivacy() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testValidatePrivacy()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:40 EDT" name="testValidatePrivacy" finished-at="2020-09-26T02:17:47 EDT" duration-ms="7247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidatePrivacy -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:47 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:17:47 EDT" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidatePrivacy status=SUCCESS method=UHCHomePageTest.testValidatePrivacy()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:47 EDT" name="cleanUp" finished-at="2020-09-26T02:17:47 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:47 EDT" name="setUp" finished-at="2020-09-26T02:17:53 EDT" duration-ms="5460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:53 EDT" name="getInit" finished-at="2020-09-26T02:17:53 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:53 EDT" name="startExtent" finished-at="2020-09-26T02:17:53 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateShortTermInsurenceHealthPlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testValidateShortTermInsurenceHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:53 EDT" name="testValidateShortTermInsurenceHealthPlan" finished-at="2020-09-26T02:17:59 EDT" duration-ms="6407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateShortTermInsurenceHealthPlan -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:59 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:17:59 EDT" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateShortTermInsurenceHealthPlan status=SUCCESS method=UHCHomePageTest.testValidateShortTermInsurenceHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:59 EDT" name="cleanUp" finished-at="2020-09-26T02:17:59 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:17:59 EDT" name="setUp" finished-at="2020-09-26T02:18:05 EDT" duration-ms="5442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:05 EDT" name="getInit" finished-at="2020-09-26T02:18:05 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:05 EDT" name="startExtent" finished-at="2020-09-26T02:18:05 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateSigninError() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testValidateSigninError()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:05 EDT" name="testValidateSigninError" finished-at="2020-09-26T02:18:20 EDT" duration-ms="15244" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="671978824-list1599767959824"]/li[2]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:50075}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 68428e0288ffeb297a1b4b27b0dc77e7
+*** Element info: {Using=xpath, value=//*[@id="671978824-list1599767959824"]/li[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="671978824-list1599767959824"]/li[2]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:50075}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 68428e0288ffeb297a1b4b27b0dc77e7
+*** Element info: {Using=xpath, value=//*[@id="671978824-list1599767959824"]/li[2]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at home.UHCHomePage.clickSignInButton(UHCHomePage.java:455)
+at home.UHCHomePageTest.testValidateSigninError(UHCHomePageTest.java:159)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSigninError -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:20 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:18:21 EDT" duration-ms="833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateSigninError status=FAILURE method=UHCHomePageTest.testValidateSigninError()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:21 EDT" name="cleanUp" finished-at="2020-09-26T02:18:21 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:21 EDT" name="setUp" finished-at="2020-09-26T02:18:25 EDT" duration-ms="4729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:25 EDT" name="startExtent" finished-at="2020-09-26T02:18:25 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.UHCHomePageTest.testValidateSmallBusinessHealthPlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:25 EDT" name="getInit" finished-at="2020-09-26T02:18:25 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testValidateSmallBusinessHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:25 EDT" name="testValidateSmallBusinessHealthPlan" finished-at="2020-09-26T02:18:34 EDT" duration-ms="8472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSmallBusinessHealthPlan -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:34 EDT" name="afterEachTestMethod" finished-at="2020-09-26T02:18:34 EDT" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateSmallBusinessHealthPlan status=SUCCESS method=UHCHomePageTest.testValidateSmallBusinessHealthPlan()[pri:0, instance:home.UHCHomePageTest@6236eb5f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:34 EDT" name="cleanUp" finished-at="2020-09-26T02:18:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.UHCHomePageTest@6236eb5f]" started-at="2020-09-26T02:18:34 EDT" name="generateReport" finished-at="2020-09-26T02:18:34 EDT" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.UHCHomePageTest -->
+    </test> <!-- UnitedHealthCare Home -->
+  </suite> <!-- United Health Care Automation Test -->
+</testng-results>

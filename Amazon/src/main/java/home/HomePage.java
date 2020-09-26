@@ -61,10 +61,9 @@ public class HomePage extends CommonAPI {
     //public String getURL(){return driver.getCurrentUrl();  }
 
     // Action Method
-    public void CheckSearchBox(String searchItem) throws InterruptedException {
+    public void checkSearchBox(String searchItem) throws InterruptedException {
         searchBox.sendKeys(searchItem);
         clearInputField(searchBoxCSS);
-        clearInputBox(searchBox);
         sleepFor(5);
         searchBox.sendKeys(searchItem);
         searchBox.submit();
@@ -72,10 +71,10 @@ public class HomePage extends CommonAPI {
     }
 
     // Validate Method
-    public void validateSearchBox(){
+    public void validateSearchBox(String foundItem){
         String actualResult=searchText.getText();
-        String expectedResult="\"Mask\"";
-        Assert.assertEquals(actualResult,expectedResult,"Search Item not match");
+//        String expectedResult= foundItem;
+        Assert.assertEquals(actualResult,foundItem,"Search Item not match");
     }
     //*********************************************
 
@@ -121,7 +120,7 @@ public class HomePage extends CommonAPI {
     // Validation Method
     public void validateMoversAndShakers(){
         String actualResult = getTitle();
-        String expectedResult = "Amazon.com Movers & Shakers: The biggest gainers in Amazon sales rank over the past 24 hours";
+        String expectedResult = "";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
     //*********************************************
@@ -220,7 +219,7 @@ public class HomePage extends CommonAPI {
     //*********************************************
 
     // Action Method
-    public void checkNewPCGamesv(){
+    public void checkNewPCGames(){
         newReleases1.click();
         newGames.click();
         newPCGamesv.click();
@@ -229,7 +228,7 @@ public class HomePage extends CommonAPI {
     }
 
     // Validation Method
-    public void validateNewPCGamesv(){
+    public void validateNewPCGames(){
         String actualResult = getTitle();
         String expectedResult = "Amazon.com New Releases: The best-selling new & future releases in PC Games & Accessories";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
@@ -333,7 +332,7 @@ public class HomePage extends CommonAPI {
     // Validation Method
     public void validateNewWiiU(){
         String actualResult = getTitle();
-        String expectedResult = "Amazon.com New Releases: The best-selling new & future releases in Wii U Games, Consoles & Accessories";
+        String expectedResult = "";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
     //*********************************************
@@ -536,7 +535,7 @@ public class HomePage extends CommonAPI {
     // Validation Method
     public void validateWholeFoodBeverages(){
         String actualResult = getTitle();
-        String expectedResult = "Amazon.com: Whole Foods Market";
+        String expectedResult = "Amazon.com: Beverages: Whole Foods Market";
         Assert.assertEquals(actualResult,expectedResult,"Test failed");
     }
     //*********************************************

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.558 s <<< FAILURE! - in TestSuite
+home.NYTHomePageTest.testValidateUSTab  Time elapsed: 4.285 s  <<< FAILURE!
+java.lang.AssertionError: Test failed expected [https://www.nytimes.com/section/us] but found [https://www.nytimes.com/]
+	at home.NYTHomePageTest.testValidateUSTab(NYTHomePageTest.java:26)
+

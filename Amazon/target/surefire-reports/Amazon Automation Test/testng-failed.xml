@@ -12,14 +12,17 @@
     <classes>
       <class name="home.HomePageTest">
         <methods>
+          <include name="testValidateMoversAndShakers"/>
+          <include name="testValidateGiftCards"/>
           <include name="afterEachTestMethod"/>
           <include name="getInit"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
+          <include name="testValidateNewWiiU"/>
           <include name="setUp"/>
-          <include name="testValidateWholeFoodBeverages"/>
           <include name="startExtent"/>
           <include name="cleanUp"/>
+          <include name="testValidateFindAGift"/>
         </methods>
       </class> <!-- home.HomePageTest -->
     </classes>

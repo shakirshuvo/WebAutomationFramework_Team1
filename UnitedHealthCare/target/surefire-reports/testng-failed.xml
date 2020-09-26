@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [United Health Care Automation Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="Sierra"/>
+  <parameter name="browserVersion" value="85.0"/>
+  <parameter name="browserName" value="chrome-options"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.uhc.com/"/>
+  <test thread-count="5" name="UnitedHealthCare Home(failed)" verbose="0">
+    <classes>
+      <class name="home.UHCHomePageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testValidateSigninError"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="getInit"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- home.UHCHomePageTest -->
+    </classes>
+  </test> <!-- UnitedHealthCare Home(failed) -->
+</suite> <!-- Failed suite [United Health Care Automation Test] -->

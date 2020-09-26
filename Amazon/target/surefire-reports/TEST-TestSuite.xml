@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="53.244" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="289.368" tests="29" errors="0" skipped="0" failures="4">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -7,7 +7,7 @@
     <property name="webdriver.chrome.driver" value="../Generic/BrowserDriver/mac/chromedriver"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/test-classes:/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/classes:/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Generic/target/Generic-1.0-SNAPSHOT.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/farjanamobin/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/farjanamobin/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/farjanamobin/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/farjanamobin/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/farjanamobin/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/farjanamobin/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/farjanamobin/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/farjanamobin/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/farjanamobin/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/farjanamobin/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/farjanamobin/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/farjanamobin/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/farjanamobin/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/farjanamobin/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/farjanamobin/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/farjanamobin/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/farjanamobin/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/farjanamobin/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/farjanamobin/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/farjanamobin/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/farjanamobin/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/farjanamobin/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/farjanamobin/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/farjanamobin/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/farjanamobin/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/farjanamobin/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/farjanamobin/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/farjanamobin/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/farjanamobin/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/farjanamobin/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/farjanamobin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/farjanamobin/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/farjanamobin/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/farjanamobin/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/farjanamobin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/farjanamobin/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/farjanamobin/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.class.path" value="/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/test-classes:/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/classes:/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Generic/target/classes:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/farjanamobin/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/farjanamobin/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/farjanamobin/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/farjanamobin/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/farjanamobin/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/farjanamobin/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/farjanamobin/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/farjanamobin/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/farjanamobin/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/farjanamobin/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/farjanamobin/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/farjanamobin/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/farjanamobin/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/farjanamobin/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/farjanamobin/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/farjanamobin/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/farjanamobin/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/farjanamobin/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/farjanamobin/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/farjanamobin/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/farjanamobin/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/farjanamobin/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/farjanamobin/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/farjanamobin/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/farjanamobin/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/farjanamobin/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/farjanamobin/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/farjanamobin/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/farjanamobin/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/farjanamobin/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/farjanamobin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/farjanamobin/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/farjanamobin/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/farjanamobin/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/farjanamobin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/farjanamobin/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/farjanamobin/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,10 +17,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire/surefirebooter3244077051090201804.jar /Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire 2020-09-23T17-59-08_559-jvmRun1 surefire793211342290094968tmp surefire_02035998238917260982tmp"/>
+    <property name="sun.java.command" value="/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire/surefirebooter6717802239181895370.jar /Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire 2020-09-26T02-06-05_550-jvmRun1 surefire3474825912247725411tmp surefire_09435400659878683926tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/test-classes:/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/classes:/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Generic/target/Generic-1.0-SNAPSHOT.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/farjanamobin/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/farjanamobin/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/farjanamobin/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/farjanamobin/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/farjanamobin/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/farjanamobin/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/farjanamobin/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/farjanamobin/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/farjanamobin/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/farjanamobin/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/farjanamobin/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/farjanamobin/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/farjanamobin/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/farjanamobin/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/farjanamobin/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/farjanamobin/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/farjanamobin/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/farjanamobin/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/farjanamobin/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/farjanamobin/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/farjanamobin/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/farjanamobin/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/farjanamobin/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/farjanamobin/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/farjanamobin/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/farjanamobin/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/farjanamobin/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/farjanamobin/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/farjanamobin/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/farjanamobin/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/farjanamobin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/farjanamobin/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/farjanamobin/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/farjanamobin/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/farjanamobin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/farjanamobin/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/farjanamobin/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/test-classes:/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/classes:/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Generic/target/classes:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/farjanamobin/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/farjanamobin/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/farjanamobin/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/farjanamobin/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/farjanamobin/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/farjanamobin/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/farjanamobin/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/farjanamobin/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/farjanamobin/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/farjanamobin/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/farjanamobin/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/farjanamobin/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/farjanamobin/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/farjanamobin/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/farjanamobin/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/farjanamobin/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/farjanamobin/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/farjanamobin/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/farjanamobin/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/farjanamobin/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/farjanamobin/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/farjanamobin/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/farjanamobin/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/farjanamobin/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/farjanamobin/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/farjanamobin/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/farjanamobin/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/farjanamobin/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/farjanamobin/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/farjanamobin/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/farjanamobin/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/farjanamobin/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/farjanamobin/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/farjanamobin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/farjanamobin/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/farjanamobin/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/farjanamobin/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/farjanamobin/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/farjanamobin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/farjanamobin/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/farjanamobin/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/farjanamobin"/>
     <property name="user.language" value="en"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire/surefirebooter3244077051090201804.jar"/>
+    <property name="surefire.real.class.path" value="/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire/surefirebooter6717802239181895370.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.6+8-LTS"/>
@@ -44,7 +44,6 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="idea.version2020.1" value="true"/>
     <property name="java.vendor.version" value="18.9"/>
     <property name="localRepository" value="/Users/farjanamobin/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
@@ -63,26 +62,352 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testValidateWholeFoodBeverages" classname="home.HomePageTest" time="6.008">
-    <failure message="element click intercepted: Element &lt;span class=&quot;nav-a-content&quot;&gt;...&lt;/span&gt; is not clickable at point (506, 128). Other element would receive the click: &lt;div class=&quot;glow-toaster-overlay&quot; style=&quot;height: 2924px;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Farjanas-Air&apos;, ip: &apos;2604:2000:1700:1c:50b3:adab:6ab2:c839%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f7a150fb5a4db4897ea3a80f09602639" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <span class="nav-a-content">...</span> is not clickable at point (506, 128). Other element would receive the click: <div class="glow-toaster-overlay" style="height: 2924px;"></div>
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:50b3:adab:6ab2:c839%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f7a150fb5a4db4897ea3a80f09602639
-	at home.HomePageTest.testValidateWholeFoodBeverages(HomePageTest.java:187)
-]]></failure>
+  <testcase name="testValidateBestSeller" classname="home.HomePageTest" time="2.369">
     <system-out><![CDATA[Extent Report Directory/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire-reports/html
+Amazon.com Best Sellers: The most popular items on Amazon
 ]]></system-out>
-    <system-err><![CDATA[Sep 23, 2020 5:59:15 PM com.relevantcodes.extentreports.ExtentReports loadConfig
+    <system-err><![CDATA[Sep 26, 2020 2:06:11 AM com.relevantcodes.extentreports.ExtentReports loadConfig
 WARNING: Unable to perform report configuration. The file /Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/report-config.xml was not found.
-Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 39223
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 26655
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 23, 2020 5:59:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 26, 2020 2:06:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateCustomerService" classname="home.HomePageTest" time="1.566">
+    <system-out><![CDATA[Amazon.com Help: Help & Customer Service
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 41594
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:06:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateFindAGift" classname="home.HomePageTest" time="2.158">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/gift-cards/b/?ie=UTF8&amp;amp;node=2238192011&amp;amp;ref_=nav_cs_gc&quot; class=&quot;nav-a  &quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt; is not clickable at point (863, 79). Other element would receive the click: &lt;span class=&quot;nav-action-inner&quot;&gt;...&lt;/span&gt;&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Farjanas-Air&apos;, ip: &apos;2604:2000:1700:1c:aca7:63da:436f:f5a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c7cdb8f2b4fef932ecc5b95499b7f256" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/gift-cards/b/?ie=UTF8&amp;node=2238192011&amp;ref_=nav_cs_gc" class="nav-a  " tabindex="0">...</a> is not clickable at point (863, 79). Other element would receive the click: <span class="nav-action-inner">...</span>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c7cdb8f2b4fef932ecc5b95499b7f256
+	at home.HomePageTest.testValidateFindAGift(HomePageTest.java:175)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 8577
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:06:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateGiftCards" classname="home.HomePageTest" time="6.935">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Farjanas-Air&apos;, ip: &apos;2604:2000:1700:1c:aca7:63da:436f:f5a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 4df182c6d176dcd41db0bd2f2ce6ccc5" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4df182c6d176dcd41db0bd2f2ce6ccc5
+	at home.HomePageTest.testValidateGiftCards(HomePageTest.java:193)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 16846
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:06:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateGiftIdeas" classname="home.HomePageTest" time="3.443">
+    <system-out><![CDATA[Screenshot captured
+Amazon.com Gift Ideas: The most popular items ordered as gifts at Amazon
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15329
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:06:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateMacGames" classname="home.HomePageTest" time="4.271">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Mac Games & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 30454
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:06:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateMicroconsoles" classname="home.HomePageTest" time="4.239">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Microconsoles
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 18433
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:07:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateMoreSystems" classname="home.HomePageTest" time="5.064">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Legacy Systems
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31972
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:07:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateMostWishedFor" classname="home.HomePageTest" time="4.028">
+    <system-out><![CDATA[Amazon.com Best Sellers: The most popular items on Amazon
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 48698
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:07:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateMoversAndShakers" classname="home.HomePageTest" time="3.195">
+    <failure message="Test failed expected [] but found [Amazon.com Movers &amp; Shakers: The biggest gainers in Amazon sales rank over the past 24 hours]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Test failed expected [] but found [Amazon.com Movers & Shakers: The biggest gainers in Amazon sales rank over the past 24 hours]
+	at home.HomePageTest.testValidateMoversAndShakers(HomePageTest.java:38)
+]]></failure>
+    <system-out><![CDATA[Amazon.com Movers & Shakers: The biggest gainers in Amazon sales rank over the past 24 hours
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 47824
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:07:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewGames" classname="home.HomePageTest" time="7.597">
+    <system-out><![CDATA[Screenshot captured
+Amazon.com New Releases: The best-selling new & future releases in Video Games
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 25790
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:07:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewNintendo3DS" classname="home.HomePageTest" time="5.684">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Nintendo 3DS & 2DS Consoles, Games & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 19368
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:07:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewNintendoDS" classname="home.HomePageTest" time="7.634">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Nintendo DS Games, Consoles & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 45648
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:08:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewNintendoSwitch" classname="home.HomePageTest" time="5.52">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Nintendo Switch Consoles, Games & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 38998
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:08:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewPCGamesv" classname="home.HomePageTest" time="5.105">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in PC Games & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 5534
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:08:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewPlayStation3" classname="home.HomePageTest" time="7.85">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in PlayStation 3 Games, Consoles & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 22490
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:08:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewPlayStation4" classname="home.HomePageTest" time="6.205">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in PlayStation 4 Games, Consoles & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 28529
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:08:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewPlayStationVista" classname="home.HomePageTest" time="6.002">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in PlayStation Vita Games, Consoles & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3361
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:09:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewReleases" classname="home.HomePageTest" time="4.874">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases on Amazon
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31553
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:09:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewReleases1" classname="home.HomePageTest" time="2.219">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases on Amazon
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 33831
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:09:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewSonyPSP" classname="home.HomePageTest" time="5.958">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Sony PSP Games, Consoles & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 42761
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:09:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewVideoGames" classname="home.HomePageTest" time="5.535">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Video Games
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 41318
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:09:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewWii" classname="home.HomePageTest" time="9.445">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Wii Games, Consoles & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 19721
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:09:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewWiiU" classname="home.HomePageTest" time="9.172">
+    <failure message="Test failed expected [] but found [Amazon.com New Releases: The best-selling new &amp; future releases in Wii U Games, Consoles &amp; Accessories]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Test failed expected [] but found [Amazon.com New Releases: The best-selling new & future releases in Wii U Games, Consoles & Accessories]
+	at home.HomePageTest.testValidateNewWiiU(HomePageTest.java:116)
+]]></failure>
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Wii U Games, Consoles & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31716
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:10:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewXbox360" classname="home.HomePageTest" time="5.003">
+    <system-out><![CDATA[Screenshot captured
+Amazon.com New Releases: The best-selling new & future releases in Xbox 360 Games, Consoles & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 24307
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:10:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNewXboxOne" classname="home.HomePageTest" time="5.534">
+    <system-out><![CDATA[Amazon.com New Releases: The best-selling new & future releases in Xbox One Games, Consoles & Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 43546
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:10:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateTodaysDeal" classname="home.HomePageTest" time="2.338">
+    <system-out><![CDATA[Gold Box Deals | Today's Deals - Amazon.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3042
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:10:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateWholeFood" classname="home.HomePageTest" time="3.727">
+    <system-out><![CDATA[Amazon.com: Whole Foods Market
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 40636
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:10:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateWholeFoodBeverages" classname="home.HomePageTest" time="4.52">
+    <system-out><![CDATA[Amazon.com: Beverages: Whole Foods Market
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 28614
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 2:10:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

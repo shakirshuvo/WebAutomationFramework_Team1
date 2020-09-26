@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 225.7 s <<< FAILURE! - in TestSuite
+home.MarriottHomePageTest.testAndValidateHotelFindingProcess  Time elapsed: 22.865 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <label for="ZMG9B3QL_useRewardsPoints" class="l-userewards-checkmark js-use-rewards">...</label> is not clickable at point (873, 11). Other element would receive the click: <a href="https://help.marriott.com/s/" class="t-control-link tile-quick-link-item t-font-s t-line-height-m l-padding-three-quarters l-display-inline-block  " data-component-id="QuickLinkItem_02_bc7e" data-component-name="quickLinkItem" data-component-endpoint="/aries-content/v1/quickLinkItem.comp">...</a>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:aca7:63da:436f:f5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:55026}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a2230185a315a17e0b9eb7c14ffadf71
+	at home.MarriottHomePageTest.testAndValidateHotelFindingProcess(MarriottHomePageTest.java:74)
+
