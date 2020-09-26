@@ -22,7 +22,7 @@ public class HartfordHomePageTest extends CommonAPI {
     /**
      * test click on auto tab element
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnAutoTab() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -46,7 +46,7 @@ public class HartfordHomePageTest extends CommonAPI {
     /**
      * test click on business tab element
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnBusinessTab() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -58,7 +58,7 @@ public class HartfordHomePageTest extends CommonAPI {
     /**
      * test click on employee benefits tab element
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnEmployeeBenefitsTab() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -70,7 +70,7 @@ public class HartfordHomePageTest extends CommonAPI {
     /**
      * test click on about us tab element
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnAboutUs() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -83,7 +83,7 @@ public class HartfordHomePageTest extends CommonAPI {
     /**
      * test mouse over home tab
      */
-    @Test
+    @Test(enabled = true)
     public void testHomeMouseOver(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -94,7 +94,7 @@ public class HartfordHomePageTest extends CommonAPI {
     /**
      * test click on renters insurance
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnRentersInsurance(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -105,7 +105,7 @@ public class HartfordHomePageTest extends CommonAPI {
     /**
      * test click on flood insurance
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnFloodInsurance(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -116,7 +116,7 @@ public class HartfordHomePageTest extends CommonAPI {
     /**
      * test click on umbrella insurance
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnUmbrellaInsurance(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -128,7 +128,7 @@ public class HartfordHomePageTest extends CommonAPI {
     /**
      * test click on homeowners under auto tab
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnHomeOwners(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

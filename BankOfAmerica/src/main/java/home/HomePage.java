@@ -44,8 +44,8 @@ public class HomePage extends CommonAPI {
      * validate sign in
      */
     public void validateClickOnSignInBtn(){
-        String actual = driver.getTitle();
-        String expted = "Bank of America | Online Banking | Sign In | Online ID";
+        String actual = driver.getCurrentUrl();
+        String expted = "https://secure.bankofamerica.com/auth/forgot/reset-entry/?reason=MSGSFR01";
         Assert.assertEquals(actual, expted,"test case failed");
     }
 
@@ -229,7 +229,8 @@ public class HomePage extends CommonAPI {
      * validate click on business and institutions
      */
     public void validateClickBusinessInstitutions(){
-        String actual = economicsOfReopening.getText();
+        String actual = driver.getTitle();
+        String expected = "The Economics of Reopening";
         Assert.assertEquals(actual, erExpectedText);
     }
 
@@ -266,7 +267,10 @@ public class HomePage extends CommonAPI {
      * validate About us
      */
     public void validateAboutUs(){
-        String actual = whoWeAre.getText();
+
+        String actual = driver.getTitle();
+        String expected = "About Bank of America- Our People, Our Passion, Our Purpose";
+        Assert.assertEquals(actual, expected, "Test Failed");
     }
 
 

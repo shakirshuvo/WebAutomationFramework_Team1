@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.util.concurrent.TimeUnit;
 
@@ -20,8 +21,10 @@ public class SearchTest extends CommonAPI {
     /**
      * test search box functionality
      */
-    @Test
+    @Test(enabled = true)
     public void testSearchBox(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.clickOnSearchBtn();
         search.sendSearchKeys();
         search.validateSearchBox();

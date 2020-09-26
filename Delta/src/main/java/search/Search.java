@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
 
+import static org.apache.xmlbeans.XmlBeans.getTitle;
 import static search.SearchWebElements.*;
 public class Search extends CommonAPI {
     @FindBy(how = How.XPATH, using = searchButtonElementXpath)
@@ -85,7 +86,7 @@ public class Search extends CommonAPI {
      * validate  coronavirus tab
      */
     public void validateFaceMaskTab(){
-        String actual = getTitle();
+        String actual = driver.getTitle();
         String expect = "Onboard Experience: Face Masks and Extra Space | Delta Air Lines";
         Assert.assertEquals(actual, expect, "test failed");
     }
@@ -103,7 +104,7 @@ public class Search extends CommonAPI {
      * validate  coronavirus tab
      */
     public void validateECreditsTab(){
-        String actual = getTitle();
+        String actual = driver.getTitle();
         String expect = "How to Change or Cancel Flight | Delta Air Lines";
         Assert.assertEquals(actual, expect, "test failed");
     }
@@ -111,7 +112,7 @@ public class Search extends CommonAPI {
     /**
      * click on change flight tab
      */
-    public void clickOnchangeFlightTab(){
+    public void clickOnChangeFlightTab(){
         clickSearchBtn();
         waitUntilVisible(By.xpath(changeFlightElementXpath));
         clickOnElement(changeFlightElementXpath);
@@ -139,7 +140,7 @@ public class Search extends CommonAPI {
      * validate click on  cancel flights
      */
     public void validateClickCancelFlights() {
-        String actual = getTitle();
+        String actual = driver.getTitle();
 
         String expected = "Can I Cancel/Change My Flight?";
         Assert.assertEquals(actual,expected);

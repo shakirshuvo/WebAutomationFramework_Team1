@@ -84,7 +84,10 @@
             <artifactId>commons-io</artifactId>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -102,7 +105,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-<!--                                        <suiteXmlFiles>-->
+                    <testFailureIgnore>true</testFailureIgnore>
+
+                    <!--                                        <suiteXmlFiles>-->
 <!--                                            <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>-->
 <!--                                        </suiteXmlFiles>-->
                 </configuration>

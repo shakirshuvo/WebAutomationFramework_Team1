@@ -1,0 +1,332 @@
+<html>
+<head>
+<title>TestNG:  Delta Home</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Delta Home</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 26 03:54:49 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>385 seconds (385981 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='search.SearchTest.testPetsElement()'><b>testPetsElement</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-1431064234" onClick='toggleBox("Output-1431064234", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1431064234" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1431064234">
+SearchTest: test Pets Element<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Delta Pet Policy : Flying with Dogs, Cats &amp; More : Delta Air Lines] but found [Baggage Policy and Fees | Delta Air Lines]
+	at search.Search.validateClickPets(Search.java:222)
+	at search.SearchTest.testPetsElement(SearchTest.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1431064234", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1431064234'><pre>java.lang.AssertionError: expected [Delta Pet Policy : Flying with Dogs, Cats &amp; More : Delta Air Lines] but found [Baggage Policy and Fees | Delta Air Lines]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at search.Search.validateClickPets(Search.java:222)
+	at search.SearchTest.testPetsElement(SearchTest.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>11</td>
+<td>search.SearchTest@67080771</td></tr>
+<tr>
+<td title='search.SearchTest.testSearchBox()'><b>testSearchBox</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-728370857" onClick='toggleBox("Output-728370857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-728370857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-728370857">
+SearchTest: test Search Box<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: test failed expected [SEARCH RESULTS] but found []
+	at search.Search.validateSearchBox(Search.java:53)
+	at search.SearchTest.testSearchBox(SearchTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace728370857", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace728370857'><pre>java.lang.AssertionError: test failed expected [SEARCH RESULTS] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at search.Search.validateSearchBox(Search.java:53)
+	at search.SearchTest.testSearchBox(SearchTest.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>9</td>
+<td>search.SearchTest@67080771</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='search.SearchTest.testCanceFlights()'><b>testCanceFlights</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-590884726" onClick='toggleBox("Output-590884726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-590884726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-590884726">
+SearchTest: test Cance Flights<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>search.SearchTest@67080771</td></tr>
+<tr>
+<td title='search.SearchTest.testChangeFlight()'><b>testChangeFlight</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-1613424566" onClick='toggleBox("Output-1613424566", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1613424566" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1613424566">
+SearchTest: test Change Flight<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>search.SearchTest@67080771</td></tr>
+<tr>
+<td title='home.HomePageTest.testClickCheckIn()'><b>testClickCheckIn</b><br>Test class: home.HomePageTest<br/>
+<a href="#Output-131037934" onClick='toggleBox("Output-131037934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131037934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131037934">
+HomePageTest: test Click Check In<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>home.HomePageTest@1eb5174b</td></tr>
+<tr>
+<td title='home.HomePageTest.testClickOnBook()'><b>testClickOnBook</b><br>Test class: home.HomePageTest<br/>
+<a href="#Output-393481646" onClick='toggleBox("Output-393481646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-393481646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-393481646">
+HomePageTest: test Click On Book<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>home.HomePageTest@1eb5174b</td></tr>
+<tr>
+<td title='search.SearchTest.testClickSearchBtn()'><b>testClickSearchBtn</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-1905548224" onClick='toggleBox("Output-1905548224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1905548224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1905548224">
+SearchTest: test Click Search Btn<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>search.SearchTest@67080771</td></tr>
+<tr>
+<td title='search.SearchTest.testCoronavirus()'><b>testCoronavirus</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-71209097" onClick='toggleBox("Output-71209097", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-71209097" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-71209097">
+SearchTest: test Coronavirus<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>search.SearchTest@67080771</td></tr>
+<tr>
+<td title='search.SearchTest.testECreditsTab()'><b>testECreditsTab</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-2063355321" onClick='toggleBox("Output-2063355321", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2063355321" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2063355321">
+SearchTest: test E Credits Tab<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>search.SearchTest@67080771</td></tr>
+<tr>
+<td title='search.SearchTest.testFaceMaskTab()'><b>testFaceMaskTab</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-224063653" onClick='toggleBox("Output-224063653", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-224063653" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-224063653">
+SearchTest: test Face Mask Tab<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>search.SearchTest@67080771</td></tr>
+<tr>
+<td title='home.HomePageTest.testFlightStatus()'><b>testFlightStatus</b><br>Test class: home.HomePageTest<br/>
+<a href="#Output-859193874" onClick='toggleBox("Output-859193874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-859193874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-859193874">
+HomePageTest: test Flight Status<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>home.HomePageTest@1eb5174b</td></tr>
+<tr>
+<td title='search.SearchTest.testReciepts()'><b>testReciepts</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-423956799" onClick='toggleBox("Output-423956799", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-423956799" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-423956799">
+SearchTest: test Reciepts<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>search.SearchTest@67080771</td></tr>
+<tr>
+<td title='search.SearchTest.testRefunds()'><b>testRefunds</b><br>Test class: search.SearchTest<br/>
+<a href="#Output-1628848368" onClick='toggleBox("Output-1628848368", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1628848368" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1628848368">
+SearchTest: test Refunds<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>search.SearchTest@67080771</td></tr>
+</table><p>
+</body>
+</html>

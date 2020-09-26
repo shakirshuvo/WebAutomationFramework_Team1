@@ -38,12 +38,12 @@ public class HomePageWebElements {
     public static final String smExpectedText = "Your news and information";
 
     // wealth management
-    public static final String wealthManagementElementXPath = "/html/body/header/div[1]/div/ul[1]/li[3]/a";
+    public static final String wealthManagementElementXPath = "//*[@id=\"NAV_WEALTH_MANAGEMENT\"]";
     public static final String wmTagXPath = "/html/body/header/div[3]/div/span";
     public static final String wmExpectedText = "Wealth Management";
 
     // business and institutions
-    public static final String businessInstElementXPath = "/html/body/header/div[1]/div/ul[1]/li[4]/a";
+    public static final String businessInstElementXPath = "//*[@id=\"NAV_BUSINESS_INSTITUTIONS\"]";
     public static final String economicsOfReopeningXPath = "//*[@id=\"full_click\"]/a/div/div/h1";
     public static final String erExpectedText  = "The Economics of Reopening";
 
@@ -52,7 +52,7 @@ public class HomePageWebElements {
 
 
     //about us
-    public static final String aboutUsElementXPath = "/html/body/header/div[1]/div/ul[1]/li[5]/a";
+    public static final String aboutUsElementXPath = "//*[@id=\"NAV_ABOUT_US\"]";
     public static final String whoWeArElementID = "\"who-we-are\"";
     public static final String whoExpectedText = "Who we are";
 

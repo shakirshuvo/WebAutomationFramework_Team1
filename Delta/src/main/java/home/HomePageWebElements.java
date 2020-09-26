@@ -11,7 +11,7 @@ public class HomePageWebElements {
     public static final String fromOriginElementCSS = "//a[@id=\"fromAirportName\"]/span[1]";
 
     //check in
-    public static final String checkInElemenCSS = "#headPrimary2";
+    public static final String checkInElementCSS = "#headPrimary2";
     public static final String findtripByElementXpath = "//div[@id=\"primaryPanel2\"]//label[2]";
 
     //my trips

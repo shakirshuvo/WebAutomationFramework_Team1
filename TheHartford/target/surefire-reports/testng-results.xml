@@ -1,0 +1,2059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\TheHartford\target\surefire-reports\html]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click Business Owners Policy]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click Home Tab]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On About Us]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Absence Management]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Auto Tab]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Benefit Plans]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Benefits Technology]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Business Tab]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Commercial Auto Insurance]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Employee Benefits Tab]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Flood Insurance]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On For Agents N Producers]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On For Employers]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On General Liability]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Home Owners]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Industry Solutions]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Insurance For Employees]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Renters Insurance]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Resources]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Start A Claim]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On State Guide]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Umbrella Insurance]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Value Added]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Click On Workers Compensation]]>
+    </line>
+    <line>
+      <![CDATA[HartfordHomePageTest: test Home Mouse Over]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-26T03:45:26 EDT" name="Hartford Insurance Automation Test" finished-at="2020-09-26T03:49:40 EDT" duration-ms="254081">
+    <groups>
+    </groups>
+    <test started-at="2020-09-26T03:45:26 EDT" name="Hartford Home" finished-at="2020-09-26T03:49:40 EDT" duration-ms="254081">
+      <class name="home.HartfordHomePageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:26 EDT" name="extentSetup" finished-at="2020-09-26T03:45:26 EDT" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fc7fa6e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\TheHartford\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:26 EDT" name="setUp" finished-at="2020-09-26T03:45:32 EDT" duration-ms="5306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:32 EDT" name="startExtent" finished-at="2020-09-26T03:45:32 EDT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickBusinessOwnersPolicy()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:32 EDT" name="getInit" finished-at="2020-09-26T03:45:34 EDT" duration-ms="2264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickBusinessOwnersPolicy()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:34 EDT" name="testClickBusinessOwnersPolicy" finished-at="2020-09-26T03:45:36 EDT" duration-ms="2064" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click Business Owners Policy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickBusinessOwnersPolicy -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:36 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:45:39 EDT" duration-ms="2687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickBusinessOwnersPolicy status=SUCCESS method=HartfordHomePageTest.testClickBusinessOwnersPolicy()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click Business Owners Policy]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:39 EDT" name="setUp" finished-at="2020-09-26T03:45:43 EDT" duration-ms="4674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:39 EDT" name="cleanUp" finished-at="2020-09-26T03:45:39 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:43 EDT" name="getInit" finished-at="2020-09-26T03:45:45 EDT" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:43 EDT" name="startExtent" finished-at="2020-09-26T03:45:43 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickHomeTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickHomeTab()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:45 EDT" name="testClickHomeTab" finished-at="2020-09-26T03:45:49 EDT" duration-ms="3941" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click Home Tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickHomeTab -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:49 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:45:50 EDT" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickHomeTab status=SUCCESS method=HartfordHomePageTest.testClickHomeTab()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click Home Tab]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:50 EDT" name="cleanUp" finished-at="2020-09-26T03:45:50 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:50 EDT" name="setUp" finished-at="2020-09-26T03:45:55 EDT" duration-ms="4399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:55 EDT" name="getInit" finished-at="2020-09-26T03:45:57 EDT" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:55 EDT" name="startExtent" finished-at="2020-09-26T03:45:55 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnAboutUs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnAboutUs()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:45:57 EDT" name="testClickOnAboutUs" finished-at="2020-09-26T03:46:01 EDT" duration-ms="3906" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On About Us]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnAboutUs -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:01 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:46:02 EDT" duration-ms="1613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnAboutUs status=SUCCESS method=HartfordHomePageTest.testClickOnAboutUs()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On About Us]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:02 EDT" name="setUp" finished-at="2020-09-26T03:46:07 EDT" duration-ms="5032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:02 EDT" name="cleanUp" finished-at="2020-09-26T03:46:02 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:07 EDT" name="startExtent" finished-at="2020-09-26T03:46:07 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnAbsenceManagement()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:07 EDT" name="getInit" finished-at="2020-09-26T03:46:10 EDT" duration-ms="2265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnAbsenceManagement()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:10 EDT" name="testClickOnAbsenceManagement" finished-at="2020-09-26T03:46:11 EDT" duration-ms="1636" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Absence Management]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnAbsenceManagement -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:11 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:46:12 EDT" duration-ms="662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnAbsenceManagement status=SUCCESS method=HartfordHomePageTest.testClickOnAbsenceManagement()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Absence Management]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:12 EDT" name="cleanUp" finished-at="2020-09-26T03:46:12 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:12 EDT" name="setUp" finished-at="2020-09-26T03:46:16 EDT" duration-ms="4329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:16 EDT" name="startExtent" finished-at="2020-09-26T03:46:16 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnAutoTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:16 EDT" name="getInit" finished-at="2020-09-26T03:46:19 EDT" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnAutoTab()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:19 EDT" name="testClickOnAutoTab" finished-at="2020-09-26T03:46:22 EDT" duration-ms="3551" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Auto Tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnAutoTab -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:22 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:46:23 EDT" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnAutoTab status=SUCCESS method=HartfordHomePageTest.testClickOnAutoTab()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Auto Tab]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:23 EDT" name="cleanUp" finished-at="2020-09-26T03:46:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:23 EDT" name="setUp" finished-at="2020-09-26T03:46:27 EDT" duration-ms="4249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:27 EDT" name="startExtent" finished-at="2020-09-26T03:46:27 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnBenefitPlans()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:27 EDT" name="getInit" finished-at="2020-09-26T03:46:30 EDT" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnBenefitPlans()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:30 EDT" name="testClickOnBenefitPlans" finished-at="2020-09-26T03:46:32 EDT" duration-ms="2001" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Benefit Plans]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnBenefitPlans -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:32 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:46:32 EDT" duration-ms="753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnBenefitPlans status=SUCCESS method=HartfordHomePageTest.testClickOnBenefitPlans()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Benefit Plans]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:32 EDT" name="setUp" finished-at="2020-09-26T03:46:37 EDT" duration-ms="4750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:32 EDT" name="cleanUp" finished-at="2020-09-26T03:46:32 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:37 EDT" name="startExtent" finished-at="2020-09-26T03:46:37 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnBenefitsTechnology()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:37 EDT" name="getInit" finished-at="2020-09-26T03:46:39 EDT" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnBenefitsTechnology()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:39 EDT" name="testClickOnBenefitsTechnology" finished-at="2020-09-26T03:46:41 EDT" duration-ms="1638" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Benefits Technology]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnBenefitsTechnology -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:41 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:46:42 EDT" duration-ms="773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnBenefitsTechnology status=SUCCESS method=HartfordHomePageTest.testClickOnBenefitsTechnology()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Benefits Technology]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:42 EDT" name="setUp" finished-at="2020-09-26T03:46:46 EDT" duration-ms="4149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:42 EDT" name="cleanUp" finished-at="2020-09-26T03:46:42 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:46 EDT" name="startExtent" finished-at="2020-09-26T03:46:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnBusinessTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:46 EDT" name="getInit" finished-at="2020-09-26T03:46:48 EDT" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnBusinessTab()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:48 EDT" name="testClickOnBusinessTab" finished-at="2020-09-26T03:46:52 EDT" duration-ms="3927" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Business Tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnBusinessTab -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:52 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:46:53 EDT" duration-ms="869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnBusinessTab status=SUCCESS method=HartfordHomePageTest.testClickOnBusinessTab()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Business Tab]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:53 EDT" name="cleanUp" finished-at="2020-09-26T03:46:53 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:53 EDT" name="setUp" finished-at="2020-09-26T03:46:58 EDT" duration-ms="5118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:58 EDT" name="startExtent" finished-at="2020-09-26T03:46:58 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnCommercialAutoInsurance()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:46:58 EDT" name="getInit" finished-at="2020-09-26T03:47:00 EDT" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnCommercialAutoInsurance()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:00 EDT" name="testClickOnCommercialAutoInsurance" finished-at="2020-09-26T03:47:01 EDT" duration-ms="1353" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Commercial Auto Insurance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnCommercialAutoInsurance -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:01 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:47:02 EDT" duration-ms="797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnCommercialAutoInsurance status=SUCCESS method=HartfordHomePageTest.testClickOnCommercialAutoInsurance()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Commercial Auto Insurance]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:02 EDT" name="cleanUp" finished-at="2020-09-26T03:47:02 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:02 EDT" name="setUp" finished-at="2020-09-26T03:47:07 EDT" duration-ms="4294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:07 EDT" name="startExtent" finished-at="2020-09-26T03:47:07 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnEmployeeBenefitsTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:07 EDT" name="getInit" finished-at="2020-09-26T03:47:09 EDT" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnEmployeeBenefitsTab()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:09 EDT" name="testClickOnEmployeeBenefitsTab" finished-at="2020-09-26T03:47:13 EDT" duration-ms="4228" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Employee Benefits Tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnEmployeeBenefitsTab -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:13 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:47:15 EDT" duration-ms="1511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnEmployeeBenefitsTab status=SUCCESS method=HartfordHomePageTest.testClickOnEmployeeBenefitsTab()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Employee Benefits Tab]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:15 EDT" name="setUp" finished-at="2020-09-26T03:47:19 EDT" duration-ms="4298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:15 EDT" name="cleanUp" finished-at="2020-09-26T03:47:15 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:19 EDT" name="startExtent" finished-at="2020-09-26T03:47:19 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnFloodInsurance()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:19 EDT" name="getInit" finished-at="2020-09-26T03:47:21 EDT" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnFloodInsurance()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:21 EDT" name="testClickOnFloodInsurance" finished-at="2020-09-26T03:47:22 EDT" duration-ms="1277" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Flood Insurance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnFloodInsurance -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:22 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:47:23 EDT" duration-ms="714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnFloodInsurance status=SUCCESS method=HartfordHomePageTest.testClickOnFloodInsurance()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Flood Insurance]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:23 EDT" name="cleanUp" finished-at="2020-09-26T03:47:23 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:23 EDT" name="setUp" finished-at="2020-09-26T03:47:30 EDT" duration-ms="6942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:30 EDT" name="startExtent" finished-at="2020-09-26T03:47:30 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnForAgentsNProducers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:30 EDT" name="getInit" finished-at="2020-09-26T03:47:32 EDT" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnForAgentsNProducers()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:32 EDT" name="testClickOnForAgentsNProducers" finished-at="2020-09-26T03:47:33 EDT" duration-ms="1228" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On For Agents N Producers]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnForAgentsNProducers -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:33 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:47:34 EDT" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnForAgentsNProducers status=SUCCESS method=HartfordHomePageTest.testClickOnForAgentsNProducers()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On For Agents N Producers]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:34 EDT" name="setUp" finished-at="2020-09-26T03:47:40 EDT" duration-ms="5679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:34 EDT" name="cleanUp" finished-at="2020-09-26T03:47:34 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:40 EDT" name="startExtent" finished-at="2020-09-26T03:47:40 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnForEmployers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:40 EDT" name="getInit" finished-at="2020-09-26T03:47:42 EDT" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnForEmployers()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:42 EDT" name="testClickOnForEmployers" finished-at="2020-09-26T03:47:44 EDT" duration-ms="1703" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On For Employers]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnForEmployers -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:44 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:47:45 EDT" duration-ms="998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnForEmployers status=SUCCESS method=HartfordHomePageTest.testClickOnForEmployers()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On For Employers]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:45 EDT" name="cleanUp" finished-at="2020-09-26T03:47:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:45 EDT" name="setUp" finished-at="2020-09-26T03:47:50 EDT" duration-ms="5207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:50 EDT" name="startExtent" finished-at="2020-09-26T03:47:50 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnGeneralLiability()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:50 EDT" name="getInit" finished-at="2020-09-26T03:47:52 EDT" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnGeneralLiability()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:52 EDT" name="testClickOnGeneralLiability" finished-at="2020-09-26T03:47:54 EDT" duration-ms="1919" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On General Liability]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnGeneralLiability -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:54 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:47:55 EDT" duration-ms="1017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnGeneralLiability status=SUCCESS method=HartfordHomePageTest.testClickOnGeneralLiability()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On General Liability]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:55 EDT" name="cleanUp" finished-at="2020-09-26T03:47:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:47:55 EDT" name="setUp" finished-at="2020-09-26T03:48:00 EDT" duration-ms="4403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:00 EDT" name="startExtent" finished-at="2020-09-26T03:48:00 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnHomeOwners()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:00 EDT" name="getInit" finished-at="2020-09-26T03:48:02 EDT" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnHomeOwners()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:02 EDT" name="testClickOnHomeOwners" finished-at="2020-09-26T03:48:03 EDT" duration-ms="1678" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Home Owners]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnHomeOwners -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:03 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:48:04 EDT" duration-ms="799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnHomeOwners status=SUCCESS method=HartfordHomePageTest.testClickOnHomeOwners()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Home Owners]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:04 EDT" name="cleanUp" finished-at="2020-09-26T03:48:04 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:04 EDT" name="setUp" finished-at="2020-09-26T03:48:09 EDT" duration-ms="5119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:09 EDT" name="startExtent" finished-at="2020-09-26T03:48:09 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnIndustrySolutions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:09 EDT" name="getInit" finished-at="2020-09-26T03:48:12 EDT" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnIndustrySolutions()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:12 EDT" name="testClickOnIndustrySolutions" finished-at="2020-09-26T03:48:13 EDT" duration-ms="1368" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Industry Solutions]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnIndustrySolutions -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:13 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:48:14 EDT" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnIndustrySolutions status=SUCCESS method=HartfordHomePageTest.testClickOnIndustrySolutions()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Industry Solutions]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:14 EDT" name="cleanUp" finished-at="2020-09-26T03:48:14 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:14 EDT" name="setUp" finished-at="2020-09-26T03:48:19 EDT" duration-ms="5230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:19 EDT" name="getInit" finished-at="2020-09-26T03:48:21 EDT" duration-ms="2206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:19 EDT" name="startExtent" finished-at="2020-09-26T03:48:19 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnInsuranceForEmployees()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnInsuranceForEmployees()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:21 EDT" name="testClickOnInsuranceForEmployees" finished-at="2020-09-26T03:48:23 EDT" duration-ms="1199" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Insurance For Employees]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnInsuranceForEmployees -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:23 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:48:23 EDT" duration-ms="865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnInsuranceForEmployees status=SUCCESS method=HartfordHomePageTest.testClickOnInsuranceForEmployees()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Insurance For Employees]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:23 EDT" name="setUp" finished-at="2020-09-26T03:48:28 EDT" duration-ms="4407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:23 EDT" name="cleanUp" finished-at="2020-09-26T03:48:23 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:28 EDT" name="getInit" finished-at="2020-09-26T03:48:30 EDT" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:28 EDT" name="startExtent" finished-at="2020-09-26T03:48:28 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnRentersInsurance()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnRentersInsurance()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:30 EDT" name="testClickOnRentersInsurance" finished-at="2020-09-26T03:48:32 EDT" duration-ms="1767" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Renters Insurance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnRentersInsurance -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:32 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:48:33 EDT" duration-ms="1171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnRentersInsurance status=SUCCESS method=HartfordHomePageTest.testClickOnRentersInsurance()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Renters Insurance]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:33 EDT" name="cleanUp" finished-at="2020-09-26T03:48:33 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:33 EDT" name="setUp" finished-at="2020-09-26T03:48:37 EDT" duration-ms="4273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:37 EDT" name="startExtent" finished-at="2020-09-26T03:48:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnResources()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:37 EDT" name="getInit" finished-at="2020-09-26T03:48:39 EDT" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnResources()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:39 EDT" name="testClickOnResources" finished-at="2020-09-26T03:48:41 EDT" duration-ms="1183" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Resources]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnResources -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:41 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:48:41 EDT" duration-ms="772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnResources status=SUCCESS method=HartfordHomePageTest.testClickOnResources()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Resources]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:41 EDT" name="setUp" finished-at="2020-09-26T03:48:45 EDT" duration-ms="4077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:41 EDT" name="cleanUp" finished-at="2020-09-26T03:48:41 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:45 EDT" name="getInit" finished-at="2020-09-26T03:48:48 EDT" duration-ms="2153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:45 EDT" name="startExtent" finished-at="2020-09-26T03:48:45 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnStartAClaim()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnStartAClaim()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:48 EDT" name="testClickOnStartAClaim" finished-at="2020-09-26T03:48:49 EDT" duration-ms="1340" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Start A Claim]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnStartAClaim -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:49 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:48:50 EDT" duration-ms="758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnStartAClaim status=SUCCESS method=HartfordHomePageTest.testClickOnStartAClaim()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Start A Claim]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:50 EDT" name="cleanUp" finished-at="2020-09-26T03:48:50 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:50 EDT" name="setUp" finished-at="2020-09-26T03:48:54 EDT" duration-ms="4342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:54 EDT" name="startExtent" finished-at="2020-09-26T03:48:54 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnStateGuide()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:54 EDT" name="getInit" finished-at="2020-09-26T03:48:56 EDT" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnStateGuide()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:56 EDT" name="testClickOnStateGuide" finished-at="2020-09-26T03:48:58 EDT" duration-ms="1399" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On State Guide]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnStateGuide -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:58 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:48:58 EDT" duration-ms="859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnStateGuide status=SUCCESS method=HartfordHomePageTest.testClickOnStateGuide()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On State Guide]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:58 EDT" name="cleanUp" finished-at="2020-09-26T03:48:58 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:48:58 EDT" name="setUp" finished-at="2020-09-26T03:49:03 EDT" duration-ms="4412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:03 EDT" name="startExtent" finished-at="2020-09-26T03:49:03 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnUmbrellaInsurance()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:03 EDT" name="getInit" finished-at="2020-09-26T03:49:05 EDT" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnUmbrellaInsurance()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:05 EDT" name="testClickOnUmbrellaInsurance" finished-at="2020-09-26T03:49:07 EDT" duration-ms="1825" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Umbrella Insurance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnUmbrellaInsurance -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:07 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:49:08 EDT" duration-ms="874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnUmbrellaInsurance status=SUCCESS method=HartfordHomePageTest.testClickOnUmbrellaInsurance()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Umbrella Insurance]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:08 EDT" name="cleanUp" finished-at="2020-09-26T03:49:08 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:08 EDT" name="setUp" finished-at="2020-09-26T03:49:13 EDT" duration-ms="5267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:13 EDT" name="startExtent" finished-at="2020-09-26T03:49:13 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnValueAdded()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:13 EDT" name="getInit" finished-at="2020-09-26T03:49:15 EDT" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnValueAdded()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:15 EDT" name="testClickOnValueAdded" finished-at="2020-09-26T03:49:17 EDT" duration-ms="1656" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Value Added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnValueAdded -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:17 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:49:18 EDT" duration-ms="873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnValueAdded status=SUCCESS method=HartfordHomePageTest.testClickOnValueAdded()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Value Added]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:18 EDT" name="cleanUp" finished-at="2020-09-26T03:49:18 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:18 EDT" name="setUp" finished-at="2020-09-26T03:49:25 EDT" duration-ms="6977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:25 EDT" name="startExtent" finished-at="2020-09-26T03:49:25 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testClickOnWorkersCompensation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:25 EDT" name="getInit" finished-at="2020-09-26T03:49:27 EDT" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnWorkersCompensation()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:27 EDT" name="testClickOnWorkersCompensation" finished-at="2020-09-26T03:49:29 EDT" duration-ms="1940" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Click On Workers Compensation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnWorkersCompensation -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:29 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:49:31 EDT" duration-ms="1655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnWorkersCompensation status=SUCCESS method=HartfordHomePageTest.testClickOnWorkersCompensation()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Click On Workers Compensation]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:31 EDT" name="cleanUp" finished-at="2020-09-26T03:49:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:31 EDT" name="setUp" finished-at="2020-09-26T03:49:35 EDT" duration-ms="4519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.thehartford.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:35 EDT" name="startExtent" finished-at="2020-09-26T03:49:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HartfordHomePageTest.testHomeMouseOver()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:35 EDT" name="getInit" finished-at="2020-09-26T03:49:37 EDT" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testHomeMouseOver()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:37 EDT" name="testHomeMouseOver" finished-at="2020-09-26T03:49:39 EDT" duration-ms="1863" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HartfordHomePageTest: test Home Mouse Over]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomeMouseOver -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:39 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:49:40 EDT" duration-ms="1141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeMouseOver status=SUCCESS method=HartfordHomePageTest.testHomeMouseOver()[pri:0, instance:home.HartfordHomePageTest@2f8dad04] output=HartfordHomePageTest: test Home Mouse Over]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:40 EDT" name="cleanUp" finished-at="2020-09-26T03:49:40 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HartfordHomePageTest@2f8dad04]" started-at="2020-09-26T03:49:40 EDT" name="generateReport" finished-at="2020-09-26T03:49:40 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.HartfordHomePageTest -->
+    </test> <!-- Hartford Home -->
+  </suite> <!-- Hartford Insurance Automation Test -->
+</testng-results>

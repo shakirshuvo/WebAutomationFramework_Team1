@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TMobile_Automation_Test" class="navigator-link">
+              <span class="suite-name border-failed">TMobile Automation Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TMobile_Automation_Test" class="navigator-link ">
+                    <span>C:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\TMobile\target\test-classes\TMobileTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TMobile_Automation_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TMobile_Automation_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TMobile_Automation_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TMobile_Automation_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TMobile_Automation_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TMobile_Automation_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TMobile_Automation_Test" class="hide-methods failed suite-TMobile_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-TMobile_Automation_Test -->
+                      <a href="#" panel-name="suite-TMobile_Automation_Test" class="show-methods failed suite-TMobile_Automation_Test"> (show)</a> <!-- show-methods failed suite-TMobile_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-TMobile_Automation_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMobile_Automation_Test" title="home.TMHomePageTest" class="method navigator-link" hash-for-method="testClickOnPrePaidTab">testClickOnPrePaidTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMobile_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testSearchBox">testSearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TMobile_Automation_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TMobile_Automation_Test" class="hide-methods passed suite-TMobile_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-TMobile_Automation_Test -->
+                      <a href="#" panel-name="suite-TMobile_Automation_Test" class="show-methods passed suite-TMobile_Automation_Test"> (show)</a> <!-- show-methods passed suite-TMobile_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-TMobile_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMobile_Automation_Test" title="home.TMHomePageTest" class="method navigator-link" hash-for-method="testClickBusinessTab">testClickBusinessTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMobile_Automation_Test" title="home.TMHomePageTest" class="method navigator-link" hash-for-method="testClickOnBankingTab">testClickOnBankingTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMobile_Automation_Test" title="home.TMHomePageTest" class="method navigator-link" hash-for-method="testClickOnTvTab">testClickOnTvTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMobile_Automation_Test" title="home.TMHomePageTest" class="method navigator-link" hash-for-method="testClickOnWirelessTab">testClickOnWirelessTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TMobile_Automation_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TMobile_Automation_Test" class="panel TMobile_Automation_Test">
+          <div class="suite-TMobile_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">search.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBox">
+                  </a> <!-- testSearchBox -->
+                  <span class="method-name">testSearchBox</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;iPhone 11&apos;]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;WAQAS&apos;, ip: &apos;192.168.1.166&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d15fa385a68263d4314e519a18ac602b
+*** Element info: {Using=xpath, value=//p[text()=&apos;iPhone 11&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.getTextByXpath(CommonAPI.java:388)
+	at search.Search.validateSearchBox(Search.java:27)
+	at search.SearchTest.testSearchBox(SearchTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TMobile_Automation_Test-class-failed -->
+          <div class="suite-TMobile_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">home.TMHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnPrePaidTab">
+                  </a> <!-- testClickOnPrePaidTab -->
+                  <span class="method-name">testClickOnPrePaidTab</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Prepaid Cell Phone Plans, Smartphones &amp; 4G LTE Service | T-Mobile] but found [T-Mobile]
+	at home.TMobileHomepage.validateClickOnPrePaidTab(TMobileHomepage.java:61)
+	at home.TMHomePageTest.testClickOnPrePaidTab(TMHomePageTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TMobile_Automation_Test-class-failed -->
+          <div class="suite-TMobile_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">home.TMHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickBusinessTab">
+                  </a> <!-- testClickBusinessTab -->
+                  <span class="method-name">testClickBusinessTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnBankingTab">
+                  </a> <!-- testClickOnBankingTab -->
+                  <span class="method-name">testClickOnBankingTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnTvTab">
+                  </a> <!-- testClickOnTvTab -->
+                  <span class="method-name">testClickOnTvTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnWirelessTab">
+                  </a> <!-- testClickOnWirelessTab -->
+                  <span class="method-name">testClickOnWirelessTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TMobile_Automation_Test-class-passed -->
+        </div> <!-- panel TMobile_Automation_Test -->
+        <div panel-name="test-xml-TMobile_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\TMobile\target\test-classes\TMobileTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TMobile Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;10&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;85.0&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome-options&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.t-mobile.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TMobile Home&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;home.TMHomePageTest&quot;/&gt;
+      &lt;class name=&quot;search.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TMobile Home --&gt;
+&lt;/suite&gt; &lt;!-- TMobile Automation Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TMobile_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TMobile Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TMobile Home (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TMobile_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TMobile Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TMobile_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TMobile Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TMobile_Automation_Test');
+function tableData_TMobile_Automation_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSearchBox')
+data.setCell(0, 2, 'search.SearchTest')
+data.setCell(0, 3, 12428);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testClickOnPrePaidTab')
+data.setCell(1, 2, 'home.TMHomePageTest')
+data.setCell(1, 3, 6225);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testClickOnTvTab')
+data.setCell(2, 2, 'home.TMHomePageTest')
+data.setCell(2, 3, 3879);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testClickBusinessTab')
+data.setCell(3, 2, 'home.TMHomePageTest')
+data.setCell(3, 3, 3708);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testClickOnBankingTab')
+data.setCell(4, 2, 'home.TMHomePageTest')
+data.setCell(4, 3, 3189);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testClickOnWirelessTab')
+data.setCell(5, 2, 'home.TMHomePageTest')
+data.setCell(5, 3, 575);
+window.suiteTableData['TMobile_Automation_Test']= { tableData: data, tableDiv: 'times-div-TMobile_Automation_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-TMobile_Automation_Test">
+              </div> <!-- times-div-TMobile_Automation_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TMobile_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TMobile Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnWirelessTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TMHomePageTest: test Click On Wireless Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnTvTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TMHomePageTest: test Click On Tv Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnBankingTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TMHomePageTest: test Click On Banking Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickBusinessTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TMHomePageTest: test Click Business Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBox</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Search Box</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnPrePaidTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TMHomePageTest: test Click On Pre Paid Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TMobile_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">search.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TMobile_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">home.TMHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@5ba26eb0)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, Windows, 10, chrome-options, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.TMHomePageTest.testClickBusinessTab())</span>
+                <span class="method-start">6010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">6014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickBusinessTab</span>
+                <span class="method-start">8371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickBusinessTab status=SUCCESS method=TMHomePageTest.testClickBusinessTab()[pr...)</span>
+                <span class="method-start">12082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">14928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, Windows, 10, chrome-options, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">14928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.TMHomePageTest.testClickOnBankingTab())</span>
+                <span class="method-start">19634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">19634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnBankingTab</span>
+                <span class="method-start">22351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnBankingTab status=SUCCESS method=TMHomePageTest.testClickOnBankingTab()[...)</span>
+                <span class="method-start">25540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">27291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, Windows, 10, chrome-options, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">27292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.TMHomePageTest.testClickOnPrePaidTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">33411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">33412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testClickOnPrePaidTab</span>
+                <span class="method-start">35676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnPrePaidTab status=FAILURE method=TMHomePageTest.testClickOnPrePaidTab()[...)</span>
+                <span class="method-start">41906 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">43492 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, Windows, 10, chrome-options, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">43493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.TMHomePageTest.testClickOnTvTab())</span>
+                <span class="method-start">48645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">48646 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnTvTab</span>
+                <span class="method-start">51628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnTvTab status=SUCCESS method=TMHomePageTest.testClickOnTvTab()[pri:0, ins...)</span>
+                <span class="method-start">55507 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">56668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, Windows, 10, chrome-options, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">56668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.TMHomePageTest.testClickOnWirelessTab())</span>
+                <span class="method-start">61877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">61877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnWirelessTab</span>
+                <span class="method-start">64432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnWirelessTab status=SUCCESS method=TMHomePageTest.testClickOnWirelessTab(...)</span>
+                <span class="method-start">65007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">65970 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">search.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, Windows, 10, chrome-options, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">65973 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testSearchBox())</span>
+                <span class="method-start">70915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">70915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchBox</span>
+                <span class="method-start">73545 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBox status=FAILURE method=SearchTest.testSearchBox()[pri:0, instance:sear...)</span>
+                <span class="method-start">85974 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">87014 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">home.TMHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">87060 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

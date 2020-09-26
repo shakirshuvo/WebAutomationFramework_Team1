@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.util.concurrent.TimeUnit;
 
@@ -15,105 +16,122 @@ public class SearchTest extends CommonAPI {
         search = PageFactory.initElements(driver, Search.class);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
-//
-//    /**
-//     * test click on search button
-//     */
-////    @Test
-////    public  void testClickSearch() throws InterruptedException {
-////        search.clickSearchBtn();
-////        search.validateClickSearchBtn();
-////    }
-//
-//    /**
-//     * validate search box
-//     */
-////    @Test
-//////    public void testSearchBox() throws InterruptedException {
-//////        search.typeInSearchBox();
-//////        sleepFor(3);
-//////        search.validateSearchBox();
-//////    }
-//
-//    /**
-//     * test on coronavirus tabe
-//     */
-//    @Test
-//    public void testCoronavirus() throws InterruptedException {
-//
-//        search.clickOnCoronavirusTab();
-//        sleepFor(3);
-//        search.validateCoronavirusTab();
-//    }
-//
-//    /**
-//     * test face mask tab
-//     */
-//    @Test
-//    public void testFaceMaskTab() throws InterruptedException {
-//
-//        search.clickOnFaceMaskTab();
-//        sleepFor(5);
-//        search.validateFaceMaskTab();
-//    }
-//
-//    /**
-//     * test eCredits tab
-//     */
-//    @Test
-//    public void testECreditsTab() throws InterruptedException {
-//
-//        search.clickOnECreditsTab();
-//        sleepFor(5);
-//        search.validateECreditsTab();
-//    }
-//
-//    /**
-//     * test change flight tab
-//     */
-//    @Test
-//    public void testChangeFlight() throws InterruptedException {
-//        search.clickOnchangeFlightTab();
-//        sleepFor(5);
-//        search.validateChangeFlightTab();
-//    }
-//
-//    /**
-//     * test cancel flights element
-//     */
-//    @Test
-//    public void testCanceFlights() throws InterruptedException {
-//        search.clickCancelFlights();
-//        sleepFor(3);
-//        search.validateClickCancelFlights();
-//    }
 
-//    /**
-//     * test reciepts element
-//     */
-//    @Test
-//    public void testReciepts() throws InterruptedException {
-//        search.clickReciepts();
-//        sleepFor(3);
-//        search.validateClickReciepts();
-//    }
+    /**
+     * test click on search button
+     */
+    @Test(enabled = true)
+    public  void testClickSearchBtn() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.clickSearchBtn();
+        search.validateClickSearchBtn();
+    }
 
-//
-//    /**
-//     * test baggage element
-//     */
-//    @Test
-//    public void testRefunds() throws InterruptedException {
-//        search.clickBaggage();
-//        sleepFor(3);
-//        search.validateClickBaggage();
-//    }
+    /**
+     * validate search box
+     */
+    @Test(enabled = true)
+    public void testSearchBox() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.typeInSearchBox();
+        sleepFor(3);
+        search.validateSearchBox();
+    }
+
+    /**
+     * test on coronavirus tabe
+     */
+    @Test(enabled = true)
+    public void testCoronavirus() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.clickOnCoronavirusTab();
+        sleepFor(3);
+        search.validateCoronavirusTab();
+    }
+
+    /**
+     * test face mask tab
+     */
+    @Test(enabled = true)
+    public void testFaceMaskTab() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.clickOnFaceMaskTab();
+        sleepFor(5);
+        search.validateFaceMaskTab();
+    }
+
+    /**
+     * test eCredits tab
+     */
+    @Test(enabled = true)
+    public void testECreditsTab() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.clickOnECreditsTab();
+        sleepFor(5);
+        search.validateECreditsTab();
+    }
+
+    /**
+     * test change flight tab
+     */
+    @Test(enabled = true)
+    public void testChangeFlight() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.clickOnChangeFlightTab();
+        sleepFor(5);
+        search.validateChangeFlightTab();
+    }
+
+    /**
+     * test cancel flights element
+     */
+    @Test(enabled = true)
+    public void testCanceFlights() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.clickCancelFlights();
+        sleepFor(3);
+        search.validateClickCancelFlights();
+    }
+
+    /**
+     * test reciepts element
+     */
+    @Test(enabled = true)
+    public void testReciepts() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.clickReciepts();
+        sleepFor(3);
+        search.validateClickReciepts();
+    }
+
+
+    /**
+     * test baggage element
+     */
+    @Test(enabled = true)
+    public void testRefunds() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.clickBaggage();
+        sleepFor(3);
+        search.validateClickBaggage();
+    }
 
     /**
      * test pets element
      */
-    @Test
+    @Test(enabled = true)
     public void testPetsElement() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.clickPets();
         sleepFor(3);
         search.validateClickPets();

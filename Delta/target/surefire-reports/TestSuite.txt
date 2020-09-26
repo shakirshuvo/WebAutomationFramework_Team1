@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 387.563 s <<< FAILURE! - in TestSuite
+search.SearchTest.testPetsElement  Time elapsed: 11.675 s  <<< FAILURE!
+java.lang.AssertionError: expected [Delta Pet Policy : Flying with Dogs, Cats & More : Delta Air Lines] but found [Baggage Policy and Fees | Delta Air Lines]
+	at search.SearchTest.testPetsElement(SearchTest.java:137)
+
+search.SearchTest.testSearchBox  Time elapsed: 9.438 s  <<< FAILURE!
+java.lang.AssertionError: test failed expected [SEARCH RESULTS] but found []
+	at search.SearchTest.testSearchBox(SearchTest.java:40)
+

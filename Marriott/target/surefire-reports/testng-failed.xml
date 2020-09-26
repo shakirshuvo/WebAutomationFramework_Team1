@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Marriott Automation Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="Windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="browserVersion" value="85.0"/>
+  <parameter name="browserName" value="chrome-options"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.marriott.com/default.mi"/>
+  <test thread-count="5" name="Marriott Home(failed)" verbose="0">
+    <classes>
+      <class name="home.MarriottHomePageTest">
+        <methods>
+          <include name="getInit"/>
+          <include name="testClickOnDealsPackages"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testUsePointsCheckBox"/>
+          <include name="testClicKOnReceptions"/>
+          <include name="testClicKSocialEvents"/>
+          <include name="testBookHotelFindNReserve"/>
+          <include name="extentSetup"/>
+          <include name="testClicKOnDestinationsUnderWeddings"/>
+          <include name="testFindNReserve"/>
+          <include name="startExtent"/>
+          <include name="testClickOnRitz"/>
+          <include name="testSearchBox"/>
+          <include name="cleanUp"/>
+          <include name="testClicKPlanning"/>
+          <include name="testClickOnExploreAll"/>
+          <include name="testLanguageSelector"/>
+          <include name="generateReport"/>
+          <include name="testClicKOnAccomodations"/>
+          <include name="setUp"/>
+          <include name="testClickBusinessMeetings"/>
+          <include name="testClickOnDeltaHotels"/>
+        </methods>
+      </class> <!-- home.MarriottHomePageTest -->
+    </classes>
+  </test> <!-- Marriott Home(failed) -->
+</suite> <!-- Failed suite [Marriott Automation Test] -->

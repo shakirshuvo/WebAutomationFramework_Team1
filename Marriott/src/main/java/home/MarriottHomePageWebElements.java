@@ -2,6 +2,13 @@ package home;
 
 public class MarriottHomePageWebElements {
 
+    //sign in elements
+    public static final String signInOrJoinElementXpath = "//span[text()='Sign In or Join']";
+    public static final String emailIDElementXpath = "//*[@id=\"user-id\"]";
+    public static final String passwordElementXpath = "//span[text()='Sign In or Join']";
+    public static final String signInSubmitBtnElementXpath = "//span[text()='Sign In or Join']";
+
+
     //language selector
     public static final String languageSelectorElementXpath = "//span[text()='English']";
     public static final String selectLanguageVerifierElementXpath = "//h3[text()='Please select your preferred language']";

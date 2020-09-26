@@ -25,6 +25,9 @@ public class HomePageTest extends CommonAPI {
 
     /**
      * test account sign in
+     * since a fake id and password are provided
+     * this test is not expected to pass
+     * @Autor: Waqas
      */
     @Test(enabled = true)
     public void testClickAccountSignIn() throws InterruptedException {
@@ -32,6 +35,7 @@ public class HomePageTest extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         homePage.enterOnlineID();
         homePage.enterPassword();
+        sleepFor(3);
         homePage.clickOnSignInBtn();
         sleepFor(3);
         homePage.validateClickOnSignInBtn();
@@ -65,6 +69,7 @@ public class HomePageTest extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePage.clickOpenAccount();
+        sleepFor(3);
         homePage.validateClickOpenAccount();
     }
 
@@ -93,7 +98,7 @@ public class HomePageTest extends CommonAPI {
     /**
      * test click on business institutions
      */
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void testClickOnBusinessInstitutions(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

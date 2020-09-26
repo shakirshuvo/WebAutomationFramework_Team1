@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="8" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\BankOfAmerica\target\surefire-reports\html]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test About Us]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Click Account Sign In]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Click On Checking]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Click On Personal]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Click On Security Tab]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Click On Small Business]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Click On Wealth Management]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Click Open Acount]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-26T03:55:24 EDT" name="Bank of America Automation Test" finished-at="2020-09-26T03:59:03 EDT" duration-ms="219415">
+    <groups>
+    </groups>
+    <test started-at="2020-09-26T03:55:24 EDT" name="Bank of America Home" finished-at="2020-09-26T03:59:03 EDT" duration-ms="219415">
+      <class name="home.HomePageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:55:23 EDT" name="extentSetup" finished-at="2020-09-26T03:55:24 EDT" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3fba233d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\BankOfAmerica\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:55:24 EDT" name="setUp" finished-at="2020-09-26T03:55:31 EDT" duration-ms="7416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:55:31 EDT" name="startExtent" finished-at="2020-09-26T03:55:31 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testAboutUs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:55:31 EDT" name="getInit" finished-at="2020-09-26T03:55:47 EDT" duration-ms="15524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testAboutUs()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:55:47 EDT" name="testAboutUs" finished-at="2020-09-26T03:55:53 EDT" duration-ms="5893" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test About Us]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAboutUs -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:55:53 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:55:55 EDT" duration-ms="2512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAboutUs status=SUCCESS method=HomePageTest.testAboutUs()[pri:0, instance:home.HomePageTest@e7edb54] output=HomePageTest: test About Us]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:55:55 EDT" name="cleanUp" finished-at="2020-09-26T03:55:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:55:55 EDT" name="setUp" finished-at="2020-09-26T03:56:04 EDT" duration-ms="9379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:04 EDT" name="startExtent" finished-at="2020-09-26T03:56:04 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testClickAccountSignIn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:04 EDT" name="getInit" finished-at="2020-09-26T03:56:13 EDT" duration-ms="8921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickAccountSignIn()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:13 EDT" name="testClickAccountSignIn" finished-at="2020-09-26T03:56:25 EDT" duration-ms="12032" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Click Account Sign In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickAccountSignIn -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:25 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:56:29 EDT" duration-ms="3770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickAccountSignIn status=SUCCESS method=HomePageTest.testClickAccountSignIn()[pri:0, instance:home.HomePageTest@e7edb54] output=HomePageTest: test Click Account Sign In]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:29 EDT" name="cleanUp" finished-at="2020-09-26T03:56:29 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:29 EDT" name="setUp" finished-at="2020-09-26T03:56:39 EDT" duration-ms="9421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:39 EDT" name="startExtent" finished-at="2020-09-26T03:56:39 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testClickOnChecking() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:39 EDT" name="getInit" finished-at="2020-09-26T03:56:41 EDT" duration-ms="2220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnChecking()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:41 EDT" name="testClickOnChecking" finished-at="2020-09-26T03:56:41 EDT" duration-ms="181" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Click On Checking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnChecking -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:41 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:56:42 EDT" duration-ms="1513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnChecking status=SUCCESS method=HomePageTest.testClickOnChecking()[pri:0, instance:home.HomePageTest@e7edb54] output=HomePageTest: test Click On Checking]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:42 EDT" name="setUp" finished-at="2020-09-26T03:56:48 EDT" duration-ms="5384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:42 EDT" name="cleanUp" finished-at="2020-09-26T03:56:42 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:48 EDT" name="getInit" finished-at="2020-09-26T03:56:56 EDT" duration-ms="8245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:48 EDT" name="startExtent" finished-at="2020-09-26T03:56:48 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testClickOnPersonal() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnPersonal()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:56:56 EDT" name="testClickOnPersonal" finished-at="2020-09-26T03:57:04 EDT" duration-ms="8210" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Click On Personal]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnPersonal -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:04 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:57:05 EDT" duration-ms="1165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnPersonal status=SUCCESS method=HomePageTest.testClickOnPersonal()[pri:0, instance:home.HomePageTest@e7edb54] output=HomePageTest: test Click On Personal]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:05 EDT" name="cleanUp" finished-at="2020-09-26T03:57:05 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:05 EDT" name="setUp" finished-at="2020-09-26T03:57:14 EDT" duration-ms="8684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:14 EDT" name="startExtent" finished-at="2020-09-26T03:57:14 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testClickOnSecurityTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:14 EDT" name="getInit" finished-at="2020-09-26T03:57:17 EDT" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnSecurityTab()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:17 EDT" name="testClickOnSecurityTab" finished-at="2020-09-26T03:57:26 EDT" duration-ms="8961" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Click On Security Tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnSecurityTab -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:26 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:57:28 EDT" duration-ms="1862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnSecurityTab status=SUCCESS method=HomePageTest.testClickOnSecurityTab()[pri:0, instance:home.HomePageTest@e7edb54] output=HomePageTest: test Click On Security Tab]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:28 EDT" name="setUp" finished-at="2020-09-26T03:57:34 EDT" duration-ms="6136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:28 EDT" name="cleanUp" finished-at="2020-09-26T03:57:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:34 EDT" name="getInit" finished-at="2020-09-26T03:57:39 EDT" duration-ms="5437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:34 EDT" name="startExtent" finished-at="2020-09-26T03:57:34 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testClickOnSmallBusiness()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnSmallBusiness()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:39 EDT" name="testClickOnSmallBusiness" finished-at="2020-09-26T03:57:41 EDT" duration-ms="1974" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Click On Small Business]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnSmallBusiness -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:41 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:57:43 EDT" duration-ms="1872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnSmallBusiness status=SUCCESS method=HomePageTest.testClickOnSmallBusiness()[pri:0, instance:home.HomePageTest@e7edb54] output=HomePageTest: test Click On Small Business]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:43 EDT" name="setUp" finished-at="2020-09-26T03:57:49 EDT" duration-ms="6414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:43 EDT" name="cleanUp" finished-at="2020-09-26T03:57:43 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:49 EDT" name="startExtent" finished-at="2020-09-26T03:57:49 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testClickOnWealthManagement()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:49 EDT" name="getInit" finished-at="2020-09-26T03:57:55 EDT" duration-ms="5849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOnWealthManagement()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:57:55 EDT" name="testClickOnWealthManagement" finished-at="2020-09-26T03:58:06 EDT" duration-ms="10547" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Click On Wealth Management]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnWealthManagement -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:06 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:58:10 EDT" duration-ms="4480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnWealthManagement status=SUCCESS method=HomePageTest.testClickOnWealthManagement()[pri:0, instance:home.HomePageTest@e7edb54] output=HomePageTest: test Click On Wealth Management]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:10 EDT" name="setUp" finished-at="2020-09-26T03:58:16 EDT" duration-ms="5745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:10 EDT" name="cleanUp" finished-at="2020-09-26T03:58:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:16 EDT" name="startExtent" finished-at="2020-09-26T03:58:16 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testClickOpenAcount() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:16 EDT" name="getInit" finished-at="2020-09-26T03:58:20 EDT" duration-ms="3865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickOpenAcount()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:20 EDT" name="testClickOpenAcount" finished-at="2020-09-26T03:58:31 EDT" duration-ms="11288" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 25559c621cc694fe12f02b1498eb6e9b
+*** Element info: {Using=xpath, value=//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 25559c621cc694fe12f02b1498eb6e9b
+*** Element info: {Using=xpath, value=//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at home.HomePage.clickOpenAccount(HomePage.java:161)
+at home.HomePageTest.testClickOpenAcount(HomePageTest.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Click Open Acount]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOpenAcount -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:31 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:58:38 EDT" duration-ms="6623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOpenAcount status=FAILURE method=HomePageTest.testClickOpenAcount()[pri:0, instance:home.HomePageTest@e7edb54] output=HomePageTest: test Click Open Acount]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:38 EDT" name="setUp" finished-at="2020-09-26T03:58:46 EDT" duration-ms="8128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:38 EDT" name="cleanUp" finished-at="2020-09-26T03:58:38 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:46 EDT" name="startExtent" finished-at="2020-09-26T03:58:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testSaveOnlineIdCheckbox()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:58:46 EDT" name="getInit" finished-at="2020-09-26T03:59:01 EDT" duration-ms="15231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testSaveOnlineIdCheckbox()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:59:01 EDT" name="testSaveOnlineIdCheckbox" finished-at="2020-09-26T03:59:02 EDT" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveOnlineIdCheckbox -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:59:02 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:59:03 EDT" duration-ms="1390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSaveOnlineIdCheckbox status=SUCCESS method=HomePageTest.testSaveOnlineIdCheckbox()[pri:0, instance:home.HomePageTest@e7edb54] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:59:03 EDT" name="cleanUp" finished-at="2020-09-26T03:59:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@e7edb54]" started-at="2020-09-26T03:59:03 EDT" name="generateReport" finished-at="2020-09-26T03:59:03 EDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.HomePageTest -->
+    </test> <!-- Bank of America Home -->
+  </suite> <!-- Bank of America Automation Test -->
+</testng-results>

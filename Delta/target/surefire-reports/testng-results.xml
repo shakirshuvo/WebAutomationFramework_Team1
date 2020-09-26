@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="17" passed="11" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Delta\target\surefire-reports\html]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Click Check In]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Click On Book]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest: test Flight Status]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Cance Flights]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Change Flight]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Click Search Btn]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Coronavirus]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test E Credits Tab]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Face Mask Tab]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Pets Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Reciepts]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Refunds]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Search Box]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-26T03:54:49 EDT" name="Delta Automation Test" finished-at="2020-09-26T04:01:15 EDT" duration-ms="385981">
+    <groups>
+    </groups>
+    <test started-at="2020-09-26T03:54:49 EDT" name="Delta Home" finished-at="2020-09-26T04:01:15 EDT" duration-ms="385981">
+      <class name="search.SearchTest">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:57:57 EDT" name="setUp" finished-at="2020-09-26T03:58:08 EDT" duration-ms="10987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:08 EDT" name="startExtent" finished-at="2020-09-26T03:58:08 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testCanceFlights() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:08 EDT" name="getInit" finished-at="2020-09-26T03:58:08 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testCanceFlights()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:08 EDT" name="testCanceFlights" finished-at="2020-09-26T03:58:16 EDT" duration-ms="7410" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Cance Flights]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCanceFlights -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:16 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:58:17 EDT" duration-ms="1569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCanceFlights status=SUCCESS method=SearchTest.testCanceFlights()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test Cance Flights]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:17 EDT" name="cleanUp" finished-at="2020-09-26T03:58:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:17 EDT" name="setUp" finished-at="2020-09-26T03:58:25 EDT" duration-ms="7808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:25 EDT" name="getInit" finished-at="2020-09-26T03:58:25 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:25 EDT" name="startExtent" finished-at="2020-09-26T03:58:25 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testChangeFlight() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testChangeFlight()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:25 EDT" name="testChangeFlight" finished-at="2020-09-26T03:58:37 EDT" duration-ms="11435" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Change Flight]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testChangeFlight -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:37 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:58:38 EDT" duration-ms="1432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChangeFlight status=SUCCESS method=SearchTest.testChangeFlight()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test Change Flight]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:38 EDT" name="setUp" finished-at="2020-09-26T03:59:04 EDT" duration-ms="25427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:58:38 EDT" name="cleanUp" finished-at="2020-09-26T03:58:38 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:04 EDT" name="startExtent" finished-at="2020-09-26T03:59:04 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testClickSearchBtn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:04 EDT" name="getInit" finished-at="2020-09-26T03:59:04 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickSearchBtn()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:04 EDT" name="testClickSearchBtn" finished-at="2020-09-26T03:59:04 EDT" duration-ms="754" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Click Search Btn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickSearchBtn -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:04 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:59:06 EDT" duration-ms="1360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickSearchBtn status=SUCCESS method=SearchTest.testClickSearchBtn()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test Click Search Btn]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:06 EDT" name="cleanUp" finished-at="2020-09-26T03:59:06 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:06 EDT" name="setUp" finished-at="2020-09-26T03:59:13 EDT" duration-ms="7199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:13 EDT" name="startExtent" finished-at="2020-09-26T03:59:13 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testCoronavirus() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:13 EDT" name="getInit" finished-at="2020-09-26T03:59:13 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testCoronavirus()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:13 EDT" name="testCoronavirus" finished-at="2020-09-26T03:59:19 EDT" duration-ms="6462" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Coronavirus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCoronavirus -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:19 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:59:21 EDT" duration-ms="1395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCoronavirus status=SUCCESS method=SearchTest.testCoronavirus()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test Coronavirus]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:21 EDT" name="cleanUp" finished-at="2020-09-26T03:59:21 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:21 EDT" name="setUp" finished-at="2020-09-26T03:59:28 EDT" duration-ms="6847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:28 EDT" name="startExtent" finished-at="2020-09-26T03:59:28 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testECreditsTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:28 EDT" name="getInit" finished-at="2020-09-26T03:59:28 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testECreditsTab()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:28 EDT" name="testECreditsTab" finished-at="2020-09-26T03:59:38 EDT" duration-ms="10549" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test E Credits Tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testECreditsTab -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:38 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:59:40 EDT" duration-ms="1827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testECreditsTab status=SUCCESS method=SearchTest.testECreditsTab()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test E Credits Tab]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:40 EDT" name="cleanUp" finished-at="2020-09-26T03:59:40 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:40 EDT" name="setUp" finished-at="2020-09-26T03:59:46 EDT" duration-ms="6233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:46 EDT" name="startExtent" finished-at="2020-09-26T03:59:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testFaceMaskTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:46 EDT" name="getInit" finished-at="2020-09-26T03:59:46 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testFaceMaskTab()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:46 EDT" name="testFaceMaskTab" finished-at="2020-09-26T03:59:54 EDT" duration-ms="8236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Face Mask Tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFaceMaskTab -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:54 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:59:56 EDT" duration-ms="1706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFaceMaskTab status=SUCCESS method=SearchTest.testFaceMaskTab()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test Face Mask Tab]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:56 EDT" name="cleanUp" finished-at="2020-09-26T03:59:56 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T03:59:56 EDT" name="setUp" finished-at="2020-09-26T04:00:03 EDT" duration-ms="6938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:03 EDT" name="startExtent" finished-at="2020-09-26T04:00:03 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testPetsElement() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:03 EDT" name="getInit" finished-at="2020-09-26T04:00:03 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testPetsElement()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:03 EDT" name="testPetsElement" finished-at="2020-09-26T04:00:15 EDT" duration-ms="11670" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Delta Pet Policy : Flying with Dogs, Cats & More : Delta Air Lines] but found [Baggage Policy and Fees | Delta Air Lines]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Delta Pet Policy : Flying with Dogs, Cats & More : Delta Air Lines] but found [Baggage Policy and Fees | Delta Air Lines]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at search.Search.validateClickPets(Search.java:222)
+at search.SearchTest.testPetsElement(SearchTest.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Pets Element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPetsElement -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:15 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:00:17 EDT" duration-ms="2507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPetsElement status=FAILURE method=SearchTest.testPetsElement()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test Pets Element]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:17 EDT" name="cleanUp" finished-at="2020-09-26T04:00:17 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:17 EDT" name="setUp" finished-at="2020-09-26T04:00:25 EDT" duration-ms="7683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:25 EDT" name="startExtent" finished-at="2020-09-26T04:00:25 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testReciepts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:25 EDT" name="getInit" finished-at="2020-09-26T04:00:25 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testReciepts()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:25 EDT" name="testReciepts" finished-at="2020-09-26T04:00:30 EDT" duration-ms="5071" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Reciepts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testReciepts -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:30 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:00:31 EDT" duration-ms="1439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testReciepts status=SUCCESS method=SearchTest.testReciepts()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test Reciepts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:31 EDT" name="setUp" finished-at="2020-09-26T04:00:39 EDT" duration-ms="8017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:31 EDT" name="cleanUp" finished-at="2020-09-26T04:00:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:39 EDT" name="startExtent" finished-at="2020-09-26T04:00:39 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testRefunds() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:39 EDT" name="getInit" finished-at="2020-09-26T04:00:39 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testRefunds()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:39 EDT" name="testRefunds" finished-at="2020-09-26T04:00:46 EDT" duration-ms="6586" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Refunds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRefunds -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:46 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:00:47 EDT" duration-ms="939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRefunds status=SUCCESS method=SearchTest.testRefunds()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test Refunds]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:47 EDT" name="cleanUp" finished-at="2020-09-26T04:00:47 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:47 EDT" name="setUp" finished-at="2020-09-26T04:00:57 EDT" duration-ms="9871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:57 EDT" name="getInit" finished-at="2020-09-26T04:00:57 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:57 EDT" name="startExtent" finished-at="2020-09-26T04:00:57 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testSearchBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testSearchBox()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:00:57 EDT" name="testSearchBox" finished-at="2020-09-26T04:01:06 EDT" duration-ms="9442" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[test failed expected [SEARCH RESULTS] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: test failed expected [SEARCH RESULTS] but found []
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at search.Search.validateSearchBox(Search.java:53)
+at search.SearchTest.testSearchBox(SearchTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Search Box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchBox -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:01:06 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:01:15 EDT" duration-ms="9170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchBox status=FAILURE method=SearchTest.testSearchBox()[pri:0, instance:search.SearchTest@67080771] output=SearchTest: test Search Box]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@67080771]" started-at="2020-09-26T04:01:15 EDT" name="cleanUp" finished-at="2020-09-26T04:01:15 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- search.SearchTest -->
+      <class name="home.HomePageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:54:49 EDT" name="extentSetup" finished-at="2020-09-26T03:54:49 EDT" duration-ms="403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dfe23e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Delta\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:54:50 EDT" name="setUp" finished-at="2020-09-26T03:55:01 EDT" duration-ms="11136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:55:01 EDT" name="startExtent" finished-at="2020-09-26T03:55:01 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testClickCheckIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:55:01 EDT" name="getInit" finished-at="2020-09-26T03:55:22 EDT" duration-ms="21669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testClickCheckIn()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:55:22 EDT" name="testClickCheckIn" finished-at="2020-09-26T03:55:43 EDT" duration-ms="20767" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Click Check In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickCheckIn -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:55:43 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:55:46 EDT" duration-ms="2923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickCheckIn status=SUCCESS method=HomePageTest.testClickCheckIn()[pri:0, instance:home.HomePageTest@1eb5174b] output=HomePageTest: test Click Check In]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:55:46 EDT" name="cleanUp" finished-at="2020-09-26T03:55:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:55:46 EDT" name="setUp" finished-at="2020-09-26T03:56:03 EDT" duration-ms="16659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:56:03 EDT" name="getInit" finished-at="2020-09-26T03:56:47 EDT" duration-ms="44064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:56:03 EDT" name="startExtent" finished-at="2020-09-26T03:56:03 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testClickOnBook() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testClickOnBook()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:56:47 EDT" name="testClickOnBook" finished-at="2020-09-26T03:57:11 EDT" duration-ms="24042" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Click On Book]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnBook -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:57:11 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:57:12 EDT" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnBook status=SUCCESS method=HomePageTest.testClickOnBook()[pri:0, instance:home.HomePageTest@1eb5174b] output=HomePageTest: test Click On Book]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:57:12 EDT" name="cleanUp" finished-at="2020-09-26T03:57:12 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:57:12 EDT" name="setUp" finished-at="2020-09-26T03:57:25 EDT" duration-ms="13317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.delta.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:57:25 EDT" name="startExtent" finished-at="2020-09-26T03:57:25 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.testFlightStatus() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:57:25 EDT" name="getInit" finished-at="2020-09-26T03:57:54 EDT" duration-ms="28891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testFlightStatus()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:57:54 EDT" name="testFlightStatus" finished-at="2020-09-26T03:57:55 EDT" duration-ms="519" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageTest: test Flight Status]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFlightStatus -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:57:55 EDT" name="afterEachTestMethod" finished-at="2020-09-26T03:57:57 EDT" duration-ms="2707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlightStatus status=SUCCESS method=HomePageTest.testFlightStatus()[pri:0, instance:home.HomePageTest@1eb5174b] output=HomePageTest: test Flight Status]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T03:57:57 EDT" name="cleanUp" finished-at="2020-09-26T03:57:57 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@1eb5174b]" started-at="2020-09-26T04:01:16 EDT" name="generateReport" finished-at="2020-09-26T04:01:16 EDT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.HomePageTest -->
+    </test> <!-- Delta Home -->
+  </suite> <!-- Delta Automation Test -->
+</testng-results>

@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="5" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Amazon\target\surefire-reports\html]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Search Multiple Items]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Search Single Item]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Validate All Drop Down]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Verify Purell Text Is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Verify Search Random Books By Title]]>
+    </line>
+    <line>
+      <![CDATA[SearchTest: test Verify Search Random Books By URL]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-26T04:53:07 EDT" name="Amazon Automation Test" finished-at="2020-09-26T04:55:00 EDT" duration-ms="113231">
+    <groups>
+    </groups>
+    <test started-at="2020-09-26T04:53:07 EDT" name="Amazon Home" finished-at="2020-09-26T04:55:00 EDT" duration-ms="113231">
+      <class name="search.SearchTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:07 EDT" name="extentSetup" finished-at="2020-09-26T04:53:07 EDT" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@404eca05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Amazon\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:07 EDT" name="setUp" finished-at="2020-09-26T04:53:18 EDT" duration-ms="10701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:18 EDT" name="startExtent" finished-at="2020-09-26T04:53:18 EDT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testSearchMultipleItems()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:18 EDT" name="getInit" finished-at="2020-09-26T04:53:18 EDT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testSearchMultipleItems()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:18 EDT" name="testSearchMultipleItems" finished-at="2020-09-26T04:53:26 EDT" duration-ms="8390" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Search Multiple Items]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchMultipleItems -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:26 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:53:28 EDT" duration-ms="2218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchMultipleItems status=SUCCESS method=SearchTest.testSearchMultipleItems()[pri:0, instance:search.SearchTest@4d910fd6] output=SearchTest: test Search Multiple Items]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:28 EDT" name="cleanUp" finished-at="2020-09-26T04:53:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:28 EDT" name="setUp" finished-at="2020-09-26T04:53:42 EDT" duration-ms="13625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:42 EDT" name="startExtent" finished-at="2020-09-26T04:53:42 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testSearchSingleItem()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:42 EDT" name="getInit" finished-at="2020-09-26T04:53:42 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testSearchSingleItem()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:42 EDT" name="testSearchSingleItem" finished-at="2020-09-26T04:53:47 EDT" duration-ms="5106" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Search Single Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchSingleItem -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:47 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:53:48 EDT" duration-ms="873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchSingleItem status=SUCCESS method=SearchTest.testSearchSingleItem()[pri:0, instance:search.SearchTest@4d910fd6] output=SearchTest: test Search Single Item]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:48 EDT" name="cleanUp" finished-at="2020-09-26T04:53:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:48 EDT" name="setUp" finished-at="2020-09-26T04:53:57 EDT" duration-ms="9093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:57 EDT" name="getInit" finished-at="2020-09-26T04:53:57 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:57 EDT" name="startExtent" finished-at="2020-09-26T04:53:57 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testValidateAllDropDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testValidateAllDropDown()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:57 EDT" name="testValidateAllDropDown" finished-at="2020-09-26T04:53:57 EDT" duration-ms="97" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Validate All Drop Down]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidateAllDropDown -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:57 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:53:58 EDT" duration-ms="1160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateAllDropDown status=SUCCESS method=SearchTest.testValidateAllDropDown()[pri:0, instance:search.SearchTest@4d910fd6] output=SearchTest: test Validate All Drop Down]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:58 EDT" name="cleanUp" finished-at="2020-09-26T04:53:58 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:53:58 EDT" name="setUp" finished-at="2020-09-26T04:54:09 EDT" duration-ms="10577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:09 EDT" name="getInit" finished-at="2020-09-26T04:54:09 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:09 EDT" name="startExtent" finished-at="2020-09-26T04:54:09 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testVerifyPurellTextIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testVerifyPurellTextIsDisplayed()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:09 EDT" name="testVerifyPurellTextIsDisplayed" finished-at="2020-09-26T04:54:17 EDT" duration-ms="8531" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Verify Purell Text Is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyPurellTextIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:17 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:54:18 EDT" duration-ms="810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyPurellTextIsDisplayed status=SUCCESS method=SearchTest.testVerifyPurellTextIsDisplayed()[pri:0, instance:search.SearchTest@4d910fd6] output=SearchTest: test Verify Purell Text Is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:18 EDT" name="cleanUp" finished-at="2020-09-26T04:54:18 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:18 EDT" name="setUp" finished-at="2020-09-26T04:54:28 EDT" duration-ms="9490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:28 EDT" name="startExtent" finished-at="2020-09-26T04:54:28 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testVerifySearchRandomBooksByTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:28 EDT" name="getInit" finished-at="2020-09-26T04:54:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifySearchRandomBooksByTitle()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:28 EDT" name="testVerifySearchRandomBooksByTitle" finished-at="2020-09-26T04:54:38 EDT" duration-ms="10630" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Verify Search Random Books By Title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifySearchRandomBooksByTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:38 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:54:39 EDT" duration-ms="868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifySearchRandomBooksByTitle status=SUCCESS method=SearchTest.testVerifySearchRandomBooksByTitle()[pri:0, instance:search.SearchTest@4d910fd6] output=SearchTest: test Verify Search Random Books By Title]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:39 EDT" name="cleanUp" finished-at="2020-09-26T04:54:39 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:39 EDT" name="setUp" finished-at="2020-09-26T04:54:48 EDT" duration-ms="8941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:48 EDT" name="startExtent" finished-at="2020-09-26T04:54:48 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.testVerifySearchRandomBooksByURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:48 EDT" name="getInit" finished-at="2020-09-26T04:54:48 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testVerifySearchRandomBooksByURL()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:48 EDT" name="testVerifySearchRandomBooksByURL" finished-at="2020-09-26T04:54:59 EDT" duration-ms="10837" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.amazon.com/s?k=Lilies+of+the+Field&i=stripbooks-intl-ship&ref=nb_sb_noss] but found [https://www.amazon.com/s?k=Lilies+of+the+Field&i=stripbooks&ref=nb_sb_noss]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.amazon.com/s?k=Lilies+of+the+Field&i=stripbooks-intl-ship&ref=nb_sb_noss] but found [https://www.amazon.com/s?k=Lilies+of+the+Field&i=stripbooks&ref=nb_sb_noss]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at search.Search.verifySearchRandomBookByURL(Search.java:253)
+at search.SearchTest.testVerifySearchRandomBooksByURL(SearchTest.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[SearchTest: test Verify Search Random Books By URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifySearchRandomBooksByURL -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:54:59 EDT" name="afterEachTestMethod" finished-at="2020-09-26T04:55:00 EDT" duration-ms="1210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifySearchRandomBooksByURL status=FAILURE method=SearchTest.testVerifySearchRandomBooksByURL()[pri:0, instance:search.SearchTest@4d910fd6] output=SearchTest: test Verify Search Random Books By URL]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:55:00 EDT" name="cleanUp" finished-at="2020-09-26T04:55:00 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:search.SearchTest@4d910fd6]" started-at="2020-09-26T04:55:00 EDT" name="generateReport" finished-at="2020-09-26T04:55:00 EDT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- search.SearchTest -->
+    </test> <!-- Amazon Home -->
+  </suite> <!-- Amazon Automation Test -->
+</testng-results>

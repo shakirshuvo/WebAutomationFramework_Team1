@@ -35,7 +35,7 @@ public void validateClickOnVaccationDeals(){
     //String actual = getTitle();
    // System.out.println(actual);
     String expected = "Delta Vacations";
-    Assert.assertEquals(getTitle(), expected);
+    Assert.assertEquals(driver.getTitle(), expected);
 }
 
 /**
@@ -59,7 +59,7 @@ public void validateClickOnBook(){
  * click on Check-In
  */
 public void clickCheckIn(){
-    clickOnElement(checkInElemenCSS);
+    clickOnElement(checkInElementCSS);
 }
 
 /**

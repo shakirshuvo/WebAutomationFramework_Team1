@@ -104,7 +104,7 @@ public class HartfordHomePage extends CommonAPI {
      * mouse over home tab
      */
     public void homeTabMouseOver(){
-        mouseHover(homeTab);
+        mouseHoverByXpath(homeTabWebElementXpath);
         waitUntilClickAble(By.xpath(condoInsurnaceElementXpath));
         clickOnElement(condoInsurnaceElementXpath);
     }
@@ -122,7 +122,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on renters
      */
     public void clickOnRentersInsurance(){
-        mouseHover(homeTab);
+        mouseHoverByXpath(homeTabWebElementXpath);
         waitUntilClickAble(By.xpath(rentersInsurnaceElementXpath));
         clickOnElement(rentersInsurnaceElementXpath);
     }
@@ -139,7 +139,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on flood insurance Tab
      */
     public void clickOnFloodInsurance(){
-        mouseHover(homeTab);
+        mouseHoverByXpath(homeTabWebElementXpath);
         waitUntilClickAble(By.xpath(floodInsurnaceElementXpath));
         clickOnElement(floodInsurnaceElementXpath);
     }
@@ -156,7 +156,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on Umbrella insurance Tab
      */
     public void clickOnUmbrellaInsurance(){
-        mouseHover(homeTab);
+        mouseHoverByXpath(homeTabWebElementXpath);
         waitUntilClickAble(By.xpath(umbrellaInsurnaceElementXpath));
         clickOnElement(umbrellaInsurnaceElementXpath);
     }
@@ -174,7 +174,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on classic car insurance Tab under auto
      */
     public void clickOnClassicCarInsurance(){
-        mouseHover(autoTab);
+        mouseHoverByXpath(autoTabWebElementXpath);
         waitUntilClickAble(By.xpath(classicCarInsurnaceElementXpath));
         clickOnElement(classicCarInsurnaceElementXpath);
     }
@@ -191,7 +191,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on All Vehicles insurance Tab under auto
      */
     public void clickOnAllVehiclesInsurance(){
-        mouseHover(autoTab);
+        mouseHoverByXpath(autoTabWebElementXpath);
         waitUntilClickAble(By.xpath(allVehiclesInsurnaceElementXpath));
         clickOnElement(allVehiclesInsurnaceElementXpath);
     }
@@ -209,7 +209,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on homeowners insurance Tab under home
      */
     public void clickOnAllHomeOwners(){
-        mouseHover(homeTab);
+        mouseHoverByXpath(homeTabWebElementXpath);
         waitUntilClickAble(By.xpath(homeownersInsurnaceElementXpath));
         clickOnElement(homeownersInsurnaceElementXpath);
     }
@@ -230,7 +230,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on business owners policy Tab under business tab
      */
     public void clickOnBusinessOwnersPolicy(){
-        mouseHover(businessTab);
+        mouseHoverByXpath(businessTabWebElementXpath);
         waitUntilClickAble(By.xpath(businessOwnersPolicyElementXpath));
         clickOnElement(businessOwnersPolicyElementXpath);
     }
@@ -248,7 +248,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on general liability Tab under business tab
      */
     public void clickOnGeneralLiability(){
-        mouseHover(businessTab);
+        mouseHoverByXpath(businessTabWebElementXpath);
         waitUntilClickAble(By.xpath(generalLiabilityElementXpath));
         clickOnElement(generalLiabilityElementXpath);
     }
@@ -266,7 +266,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on workers compensation Tab under business tab
      */
     public void clickOnWorkersCompensation(){
-        mouseHover(businessTab);
+        mouseHoverByXpath(businessTabWebElementXpath);
         waitUntilClickAble(By.xpath(workersCompensationElementXpath));
         clickOnElement(workersCompensationElementXpath);
     }
@@ -284,7 +284,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on commercial auto insurance Tab under business tab
      */
     public void clickOnCommercialAutoInsurance(){
-        mouseHover(businessTab);
+        mouseHoverByXpath(businessTabWebElementXpath);
         waitUntilClickAble(By.xpath(commercialAutoInsuranceElementXpath));
         clickOnElement(commercialAutoInsuranceElementXpath);
     }
@@ -306,7 +306,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on for employers insurance Tab under employee benefits tab
      */
     public void clickOnForEmployers(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(forEmployersElementXpath));
         clickOnElement(forEmployersElementXpath);
     }
@@ -324,7 +324,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on  benefit plans under employee benefits tab
      */
     public void clickOnBenefitPlans(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(benefitPlansElementXpath));
         clickOnElement(benefitPlansElementXpath);
     }
@@ -342,7 +342,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on  absence Management under employee benefits tab
      */
     public void clickOnAbsenceManagement(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(absenceManagementElementXpath));
         clickOnElement(absenceManagementElementXpath);
     }
@@ -360,7 +360,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on  industry solutions under employee benefits tab
      */
     public void clickOnIndustrySolutions(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(industrySolutionsElementXpath));
         clickOnElement(industrySolutionsElementXpath);
     }
@@ -379,7 +379,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on insurance for employees under employee benefits tab
      */
     public void clickOnInsuranceForEmployees(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(insuranceForEmployeesElementXpath));
         clickOnElement(insuranceForEmployeesElementXpath);
     }
@@ -397,7 +397,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on value addes services employees under employee benefits tab
      */
     public void clickOnValueAddedServices(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(valueAddedServicesElementXpath));
         clickOnElement(valueAddedServicesElementXpath);
     }
@@ -415,7 +415,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on start a claim employees under employee benefits tab
      */
     public void clickOnStartAClaim(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(startAClaimElementXpath));
         clickOnElement(startAClaimElementXpath);
     }
@@ -433,7 +433,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on state guide employees under employee benefits tab
      */
     public void clickOnStateGuide(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(stateGuideElementXpath));
         clickOnElement(stateGuideElementXpath);
     }
@@ -452,7 +452,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on for agents and producers under employee benefits tab
      */
     public void clickOnForAgentsNProducers(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(forAgentsNProducersElementXpath));
         clickOnElement(forAgentsNProducersElementXpath);
     }
@@ -470,7 +470,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on resources under employee benefits tab
      */
     public void clickOnResources(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(resourcesElementXpath));
         clickOnElement(resourcesElementXpath);
     }
@@ -488,7 +488,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on benefits technology under employee benefits tab
      */
     public void clickOnBenefitsTechnology(){
-        mouseHover(employeeBenefitsTab);
+        mouseHoverByXpath(employeeBenefitsTabWebElementXpath);
         waitUntilClickAble(By.xpath(benefitsTechnologyElementXpath));
         clickOnElement(benefitsTechnologyElementXpath);
     }

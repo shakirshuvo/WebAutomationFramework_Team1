@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 88.65 s <<< FAILURE! - in TestSuite
+home.TMHomePageTest.testClickOnPrePaidTab  Time elapsed: 6.226 s  <<< FAILURE!
+java.lang.AssertionError: expected [Prepaid Cell Phone Plans, Smartphones & 4G LTE Service | T-Mobile] but found [T-Mobile]
+	at home.TMHomePageTest.testClickOnPrePaidTab(TMHomePageTest.java:52)
+
+search.SearchTest.testSearchBox  Time elapsed: 12.423 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='iPhone 11']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d15fa385a68263d4314e519a18ac602b
+*** Element info: {Using=xpath, value=//p[text()='iPhone 11']}
+	at search.SearchTest.testSearchBox(SearchTest.java:30)
+

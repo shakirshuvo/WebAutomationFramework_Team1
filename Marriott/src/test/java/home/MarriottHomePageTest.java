@@ -23,7 +23,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test langauge selector in the header
      */
-    @Test
+    @Test(enabled = true)
     public void testLanguageSelector() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -31,6 +31,23 @@ public class MarriottHomePageTest extends CommonAPI {
         sleepFor(3);
         marriottHomePage.validateLanguageSelector();
     }
+
+    /**
+     * test sign in functionality
+     */
+    @Test(enabled = true)
+    public void testSignInFunctionality() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        marriottHomePage.clickSignInOrJoinBtn();
+        sleepFor(3);
+        marriottHomePage.enterEmailNPassword();
+        marriottHomePage.clickOnSignInSubmitBtn();
+        sleepFor(1);
+        marriottHomePage.validateSignInFunctionality();
+    }
+
+
 
     /**
      * test click on Find and reserve tab
@@ -47,7 +64,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test bookHotelFindNReserve
      */
-    @Test
+    @Test(enabled = false)
     public void testBookHotelFindNReserve(){
      TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
@@ -57,7 +74,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test use points checkbox
      */
-    @Test
+    @Test(enabled = true)
     public void testUsePointsCheckBox(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -69,7 +86,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test click on deals and exclusive packages
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnDealsPackages(){
         marriottHomePage.clickOnDealsPackages();
         marriottHomePage.validateClickDealsPackages();
@@ -78,7 +95,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test click on explore all destinations
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnExploreAll(){
         marriottHomePage.clickOnExploreAll();
         marriottHomePage.validateClickOnExploreAllDestinations();
@@ -87,7 +104,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test meetings and events
      */
-    @Test
+    @Test(enabled = true)
     public void testClickMeetingsNEvents(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -97,7 +114,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test business meetings
      */
-    @Test
+    @Test(enabled = true)
     public void testClickBusinessMeetings(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -108,7 +125,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test weddings element under meetings and events
      */
-    @Test
+    @Test(enabled = true)
     public void testClicKWeddings(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -119,7 +136,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test social events element under meetings and events
      */
-    @Test
+    @Test(enabled = true)
     public void testClicKSocialEvents(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -130,7 +147,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test planning element under weddings
      */
-    @Test
+    @Test(enabled = true)
     public void testClicKPlanning(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -141,7 +158,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test ceremonies element under weddings
      */
-    @Test
+    @Test(enabled = true)
     public void testClickCeremonies(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -152,11 +169,12 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test receptions element under weddings
      */
-    @Test
-    public void testClicKOnReceptions(){
+    @Test(enabled = true)
+    public void testClicKOnReceptions() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnReceptions();
+        sleepFor(3);
         marriottHomePage.validateClickReceptions();
     }
 
@@ -164,18 +182,19 @@ public class MarriottHomePageTest extends CommonAPI {
      * test dining element under weddings
      */
 
-    @Test
-    public void testClicKOnDining(){
+    @Test(enabled = true)
+    public void testClicKOnDining() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnDining();
+        sleepFor(3);
         marriottHomePage.validateClickDining();
     }
 
     /**
      * test accomodations under weddings element
      */
-    @Test
+    @Test(enabled = true)
     public void testClicKOnAccomodations(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -186,7 +205,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test accomodations under weddings element
      */
-    @Test
+    @Test(enabled = true)
     public void testClicKOnDestinationsUnderWeddings(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -197,7 +216,7 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test group travel element under meetings and events
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnGrouptTravels(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -207,8 +226,10 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test click on our brands
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnOurBrands() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
            marriottHomePage.clickOnOurBrands();
            sleepFor(3);
         marriottHomePage.validateClickOnOurBrands();
@@ -217,8 +238,10 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test click on edition element under our brands
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnEdition() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
            marriottHomePage.clickOnEdition();
            marriottHomePage.validateClickOnEdition();
     }
@@ -226,16 +249,20 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test click on st Regis hotels element under our brands
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnRegis() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnStRegis();
         marriottHomePage.validateClickOnStRegis();
     }
     /**
      * test click on st Regis hotels element under our brands
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnWHotels() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnWHotels();
         marriottHomePage.validateClickOnWHotels();
     }
@@ -243,25 +270,32 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test click on JW hotels element under our brands
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnJWHotels() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnJWHotels();
         marriottHomePage.validateClickOnJWHotels();
     }
     /**
      * test click on delta hotels element under our brands
      */
-    @Test
-    public void testClickOnDeltaHotels()  {
+    @Test(enabled = true)
+    public void testClickOnDeltaHotels() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnDeltaHotels();
+        sleepFor(3);
         marriottHomePage.validateClickOnDeltaHotels();
     }
 
     /**
      * test click on le meridien hotels element under our brands
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnleMeridienHotels()  {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnleMeridienHotels();
         marriottHomePage.validateClickOnleMeridienHotels();
     }
@@ -269,8 +303,10 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test click on Westin hotels element under our brands
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnWestin()  {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnWestinHotels();
         marriottHomePage.validateClickOnWestinHotels();
     }
@@ -278,8 +314,10 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test click on our credit cards
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnOurCreditCards(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnOurCreditCards();
         marriottHomePage.validateClickOnOurCreditCards();
     }
@@ -287,8 +325,10 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test click on Ritz logo
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnRitz(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.clickOnRitz();
         marriottHomePage.validateClickOnRitz();
     }
@@ -296,8 +336,10 @@ public class MarriottHomePageTest extends CommonAPI {
     /**
      * test search box
      */
-    @Test
+    @Test(enabled = true)
     public void testSearchBox() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         marriottHomePage.searchBox();
         marriottHomePage.validateSearchBox();
         sleepFor(3);

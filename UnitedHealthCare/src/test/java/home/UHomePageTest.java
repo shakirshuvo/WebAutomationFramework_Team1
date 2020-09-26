@@ -22,7 +22,7 @@ public class UHomePageTest extends CommonAPI {
     /**
      * test search element
      */
-    @Test
+    @Test(enabled = true)
     public void testSearchBoxElement(){
      TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
@@ -35,7 +35,7 @@ public class UHomePageTest extends CommonAPI {
      * test brokers tab
      *
      */
-    @Test
+    @Test(enabled = true)
     public void testBrokers(){
     TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
@@ -46,7 +46,7 @@ public class UHomePageTest extends CommonAPI {
     /**
      * test medicare tab
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnMedicare(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
@@ -57,7 +57,7 @@ public class UHomePageTest extends CommonAPI {
     /**
      * test for providers tab
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnForProviders(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
   }.getClass().getEnclosingMethod().getName()));
@@ -68,7 +68,7 @@ public class UHomePageTest extends CommonAPI {
     /**
      * test click on for employers tab
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnForEmployers(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));

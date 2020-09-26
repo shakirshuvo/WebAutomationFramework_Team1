@@ -16,7 +16,7 @@ public class HomePageTest extends CommonAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-
+        driver.manage().deleteAllCookies();
     }
 /**
  * test click on Vaccation Deals
@@ -54,7 +54,7 @@ public class HomePageTest extends CommonAPI {
     /**
      * test my trips element
      */
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void testMyTrips(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

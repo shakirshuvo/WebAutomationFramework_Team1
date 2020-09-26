@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Delta Automation Test</th></tr>
+<tr><td><a href="#t0">Delta Home</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">385,981</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Delta Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Delta Home &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">search.SearchTest</td><td><a href="#m0">testPetsElement</a></td><td rowspan="1">1601107203541</td><td rowspan="1">11670</td></tr><tr class="failedeven"><td><a href="#m1">testSearchBox</a></td><td rowspan="1">1601107257361</td><td rowspan="1">9442</td></tr><tr><th colspan="4">Delta Home &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">home.HomePageTest</td><td><a href="#m2">testClickCheckIn</a></td><td rowspan="1">1601106922834</td><td rowspan="1">20767</td></tr><tr class="passedeven"><td><a href="#m3">testClickOnBook</a></td><td rowspan="1">1601107007251</td><td rowspan="1">24042</td></tr><tr class="passedeven"><td><a href="#m4">testFlightStatus</a></td><td rowspan="1">1601107074694</td><td rowspan="1">519</td></tr><tr class="passedodd"><td rowspan="8">search.SearchTest</td><td><a href="#m5">testCanceFlights</a></td><td rowspan="1">1601107088917</td><td rowspan="1">7410</td></tr><tr class="passedodd"><td><a href="#m6">testChangeFlight</a></td><td rowspan="1">1601107105710</td><td rowspan="1">11435</td></tr><tr class="passedodd"><td><a href="#m7">testClickSearchBtn</a></td><td rowspan="1">1601107144011</td><td rowspan="1">754</td></tr><tr class="passedodd"><td><a href="#m8">testCoronavirus</a></td><td rowspan="1">1601107153333</td><td rowspan="1">6462</td></tr><tr class="passedodd"><td><a href="#m9">testECreditsTab</a></td><td rowspan="1">1601107168042</td><td rowspan="1">10549</td></tr><tr class="passedodd"><td><a href="#m10">testFaceMaskTab</a></td><td rowspan="1">1601107186655</td><td rowspan="1">8236</td></tr><tr class="passedodd"><td><a href="#m11">testReciepts</a></td><td rowspan="1">1601107225414</td><td rowspan="1">5071</td></tr><tr class="passedodd"><td><a href="#m12">testRefunds</a></td><td rowspan="1">1601107239948</td><td rowspan="1">6586</td></tr></tbody>
+</table>
+<h2>Delta Home</h2><h3 id="m0">search.SearchTest#testPetsElement</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test Pets Element</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Delta Pet Policy : Flying with Dogs, Cats &amp; More : Delta Air Lines] but found [Baggage Policy and Fees | Delta Air Lines]
+	at search.Search.validateClickPets(Search.java:222)
+	at search.SearchTest.testPetsElement(SearchTest.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">search.SearchTest#testSearchBox</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test Search Box</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: test failed expected [SEARCH RESULTS] but found []
+	at search.Search.validateSearchBox(Search.java:53)
+	at search.SearchTest.testSearchBox(SearchTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">home.HomePageTest#testClickCheckIn</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click Check In</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">home.HomePageTest#testClickOnBook</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click On Book</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">home.HomePageTest#testFlightStatus</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Flight Status</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">search.SearchTest#testCanceFlights</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test Cance Flights</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">search.SearchTest#testChangeFlight</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test Change Flight</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">search.SearchTest#testClickSearchBtn</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test Click Search Btn</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">search.SearchTest#testCoronavirus</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test Coronavirus</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">search.SearchTest#testECreditsTab</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test E Credits Tab</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">search.SearchTest#testFaceMaskTab</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test Face Mask Tab</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">search.SearchTest#testReciepts</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test Reciepts</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">search.SearchTest#testRefunds</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">SearchTest: test Refunds</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 114.344 s <<< FAILURE! - in TestSuite
+search.SearchTest.testVerifySearchRandomBooksByURL  Time elapsed: 10.846 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.amazon.com/s?k=Lilies+of+the+Field&i=stripbooks-intl-ship&ref=nb_sb_noss] but found [https://www.amazon.com/s?k=Lilies+of+the+Field&i=stripbooks&ref=nb_sb_noss]
+	at search.SearchTest.testVerifySearchRandomBooksByURL(SearchTest.java:84)
+

@@ -26,7 +26,7 @@ public class MarriottHomePage extends CommonAPI {
      */
     public void clickOnLanguageSelector(){
 
-        clickOnElement(languageSelector);
+        clickOnElement(languageSelectorElementXpath);
         driver.manage().deleteAllCookies();
         driver.navigate().refresh();
     }
@@ -38,6 +38,39 @@ public class MarriottHomePage extends CommonAPI {
         String actual = getTextByXpath(selectLanguageVerifierElementXpath);
         String expected = "Please select your preferred language";
         Assert.assertEquals(actual, expected, "Test failed");
+    }
+
+    /**
+     * sing in functionality
+     */
+    public void clickSignInOrJoinBtn(){
+        clickByXpath(signInOrJoinElementXpath);
+    }
+
+    /**
+     * enter fake email into email or id field
+     */
+    public void enterEmailNPassword(){
+        typeByXpath(emailIDElementXpath, "chadlsjfl@lahf.com");
+        typeByXpath(passwordElementXpath, "12264dffs");
+    }
+
+    /**
+     * click on submit button
+     */
+    public void clickOnSignInSubmitBtn(){
+        clickByXpath(signInSubmitBtnElementXpath);
+    }
+
+    /**
+     * validate sign in fucntionality
+     * since fake email and password are being passed,
+     * this test is expected to fail
+     */
+    public void validateSignInFunctionality(){
+        String actual = driver.getTitle();
+        String expected = "Sign In";
+        Assert.assertEquals(actual, expected, "test failed");
     }
 
 
@@ -207,7 +240,7 @@ public class MarriottHomePage extends CommonAPI {
      * click on meetings and events
      */
     public void clickMeetingsNEvents(){
-        clickOnElement(meetingsNEventsWebElementXPath);
+        clickByXpath(meetingsNEventsWebElementXPath);
     }
 
     /**
@@ -321,10 +354,10 @@ public class MarriottHomePage extends CommonAPI {
     /**
      * click on dining element under weddings
      */
-    public void clickOnDining(){
+    public void clickOnDining()  {
         clickMeetingsNEvents();
         clickOnWeddings();
-        clickOnElement(diningElementXpath);
+        clickByXpath(diningElementXpath);
     }
 
     /**

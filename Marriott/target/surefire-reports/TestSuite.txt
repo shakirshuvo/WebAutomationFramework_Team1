@@ -1,0 +1,192 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 856.705 s <<< FAILURE! - in TestSuite
+home.MarriottHomePageTest.testBookHotelFindNReserve  Time elapsed: 0.517 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b3f71f8f33e72b10faad5886f1788fd1
+*** Element info: {Using=css selector, value=//input[@id="FT8M1YER_search-location"]}
+	at home.MarriottHomePageTest.testBookHotelFindNReserve(MarriottHomePageTest.java:54)
+
+home.MarriottHomePageTest.testClicKOnAccomodations  Time elapsed: 9.459 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ca404f6801395bad81c0a628e776616a
+*** Element info: {Using=css selector, value=//p[text()='Meetings & Events']}
+	at home.MarriottHomePageTest.testClicKOnAccomodations(MarriottHomePageTest.java:182)
+
+home.MarriottHomePageTest.testClicKOnDestinationsUnderWeddings  Time elapsed: 6.541 s  <<< FAILURE!
+java.lang.AssertionError: expected [Destinations] but found []
+	at home.MarriottHomePageTest.testClicKOnDestinationsUnderWeddings(MarriottHomePageTest.java:194)
+
+home.MarriottHomePageTest.testClicKOnReceptions  Time elapsed: 9.377 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64219}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 074eaa9d3fda13f00ba7042d11341d64
+*** Element info: {Using=css selector, value=//p[text()='Meetings & Events']}
+	at home.MarriottHomePageTest.testClicKOnReceptions(MarriottHomePageTest.java:159)
+
+home.MarriottHomePageTest.testClicKPlanning  Time elapsed: 9.201 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bbb1a246cb96449a33b492ac3df16ef4
+*** Element info: {Using=css selector, value=//p[text()='Meetings & Events']}
+	at home.MarriottHomePageTest.testClicKPlanning(MarriottHomePageTest.java:137)
+
+home.MarriottHomePageTest.testClicKSocialEvents  Time elapsed: 9.135 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64874}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: daf384c3af31223e7562d2ae3ab4f776
+*** Element info: {Using=css selector, value=//p[text()='Meetings & Events']}
+	at home.MarriottHomePageTest.testClicKSocialEvents(MarriottHomePageTest.java:126)
+
+home.MarriottHomePageTest.testClickBusinessMeetings  Time elapsed: 9.079 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8b3e1898c0a0096466bab533adb1935b
+*** Element info: {Using=css selector, value=//p[text()='Meetings & Events']}
+	at home.MarriottHomePageTest.testClickBusinessMeetings(MarriottHomePageTest.java:104)
+
+home.MarriottHomePageTest.testClickOnDealsPackages  Time elapsed: 3.494 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="CardArticlec947"]/section/div[2]/div[1]/h4"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49694}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dd79c8c4af7d4e5e7f8c11f21d4b16ff
+*** Element info: {Using=xpath, value=//*[@id="CardArticlec947"]/section/div[2]/div[1]/h4}
+	at home.MarriottHomePageTest.testClickOnDealsPackages(MarriottHomePageTest.java:75)
+
+home.MarriottHomePageTest.testClickOnDeltaHotels  Time elapsed: 6.709 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 294b34391856bd8a63427c630b922827
+*** Element info: {Using=css selector, value=https://delta-hotels.marriott.com/ }
+	at home.MarriottHomePageTest.testClickOnDeltaHotels(MarriottHomePageTest.java:268)
+
+home.MarriottHomePageTest.testClickOnExploreAll  Time elapsed: 3.054 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Explore Destinations']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1ea4e25a3b3e219f5cf054ffdca08ad7
+*** Element info: {Using=xpath, value=//p[text()='Explore Destinations']}
+	at home.MarriottHomePageTest.testClickOnExploreAll(MarriottHomePageTest.java:83)
+
+home.MarriottHomePageTest.testClickOnRitz  Time elapsed: 3.007 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://www.ritzcarlton.com/']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 823f3726c24ad7f23d5671226f854dff
+*** Element info: {Using=xpath, value=//a[@href='https://www.ritzcarlton.com/']}
+	at home.MarriottHomePageTest.testClickOnRitz(MarriottHomePageTest.java:312)
+
+home.MarriottHomePageTest.testFindNReserve  Time elapsed: 6.518 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="edit-search-form"]/div/div[1]/label"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ae4baaafc95d72f50a21f2d9e0dd64af
+*** Element info: {Using=xpath, value=//*[@id="edit-search-form"]/div/div[1]/label}
+	at home.MarriottHomePageTest.testFindNReserve(MarriottHomePageTest.java:44)
+
+home.MarriottHomePageTest.testLanguageSelector  Time elapsed: 9.581 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[text()='Please select your preferred language']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9f529f4a4a03f8dce0903cd507677f48
+*** Element info: {Using=xpath, value=//h3[text()='Please select your preferred language']}
+	at home.MarriottHomePageTest.testLanguageSelector(MarriottHomePageTest.java:32)
+
+home.MarriottHomePageTest.testSearchBox  Time elapsed: 6.471 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[5]/div/div[1]/section[1]/div/div/div/div/div[1]/form/div[2]/div[6]/button"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 81264e51d6864d2cdada7e61619b5c52
+*** Element info: {Using=xpath, value=/html/body/div[5]/div/div[1]/section[1]/div/div/div/div/div[1]/form/div[2]/div[6]/button}
+	at home.MarriottHomePageTest.testSearchBox(MarriottHomePageTest.java:323)
+
+home.MarriottHomePageTest.testUsePointsCheckBox  Time elapsed: 10.493 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='useRewardsPoints' and @tabindex='0'] (tried for 10 second(s) with 500 milliseconds interval)
+	at home.MarriottHomePageTest.testUsePointsCheckBox(MarriottHomePageTest.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='useRewardsPoints' and @tabindex='0']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WAQAS', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Waqas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1fa5e06cc97a4dcf0c4cb6eddad95c27
+*** Element info: {Using=xpath, value=//input[@name='useRewardsPoints' and @tabindex='0']}
+	at home.MarriottHomePageTest.testUsePointsCheckBox(MarriottHomePageTest.java:64)
+

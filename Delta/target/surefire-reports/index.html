@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Delta_Automation_Test" class="navigator-link">
+              <span class="suite-name border-failed">Delta Automation Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Delta_Automation_Test" class="navigator-link ">
+                    <span>C:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Delta\target\test-classes\DeltaTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Delta_Automation_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Delta_Automation_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Delta_Automation_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Delta_Automation_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Delta_Automation_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Delta_Automation_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Delta_Automation_Test" class="hide-methods failed suite-Delta_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-Delta_Automation_Test -->
+                      <a href="#" panel-name="suite-Delta_Automation_Test" class="show-methods failed suite-Delta_Automation_Test"> (show)</a> <!-- show-methods failed suite-Delta_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Delta_Automation_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testPetsElement">testPetsElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testSearchBox">testSearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Delta_Automation_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Delta_Automation_Test" class="hide-methods passed suite-Delta_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-Delta_Automation_Test -->
+                      <a href="#" panel-name="suite-Delta_Automation_Test" class="show-methods passed suite-Delta_Automation_Test"> (show)</a> <!-- show-methods passed suite-Delta_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Delta_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testCanceFlights">testCanceFlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testChangeFlight">testChangeFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickCheckIn">testClickCheckIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickOnBook">testClickOnBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testClickSearchBtn">testClickSearchBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testCoronavirus">testCoronavirus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testECreditsTab">testECreditsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testFaceMaskTab">testFaceMaskTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testFlightStatus">testFlightStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testReciepts">testReciepts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Delta_Automation_Test" title="search.SearchTest" class="method navigator-link" hash-for-method="testRefunds">testRefunds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Delta_Automation_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Delta_Automation_Test" class="panel Delta_Automation_Test">
+          <div class="suite-Delta_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">search.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPetsElement">
+                  </a> <!-- testPetsElement -->
+                  <span class="method-name">testPetsElement</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Delta Pet Policy : Flying with Dogs, Cats &amp; More : Delta Air Lines] but found [Baggage Policy and Fees | Delta Air Lines]
+	at search.Search.validateClickPets(Search.java:222)
+	at search.SearchTest.testPetsElement(SearchTest.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBox">
+                  </a> <!-- testSearchBox -->
+                  <span class="method-name">testSearchBox</span>
+                  <div class="stack-trace">java.lang.AssertionError: test failed expected [SEARCH RESULTS] but found []
+	at search.Search.validateSearchBox(Search.java:53)
+	at search.SearchTest.testSearchBox(SearchTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Delta_Automation_Test-class-failed -->
+          <div class="suite-Delta_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">search.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCanceFlights">
+                  </a> <!-- testCanceFlights -->
+                  <span class="method-name">testCanceFlights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChangeFlight">
+                  </a> <!-- testChangeFlight -->
+                  <span class="method-name">testChangeFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickSearchBtn">
+                  </a> <!-- testClickSearchBtn -->
+                  <span class="method-name">testClickSearchBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCoronavirus">
+                  </a> <!-- testCoronavirus -->
+                  <span class="method-name">testCoronavirus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testECreditsTab">
+                  </a> <!-- testECreditsTab -->
+                  <span class="method-name">testECreditsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFaceMaskTab">
+                  </a> <!-- testFaceMaskTab -->
+                  <span class="method-name">testFaceMaskTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReciepts">
+                  </a> <!-- testReciepts -->
+                  <span class="method-name">testReciepts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRefunds">
+                  </a> <!-- testRefunds -->
+                  <span class="method-name">testRefunds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Delta_Automation_Test-class-passed -->
+          <div class="suite-Delta_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">home.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickCheckIn">
+                  </a> <!-- testClickCheckIn -->
+                  <span class="method-name">testClickCheckIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnBook">
+                  </a> <!-- testClickOnBook -->
+                  <span class="method-name">testClickOnBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFlightStatus">
+                  </a> <!-- testFlightStatus -->
+                  <span class="method-name">testFlightStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Delta_Automation_Test-class-passed -->
+        </div> <!-- panel Delta_Automation_Test -->
+        <div panel-name="test-xml-Delta_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Waqas\IdeaProjects\WebAutomationFramework_Team1\Delta\target\test-classes\DeltaTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Delta Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;10&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;85.0&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome-options&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;saucelab&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.delta.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Delta Home&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;home.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;search.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delta Home --&gt;
+&lt;/suite&gt; &lt;!-- Delta Automation Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Delta_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Delta Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Delta Home (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Delta_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Delta Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Delta_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Delta Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Delta_Automation_Test');
+function tableData_Delta_Automation_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testClickOnBook')
+data.setCell(0, 2, 'home.HomePageTest')
+data.setCell(0, 3, 24042);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testClickCheckIn')
+data.setCell(1, 2, 'home.HomePageTest')
+data.setCell(1, 3, 20767);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPetsElement')
+data.setCell(2, 2, 'search.SearchTest')
+data.setCell(2, 3, 11670);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testChangeFlight')
+data.setCell(3, 2, 'search.SearchTest')
+data.setCell(3, 3, 11435);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testECreditsTab')
+data.setCell(4, 2, 'search.SearchTest')
+data.setCell(4, 3, 10549);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSearchBox')
+data.setCell(5, 2, 'search.SearchTest')
+data.setCell(5, 3, 9442);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testFaceMaskTab')
+data.setCell(6, 2, 'search.SearchTest')
+data.setCell(6, 3, 8236);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCanceFlights')
+data.setCell(7, 2, 'search.SearchTest')
+data.setCell(7, 3, 7410);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testRefunds')
+data.setCell(8, 2, 'search.SearchTest')
+data.setCell(8, 3, 6586);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCoronavirus')
+data.setCell(9, 2, 'search.SearchTest')
+data.setCell(9, 3, 6462);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testReciepts')
+data.setCell(10, 2, 'search.SearchTest')
+data.setCell(10, 3, 5071);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testClickSearchBtn')
+data.setCell(11, 2, 'search.SearchTest')
+data.setCell(11, 3, 754);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFlightStatus')
+data.setCell(12, 2, 'home.HomePageTest')
+data.setCell(12, 3, 519);
+window.suiteTableData['Delta_Automation_Test']= { tableData: data, tableDiv: 'times-div-Delta_Automation_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Delta_Automation_Test">
+              </div> <!-- times-div-Delta_Automation_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Delta_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Delta Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickCheckIn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click Check In</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testFlightStatus</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Flight Status</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickSearchBtn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Click Search Btn</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testECreditsTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test E Credits Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testRefunds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Refunds</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCoronavirus</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Coronavirus</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnBook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click On Book</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testReciepts</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Reciepts</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testChangeFlight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Change Flight</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCanceFlights</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Cance Flights</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testFaceMaskTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Face Mask Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBox</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Search Box</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testPetsElement</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SearchTest: test Pets Element</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Delta_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">search.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">home.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testMyTrips</span>
+                <br/>
+                <span class="ignored-method-name">testClickOnVaccationDeals</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Delta_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">home.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@5dfe23e8)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickCheckIn())</span>
+                <span class="method-start">11573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">11577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickCheckIn</span>
+                <span class="method-start">33246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickCheckIn status=SUCCESS method=HomePageTest.testClickCheckIn()[pri:0, insta...)</span>
+                <span class="method-start">54016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">56939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">56940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickOnBook() throws java.lang.InterruptedException)</span>
+                <span class="method-start">73599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">73599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnBook</span>
+                <span class="method-start">117663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnBook status=SUCCESS method=HomePageTest.testClickOnBook()[pri:0, instanc...)</span>
+                <span class="method-start">141705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">142896 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">142897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testFlightStatus() throws java.lang.InterruptedException)</span>
+                <span class="method-start">156214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">156215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFlightStatus</span>
+                <span class="method-start">185106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testFlightStatus status=SUCCESS method=HomePageTest.testFlightStatus()[pri:0, insta...)</span>
+                <span class="method-start">185626 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">188333 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">search.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">188336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testCanceFlights() throws java.lang.InterruptedException)</span>
+                <span class="method-start">199323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">199324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCanceFlights</span>
+                <span class="method-start">199329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCanceFlights status=SUCCESS method=SearchTest.testCanceFlights()[pri:0, instanc...)</span>
+                <span class="method-start">206739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">208308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">208309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testChangeFlight() throws java.lang.InterruptedException)</span>
+                <span class="method-start">216117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">216117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testChangeFlight</span>
+                <span class="method-start">216122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testChangeFlight status=SUCCESS method=SearchTest.testChangeFlight()[pri:0, instanc...)</span>
+                <span class="method-start">227557 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">228989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">228989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testClickSearchBtn() throws java.lang.InterruptedException)</span>
+                <span class="method-start">254416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">254416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickSearchBtn</span>
+                <span class="method-start">254423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickSearchBtn status=SUCCESS method=SearchTest.testClickSearchBtn()[pri:0, ins...)</span>
+                <span class="method-start">255177 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">256537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">256538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testCoronavirus() throws java.lang.InterruptedException)</span>
+                <span class="method-start">263737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">263738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCoronavirus</span>
+                <span class="method-start">263745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCoronavirus status=SUCCESS method=SearchTest.testCoronavirus()[pri:0, instance:...)</span>
+                <span class="method-start">270208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">271603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">271604 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testECreditsTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">278451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">278451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testECreditsTab</span>
+                <span class="method-start">278454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testECreditsTab status=SUCCESS method=SearchTest.testECreditsTab()[pri:0, instance:...)</span>
+                <span class="method-start">289003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">290830 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">290830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testFaceMaskTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">297063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">297064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFaceMaskTab</span>
+                <span class="method-start">297067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testFaceMaskTab status=SUCCESS method=SearchTest.testFaceMaskTab()[pri:0, instance:...)</span>
+                <span class="method-start">305303 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">307009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">307010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testPetsElement() throws java.lang.InterruptedException)</span>
+                <span class="method-start">313948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">313949 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPetsElement</span>
+                <span class="method-start">313953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testPetsElement status=FAILURE method=SearchTest.testPetsElement()[pri:0, instance:...)</span>
+                <span class="method-start">325628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">328135 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">328136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testReciepts() throws java.lang.InterruptedException)</span>
+                <span class="method-start">335819 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">335820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReciepts</span>
+                <span class="method-start">335826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testReciepts status=SUCCESS method=SearchTest.testReciepts()[pri:0, instance:search...)</span>
+                <span class="method-start">340897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">342336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">342336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testRefunds() throws java.lang.InterruptedException)</span>
+                <span class="method-start">350353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">350354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRefunds</span>
+                <span class="method-start">350360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testRefunds status=SUCCESS method=SearchTest.testRefunds()[pri:0, instance:search.S...)</span>
+                <span class="method-start">356946 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">357885 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelab, Windows, 10, chrome-options, 85.0, https://www.delta.com/)</span>
+                <span class="method-start">357886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.SearchTest.testSearchBox() throws java.lang.InterruptedException)</span>
+                <span class="method-start">367757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">367757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchBox</span>
+                <span class="method-start">367773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBox status=FAILURE method=SearchTest.testSearchBox()[pri:0, instance:sear...)</span>
+                <span class="method-start">377215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">386385 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">home.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">386417 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
