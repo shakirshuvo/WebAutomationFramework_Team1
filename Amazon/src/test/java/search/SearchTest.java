@@ -70,11 +70,6 @@ public class SearchTest extends CommonAPI {
         search.validateAllDropDown();
     }
 
-    @Test
-    public void testValidateAllDropDownByDepartmentText(){
-        search.validateAllDropDownByDepartmentText();
-    }
-
     /**
      * This test verifies that the text 'Purell' is be displayed
      * after searching for "Hand sanitizer", then,

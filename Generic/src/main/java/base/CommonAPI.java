@@ -2,7 +2,6 @@ package base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
@@ -133,7 +132,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("windows") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.amazon.com/") String url) throws IOException {
+                              String browserVersion, @Optional("https://www.thehartford.com/") String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -209,6 +208,23 @@ public class CommonAPI {
 
 
     //helper methods
+
+    public void clickOnElementByID(String locator) {
+        driver.findElement(By.id(locator)).click();
+    }
+
+    public void clickOnElementByXpath(String locator) {
+        driver.findElement(By.xpath(locator)).click();
+    }
+
+    public void clickOnElementByCSS(String locator) {
+        driver.findElement(By.cssSelector(locator)).click();
+    }
+
+    public void clickOnElementByClass(String locator) {
+        driver.findElement(By.className(locator)).click();
+    }
+
     public void clickOnElement(String locator) {
         try {
             driver.findElement(By.xpath(locator)).click();
@@ -277,7 +293,7 @@ public class CommonAPI {
         }
     }
 
-    public void submitOnElementByID(String locator){
+    public void submitOnElementByID(String locator) {
         driver.findElement(By.id(locator)).submit();
     }
 
@@ -505,6 +521,34 @@ public class CommonAPI {
         }
     }
 
+    public void selectOptionByIndexByXpath(String element, int indexNumber) {
+        Select select = new Select(driver.findElement(By.xpath(element)));
+        select.selectByIndex(indexNumber);
+    }
+
+    public void selectOptionByIndex(String element, int indexNumber) {
+        try {
+            Select select = new Select(driver.findElement(By.xpath(element)));
+            select.selectByIndex(indexNumber);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select select = new Select(driver.findElement(By.cssSelector(element)));
+                select.selectByIndex(indexNumber);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.id(element)));
+                    select.selectByIndex(indexNumber);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select select = new Select(driver.findElement(By.className(element)));
+                    select.selectByIndex(indexNumber);
+                }
+            }
+        }
+    }
+
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
     }
@@ -609,7 +653,20 @@ public class CommonAPI {
         Assert.assertEquals(title, driver.getTitle());
     }
 
-    //Validate by test
+    // Get text
+    public String getText(String element) {
+        try {
+            driver.findElement(By.id(element)).getText();
+        } catch (Exception e1) {
+            try {
+                driver.findElement(By.xpath(element)).getText();
+            } catch (Exception e2) {
+            }
+        }
+        return element;
+    }
+
+    //Validate by text
     public void validateByTextWithXPath(String element, String text) {
         Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
     }

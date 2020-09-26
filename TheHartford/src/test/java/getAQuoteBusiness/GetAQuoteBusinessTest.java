@@ -28,9 +28,9 @@ GetAQuoteBusiness getAQuoteBusiness;
         getAQuoteBusiness.verifyNavigateToBeginPage();
     }
 
-//    @Test
-//    public void testVerifyFillOutBeginFormWithoutTypeOfBusiness() throws InterruptedException {
-//        getAQuoteBusiness.fillOutBeginFormWithoutTypeOfBusiness();
-//        getAQuoteBusiness.verifyFillOutBeginFormWithoutTypeOfBusiness();
-//    }
+    @Test
+    public void testVerifyFillOutBeginFormWithoutTypeOfBusiness() throws InterruptedException {
+        getAQuoteBusiness.fillOutBeginFormWithoutTypeOfBusiness();
+        getAQuoteBusiness.verifyFillOutBeginFormWithoutTypeOfBusiness();
+    }
 }
