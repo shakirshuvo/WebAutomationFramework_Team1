@@ -21,19 +21,19 @@ public class HomePageWebElements {
     public static final String whatIs5gXp="//span[contains(text(),'What is 5G')]";
     public static final String coverageValidationXP="//h1[contains(text(),'What is 5G?')]";
 
-    public static final String benefitsID="digital-header-nav-link-head-4";
-    public static final String blockScamCallsXP="user-links-dropdown";
+    public static final String benefitsMoreID="digital-header-nav-link-head-4";
+    public static final String blockScamCallsXP="//*[@id=\"nav-link-contaniner-4\"]/div/div/div/a[3]/span";
 
     public static final String findStoreXP="//span[contains(text(),'Find a store')]";
     public static final String findStoreSearchFieldXP="//input[@id='storeSearchField']";
     public static final String bay28thStoreXP="//b[contains(text(),'86th St & Bay 28th St')]";
-    public static final String findStoreValidationXP="//h1[@id='storeName']";
+    public static final String findStoreValidationXP="//p[@id='address']";
 
-    public static final String myAccountButtonID="user-links-dropdown";
+    public static final String myAccountButtonXP="//button[@id='user-links-dropdown']";
     public static final String logInButtonXP="//span[@class='d-inline']";
     public static final String logInFieldID="usernameTextBox";
     public static final String nextButtonID="lp1-next-btn";
-    public static final String myAccountValidationXP="//label[@class='floating-label-focus']";
+    public static final String myAccountValidationXP="//h1[@class='main_title']";
 
 
 

@@ -5,16 +5,16 @@
       <![CDATA[Extent Report Directory/Users/ramdaneameur/IdeaProjects/WebAutomationFramework_Team1/NewYorkTimes/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-03T19:25:49 EDT" name="Amazon Automation Test" finished-at="2020-09-03T19:26:10 EDT" duration-ms="21007">
+  <suite started-at="2020-09-25T20:41:37 EDT" name="Amazon Automation Test" finished-at="2020-09-25T20:41:39 EDT" duration-ms="2871">
     <groups>
     </groups>
-    <test started-at="2020-09-03T19:25:49 EDT" name="NewYorkTimes Home" finished-at="2020-09-03T19:26:10 EDT" duration-ms="21007">
-      <class name="homeTest.HomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:25:49 EDT" name="extentSetup" finished-at="2020-09-03T19:25:49 EDT" duration-ms="168" status="PASS">
+    <test started-at="2020-09-25T20:41:37 EDT" name="NewYorkTimes Home" finished-at="2020-09-25T20:41:39 EDT" duration-ms="2871">
+      <class name="regressionTest.HamburgerClassTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:regressionTest.HamburgerClassTest@16aa0a0a]" started-at="2020-09-25T20:41:36 EDT" name="extentSetup" finished-at="2020-09-25T20:41:37 EDT" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@64d43929]]>
+                <![CDATA[org.testng.TestRunner@39ce27f2]]>
               </value>
             </param>
           </params>
@@ -24,11 +24,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:25:49 EDT" name="setUp" finished-at="2020-09-03T19:26:09 EDT" duration-ms="19137" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:regressionTest.HamburgerClassTest@16aa0a0a]" started-at="2020-09-25T20:41:37 EDT" name="setUp" finished-at="2020-09-25T20:41:39 EDT" duration-ms="2514" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[true]]>
+                <![CDATA[false]]>
               </value>
             </param>
             <param index="1">
@@ -65,45 +65,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:09 EDT" name="startExtent" finished-at="2020-09-03T19:26:09 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:regressionTest.HamburgerClassTest@16aa0a0a]" started-at="2020-09-25T20:41:39 EDT" name="startExtent" finished-at="2020-09-25T20:41:39 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void homeTest.HomePageTest.setWebLogoTest()]]>
+                <![CDATA[public void regressionTest.HamburgerClassTest.setHamburgerButtonTest()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="init()[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:09 EDT" name="init" finished-at="2020-09-03T19:26:09 EDT" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:regressionTest.HamburgerClassTest@16aa0a0a]" started-at="2020-09-25T20:41:39 EDT" name="init" finished-at="2020-09-25T20:41:39 EDT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="setWebLogoTest()[pri:19, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:09 EDT" name="setWebLogoTest" finished-at="2020-09-03T19:26:10 EDT" duration-ms="1344" status="PASS">
+        <test-method signature="setHamburgerButtonTest()[pri:41, instance:regressionTest.HamburgerClassTest@16aa0a0a]" started-at="2020-09-25T20:41:39 EDT" name="setHamburgerButtonTest" finished-at="2020-09-25T20:41:39 EDT" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setWebLogoTest -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:10 EDT" name="afterEachTestMethod" finished-at="2020-09-03T19:26:10 EDT" duration-ms="476" status="PASS">
+        </test-method> <!-- setHamburgerButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:regressionTest.HamburgerClassTest@16aa0a0a]" started-at="2020-09-25T20:41:39 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:41:39 EDT" duration-ms="265" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=setWebLogoTest status=SUCCESS method=HomePageTest.setWebLogoTest()[pri:19, instance:homeTest.HomePageTest@3c87521] output={null}]]]>
+                <![CDATA[[TestResult name=setHamburgerButtonTest status=SUCCESS method=HamburgerClassTest.setHamburgerButtonTest()[pri:41, instance:regressionTest.HamburgerClassTest@16aa0a0a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:10 EDT" name="cleanUp" finished-at="2020-09-03T19:26:10 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:regressionTest.HamburgerClassTest@16aa0a0a]" started-at="2020-09-25T20:41:39 EDT" name="cleanUp" finished-at="2020-09-25T20:41:39 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:homeTest.HomePageTest@3c87521]" started-at="2020-09-03T19:26:10 EDT" name="generateReport" finished-at="2020-09-03T19:26:10 EDT" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:regressionTest.HamburgerClassTest@16aa0a0a]" started-at="2020-09-25T20:41:39 EDT" name="generateReport" finished-at="2020-09-25T20:41:39 EDT" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-      </class> <!-- homeTest.HomePageTest -->
+      </class> <!-- regressionTest.HamburgerClassTest -->
     </test> <!-- NewYorkTimes Home -->
   </suite> <!-- Amazon Automation Test -->
 </testng-results>

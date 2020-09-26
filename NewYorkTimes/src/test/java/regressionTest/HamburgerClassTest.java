@@ -9,17 +9,17 @@ import regression.HamburgerClass;
 
 public class HamburgerClassTest extends CommonAPI {
     HamburgerClass object;
-//
-//    @BeforeMethod
-//    public void init(){
-//        object= PageFactory.initElements(driver, HamburgerClass.class);
-//    }
-//    @Test(priority = 41)
-//
-//    public void setHamburgerButtonTest(){
-//        object.setHamburgerButton();
-//    }
-//
+
+    @BeforeMethod
+    public void init(){
+        object= PageFactory.initElements(driver, HamburgerClass.class);
+    }
+    @Test(priority = 41)
+
+    public void setHamburgerButtonTest(){
+        object.setHamburgerButton();
+    }
+
 //    @Test(priority = 42)
 //    public void setWorldButtonTest(){
 //        setHamburgerButtonTest();

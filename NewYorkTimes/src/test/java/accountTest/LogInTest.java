@@ -12,9 +12,9 @@ public class LogInTest extends CommonAPI {
     public void init(){
         object= PageFactory.initElements(driver, LogIn.class);
     }
-//    @Test
-//    public void setLoginButtonTest(){
-//        object.setLoginButton("ram@selenium.com","Abcdef@");
-//    }
+    @Test
+    public void setLoginButtonTest(){
+        object.setLoginButton("ram@selenium.com","Abcdef@");
+    }
 
 }

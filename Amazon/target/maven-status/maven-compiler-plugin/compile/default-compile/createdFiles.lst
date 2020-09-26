@@ -1,4 +1,5 @@
 home/HomePageWebElements.class
+regression/BrokenLinks.class
 home/HomePage.class
 search/Search.class
 search/SearchWebElements.class

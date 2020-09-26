@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Amazon_Automation_Test">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Amazon_Automation_Test" title="homeTest.HomePageTest" class="method navigator-link" hash-for-method="setWebLogoTest">setWebLogoTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Amazon_Automation_Test" title="regressionTest.HamburgerClassTest" class="method navigator-link" hash-for-method="setHamburgerButtonTest">setHamburgerButtonTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Amazon_Automation_Test -->
@@ -120,14 +120,14 @@
           <div class="suite-Amazon_Automation_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">homeTest.HomePageTest</span>
+              <span class="class-name">regressionTest.HamburgerClassTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="setWebLogoTest">
-                  </a> <!-- setWebLogoTest -->
-                  <span class="method-name">setWebLogoTest</span>
+                  <a name="setHamburgerButtonTest">
+                  </a> <!-- setHamburgerButtonTest -->
+                  <span class="method-name">setHamburgerButtonTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,7 +142,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Amazon Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
   &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
   &lt;parameter name=&quot;os_version&quot; value=&quot;catalina&quot;/&gt;
   &lt;parameter name=&quot;browserVersion&quot; value=&quot;85.0&quot;/&gt;
@@ -151,7 +151,7 @@
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.newyorktimes.com/&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;NewYorkTimes Home&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;homeTest.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;regressionTest.HamburgerClassTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- NewYorkTimes Home --&gt;
 &lt;/suite&gt; &lt;!-- Amazon Automation Test --&gt;
@@ -193,14 +193,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'setWebLogoTest')
-data.setCell(0, 2, 'homeTest.HomePageTest')
-data.setCell(0, 3, 1344);
+data.setCell(0, 1, 'setHamburgerButtonTest')
+data.setCell(0, 2, 'regressionTest.HamburgerClassTest')
+data.setCell(0, 3, 58);
 window.suiteTableData['Amazon_Automation_Test']= { tableData: data, tableDiv: 'times-div-Amazon_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 58 ms</span>
               <div id="times-div-Amazon_Automation_Test">
               </div> <!-- times-div-Amazon_Automation_Test -->
             </div> <!-- times-div -->
@@ -226,38 +226,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">homeTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">regressionTest.HamburgerClassTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@64d43929)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@39ce27f2)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(true, browserstack, OS X, catalina, chrome, 85.0, https://www.newyorktimes.com/)</span>
-                <span class="method-start">188 ms</span>
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.newyorktimes.com/)</span>
+                <span class="method-start">135 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">startExtent(public void homeTest.HomePageTest.setWebLogoTest())</span>
-                <span class="method-start">19326 ms</span>
+                <span class="method-name">startExtent(public void regressionTest.HamburgerClassTest.setHamburgerButtonTest())</span>
+                <span class="method-start">2650 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">19328 ms</span>
+                <span class="method-start">2652 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">setWebLogoTest</span>
-                <span class="method-start">19351 ms</span>
+                <span class="method-name">setHamburgerButtonTest</span>
+                <span class="method-start">2669 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=setWebLogoTest status=SUCCESS method=HomePageTest.setWebLogoTest()[pri:19, instance...)</span>
-                <span class="method-start">20697 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=setHamburgerButtonTest status=SUCCESS method=HamburgerClassTest.setHamburgerButtonT...)</span>
+                <span class="method-start">2729 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">21173 ms</span>
+                <span class="method-start">2994 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">21186 ms</span>
+                <span class="method-start">3007 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

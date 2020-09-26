@@ -31,10 +31,10 @@ public class HomePageTest extends CommonAPI {
     public void setDealsTest() throws InterruptedException {
         homePage.setDeals();
     }
-    @Test
-    public void setCoverageTest() throws InterruptedException {
-        homePage.setCoverage();
-    }
+//    @Test
+//    public void setCoverageTest() throws InterruptedException {
+//        homePage.setCoverage();
+//    }
     @Test
     public void setBenefitsTest() throws InterruptedException {
         homePage.setBenefits();

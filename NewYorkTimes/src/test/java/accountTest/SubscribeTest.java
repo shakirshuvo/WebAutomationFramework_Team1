@@ -8,16 +8,16 @@ import org.testng.annotations.Test;
 
 public class SubscribeTest extends CommonAPI {
     Subscribe object;
-//    @BeforeMethod
-////
-//    public void init() {
-//        object = PageFactory.initElements(driver, Subscribe.class);
-//    }
-//    @Test(priority = 18)
-//    public void setSubscribeButtonTest(){
-//        object.setSubscribeButton("ram@selenium.com");
+    @BeforeMethod
 //
+    public void init() {
+        object = PageFactory.initElements(driver, Subscribe.class);
+    }
+    @Test(priority = 18)
+    public void setSubscribeButtonTest(){
+        object.setSubscribeButton("ram@selenium.com");
 
-//}
+
+}
 
 }

@@ -257,7 +257,7 @@ public class HomePage extends CommonAPI {
     public void setMagazine(){
         magazine.click();
         String actualText=magazineValidation.getText();
-        String expectedText="Convicted of Sex Crimes, but With No Victims";
+        String expectedText="Is It Strange to Say I Miss the Bodies of Strangers?";
         Assert.assertEquals(actualText,expectedText,"text doesn't match");
     }
     public void setRealEstate(){

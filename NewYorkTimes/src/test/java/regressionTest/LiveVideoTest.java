@@ -8,11 +8,11 @@ import regression.LiveVideo;
 
 public class LiveVideoTest extends CommonAPI {
 
-//    LiveVideo object;
-//    @BeforeMethod
-//    public void init(){
-//        object= PageFactory.initElements(driver, LiveVideo.class);
-//    }
+    LiveVideo object;
+    @BeforeMethod
+    public void init(){
+        object= PageFactory.initElements(driver, LiveVideo.class);
+    }
 //    @Test(priority = 43)
 //
 //    public void setLiveVideoTest(){
@@ -23,5 +23,5 @@ public class LiveVideoTest extends CommonAPI {
 //    public void setLiveVideoValidationTest() throws InterruptedException {
 //        setLiveVideoTest();
 //        object.setLiveVideoValidation();
-//    }
+   // }
 }

@@ -25,15 +25,17 @@ public class HomePageWebElements {
     public static final String freeShippingXP="//a[contains(text(),'Free Shipping')]";
     public static final String freeShippingValidationXP=" //h4[1]";
 
-    public static final String registryXP="//a[contains(text(),'Registry')]";
-    public static final String registryValidationXP="//a[contains(text(),'Registry')]";
-
     public static final String sellButtonXP="//div[@id='nav-main']//a[10]";
     public static final String sellButtonValidationXP="//*[@id=\"eventColor\"]/div[3]/div/div/div[1]/div/div[2]/div/div[1]/h2";
 
     public static final String couponsXP="//a[contains(text(),'Coupons')]";
     public static final String couponsValidationXP="//h1[contains(text(),'Amazon Coupons')]";
 
-    public static final String amazonBasicsXP="//a[contains(text(),'AmazonBasics')]";
-    public static final String amazonBasicsValidationXP="//*[@id=\"Header-BFxLJEL\"]/div/div[3]/div[2]/div[1]/h1/span/span";
+    public static final String menuButtonXP="//*[@id=\"nav-hamburger-menu\"]/i";
+    public static final String primeVideoXP="//div[contains(text(),'Prime Video')]";
+    public static final String rentBuyXP="//*[@id=\"hmenu-content\"]/ul[2]/li[6]/a";
+    public static final String rentBuyValidationXP="//*[@id=\"aiv-cl-main-middle\"]/div/div[3]/div/div[1]/div/div[1]/div[1]/div/h2";
+
+
+
 }

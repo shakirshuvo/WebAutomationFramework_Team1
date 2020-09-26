@@ -2,11 +2,43 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="The Hartford Automation Test" parallel="false">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="catalina"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="85.0"/>
     <parameter name="url" value="https://www.thehartford.com/"></parameter>
 
     <test name="The Hartford Home">
         <classes>
-            <!--<class name=""></class>-->
+            <class name="homeTest.HomePageTest">
+                <methods>
+                    <exclude name="setAutoButtonTest"></exclude>
+                    <exclude name="setClassicCarInsuranceTest"></exclude>
+                    <exclude name="setAllVehiclesTest"></exclude>
+                    <exclude name="setHomeButtonTest"></exclude>
+                    <exclude name="setHomeownersInsuranceTest"></exclude>
+                    <exclude name="setCondoInsurance"></exclude>
+                    <exclude name="setFloodInsuranceTest"></exclude>
+                    <exclude name="setUmbrellaInsuranceTest"></exclude>
+                    <exclude name="setBusinessInsuranceTest"></exclude>
+                    <exclude name="setSmallBusinessInsuranceTest"></exclude>
+                    <exclude name="setGeneralLiabilityInsuranceTest"></exclude>
+                    <exclude name="setWorkerCompensationInsuranceValidationTest"></exclude>
+                    <exclude name="setAllBusinessCoveragesTest"></exclude>
+                    <exclude name="setAllIndustriesTest"></exclude>
+                    <exclude name="setEmployeeBenefitsTest"></exclude>
+                    <exclude name="setAbsenceManagementTest"></exclude>
+                    <exclude name="setForEmployeesTest"></exclude>
+                    <exclude name="setAboutTheHeartFordTest"></exclude>
+                    <exclude name="setInvestorRelationsTest"></exclude>
+                </methods>
+            </class>
+            <class name="searchTest.SearchPageTest">
+                <methods><exclude name="testSearchBoxCheck"></exclude></methods>
+<!--                <methods><exclude name="testFindAnAgentButton"></exclude></methods>-->
+            </class>
         </classes>
 
     </test>

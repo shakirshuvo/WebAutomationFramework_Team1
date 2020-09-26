@@ -12,14 +12,12 @@ import static search.SearchWebElements.*;
 public class Search extends CommonAPI {
     @FindBy(how = How.XPATH,using = searchFieldXP)
     public WebElement searchField;
-    @FindBy(how = How.XPATH,using = searchButtonXP)
-    public WebElement searchButton;
     @FindBy(how = How.XPATH,using = searchFieldValidationXP)
     public WebElement searchFieldValidation;
 
     public void setSearchField(){
         searchField.sendKeys(itemSearched);
-        searchButton.click();
+        searchField.submit();
         String actualText=searchFieldValidation.getText();
         String expectedText="\"iphone 11\"";
         Assert.assertEquals(actualText,expectedText,"text doesn't match");

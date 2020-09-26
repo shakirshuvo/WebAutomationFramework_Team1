@@ -1,2 +1,3 @@
-homePage/HomeWebElements.class
-homePage/Home.class
+home/HomeWebElements.class
+home/Home.class
+regression/BrokenList.class

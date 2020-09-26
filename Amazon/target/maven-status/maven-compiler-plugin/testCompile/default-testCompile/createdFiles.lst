@@ -1,2 +1,3 @@
-home/HomePageTest.class
 search/SearchTest.class
+home/HomePageTest.class
+regressionTest/BrokensLinksTest.class

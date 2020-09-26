@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="4" total="15" passed="11" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report Directory/Users/ramdaneameur/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-03T19:25:48 EDT" name="Surefire suite" finished-at="2020-09-03T19:25:48 EDT" duration-ms="3">
+  <suite started-at="2020-09-25T20:40:30 EDT" name="Amzon Automation Test" finished-at="2020-09-25T20:41:35 EDT" duration-ms="65222">
     <groups>
     </groups>
-    <test started-at="2020-09-03T19:25:48 EDT" name="Surefire test" finished-at="2020-09-03T19:25:48 EDT" duration-ms="3">
+    <test started-at="2020-09-25T20:40:30 EDT" name="amazon Home" finished-at="2020-09-25T20:41:35 EDT" duration-ms="65222">
       <class name="search.SearchTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.SearchTest@1cab0bfb]" started-at="2020-09-03T19:25:47 EDT" name="extentSetup" finished-at="2020-09-03T19:25:48 EDT" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.SearchTest@436a4e4b]" started-at="2020-09-25T20:40:30 EDT" name="extentSetup" finished-at="2020-09-25T20:40:30 EDT" duration-ms="118" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1df8b5b8]]>
+                <![CDATA[org.testng.TestRunner@4339baec]]>
               </value>
             </param>
           </params>
@@ -24,11 +24,838 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:search.SearchTest@1cab0bfb]" started-at="2020-09-03T19:25:48 EDT" name="generateReport" finished-at="2020-09-03T19:25:48 EDT" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@436a4e4b]" started-at="2020-09-25T20:40:30 EDT" name="setUp" finished-at="2020-09-25T20:40:34 EDT" duration-ms="4639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@436a4e4b]" started-at="2020-09-25T20:40:34 EDT" name="startExtent" finished-at="2020-09-25T20:40:34 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.SearchTest.setSearchFieldTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@436a4e4b]" started-at="2020-09-25T20:40:34 EDT" name="getInit" finished-at="2020-09-25T20:40:34 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="setSearchFieldTest()[pri:0, instance:search.SearchTest@436a4e4b]" started-at="2020-09-25T20:40:34 EDT" name="setSearchFieldTest" finished-at="2020-09-25T20:40:36 EDT" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSearchFieldTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@436a4e4b]" started-at="2020-09-25T20:40:36 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:40:36 EDT" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setSearchFieldTest status=SUCCESS method=SearchTest.setSearchFieldTest()[pri:0, instance:search.SearchTest@436a4e4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@436a4e4b]" started-at="2020-09-25T20:40:36 EDT" name="cleanUp" finished-at="2020-09-25T20:40:36 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:search.SearchTest@436a4e4b]" started-at="2020-09-25T20:41:35 EDT" name="generateReport" finished-at="2020-09-25T20:41:35 EDT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- search.SearchTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      <class name="home.HomePageTest">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:36 EDT" name="setUp" finished-at="2020-09-25T20:40:39 EDT" duration-ms="2999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:39 EDT" name="init" finished-at="2020-09-25T20:40:39 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:39 EDT" name="startExtent" finished-at="2020-09-25T20:40:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setBestSellerTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="setBestSellerTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:39 EDT" name="setBestSellerTest" finished-at="2020-09-25T20:40:41 EDT" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBestSellerTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:41 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:40:41 EDT" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setBestSellerTest status=SUCCESS method=HomePageTest.setBestSellerTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:41 EDT" name="cleanUp" finished-at="2020-09-25T20:40:41 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:41 EDT" name="setUp" finished-at="2020-09-25T20:40:45 EDT" duration-ms="4185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:45 EDT" name="startExtent" finished-at="2020-09-25T20:40:45 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setCouponsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:45 EDT" name="init" finished-at="2020-09-25T20:40:45 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="setCouponsTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:45 EDT" name="setCouponsTest" finished-at="2020-09-25T20:40:48 EDT" duration-ms="2972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCouponsTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:48 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:40:48 EDT" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setCouponsTest status=SUCCESS method=HomePageTest.setCouponsTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:48 EDT" name="setUp" finished-at="2020-09-25T20:40:52 EDT" duration-ms="3549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:48 EDT" name="cleanUp" finished-at="2020-09-25T20:40:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:52 EDT" name="init" finished-at="2020-09-25T20:40:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:52 EDT" name="startExtent" finished-at="2020-09-25T20:40:52 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setCustomerServiceTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="setCustomerServiceTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:52 EDT" name="setCustomerServiceTest" finished-at="2020-09-25T20:40:53 EDT" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCustomerServiceTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:53 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:40:53 EDT" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setCustomerServiceTest status=SUCCESS method=HomePageTest.setCustomerServiceTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:53 EDT" name="cleanUp" finished-at="2020-09-25T20:40:53 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:53 EDT" name="setUp" finished-at="2020-09-25T20:40:56 EDT" duration-ms="2770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:56 EDT" name="init" finished-at="2020-09-25T20:40:56 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:56 EDT" name="startExtent" finished-at="2020-09-25T20:40:56 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setFreeShippingTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="setFreeShippingTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:56 EDT" name="setFreeShippingTest" finished-at="2020-09-25T20:40:57 EDT" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFreeShippingTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:57 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:40:57 EDT" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setFreeShippingTest status=SUCCESS method=HomePageTest.setFreeShippingTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:57 EDT" name="setUp" finished-at="2020-09-25T20:41:00 EDT" duration-ms="2449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:40:57 EDT" name="cleanUp" finished-at="2020-09-25T20:40:57 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:00 EDT" name="startExtent" finished-at="2020-09-25T20:41:00 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setGiftCardTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:00 EDT" name="init" finished-at="2020-09-25T20:41:00 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="setGiftCardTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:00 EDT" name="setGiftCardTest" finished-at="2020-09-25T20:41:02 EDT" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGiftCardTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:02 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:41:02 EDT" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setGiftCardTest status=SUCCESS method=HomePageTest.setGiftCardTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:02 EDT" name="cleanUp" finished-at="2020-09-25T20:41:02 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:02 EDT" name="setUp" finished-at="2020-09-25T20:41:05 EDT" duration-ms="2741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:05 EDT" name="startExtent" finished-at="2020-09-25T20:41:05 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setNewReleaseTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:05 EDT" name="init" finished-at="2020-09-25T20:41:05 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="setNewReleaseTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:05 EDT" name="setNewReleaseTest" finished-at="2020-09-25T20:41:06 EDT" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNewReleaseTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:06 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:41:07 EDT" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setNewReleaseTest status=SUCCESS method=HomePageTest.setNewReleaseTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:07 EDT" name="setUp" finished-at="2020-09-25T20:41:09 EDT" duration-ms="2622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:07 EDT" name="cleanUp" finished-at="2020-09-25T20:41:07 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:09 EDT" name="startExtent" finished-at="2020-09-25T20:41:09 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setPrimeVideoTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:09 EDT" name="init" finished-at="2020-09-25T20:41:09 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="setPrimeVideoTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:09 EDT" name="setPrimeVideoTest" finished-at="2020-09-25T20:41:20 EDT" duration-ms="10951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPrimeVideoTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:20 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:41:20 EDT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setPrimeVideoTest status=SUCCESS method=HomePageTest.setPrimeVideoTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:20 EDT" name="cleanUp" finished-at="2020-09-25T20:41:20 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:20 EDT" name="setUp" finished-at="2020-09-25T20:41:23 EDT" duration-ms="2771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:23 EDT" name="startExtent" finished-at="2020-09-25T20:41:23 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setSellButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:23 EDT" name="init" finished-at="2020-09-25T20:41:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="setSellButtonTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:23 EDT" name="setSellButtonTest" finished-at="2020-09-25T20:41:26 EDT" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSellButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:26 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:41:26 EDT" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setSellButtonTest status=SUCCESS method=HomePageTest.setSellButtonTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:26 EDT" name="cleanUp" finished-at="2020-09-25T20:41:26 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:26 EDT" name="setUp" finished-at="2020-09-25T20:41:29 EDT" duration-ms="2823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:29 EDT" name="init" finished-at="2020-09-25T20:41:29 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:29 EDT" name="startExtent" finished-at="2020-09-25T20:41:29 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setTodayDealTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="setTodayDealTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:29 EDT" name="setTodayDealTest" finished-at="2020-09-25T20:41:31 EDT" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTodayDealTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:31 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:41:31 EDT" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setTodayDealTest status=SUCCESS method=HomePageTest.setTodayDealTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:31 EDT" name="cleanUp" finished-at="2020-09-25T20:41:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:31 EDT" name="setUp" finished-at="2020-09-25T20:41:34 EDT" duration-ms="2691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:34 EDT" name="startExtent" finished-at="2020-09-25T20:41:34 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.HomePageTest.setWholeFoodTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="init()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:34 EDT" name="init" finished-at="2020-09-25T20:41:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="setWholeFoodTest()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:34 EDT" name="setWholeFoodTest" finished-at="2020-09-25T20:41:35 EDT" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWholeFoodTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:35 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:41:35 EDT" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setWholeFoodTest status=SUCCESS method=HomePageTest.setWholeFoodTest()[pri:0, instance:home.HomePageTest@f2f2cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@f2f2cc1]" started-at="2020-09-25T20:41:35 EDT" name="cleanUp" finished-at="2020-09-25T20:41:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.HomePageTest -->
+    </test> <!-- amazon Home -->
+  </suite> <!-- Amzon Automation Test -->
 </testng-results>

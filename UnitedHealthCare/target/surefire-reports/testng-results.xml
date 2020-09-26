@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-25T20:42:31 EDT" name="United Health Care Automation Test" finished-at="2020-09-25T20:42:31 EDT" duration-ms="5">
+    <groups>
+    </groups>
+    <test started-at="2020-09-25T20:42:31 EDT" name="United Health Care Home" finished-at="2020-09-25T20:42:31 EDT" duration-ms="5">
+    </test> <!-- United Health Care Home -->
+  </suite> <!-- United Health Care Automation Test -->
+</testng-results>

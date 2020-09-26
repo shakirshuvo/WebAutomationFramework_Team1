@@ -50,11 +50,6 @@ public class HomePage extends CommonAPI {
     @FindBy(how = How.XPATH,using = freeShippingValidationXP)
     public WebElement freeShippingValidation;
 
-    @FindBy(how = How.XPATH,using = registryXP)
-    public WebElement registry;
-    @FindBy(how = How.XPATH,using = registryValidationXP)
-    public WebElement registryValidation;
-
     @FindBy(how = How.XPATH,using = sellButtonXP)
     public WebElement sellButton;
     @FindBy(how = How.XPATH,using = sellButtonValidationXP)
@@ -65,10 +60,14 @@ public class HomePage extends CommonAPI {
     @FindBy(how = How.XPATH,using = couponsValidationXP)
     public WebElement couponsValidation;
 
-    @FindBy(how = How.XPATH,using =amazonBasicsXP)
-    public WebElement amazonBasics;
-    @FindBy(how = How.XPATH,using = amazonBasicsValidationXP)
-    public WebElement amazonBasicsValidation;
+    @FindBy(how = How.XPATH,using = menuButtonXP)
+    public WebElement menuButton;
+    @FindBy(how = How.XPATH,using = primeVideoXP)
+    public WebElement primeVideo;
+    @FindBy(how = How.XPATH,using = rentBuyXP)
+    public WebElement rentBuy;
+    @FindBy(how = How.XPATH,using = rentBuyValidationXP)
+    public WebElement rentBuyValidation;
 
     public void setBestSeller(){
         bestSeller.click();
@@ -119,12 +118,7 @@ public class HomePage extends CommonAPI {
                 "FREE Shipping on over 100 million items.";
         Assert.assertEquals(actualText,expectedText,"text doesn't match");
     }
-    public void setRegistry(){
-        registry.click();
-        String actualText=registryValidation.getText();
-        String expectedText="Register with Amazon";
-        Assert.assertEquals(actualText,expectedText,"text doesn't match");
-    }
+
     public void setSellButton(){
         sellButton.click();
         String actualText=sellButtonValidation.getText();
@@ -137,12 +131,18 @@ public class HomePage extends CommonAPI {
         String expectedText="Amazon Coupons";
         Assert.assertEquals(actualText,expectedText,"text doesn't match");
     }
-    public void setAmazonBasics(){
-        amazonBasics.click();
-        String actualText=amazonBasicsValidation.getText();
-        String expectedText="AmazonBasics";
-        Assert.assertEquals(actualText,expectedText,"text doesn't match");
+    public void setPrimeVideo() throws InterruptedException {
+        menuButton.click();
+        sleepFor(3);
+        primeVideo.click();
+        sleepFor(2);
+        rentBuy.click();
+        sleepFor(2);
+        String actualResult=rentBuyValidation.getText();
+        String expectedResult="Prime Video Cinema";
+        Assert.assertEquals(actualResult,expectedResult,"***********test failed********");
     }
+
 
 
 }

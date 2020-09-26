@@ -28,10 +28,10 @@ public class HomePageTest extends CommonAPI {
     public void setNewReleaseTest(){
         homePage.setNewRelease();
     }
-    @Test
-    public void setFindGiftTest(){
-        homePage.setFindGift();
-    }
+//    @Test
+//    public void setFindGiftTest(){
+//        homePage.setFindGift();
+//    }
     @Test
     public void setWholeFoodTest(){
         homePage.setWholeFood();
@@ -44,10 +44,7 @@ public class HomePageTest extends CommonAPI {
     public void setFreeShippingTest(){
         homePage.setFreeShipping();
     }
-    @Test
-    public void setRegistryTest(){
-        homePage.setRegistry();
-    }
+
     @Test
     public void setSellButtonTest(){
         homePage.setSellButton();
@@ -57,8 +54,9 @@ public class HomePageTest extends CommonAPI {
         homePage.setCoupons();
     }
     @Test
-    public void setAmazonBasicsTest(){
-        homePage.setAmazonBasics();
+    public void setPrimeVideoTest() throws InterruptedException {
+        homePage.setPrimeVideo();
     }
+
 
 }

@@ -40,7 +40,7 @@ public class HomePage extends CommonAPI {
     public WebElement whatIs5g;
     @FindBy(how = How.XPATH,using = coverageValidationXP)
     public WebElement coverageValidation;
-    @FindBy(how = How.ID,using = benefitsID)
+    @FindBy(how = How.ID,using = benefitsMoreID)
     public WebElement benefits;
     @FindBy(how = How.XPATH,using = blockScamCallsXP)
     public WebElement blockScamCalls;
@@ -112,18 +112,18 @@ public class HomePage extends CommonAPI {
          Assert.assertEquals(actualText,expectedText,"text doesn't match");
          sleepFor(2);
     }
-//    public void setFindStore() throws InterruptedException {
-//        findStore.click();
-//        sleepFor(3);
-//        findStoreSearchField.sendKeys("11214");
-//        findStoreSearchField.submit();
-//        sleepFor(2);
-//        bay28thStore.click();
-//        sleepFor(3);
-//        String actualText=findStoreValidation.getText();
-//        String expectedText="86th St & Bay 28th St";
-//        Assert.assertEquals(actualText,expectedText,"text doesn't match");
-//    }
+    public void setFindStore() throws InterruptedException {
+        findStore.click();
+        sleepFor(3);
+        findStoreSearchField.sendKeys("11214");
+        findStoreSearchField.submit();
+        sleepFor(2);
+        bay28thStore.click();
+        sleepFor(3);
+        String actualText=findStoreValidation.getText();
+        String expectedText="86th St & Bay 28th St";
+        Assert.assertEquals(actualText,expectedText,"text doesn't match");
+    }
 
 
 

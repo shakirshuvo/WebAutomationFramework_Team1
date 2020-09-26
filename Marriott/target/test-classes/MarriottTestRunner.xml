@@ -14,7 +14,8 @@
         <classes>
             <class name="hoemTest.HomePageTest">
                 <methods>
-<!--                    <exclude name="setFindReserveTest"></exclude>-->
+                    <exclude name="setFindReserveTest"></exclude>
+<!--                    <exclude name="setDealsTest"></exclude>-->
                 </methods>
             </class>
         </classes>

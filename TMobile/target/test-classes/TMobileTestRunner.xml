@@ -20,12 +20,12 @@
                 <exclude name="setDealsTest"></exclude>
                 <exclude name="setCoverageTest"></exclude>
                 <exclude name="setBenefitsTest"></exclude>
-<!--                <exclude name="setFindStoreTest"></exclude>-->
+                <exclude name="setFindStoreTest"></exclude>
             </methods>
         </class>
             <class name="homeTest.MyAccountTest">
                 <methods>
-                    <exclude name="setMyAccountTest"></exclude>
+<!--                    <exclude name="setMyAccountTest"></exclude>-->
                 </methods>
             </class>
         </classes>

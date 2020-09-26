@@ -23,18 +23,22 @@
             </class>
             <class name="home.HomePageTest">
                 <methods>
-                    <exclude name="setBestSellerTest"></exclude>
-                    <exclude name="setCustomerServiceTest"></exclude>
-                    <exclude name="setTodayDealTest"></exclude>
-                    <exclude name="setNewReleaseTest"></exclude>
-                    <exclude name="setFindGiftTest"></exclude>
-                    <exclude name="setGiftCardTest"></exclude>
-                    <exclude name="setWholeFoodTest"></exclude>
-                    <exclude name="setFreeShippingTest"></exclude>
-                    <exclude name="setRegistryTest"></exclude>
-                    <exclude name="setSellButtonTest"></exclude>
-                    <exclude name="setCouponsTest"></exclude>
-<!--                    <exclude name="setAmazonBasicsTest"></exclude>-->
+<!--                    <exclude name="setBestSellerTest"></exclude>-->
+<!--                    <exclude name="setCustomerServiceTest"></exclude>-->
+<!--                    <exclude name="setTodayDealTest"></exclude>-->
+<!--                    <exclude name="setNewReleaseTest"></exclude>-->
+<!--                    <exclude name="setFindGiftTest"></exclude>-->
+<!--                    <exclude name="setGiftCardTest"></exclude>-->
+<!--                    <exclude name="setWholeFoodTest"></exclude>-->
+<!--                    <exclude name="setFreeShippingTest"></exclude>-->
+<!--                    <exclude name="setSellButtonTest"></exclude>-->
+<!--                    <exclude name="setCouponsTest"></exclude>-->
+<!--                    <exclude name="setPrimeVideoTest"></exclude>-->
+                </methods>
+            </class>
+            <class name="regressionTest.BrokensLinksTest">
+                <methods>
+<!--                    <exclude name="AmazonLinksActivlinksTest"></exclude>-->
                 </methods>
             </class>
 

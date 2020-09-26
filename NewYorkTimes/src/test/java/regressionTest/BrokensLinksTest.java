@@ -18,9 +18,9 @@ public class BrokensLinksTest extends CommonAPI {
         brokenlinks = PageFactory.initElements(driver, BrokenLinks.class);
         driver.get(url);
     }
-//
-//    @Test(priority = 40)
-//    public void NewYorkTimesLinksActivlinksTest() throws IOException {
-//        brokenlinks.linksbroken();
-//    }
+
+    @Test(priority = 40)
+    public void NewYorkTimesLinksActivlinksTest() throws IOException {
+        brokenlinks.linksbroken();
+    }
 }
