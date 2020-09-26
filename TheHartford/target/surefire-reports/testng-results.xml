@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="15" failed="5" skipped="0">
+<testng-results ignored="0" total="20" passed="12" failed="8" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report Directory/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/TheHartford/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-26T00:23:48 MDT" name="The Hartford Automation Test" finished-at="2020-09-26T00:25:59 MDT" duration-ms="130811">
+  <suite started-at="2020-09-26T12:34:24 MDT" name="The Hartford Automation Test" finished-at="2020-09-26T12:36:32 MDT" duration-ms="127959">
     <groups>
     </groups>
-    <test started-at="2020-09-26T00:23:48 MDT" name="The Hartford Home" finished-at="2020-09-26T00:25:59 MDT" duration-ms="130811">
+    <test started-at="2020-09-26T12:34:24 MDT" name="The Hartford Home" finished-at="2020-09-26T12:36:32 MDT" duration-ms="127959">
       <class name="search.SearchTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:23:48 MDT" name="extentSetup" finished-at="2020-09-26T00:23:48 MDT" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:24 MDT" name="extentSetup" finished-at="2020-09-26T12:34:24 MDT" duration-ms="208" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@469a7575]]>
+                <![CDATA[org.testng.TestRunner@11d86b9d]]>
               </value>
             </param>
           </params>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:23:48 MDT" name="setUp" finished-at="2020-09-26T00:23:54 MDT" duration-ms="5982" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:24 MDT" name="setUp" finished-at="2020-09-26T12:34:29 MDT" duration-ms="4889" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:23:54 MDT" name="startExtent" finished-at="2020-09-26T00:23:54 MDT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:29 MDT" name="startExtent" finished-at="2020-09-26T12:34:29 MDT" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,15 +76,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:23:54 MDT" name="getInit" finished-at="2020-09-26T00:23:54 MDT" duration-ms="37" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:29 MDT" name="getInit" finished-at="2020-09-26T12:34:29 MDT" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="TestContactUs()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:23:54 MDT" name="TestContactUs" finished-at="2020-09-26T00:23:55 MDT" duration-ms="801" status="PASS">
+        <test-method signature="TestContactUs()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:29 MDT" name="TestContactUs" finished-at="2020-09-26T12:34:30 MDT" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestContactUs -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:23:55 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:23:56 MDT" duration-ms="477" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:30 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:34:30 MDT" duration-ms="375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,11 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:23:56 MDT" name="cleanUp" finished-at="2020-09-26T00:23:56 MDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:23:56 MDT" name="setUp" finished-at="2020-09-26T00:24:00 MDT" duration-ms="4424" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:30 MDT" name="setUp" finished-at="2020-09-26T12:34:34 MDT" duration-ms="4051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -140,7 +136,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:00 MDT" name="startExtent" finished-at="2020-09-26T00:24:00 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:30 MDT" name="cleanUp" finished-at="2020-09-26T12:34:30 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:34 MDT" name="startExtent" finished-at="2020-09-26T12:34:34 MDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,11 +151,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:00 MDT" name="getInit" finished-at="2020-09-26T00:24:00 MDT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:34 MDT" name="getInit" finished-at="2020-09-26T12:34:34 MDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testAboutUs()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:00 MDT" name="testAboutUs" finished-at="2020-09-26T00:24:05 MDT" duration-ms="5052" status="FAIL">
+        <test-method signature="testAboutUs()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:34 MDT" name="testAboutUs" finished-at="2020-09-26T12:34:40 MDT" duration-ms="5477" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='About Us']"}
@@ -164,8 +164,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 38726c93b3b17d8045fa7bf9cf9e9484
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:61164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d6a797e474761e81a6a6e5bc10bf2aea
 *** Element info: {Using=xpath, value=//a[@title='About Us']}]]>
             </message>
             <full-stacktrace>
@@ -175,8 +175,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 38726c93b3b17d8045fa7bf9cf9e9484
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:61164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d6a797e474761e81a6a6e5bc10bf2aea
 *** Element info: {Using=xpath, value=//a[@title='About Us']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -235,7 +235,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAboutUs -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:05 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:24:07 MDT" duration-ms="1590" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:40 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:34:42 MDT" duration-ms="2205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,11 +246,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:07 MDT" name="cleanUp" finished-at="2020-09-26T00:24:07 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:42 MDT" name="cleanUp" finished-at="2020-09-26T12:34:42 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:07 MDT" name="setUp" finished-at="2020-09-26T00:24:12 MDT" duration-ms="4900" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:42 MDT" name="setUp" finished-at="2020-09-26T12:34:46 MDT" duration-ms="3860" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,7 +291,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:12 MDT" name="startExtent" finished-at="2020-09-26T00:24:12 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:46 MDT" name="startExtent" finished-at="2020-09-26T12:34:46 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -302,15 +302,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:12 MDT" name="getInit" finished-at="2020-09-26T00:24:12 MDT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:46 MDT" name="getInit" finished-at="2020-09-26T12:34:46 MDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testAccessStat()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:12 MDT" name="testAccessStat" finished-at="2020-09-26T00:24:13 MDT" duration-ms="1032" status="PASS">
+        <test-method signature="testAccessStat()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:46 MDT" name="testAccessStat" finished-at="2020-09-26T12:34:47 MDT" duration-ms="1029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAccessStat -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:13 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:24:13 MDT" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:47 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:34:47 MDT" duration-ms="191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -321,11 +321,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:13 MDT" name="cleanUp" finished-at="2020-09-26T00:24:13 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:47 MDT" name="cleanUp" finished-at="2020-09-26T12:34:47 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:13 MDT" name="setUp" finished-at="2020-09-26T00:24:17 MDT" duration-ms="3928" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:47 MDT" name="setUp" finished-at="2020-09-26T12:34:51 MDT" duration-ms="3986" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -366,7 +366,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:17 MDT" name="startExtent" finished-at="2020-09-26T00:24:17 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:51 MDT" name="startExtent" finished-at="2020-09-26T12:34:51 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -377,15 +377,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:17 MDT" name="getInit" finished-at="2020-09-26T00:24:17 MDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:51 MDT" name="getInit" finished-at="2020-09-26T12:34:51 MDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testAgentAndProducers()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:17 MDT" name="testAgentAndProducers" finished-at="2020-09-26T00:24:18 MDT" duration-ms="1344" status="PASS">
+        <test-method signature="testAgentAndProducers()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:51 MDT" name="testAgentAndProducers" finished-at="2020-09-26T12:34:52 MDT" duration-ms="1228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAgentAndProducers -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:18 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:24:18 MDT" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:52 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:34:53 MDT" duration-ms="164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,11 +396,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:18 MDT" name="cleanUp" finished-at="2020-09-26T00:24:18 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:53 MDT" name="cleanUp" finished-at="2020-09-26T12:34:53 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:18 MDT" name="setUp" finished-at="2020-09-26T00:24:22 MDT" duration-ms="3243" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:53 MDT" name="setUp" finished-at="2020-09-26T12:34:55 MDT" duration-ms="2809" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -441,7 +441,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:22 MDT" name="startExtent" finished-at="2020-09-26T00:24:22 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:55 MDT" name="startExtent" finished-at="2020-09-26T12:34:55 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,11 +452,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:22 MDT" name="getInit" finished-at="2020-09-26T00:24:22 MDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:55 MDT" name="getInit" finished-at="2020-09-26T12:34:55 MDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testBusinessTab()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:22 MDT" name="testBusinessTab" finished-at="2020-09-26T00:24:23 MDT" duration-ms="1119" status="FAIL">
+        <test-method signature="testBusinessTab()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:55 MDT" name="testBusinessTab" finished-at="2020-09-26T12:34:56 MDT" duration-ms="1042" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found []]]>
@@ -508,7 +508,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBusinessTab -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:23 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:24:24 MDT" duration-ms="1587" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:56 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:34:58 MDT" duration-ms="1404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -519,11 +519,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:24 MDT" name="cleanUp" finished-at="2020-09-26T00:24:24 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:58 MDT" name="cleanUp" finished-at="2020-09-26T12:34:58 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:24 MDT" name="setUp" finished-at="2020-09-26T00:24:29 MDT" duration-ms="4582" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:34:58 MDT" name="setUp" finished-at="2020-09-26T12:35:01 MDT" duration-ms="2795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -564,7 +564,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:29 MDT" name="startExtent" finished-at="2020-09-26T00:24:29 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:01 MDT" name="startExtent" finished-at="2020-09-26T12:35:01 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -575,11 +575,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:29 MDT" name="getInit" finished-at="2020-09-26T00:24:29 MDT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:01 MDT" name="getInit" finished-at="2020-09-26T12:35:01 MDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testCarInsurance()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:29 MDT" name="testCarInsurance" finished-at="2020-09-26T00:24:34 MDT" duration-ms="5184" status="FAIL">
+        <test-method signature="testCarInsurance()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:01 MDT" name="testCarInsurance" finished-at="2020-09-26T12:35:06 MDT" duration-ms="5229" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -587,8 +587,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0102d3a70a061603047e44374fbee3bb]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:61387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d183588a0adddb673519916db59a478]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -596,8 +596,8 @@ Session ID: 0102d3a70a061603047e44374fbee3bb]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0102d3a70a061603047e44374fbee3bb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:61387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d183588a0adddb673519916db59a478
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -656,7 +656,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCarInsurance -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:34 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:24:36 MDT" duration-ms="1458" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:06 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:07 MDT" duration-ms="1418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -667,11 +667,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:36 MDT" name="cleanUp" finished-at="2020-09-26T00:24:36 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:36 MDT" name="setUp" finished-at="2020-09-26T00:24:40 MDT" duration-ms="4348" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:07 MDT" name="setUp" finished-at="2020-09-26T12:35:11 MDT" duration-ms="3867" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -712,7 +708,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:40 MDT" name="startExtent" finished-at="2020-09-26T00:24:40 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:07 MDT" name="cleanUp" finished-at="2020-09-26T12:35:07 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:11 MDT" name="startExtent" finished-at="2020-09-26T12:35:11 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -723,15 +723,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:40 MDT" name="getInit" finished-at="2020-09-26T00:24:40 MDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:11 MDT" name="getInit" finished-at="2020-09-26T12:35:11 MDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testEEO()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:40 MDT" name="testEEO" finished-at="2020-09-26T00:24:41 MDT" duration-ms="702" status="PASS">
+        <test-method signature="testEEO()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:11 MDT" name="testEEO" finished-at="2020-09-26T12:35:12 MDT" duration-ms="1010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEEO -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:41 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:24:41 MDT" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:12 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:12 MDT" duration-ms="163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -742,11 +742,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:41 MDT" name="cleanUp" finished-at="2020-09-26T00:24:41 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:12 MDT" name="cleanUp" finished-at="2020-09-26T12:35:12 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:41 MDT" name="setUp" finished-at="2020-09-26T00:24:45 MDT" duration-ms="3807" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:12 MDT" name="setUp" finished-at="2020-09-26T12:35:16 MDT" duration-ms="4040" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -787,7 +787,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:45 MDT" name="startExtent" finished-at="2020-09-26T00:24:45 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:16 MDT" name="startExtent" finished-at="2020-09-26T12:35:16 MDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -798,17 +798,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:45 MDT" name="getInit" finished-at="2020-09-26T00:24:45 MDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:16 MDT" name="getInit" finished-at="2020-09-26T12:35:16 MDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testEmployeeBanifits()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:45 MDT" name="testEmployeeBanifits" finished-at="2020-09-26T00:24:46 MDT" duration-ms="1219" status="FAIL">
+        <test-method signature="testEmployeeBanifits()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:16 MDT" name="testEmployeeBanifits" finished-at="2020-09-26T12:35:17 MDT" duration-ms="1035" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found [Employee Benefit Insurance Plans & Coverages | The Hartford]]]>
+              <![CDATA[expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found []]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found [Employee Benefit Insurance Plans & Coverages | The Hartford]
+              <![CDATA[java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found []
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
@@ -854,7 +854,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmployeeBanifits -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:46 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:24:48 MDT" duration-ms="1801" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:17 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:19 MDT" duration-ms="1327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -865,11 +865,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:48 MDT" name="cleanUp" finished-at="2020-09-26T00:24:48 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:19 MDT" name="cleanUp" finished-at="2020-09-26T12:35:19 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:48 MDT" name="setUp" finished-at="2020-09-26T00:24:52 MDT" duration-ms="4299" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:19 MDT" name="setUp" finished-at="2020-09-26T12:35:23 MDT" duration-ms="3898" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -910,7 +910,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:52 MDT" name="startExtent" finished-at="2020-09-26T00:24:52 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:23 MDT" name="startExtent" finished-at="2020-09-26T12:35:23 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -921,15 +921,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:52 MDT" name="getInit" finished-at="2020-09-26T00:24:52 MDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:23 MDT" name="getInit" finished-at="2020-09-26T12:35:23 MDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testFeedBack()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:52 MDT" name="testFeedBack" finished-at="2020-09-26T00:24:55 MDT" duration-ms="2924" status="PASS">
+        <test-method signature="testFeedBack()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:23 MDT" name="testFeedBack" finished-at="2020-09-26T12:35:25 MDT" duration-ms="2332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFeedBack -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:55 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:24:55 MDT" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:25 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:25 MDT" duration-ms="164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -940,11 +940,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:55 MDT" name="cleanUp" finished-at="2020-09-26T00:24:55 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:25 MDT" name="cleanUp" finished-at="2020-09-26T12:35:25 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:55 MDT" name="setUp" finished-at="2020-09-26T00:24:58 MDT" duration-ms="3181" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:25 MDT" name="setUp" finished-at="2020-09-26T12:35:29 MDT" duration-ms="3791" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -985,7 +985,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:58 MDT" name="startExtent" finished-at="2020-09-26T00:24:58 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:29 MDT" name="startExtent" finished-at="2020-09-26T12:35:29 MDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -996,15 +996,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:58 MDT" name="getInit" finished-at="2020-09-26T00:24:58 MDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:29 MDT" name="getInit" finished-at="2020-09-26T12:35:29 MDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testFindAnAgentButton()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:24:58 MDT" name="testFindAnAgentButton" finished-at="2020-09-26T00:25:00 MDT" duration-ms="1452" status="PASS">
+        <test-method signature="testFindAnAgentButton()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:29 MDT" name="testFindAnAgentButton" finished-at="2020-09-26T12:35:30 MDT" duration-ms="1385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindAnAgentButton -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:00 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:00 MDT" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:30 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:30 MDT" duration-ms="152" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1015,11 +1015,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:00 MDT" name="cleanUp" finished-at="2020-09-26T00:25:00 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:30 MDT" name="cleanUp" finished-at="2020-09-26T12:35:30 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:00 MDT" name="setUp" finished-at="2020-09-26T00:25:04 MDT" duration-ms="4128" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:30 MDT" name="setUp" finished-at="2020-09-26T12:35:34 MDT" duration-ms="3696" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1060,7 +1060,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:04 MDT" name="startExtent" finished-at="2020-09-26T00:25:04 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:34 MDT" name="startExtent" finished-at="2020-09-26T12:35:34 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1071,15 +1071,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:04 MDT" name="getInit" finished-at="2020-09-26T00:25:04 MDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:34 MDT" name="getInit" finished-at="2020-09-26T12:35:34 MDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testHomeInsurance()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:04 MDT" name="testHomeInsurance" finished-at="2020-09-26T00:25:05 MDT" duration-ms="1132" status="PASS">
+        <test-method signature="testHomeInsurance()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:34 MDT" name="testHomeInsurance" finished-at="2020-09-26T12:35:35 MDT" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeInsurance -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:05 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:05 MDT" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:35 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:35 MDT" duration-ms="133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1090,11 +1090,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:05 MDT" name="cleanUp" finished-at="2020-09-26T00:25:05 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:35 MDT" name="cleanUp" finished-at="2020-09-26T12:35:35 MDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:05 MDT" name="setUp" finished-at="2020-09-26T00:25:09 MDT" duration-ms="3545" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:35 MDT" name="setUp" finished-at="2020-09-26T12:35:39 MDT" duration-ms="3925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1135,11 +1135,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:09 MDT" name="getInit" finished-at="2020-09-26T00:25:09 MDT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:09 MDT" name="startExtent" finished-at="2020-09-26T00:25:09 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:39 MDT" name="startExtent" finished-at="2020-09-26T12:35:39 MDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1150,7 +1146,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testHomeTab()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:09 MDT" name="testHomeTab" finished-at="2020-09-26T00:25:10 MDT" duration-ms="1451" status="FAIL">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:39 MDT" name="getInit" finished-at="2020-09-26T12:35:39 MDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testHomeTab()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:39 MDT" name="testHomeTab" finished-at="2020-09-26T12:35:40 MDT" duration-ms="673" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found []]]>
@@ -1202,7 +1202,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeTab -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:10 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:13 MDT" duration-ms="2172" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:40 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:40 MDT" duration-ms="829" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1213,11 +1213,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:13 MDT" name="cleanUp" finished-at="2020-09-26T00:25:13 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:40 MDT" name="cleanUp" finished-at="2020-09-26T12:35:40 MDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:13 MDT" name="setUp" finished-at="2020-09-26T00:25:16 MDT" duration-ms="3709" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:40 MDT" name="setUp" finished-at="2020-09-26T12:35:44 MDT" duration-ms="3736" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1258,11 +1258,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:16 MDT" name="getInit" finished-at="2020-09-26T00:25:16 MDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:44 MDT" name="getInit" finished-at="2020-09-26T12:35:44 MDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:16 MDT" name="startExtent" finished-at="2020-09-26T00:25:16 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:44 MDT" name="startExtent" finished-at="2020-09-26T12:35:44 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1273,26 +1273,99 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testLegalNotice()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:16 MDT" name="testLegalNotice" finished-at="2020-09-26T00:25:17 MDT" duration-ms="1260" status="PASS">
+        <test-method signature="testLegalNotice()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:44 MDT" name="testLegalNotice" finished-at="2020-09-26T12:35:45 MDT" duration-ms="1216" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://www.thehartford.com/legal-notice" title="..." aria-label="Legal Notice" data-dl="{&quot;category&quot; : &quot;Footer Links&quot; , &quot;action&quot; : &quot;Legal&quot;, &quot;label&quot; : &quot;Legal Notice&quot;, &quot;position&quot; : &quot;Footer Links&quot;, &quot;widget&quot; : &quot;Footer&quot; }">Legal Notice</a> is not clickable at point (720, 852). Other element would receive the click: <div class="col-md-12">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a49c2f799a53b41c857de0aedd4ae818]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.thehartford.com/legal-notice" title="..." aria-label="Legal Notice" data-dl="{&quot;category&quot; : &quot;Footer Links&quot; , &quot;action&quot; : &quot;Legal&quot;, &quot;label&quot; : &quot;Legal Notice&quot;, &quot;position&quot; : &quot;Footer Links&quot;, &quot;widget&quot; : &quot;Footer&quot; }">Legal Notice</a> is not clickable at point (720, 852). Other element would receive the click: <div class="col-md-12">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a49c2f799a53b41c857de0aedd4ae818
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at search.Search.legalNoticeCheck(Search.java:307)
+at search.SearchTest.testLegalNotice(SearchTest.java:133)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLegalNotice -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:17 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:18 MDT" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:45 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:48 MDT" duration-ms="2764" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLegalNotice status=SUCCESS method=SearchTest.testLegalNotice()[pri:0, instance:search.SearchTest@1356d4d4] output={null}]]]>
+                <![CDATA[[TestResult name=testLegalNotice status=FAILURE method=SearchTest.testLegalNotice()[pri:0, instance:search.SearchTest@1356d4d4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:18 MDT" name="cleanUp" finished-at="2020-09-26T00:25:18 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:48 MDT" name="cleanUp" finished-at="2020-09-26T12:35:48 MDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:18 MDT" name="setUp" finished-at="2020-09-26T00:25:21 MDT" duration-ms="3666" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:48 MDT" name="setUp" finished-at="2020-09-26T12:35:52 MDT" duration-ms="3880" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1333,11 +1406,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:21 MDT" name="getInit" finished-at="2020-09-26T00:25:21 MDT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:21 MDT" name="startExtent" finished-at="2020-09-26T00:25:21 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:52 MDT" name="startExtent" finished-at="2020-09-26T12:35:52 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1348,26 +1417,103 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testMobileApp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:21 MDT" name="testMobileApp" finished-at="2020-09-26T00:25:22 MDT" duration-ms="745" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:52 MDT" name="getInit" finished-at="2020-09-26T12:35:52 MDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testMobileApp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:52 MDT" name="testMobileApp" finished-at="2020-09-26T12:35:53 MDT" duration-ms="1181" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://www.thehartford.com/mobile-tools" title="Company - The Hartford ..." aria-label="Company - The Hartford Mobile App" data-dl="{&quot;category&quot; : &quot;Footer Links&quot; , &quot;action&quot; : &quot;COMPANY&quot;, &quot;label&quot; : &quot;Mobile App&quot;, &quot;position&quot; : &quot;Footer Links&quot;, &quot;widget&quot; : &quot;Footer&quot; }">Mobile App</a> is not clickable at point (355, 849). Other element would receive the click: <div class="col-md-12">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:61794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a01f655b87204833e94a5694e36691e2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.thehartford.com/mobile-tools" title="Company - The Hartford ..." aria-label="Company - The Hartford Mobile App" data-dl="{&quot;category&quot; : &quot;Footer Links&quot; , &quot;action&quot; : &quot;COMPANY&quot;, &quot;label&quot; : &quot;Mobile App&quot;, &quot;position&quot; : &quot;Footer Links&quot;, &quot;widget&quot; : &quot;Footer&quot; }">Mobile App</a> is not clickable at point (355, 849). Other element would receive the click: <div class="col-md-12">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:61794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a01f655b87204833e94a5694e36691e2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at search.Search.mobileAppCheck(Search.java:255)
+at search.SearchTest.testMobileApp(SearchTest.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMobileApp -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:22 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:22 MDT" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:53 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:54 MDT" duration-ms="656" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testMobileApp status=SUCCESS method=SearchTest.testMobileApp()[pri:0, instance:search.SearchTest@1356d4d4] output={null}]]]>
+                <![CDATA[[TestResult name=testMobileApp status=FAILURE method=SearchTest.testMobileApp()[pri:0, instance:search.SearchTest@1356d4d4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:22 MDT" name="cleanUp" finished-at="2020-09-26T00:25:22 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:54 MDT" name="cleanUp" finished-at="2020-09-26T12:35:54 MDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:22 MDT" name="setUp" finished-at="2020-09-26T00:25:26 MDT" duration-ms="3773" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:54 MDT" name="setUp" finished-at="2020-09-26T12:35:57 MDT" duration-ms="2873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1408,7 +1554,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:26 MDT" name="startExtent" finished-at="2020-09-26T00:25:26 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:57 MDT" name="getInit" finished-at="2020-09-26T12:35:57 MDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:57 MDT" name="startExtent" finished-at="2020-09-26T12:35:57 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1419,15 +1569,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:26 MDT" name="getInit" finished-at="2020-09-26T00:25:26 MDT" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testPrivacyPolicy()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:26 MDT" name="testPrivacyPolicy" finished-at="2020-09-26T00:25:27 MDT" duration-ms="1071" status="PASS">
+        <test-method signature="testPrivacyPolicy()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:57 MDT" name="testPrivacyPolicy" finished-at="2020-09-26T12:35:58 MDT" duration-ms="1055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrivacyPolicy -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:27 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:27 MDT" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:58 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:35:58 MDT" duration-ms="147" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1438,11 +1584,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:27 MDT" name="cleanUp" finished-at="2020-09-26T00:25:27 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:58 MDT" name="cleanUp" finished-at="2020-09-26T12:35:58 MDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:27 MDT" name="setUp" finished-at="2020-09-26T00:25:31 MDT" duration-ms="3424" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:35:58 MDT" name="setUp" finished-at="2020-09-26T12:36:02 MDT" duration-ms="4033" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1483,7 +1629,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:31 MDT" name="startExtent" finished-at="2020-09-26T00:25:31 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:02 MDT" name="getInit" finished-at="2020-09-26T12:36:02 MDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:02 MDT" name="startExtent" finished-at="2020-09-26T12:36:02 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1494,15 +1644,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:31 MDT" name="getInit" finished-at="2020-09-26T00:25:31 MDT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testProdCompensation()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:31 MDT" name="testProdCompensation" finished-at="2020-09-26T00:25:34 MDT" duration-ms="3211" status="PASS">
+        <test-method signature="testProdCompensation()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:02 MDT" name="testProdCompensation" finished-at="2020-09-26T12:36:03 MDT" duration-ms="776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProdCompensation -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:34 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:34 MDT" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:03 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:36:03 MDT" duration-ms="135" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1513,11 +1659,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:34 MDT" name="cleanUp" finished-at="2020-09-26T00:25:34 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:03 MDT" name="cleanUp" finished-at="2020-09-26T12:36:03 MDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:34 MDT" name="setUp" finished-at="2020-09-26T00:25:39 MDT" duration-ms="4459" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:03 MDT" name="setUp" finished-at="2020-09-26T12:36:06 MDT" duration-ms="2752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1558,7 +1704,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:39 MDT" name="startExtent" finished-at="2020-09-26T00:25:39 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:06 MDT" name="startExtent" finished-at="2020-09-26T12:36:06 MDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1569,15 +1715,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:39 MDT" name="getInit" finished-at="2020-09-26T00:25:39 MDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:06 MDT" name="getInit" finished-at="2020-09-26T12:36:06 MDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testReportClaim()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:39 MDT" name="testReportClaim" finished-at="2020-09-26T00:25:41 MDT" duration-ms="1858" status="PASS">
+        <test-method signature="testReportClaim()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:06 MDT" name="testReportClaim" finished-at="2020-09-26T12:36:14 MDT" duration-ms="8146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReportClaim -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:41 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:41 MDT" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:14 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:36:14 MDT" duration-ms="166" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1588,11 +1734,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:41 MDT" name="cleanUp" finished-at="2020-09-26T00:25:41 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:41 MDT" name="setUp" finished-at="2020-09-26T00:25:45 MDT" duration-ms="4555" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:14 MDT" name="setUp" finished-at="2020-09-26T12:36:17 MDT" duration-ms="2712" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1633,7 +1775,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:45 MDT" name="startExtent" finished-at="2020-09-26T00:25:45 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:14 MDT" name="cleanUp" finished-at="2020-09-26T12:36:14 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:17 MDT" name="startExtent" finished-at="2020-09-26T12:36:17 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1644,15 +1790,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:45 MDT" name="getInit" finished-at="2020-09-26T00:25:45 MDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:17 MDT" name="getInit" finished-at="2020-09-26T12:36:17 MDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testSearchBoxCheck()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:45 MDT" name="testSearchBoxCheck" finished-at="2020-09-26T00:25:49 MDT" duration-ms="3633" status="PASS">
+        <test-method signature="testSearchBoxCheck()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:17 MDT" name="testSearchBoxCheck" finished-at="2020-09-26T12:36:19 MDT" duration-ms="2797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchBoxCheck -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:49 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:49 MDT" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:19 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:36:20 MDT" duration-ms="148" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1663,11 +1809,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:49 MDT" name="cleanUp" finished-at="2020-09-26T00:25:49 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:20 MDT" name="cleanUp" finished-at="2020-09-26T12:36:20 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:49 MDT" name="setUp" finished-at="2020-09-26T00:25:53 MDT" duration-ms="4062" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:20 MDT" name="setUp" finished-at="2020-09-26T12:36:23 MDT" duration-ms="3865" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1708,7 +1854,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:53 MDT" name="startExtent" finished-at="2020-09-26T00:25:53 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:23 MDT" name="startExtent" finished-at="2020-09-26T12:36:23 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1719,15 +1865,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:53 MDT" name="getInit" finished-at="2020-09-26T00:25:53 MDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:23 MDT" name="getInit" finished-at="2020-09-26T12:36:23 MDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testSmallBiz()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:53 MDT" name="testSmallBiz" finished-at="2020-09-26T00:25:54 MDT" duration-ms="624" status="PASS">
+        <test-method signature="testSmallBiz()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:23 MDT" name="testSmallBiz" finished-at="2020-09-26T12:36:24 MDT" duration-ms="977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSmallBiz -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:54 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:54 MDT" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:24 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:36:25 MDT" duration-ms="145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1738,11 +1884,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:54 MDT" name="cleanUp" finished-at="2020-09-26T00:25:54 MDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:25 MDT" name="cleanUp" finished-at="2020-09-26T12:36:25 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:54 MDT" name="setUp" finished-at="2020-09-26T00:25:58 MDT" duration-ms="3909" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:25 MDT" name="setUp" finished-at="2020-09-26T12:36:28 MDT" duration-ms="3730" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1783,7 +1929,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:58 MDT" name="startExtent" finished-at="2020-09-26T00:25:58 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:28 MDT" name="startExtent" finished-at="2020-09-26T12:36:28 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1794,30 +1940,78 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:58 MDT" name="getInit" finished-at="2020-09-26T00:25:58 MDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:28 MDT" name="getInit" finished-at="2020-09-26T12:36:28 MDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testtheHartFordImage()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:58 MDT" name="testtheHartFordImage" finished-at="2020-09-26T00:25:59 MDT" duration-ms="915" status="PASS">
+        <test-method signature="testtheHartFordImage()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:28 MDT" name="testtheHartFordImage" finished-at="2020-09-26T12:36:29 MDT" duration-ms="977" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found []
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at search.Search.validateHartFordImage1(Search.java:181)
+at search.SearchTest.testtheHartFordImage(SearchTest.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testtheHartFordImage -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:59 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:25:59 MDT" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:29 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:36:32 MDT" duration-ms="2993" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testtheHartFordImage status=SUCCESS method=SearchTest.testtheHartFordImage()[pri:0, instance:search.SearchTest@1356d4d4] output={null}]]]>
+                <![CDATA[[TestResult name=testtheHartFordImage status=FAILURE method=SearchTest.testtheHartFordImage()[pri:0, instance:search.SearchTest@1356d4d4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:59 MDT" name="cleanUp" finished-at="2020-09-26T00:25:59 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:32 MDT" name="cleanUp" finished-at="2020-09-26T12:36:32 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T00:25:59 MDT" name="generateReport" finished-at="2020-09-26T00:25:59 MDT" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:search.SearchTest@1356d4d4]" started-at="2020-09-26T12:36:32 MDT" name="generateReport" finished-at="2020-09-26T12:36:32 MDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

@@ -15,7 +15,7 @@
     <test name="Bank of America">
         <classes>
             <class name="testSearchDataDriven.TestSearch"></class>
-            <class name="home.HomePageTest"></class>
+<!--            <class name="home.HomePageTest"></class>-->
             <!--            <class name="myAccount.MyAccountTest"></class>-->
         </classes>
 

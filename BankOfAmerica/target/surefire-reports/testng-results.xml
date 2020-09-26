@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="16" passed="5" failed="9" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report Directory/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/BankOfAmerica/target/surefire-reports/html]]>
@@ -13,44 +13,17 @@
     <line>
       <![CDATA[TestSearch: test Search Box Check Using Class Values]]>
     </line>
-    <line>
-      <![CDATA[HomePageTest: test About Us]]>
-    </line>
-    <line>
-      <![CDATA[HomePageTest: test Click Account Sign In]]>
-    </line>
-    <line>
-      <![CDATA[HomePageTest: test Click On Business Institutions]]>
-    </line>
-    <line>
-      <![CDATA[HomePageTest: test Click On Checking]]>
-    </line>
-    <line>
-      <![CDATA[HomePageTest: test Click On Personal]]>
-    </line>
-    <line>
-      <![CDATA[HomePageTest: test Click On Security Tab]]>
-    </line>
-    <line>
-      <![CDATA[HomePageTest: test Click On Small Business]]>
-    </line>
-    <line>
-      <![CDATA[HomePageTest: test Click On Wealth Management]]>
-    </line>
-    <line>
-      <![CDATA[HomePageTest: test Click Open Acount]]>
-    </line>
   </reporter-output>
-  <suite started-at="2020-09-26T00:26:03 MDT" name="Bank of America Automation Test" finished-at="2020-09-26T00:28:20 MDT" duration-ms="136762">
+  <suite started-at="2020-09-26T12:36:35 MDT" name="Bank of America Automation Test" finished-at="2020-09-26T12:37:30 MDT" duration-ms="55073">
     <groups>
     </groups>
-    <test started-at="2020-09-26T00:26:03 MDT" name="Bank of America" finished-at="2020-09-26T00:28:20 MDT" duration-ms="136762">
+    <test started-at="2020-09-26T12:36:35 MDT" name="Bank of America" finished-at="2020-09-26T12:37:30 MDT" duration-ms="55073">
       <class name="testSearchDataDriven.TestSearch">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:03 MDT" name="extentSetup" finished-at="2020-09-26T00:26:03 MDT" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:35 MDT" name="extentSetup" finished-at="2020-09-26T12:36:35 MDT" duration-ms="269" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4e0cc334]]>
+                <![CDATA[org.testng.TestRunner@480ad82c]]>
               </value>
             </param>
           </params>
@@ -60,7 +33,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:03 MDT" name="setUp" finished-at="2020-09-26T00:26:09 MDT" duration-ms="5703" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:35 MDT" name="setUp" finished-at="2020-09-26T12:36:40 MDT" duration-ms="4718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:09 MDT" name="startExtent" finished-at="2020-09-26T00:26:09 MDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:40 MDT" name="startExtent" finished-at="2020-09-26T12:36:40 MDT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,26 +85,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:09 MDT" name="getInit" finished-at="2020-09-26T00:26:09 MDT" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:40 MDT" name="getInit" finished-at="2020-09-26T12:36:40 MDT" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="getInit1()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:09 MDT" name="getInit1" finished-at="2020-09-26T00:26:09 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getInit1()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:40 MDT" name="getInit1" finished-at="2020-09-26T12:36:40 MDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit1 -->
-        <test-method signature="testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:09 MDT" name="testSearchBoxCheckGetItemsListFromDB" finished-at="2020-09-26T00:26:13 MDT" duration-ms="4276" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:40 MDT" name="testSearchBoxCheckGetItemsListFromDB" finished-at="2020-09-26T12:36:52 MDT" duration-ms="11656" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Test Failed expected [Saving Account] but found []]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='query']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 03aad1828891771c61f6915b86c26d72
+*** Element info: {Using=xpath, value=//span[@class='query']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test Failed expected [Saving Account] but found []
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at homePageRaza.DataDrivenAction.searchBoxCheckGetItemsListFromDB(DataDrivenAction.java:52)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='query']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 03aad1828891771c61f6915b86c26d72
+*** Element info: {Using=xpath, value=//span[@class='query']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at base.CommonAPI.getTextByXpath(CommonAPI.java:398)
+at homePageRaza.DataDrivenAction.searchBoxCheckGetItemsListFromDB(DataDrivenAction.java:50)
 at testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromDB(TestSearch.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -167,29 +167,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[TestSearch: test Search Box Check Get Items List From DB]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSearchBoxCheckGetItemsListFromDB -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:13 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:26:14 MDT" duration-ms="1401" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:52 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:36:53 MDT" duration-ms="1568" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSearchBoxCheckGetItemsListFromDB status=FAILURE method=TestSearch.testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf] output=TestSearch: test Search Box Check Get Items List From DB]]]>
+                <![CDATA[[TestResult name=testSearchBoxCheckGetItemsListFromDB status=FAILURE method=TestSearch.testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testSearchDataDriven.TestSearch@55740540] output=TestSearch: test Search Box Check Get Items List From DB]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:14 MDT" name="cleanUp" finished-at="2020-09-26T00:26:14 MDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:14 MDT" name="setUp" finished-at="2020-09-26T00:26:19 MDT" duration-ms="4175" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:53 MDT" name="setUp" finished-at="2020-09-26T12:36:57 MDT" duration-ms="4102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,7 +226,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:19 MDT" name="startExtent" finished-at="2020-09-26T00:26:19 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:53 MDT" name="cleanUp" finished-at="2020-09-26T12:36:53 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:57 MDT" name="startExtent" finished-at="2020-09-26T12:36:57 MDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,7 +241,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testSearchBoxCheckGetItemsListFromExcel()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:19 MDT" name="testSearchBoxCheckGetItemsListFromExcel" finished-at="2020-09-26T00:26:19 MDT" duration-ms="377" status="FAIL">
+        <test-method is-config="true" signature="getInit1()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:57 MDT" name="getInit1" finished-at="2020-09-26T12:36:57 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit1 -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:57 MDT" name="getInit" finished-at="2020-09-26T12:36:57 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testSearchBoxCheckGetItemsListFromExcel()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:57 MDT" name="testSearchBoxCheckGetItemsListFromExcel" finished-at="2020-09-26T12:36:58 MDT" duration-ms="232" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -289,30 +297,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
             </line>
           </reporter-output>
         </test-method> <!-- testSearchBoxCheckGetItemsListFromExcel -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:19 MDT" name="getInit" finished-at="2020-09-26T00:26:19 MDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="getInit1()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:19 MDT" name="getInit1" finished-at="2020-09-26T00:26:19 MDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit1 -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:19 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:26:21 MDT" duration-ms="1710" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:58 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:36:59 MDT" duration-ms="1964" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSearchBoxCheckGetItemsListFromExcel status=FAILURE method=TestSearch.testSearchBoxCheckGetItemsListFromExcel()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf] output=TestSearch: test Search Box Check Get Items List From Excel]]]>
+                <![CDATA[[TestResult name=testSearchBoxCheckGetItemsListFromExcel status=FAILURE method=TestSearch.testSearchBoxCheckGetItemsListFromExcel()[pri:0, instance:testSearchDataDriven.TestSearch@55740540] output=TestSearch: test Search Box Check Get Items List From Excel]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:21 MDT" name="cleanUp" finished-at="2020-09-26T00:26:21 MDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:59 MDT" name="cleanUp" finished-at="2020-09-26T12:36:59 MDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:21 MDT" name="setUp" finished-at="2020-09-26T00:26:24 MDT" duration-ms="3690" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:36:59 MDT" name="setUp" finished-at="2020-09-26T12:37:04 MDT" duration-ms="4577" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,11 +353,108 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:24 MDT" name="getInit" finished-at="2020-09-26T00:26:24 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:04 MDT" name="startExtent" finished-at="2020-09-26T12:37:04 MDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testSearchDataDriven.TestSearch.testSearchBoxCheckUsingClassValues() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit1()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:04 MDT" name="getInit1" finished-at="2020-09-26T12:37:04 MDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit1 -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:04 MDT" name="getInit" finished-at="2020-09-26T12:37:04 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testSearchBoxCheckUsingClassValues()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:24 MDT" name="testSearchBoxCheckUsingClassValues" finished-at="2020-09-26T00:26:36 MDT" duration-ms="11275" status="FAIL">
+        <test-method signature="testSearchBoxCheckUsingClassValues()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:04 MDT" name="testSearchBoxCheckUsingClassValues" finished-at="2020-09-26T12:37:15 MDT" duration-ms="10589" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestSearch: test Search Box Check Using Class Values]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchBoxCheckUsingClassValues -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:15 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:37:15 MDT" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchBoxCheckUsingClassValues status=SUCCESS method=TestSearch.testSearchBoxCheckUsingClassValues()[pri:0, instance:testSearchDataDriven.TestSearch@55740540] output=TestSearch: test Search Box Check Using Class Values]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:15 MDT" name="cleanUp" finished-at="2020-09-26T12:37:15 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:15 MDT" name="setUp" finished-at="2020-09-26T12:37:19 MDT" duration-ms="3791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.bankofamerica.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:19 MDT" name="getInit" finished-at="2020-09-26T12:37:19 MDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:19 MDT" name="startExtent" finished-at="2020-09-26T12:37:19 MDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void testSearchDataDriven.TestSearch.testSearchProduct() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit1()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:19 MDT" name="getInit1" finished-at="2020-09-26T12:37:19 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit1 -->
+        <test-method signature="testSearchProduct()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:19 MDT" name="testSearchProduct" finished-at="2020-09-26T12:37:29 MDT" duration-ms="10732" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='query']"}
@@ -366,8 +463,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:65440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5a7fc2b6e23f708c11f5c5dc88cac716
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 40c0cbc6bf0435a69ae65910d7b63fa3
 *** Element info: {Using=xpath, value=//span[@class='query']}]]>
             </message>
             <full-stacktrace>
@@ -377,8 +474,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:65440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5a7fc2b6e23f708c11f5c5dc88cac716
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 40c0cbc6bf0435a69ae65910d7b63fa3
 *** Element info: {Using=xpath, value=//span[@class='query']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -395,147 +492,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at base.CommonAPI.getTextByXpath(CommonAPI.java:398)
-at homePageRaza.DataDrivenAction.searchBoxCheckUsingClassValues(DataDrivenAction.java:33)
-at testSearchDataDriven.TestSearch.testSearchBoxCheckUsingClassValues(TestSearch.java:42)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[TestSearch: test Search Box Check Using Class Values]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testSearchBoxCheckUsingClassValues -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:24 MDT" name="startExtent" finished-at="2020-09-26T00:26:24 MDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testSearchDataDriven.TestSearch.testSearchBoxCheckUsingClassValues() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit1()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:24 MDT" name="getInit1" finished-at="2020-09-26T00:26:24 MDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit1 -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:36 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:26:37 MDT" duration-ms="870" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSearchBoxCheckUsingClassValues status=FAILURE method=TestSearch.testSearchBoxCheckUsingClassValues()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf] output=TestSearch: test Search Box Check Using Class Values]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:37 MDT" name="cleanUp" finished-at="2020-09-26T00:26:37 MDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:37 MDT" name="setUp" finished-at="2020-09-26T00:26:41 MDT" duration-ms="4086" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:41 MDT" name="getInit" finished-at="2020-09-26T00:26:41 MDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:41 MDT" name="startExtent" finished-at="2020-09-26T00:26:41 MDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public static void testSearchDataDriven.TestSearch.testSearchProduct() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method signature="testSearchProduct()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:41 MDT" name="testSearchProduct" finished-at="2020-09-26T00:26:44 MDT" duration-ms="3878" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Test Failed expected [Checking Accounts] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test Failed expected [Checking Accounts] but found []
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at homePageRaza.ActionClass.validateSearchItems(ActionClass.java:41)
+at homePageRaza.ActionClass.validateSearchItems(ActionClass.java:39)
 at testSearchDataDriven.TestSearch.testSearchProduct(TestSearch.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -571,1162 +528,30 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchProduct -->
-        <test-method is-config="true" signature="getInit1()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:41 MDT" name="getInit1" finished-at="2020-09-26T00:26:41 MDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit1 -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:44 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:26:46 MDT" duration-ms="1281" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:29 MDT" name="afterEachTestMethod" finished-at="2020-09-26T12:37:30 MDT" duration-ms="892" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSearchProduct status=FAILURE method=TestSearch.testSearchProduct()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf] output={null}]]]>
+                <![CDATA[[TestResult name=testSearchProduct status=FAILURE method=TestSearch.testSearchProduct()[pri:0, instance:testSearchDataDriven.TestSearch@55740540] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:26:46 MDT" name="cleanUp" finished-at="2020-09-26T00:26:46 MDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:30 MDT" name="cleanUp" finished-at="2020-09-26T12:37:30 MDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:testSearchDataDriven.TestSearch@55f616cf]" started-at="2020-09-26T00:28:20 MDT" name="generateReport" finished-at="2020-09-26T00:28:20 MDT" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testSearchDataDriven.TestSearch@55740540]" started-at="2020-09-26T12:37:31 MDT" name="generateReport" finished-at="2020-09-26T12:37:31 MDT" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- testSearchDataDriven.TestSearch -->
-      <class name="home.HomePageTest">
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:26:46 MDT" name="setUp" finished-at="2020-09-26T00:26:50 MDT" duration-ms="4276" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:26:50 MDT" name="startExtent" finished-at="2020-09-26T00:26:50 MDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testAboutUs()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:26:50 MDT" name="getInit" finished-at="2020-09-26T00:26:50 MDT" duration-ms="303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testAboutUs()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:26:50 MDT" name="testAboutUs" finished-at="2020-09-26T00:27:00 MDT" duration-ms="9173" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
-            <message>
-              <![CDATA[invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 76857c960a08dad245ca5038dea98e48
-*** Element info: {Using=css selector, value=/html/body/header/div[1]/div/ul[1]/li[5]/a}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 76857c960a08dad245ca5038dea98e48
-*** Element info: {Using=css selector, value=/html/body/header/div[1]/div/ul[1]/li[5]/a}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at base.CommonAPI.clickOnElement(CommonAPI.java:221)
-at home.HomePage.clickOnAboutUs(HomePage.java:263)
-at home.HomePageTest.testAboutUs(HomePageTest.java:122)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
-          <reporter-output>
-            <line>
-              <![CDATA[HomePageTest: test About Us]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAboutUs -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:00 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:27:01 MDT" duration-ms="1239" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testAboutUs status=FAILURE method=HomePageTest.testAboutUs()[pri:0, instance:home.HomePageTest@1356d4d4] output=HomePageTest: test About Us]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:01 MDT" name="cleanUp" finished-at="2020-09-26T00:27:01 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:01 MDT" name="setUp" finished-at="2020-09-26T00:27:05 MDT" duration-ms="4501" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:05 MDT" name="startExtent" finished-at="2020-09-26T00:27:05 MDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testClickAccountSignIn() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:05 MDT" name="getInit" finished-at="2020-09-26T00:27:05 MDT" duration-ms="240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testClickAccountSignIn()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:05 MDT" name="testClickAccountSignIn" finished-at="2020-09-26T00:27:10 MDT" duration-ms="4526" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[test case failed expected [Bank of America | Online Banking | Sign In | Online ID] but found [Bank of America | Online Banking | Forgot Online ID & Passcode]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: test case failed expected [Bank of America | Online Banking | Sign In | Online ID] but found [Bank of America | Online Banking | Forgot Online ID & Passcode]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at home.HomePage.validateClickOnSignInBtn(HomePage.java:49)
-at home.HomePageTest.testClickAccountSignIn(HomePageTest.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[HomePageTest: test Click Account Sign In]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testClickAccountSignIn -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:10 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:27:11 MDT" duration-ms="894" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testClickAccountSignIn status=FAILURE method=HomePageTest.testClickAccountSignIn()[pri:0, instance:home.HomePageTest@1356d4d4] output=HomePageTest: test Click Account Sign In]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:11 MDT" name="cleanUp" finished-at="2020-09-26T00:27:11 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:11 MDT" name="setUp" finished-at="2020-09-26T00:27:15 MDT" duration-ms="4290" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:15 MDT" name="getInit" finished-at="2020-09-26T00:27:16 MDT" duration-ms="308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:15 MDT" name="startExtent" finished-at="2020-09-26T00:27:15 MDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testClickOnBusinessInstitutions()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method signature="testClickOnBusinessInstitutions()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:16 MDT" name="testClickOnBusinessInstitutions" finished-at="2020-09-26T00:27:19 MDT" duration-ms="3062" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[1]/div/ul[1]/li[4]/a"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 27c3735fddd6b93c95d125f53c00d62d
-*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[4]/a}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[1]/div/ul[1]/li[4]/a"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 27c3735fddd6b93c95d125f53c00d62d
-*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[4]/a}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy14.click(Unknown Source)
-at home.HomePage.clickOnBusinessInstitutions(HomePage.java:225)
-at home.HomePageTest.testClickOnBusinessInstitutions(HomePageTest.java:100)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[HomePageTest: test Click On Business Institutions]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testClickOnBusinessInstitutions -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:19 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:27:20 MDT" duration-ms="1165" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testClickOnBusinessInstitutions status=FAILURE method=HomePageTest.testClickOnBusinessInstitutions()[pri:0, instance:home.HomePageTest@1356d4d4] output=HomePageTest: test Click On Business Institutions]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:20 MDT" name="cleanUp" finished-at="2020-09-26T00:27:20 MDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:20 MDT" name="setUp" finished-at="2020-09-26T00:27:24 MDT" duration-ms="4337" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:24 MDT" name="startExtent" finished-at="2020-09-26T00:27:24 MDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testClickOnChecking() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:24 MDT" name="getInit" finished-at="2020-09-26T00:27:24 MDT" duration-ms="308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testClickOnChecking()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:24 MDT" name="testClickOnChecking" finished-at="2020-09-26T00:27:25 MDT" duration-ms="236" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[HomePageTest: test Click On Checking]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testClickOnChecking -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:25 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:27:25 MDT" duration-ms="239" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testClickOnChecking status=SUCCESS method=HomePageTest.testClickOnChecking()[pri:0, instance:home.HomePageTest@1356d4d4] output=HomePageTest: test Click On Checking]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:25 MDT" name="cleanUp" finished-at="2020-09-26T00:27:25 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:25 MDT" name="setUp" finished-at="2020-09-26T00:27:28 MDT" duration-ms="3445" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:28 MDT" name="startExtent" finished-at="2020-09-26T00:27:28 MDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testClickOnPersonal() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:28 MDT" name="getInit" finished-at="2020-09-26T00:27:29 MDT" duration-ms="251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testClickOnPersonal()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:29 MDT" name="testClickOnPersonal" finished-at="2020-09-26T00:27:37 MDT" duration-ms="8678" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[HomePageTest: test Click On Personal]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testClickOnPersonal -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:37 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:27:37 MDT" duration-ms="229" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testClickOnPersonal status=SUCCESS method=HomePageTest.testClickOnPersonal()[pri:0, instance:home.HomePageTest@1356d4d4] output=HomePageTest: test Click On Personal]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:37 MDT" name="cleanUp" finished-at="2020-09-26T00:27:37 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:37 MDT" name="setUp" finished-at="2020-09-26T00:27:41 MDT" duration-ms="3422" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:41 MDT" name="startExtent" finished-at="2020-09-26T00:27:41 MDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testClickOnSecurityTab()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:41 MDT" name="getInit" finished-at="2020-09-26T00:27:41 MDT" duration-ms="252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testClickOnSecurityTab()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:41 MDT" name="testClickOnSecurityTab" finished-at="2020-09-26T00:27:44 MDT" duration-ms="2471" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[HomePageTest: test Click On Security Tab]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testClickOnSecurityTab -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:44 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:27:44 MDT" duration-ms="198" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testClickOnSecurityTab status=SUCCESS method=HomePageTest.testClickOnSecurityTab()[pri:0, instance:home.HomePageTest@1356d4d4] output=HomePageTest: test Click On Security Tab]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:44 MDT" name="cleanUp" finished-at="2020-09-26T00:27:44 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:44 MDT" name="setUp" finished-at="2020-09-26T00:27:47 MDT" duration-ms="3377" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:47 MDT" name="startExtent" finished-at="2020-09-26T00:27:47 MDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testClickOnSmallBusiness()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:47 MDT" name="getInit" finished-at="2020-09-26T00:27:47 MDT" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testClickOnSmallBusiness()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:47 MDT" name="testClickOnSmallBusiness" finished-at="2020-09-26T00:27:48 MDT" duration-ms="1020" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[HomePageTest: test Click On Small Business]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testClickOnSmallBusiness -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:48 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:27:49 MDT" duration-ms="192" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testClickOnSmallBusiness status=SUCCESS method=HomePageTest.testClickOnSmallBusiness()[pri:0, instance:home.HomePageTest@1356d4d4] output=HomePageTest: test Click On Small Business]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:49 MDT" name="cleanUp" finished-at="2020-09-26T00:27:49 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:49 MDT" name="setUp" finished-at="2020-09-26T00:27:53 MDT" duration-ms="4283" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:53 MDT" name="startExtent" finished-at="2020-09-26T00:27:53 MDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testClickOnWealthManagement()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:53 MDT" name="getInit" finished-at="2020-09-26T00:27:53 MDT" duration-ms="284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testClickOnWealthManagement()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:53 MDT" name="testClickOnWealthManagement" finished-at="2020-09-26T00:27:56 MDT" duration-ms="3031" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[1]/div/ul[1]/li[3]/a"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5dd0c2bffdc292782750e58937579588
-*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[3]/a}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[1]/div/ul[1]/li[3]/a"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5dd0c2bffdc292782750e58937579588
-*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[3]/a}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy14.click(Unknown Source)
-at home.HomePage.clickOnWealthMangement(HomePage.java:203)
-at home.HomePageTest.testClickOnWealthManagement(HomePageTest.java:89)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[HomePageTest: test Click On Wealth Management]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testClickOnWealthManagement -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:56 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:27:57 MDT" duration-ms="1184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testClickOnWealthManagement status=FAILURE method=HomePageTest.testClickOnWealthManagement()[pri:0, instance:home.HomePageTest@1356d4d4] output=HomePageTest: test Click On Wealth Management]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:57 MDT" name="cleanUp" finished-at="2020-09-26T00:27:57 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:27:57 MDT" name="setUp" finished-at="2020-09-26T00:28:02 MDT" duration-ms="4403" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:02 MDT" name="getInit" finished-at="2020-09-26T00:28:02 MDT" duration-ms="304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:02 MDT" name="startExtent" finished-at="2020-09-26T00:28:02 MDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testClickOpenAcount() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method signature="testClickOpenAcount()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:02 MDT" name="testClickOpenAcount" finished-at="2020-09-26T00:28:14 MDT" duration-ms="11718" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 736be8d22fd23926c16120875188e15b
-*** Element info: {Using=xpath, value=//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 736be8d22fd23926c16120875188e15b
-*** Element info: {Using=xpath, value=//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy14.click(Unknown Source)
-at home.HomePage.clickOpenAccount(HomePage.java:161)
-at home.HomePageTest.testClickOpenAcount(HomePageTest.java:67)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[HomePageTest: test Click Open Acount]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testClickOpenAcount -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:14 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:28:15 MDT" duration-ms="1149" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testClickOpenAcount status=FAILURE method=HomePageTest.testClickOpenAcount()[pri:0, instance:home.HomePageTest@1356d4d4] output=HomePageTest: test Click Open Acount]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:15 MDT" name="cleanUp" finished-at="2020-09-26T00:28:15 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:15 MDT" name="setUp" finished-at="2020-09-26T00:28:19 MDT" duration-ms="4114" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[catalina]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome-options]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.bankofamerica.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:19 MDT" name="getInit" finished-at="2020-09-26T00:28:19 MDT" duration-ms="303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:19 MDT" name="startExtent" finished-at="2020-09-26T00:28:19 MDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void home.HomePageTest.testSaveOnlineIdCheckbox()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method signature="testSaveOnlineIdCheckbox()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:19 MDT" name="testSaveOnlineIdCheckbox" finished-at="2020-09-26T00:28:20 MDT" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSaveOnlineIdCheckbox -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:20 MDT" name="afterEachTestMethod" finished-at="2020-09-26T00:28:20 MDT" duration-ms="163" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSaveOnlineIdCheckbox status=SUCCESS method=HomePageTest.testSaveOnlineIdCheckbox()[pri:0, instance:home.HomePageTest@1356d4d4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@1356d4d4]" started-at="2020-09-26T00:28:20 MDT" name="cleanUp" finished-at="2020-09-26T00:28:20 MDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- home.HomePageTest -->
     </test> <!-- Bank of America -->
   </suite> <!-- Bank of America Automation Test -->
 </testng-results>

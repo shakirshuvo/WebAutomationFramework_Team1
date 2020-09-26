@@ -12,7 +12,6 @@
     <classes>
       <class name="testSearchDataDriven.TestSearch">
         <methods>
-          <include name="testSearchBoxCheckUsingClassValues"/>
           <include name="testSearchBoxCheckGetItemsListFromExcel"/>
           <include name="afterEachTestMethod"/>
           <include name="testSearchBoxCheckGetItemsListFromDB"/>
@@ -26,22 +25,6 @@
           <include name="cleanUp"/>
         </methods>
       </class> <!-- testSearchDataDriven.TestSearch -->
-      <class name="home.HomePageTest">
-        <methods>
-          <include name="afterEachTestMethod"/>
-          <include name="testAboutUs"/>
-          <include name="getInit"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="testClickOnWealthManagement"/>
-          <include name="setUp"/>
-          <include name="testClickAccountSignIn"/>
-          <include name="startExtent"/>
-          <include name="cleanUp"/>
-          <include name="testClickOnBusinessInstitutions"/>
-          <include name="testClickOpenAcount"/>
-        </methods>
-      </class> <!-- home.HomePageTest -->
     </classes>
   </test> <!-- Bank of America(failed) -->
 </suite> <!-- Failed suite [Bank of America Automation Test] -->

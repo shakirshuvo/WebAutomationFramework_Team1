@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="86.94" tests="6" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="75.956" tests="6" errors="0" skipped="0" failures="4">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire/surefirebooter10058659869976607148.jar /Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire 2020-09-26T00-22-13_969-jvmRun1 surefire14038063098173248151tmp surefire_16674749474164113998tmp"/>
+    <property name="sun.java.command" value="/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire/surefirebooter6725930398652134701.jar /Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire 2020-09-26T12-30-23_808-jvmRun1 surefire1351998376223706006tmp surefire_17883288049968895788tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/test-classes:/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/classes:/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Generic/target/classes:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/syedraza/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/syedraza/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/syedraza/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/syedraza/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/syedraza/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/syedraza/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/syedraza/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/syedraza/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/syedraza/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/syedraza/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/syedraza/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/syedraza/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/syedraza/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/syedraza/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/syedraza/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/syedraza/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/syedraza/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/syedraza/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/syedraza/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/syedraza/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/syedraza/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/syedraza/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/syedraza/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/syedraza/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/syedraza/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/syedraza/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/syedraza/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/syedraza/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/syedraza/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/syedraza/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/syedraza/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/syedraza/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/syedraza/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/syedraza/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/syedraza/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/syedraza/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/syedraza/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/syedraza/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/syedraza/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/syedraza/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/syedraza/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/syedraza/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/syedraza/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/syedraza/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/syedraza/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/syedraza/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/syedraza/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/syedraza/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/syedraza/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/syedraza/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/syedraza/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/syedraza/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/syedraza/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/syedraza/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/syedraza/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/syedraza/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire/surefirebooter10058659869976607148.jar"/>
+    <property name="surefire.real.class.path" value="/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire/surefirebooter6725930398652134701.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.7+8-LTS"/>
@@ -62,35 +62,60 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testSearchBoxCheck" classname="testhome.HomePageTest" time="3.623">
+  <testcase name="testSearchBoxCheck" classname="testhome.HomePageTest" time="5.295">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav-search &gt; form &gt; div.nav-right &gt; div &gt; input&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:58958}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d3bff0b49787f44f3d28f5405c883224&#10;*** Element info: {Using=css selector, value=#nav-search &gt; form &gt; div.nav-right &gt; div &gt; input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#nav-search > form > div.nav-right > div > input"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:58958}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d3bff0b49787f44f3d28f5405c883224
+*** Element info: {Using=css selector, value=#nav-search > form > div.nav-right > div > input}
+	at testhome.HomePageTest.testSearchBoxCheck(HomePageTest.java:28)
+]]></failure>
     <system-out><![CDATA[Extent Report Directory/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire-reports/html
 HomePageTest: test Search Box Check
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 33941
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 30667
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1601101341.566][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
-Sep. 26, 2020 12:22:21 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1601145028.340][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 26, 2020 12:30:28 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testSearchBoxCheck1" classname="testhome.HomePageTest" time="3.765">
+  <testcase name="testSearchBoxCheck1" classname="testhome.HomePageTest" time="1.772">
     <failure message="Search Item not match expected [&quot;Hand Sanitizer1&quot;] but found [&quot;Hand Sanitizer&quot;]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Search Item not match expected ["Hand Sanitizer1"] but found ["Hand Sanitizer"]
 	at testhome.HomePageTest.testSearchBoxCheck1(HomePageTest.java:37)
 ]]></failure>
-    <system-out><![CDATA[HomePageTest: test Search Box Check 1
+    <system-out><![CDATA[Screenshot captured
+HomePageTest: test Search Box Check 1
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 1176
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 21007
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1601101352.147][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
-Sep. 26, 2020 12:22:32 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1601145038.123][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 26, 2020 12:30:38 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testSearchBoxCheckGetItemsListFromDB" classname="testhome.HomePageTest" time="16.545">
+  <testcase name="testSearchBoxCheckGetItemsListFromDB" classname="testhome.HomePageTest" time="16.154">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;a-color-state a-text-bold&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:59090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5512d2b944b51e615976882887f2c543&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;a-color-state a-text-bold&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-color-state a-text-bold']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:59090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5512d2b944b51e615976882887f2c543
+*** Element info: {Using=xpath, value=//span[@class='a-color-state a-text-bold']}
+	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB(HomePageTest.java:59)
+]]></failure>
     <system-out><![CDATA[Screenshot captured
 HomePageTest: test Search Box Check Get Items List From DB
 Database is connected
@@ -100,45 +125,33 @@ Actual Result : "iphone"
 Expected Result : "Winter Jacket"
 Actual Result : "Winter Jacket"
 Expected Result : "Mens Hunting Jacket"
-Actual Result : "Mens Hunting Jacket"
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 14652
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 21671
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1601101361.815][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
-Sep. 26, 2020 12:22:41 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1601145043.314][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 26, 2020 12:30:43 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testSearchBoxCheckGetItemsListFromExcel" classname="testhome.HomePageTest" time="0.075">
+  <testcase name="testSearchBoxCheckGetItemsListFromExcel" classname="testhome.HomePageTest" time="0.073">
     <failure message="The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)" type="org.apache.poi.poifs.filesystem.OfficeXmlFileException"><![CDATA[org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
 	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromExcel(HomePageTest.java:52)
 ]]></failure>
-    <system-out><![CDATA[HomePageTest: test Search Box Check Get Items List From Excel
+    <system-out><![CDATA[Screenshot captured
+HomePageTest: test Search Box Check Get Items List From Excel
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 15448
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 39982
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1601101382.191][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
-Sep. 26, 2020 12:23:02 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1601145064.210][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 26, 2020 12:31:04 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testSearchBoxCheckUsingGetItemValue" classname="testhome.HomePageTest" time="21.769">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;a-color-state a-text-bold&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 1b2ca7b9ff7112286878b5e8b134d8a7&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;a-color-state a-text-bold&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-color-state a-text-bold']"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1b2ca7b9ff7112286878b5e8b134d8a7
-*** Element info: {Using=xpath, value=//span[@class='a-color-state a-text-bold']}
-	at testhome.HomePageTest.testSearchBoxCheckUsingGetItemValue(HomePageTest.java:44)
-]]></failure>
+  <testcase name="testSearchBoxCheckUsingGetItemValue" classname="testhome.HomePageTest" time="23.399">
     <system-out><![CDATA[Screenshot captured
 HomePageTest: test Search Box Check Using Get Item Value
 Expected Result : "Screen Protector"
@@ -148,25 +161,24 @@ Actual Result : "iphone"
 Expected Result : "Winter Jacket"
 Actual Result : "Winter Jacket"
 Expected Result : "Mens Hunting Jacket"
+Actual Result : "Mens Hunting Jacket"
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 40082
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 40306
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1601101388.465][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
-Sep. 26, 2020 12:23:08 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1601145068.739][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 26, 2020 12:31:08 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testSearchIphone" classname="search.SearchTest" time="1.752">
-    <system-out><![CDATA[Screenshot captured
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 9949
+  <testcase name="testSearchIphone" classname="search.SearchTest" time="1.91">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 47678
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1601101418.146][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
-Sep. 26, 2020 12:23:38 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1601145097.354][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 26, 2020 12:31:37 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

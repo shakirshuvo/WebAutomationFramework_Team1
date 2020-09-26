@@ -1,16 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 86.94 s <<< FAILURE! - in TestSuite
-testhome.HomePageTest.testSearchBoxCheck1  Time elapsed: 3.765 s  <<< FAILURE!
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 75.956 s <<< FAILURE! - in TestSuite
+testhome.HomePageTest.testSearchBoxCheck  Time elapsed: 5.295 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#nav-search > form > div.nav-right > div > input"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:58958}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d3bff0b49787f44f3d28f5405c883224
+*** Element info: {Using=css selector, value=#nav-search > form > div.nav-right > div > input}
+	at testhome.HomePageTest.testSearchBoxCheck(HomePageTest.java:28)
+
+testhome.HomePageTest.testSearchBoxCheck1  Time elapsed: 1.772 s  <<< FAILURE!
 java.lang.AssertionError: Search Item not match expected ["Hand Sanitizer1"] but found ["Hand Sanitizer"]
 	at testhome.HomePageTest.testSearchBoxCheck1(HomePageTest.java:37)
 
-testhome.HomePageTest.testSearchBoxCheckGetItemsListFromExcel  Time elapsed: 0.075 s  <<< FAILURE!
-org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
-	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromExcel(HomePageTest.java:52)
-
-testhome.HomePageTest.testSearchBoxCheckUsingGetItemValue  Time elapsed: 21.769 s  <<< FAILURE!
+testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB  Time elapsed: 16.154 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-color-state a-text-bold']"}
   (Session info: chrome=85.0.4183.121)
@@ -18,8 +27,12 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1b2ca7b9ff7112286878b5e8b134d8a7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:59090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5512d2b944b51e615976882887f2c543
 *** Element info: {Using=xpath, value=//span[@class='a-color-state a-text-bold']}
-	at testhome.HomePageTest.testSearchBoxCheckUsingGetItemValue(HomePageTest.java:44)
+	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB(HomePageTest.java:59)
+
+testhome.HomePageTest.testSearchBoxCheckGetItemsListFromExcel  Time elapsed: 0.073 s  <<< FAILURE!
+org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromExcel(HomePageTest.java:52)
 

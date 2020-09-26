@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 213.005 s <<< FAILURE! - in TestSuite
-home.NYTHomePageTest.testClickOnNYTab  Time elapsed: 6.062 s  <<< FAILURE!
+Tests run: 19, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 158.855 s <<< FAILURE! - in TestSuite
+home.NYTHomePageTest.testClickOnNYTab  Time elapsed: 4.058 s  <<< FAILURE!
 java.lang.AssertionError: Test case failed expected [New York - The New York Times] but found [U.S. News - The New York Times]
 	at home.NYTHomePageTest.testClickOnNYTab(NYTHomePageTest.java:66)
 

@@ -13,17 +13,20 @@
       <class name="search.SearchTest">
         <methods>
           <include name="testCarInsurance"/>
-          <include name="testAboutUs"/>
+          <include name="testtheHartFordImage"/>
+          <include name="testLegalNotice"/>
+          <include name="testMobileApp"/>
           <include name="afterEachTestMethod"/>
-          <include name="testHomeTab"/>
-          <include name="testBusinessTab"/>
-          <include name="generateReport"/>
           <include name="extentSetup"/>
-          <include name="setUp"/>
-          <include name="testEmployeeBanifits"/>
           <include name="startExtent"/>
           <include name="getInit"/>
           <include name="cleanUp"/>
+          <include name="testAboutUs"/>
+          <include name="testHomeTab"/>
+          <include name="testBusinessTab"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+          <include name="testEmployeeBanifits"/>
         </methods>
       </class> <!-- search.SearchTest -->
     </classes>
