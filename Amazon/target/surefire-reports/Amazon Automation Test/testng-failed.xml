@@ -12,8 +12,8 @@
     <classes>
       <class name="testhome.HomePageTest">
         <methods>
+          <include name="testSearchBoxCheckUsingGetItemValue"/>
           <include name="afterEachTestMethod"/>
-          <include name="testSearchBoxCheck"/>
           <include name="testSearchBoxCheckGetItemsListFromExcel"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>

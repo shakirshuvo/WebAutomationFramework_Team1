@@ -102,17 +102,17 @@
                     <div class="method-list-content failed suite-Amazon_Automation_Test">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Amazon_Automation_Test" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheck">testSearchBoxCheck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Amazon_Automation_Test" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheck1">testSearchBoxCheck1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Amazon_Automation_Test" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheckGetItemsListFromExcel">testSearchBoxCheckGetItemsListFromExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_Automation_Test" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheckUsingGetItemValue">testSearchBoxCheckUsingGetItemValue</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Amazon_Automation_Test -->
@@ -126,12 +126,12 @@
                     <div class="method-list-content passed suite-Amazon_Automation_Test">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Amazon_Automation_Test" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheckGetItemsListFromDB">testSearchBoxCheckGetItemsListFromDB</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Amazon_Automation_Test" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheck">testSearchBoxCheck</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Amazon_Automation_Test" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheckUsingGetItemValue">testSearchBoxCheckUsingGetItemValue</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Amazon_Automation_Test" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheckGetItemsListFromDB">testSearchBoxCheckGetItemsListFromDB</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -157,40 +157,6 @@
               <span class="class-name">testhome.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSearchBoxCheck">
-                  </a> <!-- testSearchBoxCheck -->
-                  <span class="method-name">testSearchBoxCheck</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav-search &gt; form &gt; div.nav-right &gt; div &gt; input&quot;}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:56687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d1e4c65a3590615ced165dd5a66e4f0f
-*** Element info: {Using=css selector, value=#nav-search &gt; form &gt; div.nav-right &gt; div &gt; input}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at home.HomePage.searchBoxCheck(HomePage.java:45)
-	at testhome.HomePageTest.testSearchBoxCheck(HomePageTest.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testSearchBoxCheck1">
@@ -224,6 +190,40 @@ Session ID: d1e4c65a3590615ced165dd5a66e4f0f
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBoxCheckUsingGetItemValue">
+                  </a> <!-- testSearchBoxCheckUsingGetItemValue -->
+                  <span class="method-name">testSearchBoxCheckUsingGetItemValue</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;a-color-state a-text-bold&apos;]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1b2ca7b9ff7112286878b5e8b134d8a7
+*** Element info: {Using=xpath, value=//span[@class=&apos;a-color-state a-text-bold&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.getText(Unknown Source)
+	at home.HomePage.searchBoxCheckUsingGetItemValue(HomePage.java:68)
+	at testhome.HomePageTest.testSearchBoxCheckUsingGetItemValue(HomePageTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Amazon_Automation_Test-class-failed -->
           <div class="suite-Amazon_Automation_Test-class-passed">
@@ -249,16 +249,16 @@ Session ID: d1e4c65a3590615ced165dd5a66e4f0f
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testSearchBoxCheckGetItemsListFromDB">
-                  </a> <!-- testSearchBoxCheckGetItemsListFromDB -->
-                  <span class="method-name">testSearchBoxCheckGetItemsListFromDB</span>
+                  <a name="testSearchBoxCheck">
+                  </a> <!-- testSearchBoxCheck -->
+                  <span class="method-name">testSearchBoxCheck</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testSearchBoxCheckUsingGetItemValue">
-                  </a> <!-- testSearchBoxCheckUsingGetItemValue -->
-                  <span class="method-name">testSearchBoxCheckUsingGetItemValue</span>
+                  <a name="testSearchBoxCheckGetItemsListFromDB">
+                  </a> <!-- testSearchBoxCheckGetItemsListFromDB -->
+                  <span class="method-name">testSearchBoxCheckGetItemsListFromDB</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -328,32 +328,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSearchBoxCheckUsingGetItemValue')
 data.setCell(0, 2, 'testhome.HomePageTest')
-data.setCell(0, 3, 18836);
+data.setCell(0, 3, 21772);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testSearchBoxCheckGetItemsListFromDB')
 data.setCell(1, 2, 'testhome.HomePageTest')
-data.setCell(1, 3, 14257);
+data.setCell(1, 3, 16549);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testSearchBoxCheck')
+data.setCell(2, 1, 'testSearchBoxCheck1')
 data.setCell(2, 2, 'testhome.HomePageTest')
-data.setCell(2, 3, 5392);
+data.setCell(2, 3, 3777);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testSearchBoxCheck1')
+data.setCell(3, 1, 'testSearchBoxCheck')
 data.setCell(3, 2, 'testhome.HomePageTest')
-data.setCell(3, 3, 2088);
+data.setCell(3, 3, 3645);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testSearchIphone')
 data.setCell(4, 2, 'search.SearchTest')
-data.setCell(4, 3, 1457);
+data.setCell(4, 3, 1756);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testSearchBoxCheckGetItemsListFromExcel')
 data.setCell(5, 2, 'testhome.HomePageTest')
-data.setCell(5, 3, 58);
+data.setCell(5, 3, 80);
 window.suiteTableData['Amazon_Automation_Test']= { tableData: data, tableDiv: 'times-div-Amazon_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-Amazon_Automation_Test">
               </div> <!-- times-div-Amazon_Automation_Test -->
             </div> <!-- times-div -->
@@ -365,27 +365,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testSearchBoxCheckGetItemsListFromDB</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">HomePageTest: test Search Box Check Get Items List From DB</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testSearchBoxCheckUsingGetItemValue</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">HomePageTest: test Search Box Check Using Get Item Value</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">testSearchBoxCheck</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">HomePageTest: test Search Box Check</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBoxCheckGetItemsListFromDB</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Search Box Check Get Items List From DB</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">testSearchBoxCheckGetItemsListFromExcel</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">HomePageTest: test Search Box Check Get Items List From Excel</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBoxCheckUsingGetItemValue</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Search Box Check Using Get Item Value</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -425,163 +425,163 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.amazon.com/)</span>
-                <span class="method-start">200 ms</span>
+                <span class="method-start">521 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheck())</span>
-                <span class="method-start">3579 ms</span>
+                <span class="method-start">8375 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">3583 ms</span>
+                <span class="method-start">8381 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testSearchBoxCheck</span>
-                <span class="method-start">3612 ms</span>
+                <span class="method-start">8412 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheck status=FAILURE method=HomePageTest.testSearchBoxCheck()[pri:0, i...)</span>
-                <span class="method-start">9015 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheck status=SUCCESS method=HomePageTest.testSearchBoxCheck()[pri:0, i...)</span>
+                <span class="method-start">12059 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">10178 ms</span>
+                <span class="method-start">12851 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.amazon.com/)</span>
-                <span class="method-start">10179 ms</span>
+                <span class="method-start">12855 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheck1())</span>
-                <span class="method-start">13185 ms</span>
+                <span class="method-start">18220 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">13186 ms</span>
+                <span class="method-start">18220 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testSearchBoxCheck1</span>
-                <span class="method-start">13187 ms</span>
+                <span class="method-start">18221 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheck1 status=FAILURE method=HomePageTest.testSearchBoxCheck1()[pri:0,...)</span>
-                <span class="method-start">15276 ms</span>
+                <span class="method-start">22002 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">16204 ms</span>
+                <span class="method-start">23334 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.amazon.com/)</span>
-                <span class="method-start">16205 ms</span>
+                <span class="method-start">23335 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB() throws java.lang.Exception)</span>
-                <span class="method-start">19992 ms</span>
+                <span class="method-start">26829 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">19992 ms</span>
+                <span class="method-start">26830 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchBoxCheckGetItemsListFromDB</span>
-                <span class="method-start">19993 ms</span>
+                <span class="method-start">26831 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckGetItemsListFromDB status=SUCCESS method=HomePageTest.testSearchB...)</span>
-                <span class="method-start">34250 ms</span>
+                <span class="method-start">43381 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">34502 ms</span>
+                <span class="method-start">43707 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.amazon.com/)</span>
-                <span class="method-start">34503 ms</span>
+                <span class="method-start">43708 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheckGetItemsListFromExcel() throws java.lang.Excepti...)</span>
-                <span class="method-start">37787 ms</span>
+                <span class="method-start">48171 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">37788 ms</span>
+                <span class="method-start">48171 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testSearchBoxCheckGetItemsListFromExcel</span>
-                <span class="method-start">37788 ms</span>
+                <span class="method-start">48172 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckGetItemsListFromExcel status=FAILURE method=HomePageTest.testSear...)</span>
-                <span class="method-start">37846 ms</span>
+                <span class="method-start">48253 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">38890 ms</span>
+                <span class="method-start">49573 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.amazon.com/)</span>
-                <span class="method-start">38891 ms</span>
+                <span class="method-start">49574 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheckUsingGetItemValue() throws java.lang.Interrupted...)</span>
-                <span class="method-start">42399 ms</span>
+                <span class="method-start">54548 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">42399 ms</span>
+                <span class="method-start">54548 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testSearchBoxCheckUsingGetItemValue</span>
-                <span class="method-start">42400 ms</span>
+                <span class="method-start">54549 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckUsingGetItemValue status=SUCCESS method=HomePageTest.testSearchBo...)</span>
-                <span class="method-start">61236 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckUsingGetItemValue status=FAILURE method=HomePageTest.testSearchBo...)</span>
+                <span class="method-start">76322 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">61483 ms</span>
+                <span class="method-start">78463 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">search.SearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.amazon.com/)</span>
-                <span class="method-start">61485 ms</span>
+                <span class="method-start">78465 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void search.SearchTest.testSearchIphone())</span>
-                <span class="method-start">65264 ms</span>
+                <span class="method-start">84253 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">65265 ms</span>
+                <span class="method-start">84253 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchIphone</span>
-                <span class="method-start">65267 ms</span>
+                <span class="method-start">84258 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=testSearchIphone status=SUCCESS method=SearchTest.testSearchIphone()[pri:0, instanc...)</span>
-                <span class="method-start">66724 ms</span>
+                <span class="method-start">86014 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">66925 ms</span>
+                <span class="method-start">86304 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testhome.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">66972 ms</span>
+                <span class="method-start">86362 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

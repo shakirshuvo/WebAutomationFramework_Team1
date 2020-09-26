@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Bank_of_America_Automation_Test" class="navigator-link">
+              <span class="suite-name border-failed">Bank of America Automation Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Bank_of_America_Automation_Test" class="navigator-link ">
+                    <span>BankOfAmericaTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Bank_of_America_Automation_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Bank_of_America_Automation_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Bank_of_America_Automation_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Bank_of_America_Automation_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Bank_of_America_Automation_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Bank_of_America_Automation_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 9 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Bank_of_America_Automation_Test" class="hide-methods failed suite-Bank_of_America_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-Bank_of_America_Automation_Test -->
+                      <a href="#" panel-name="suite-Bank_of_America_Automation_Test" class="show-methods failed suite-Bank_of_America_Automation_Test"> (show)</a> <!-- show-methods failed suite-Bank_of_America_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Bank_of_America_Automation_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testAboutUs">testAboutUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickAccountSignIn">testClickAccountSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickOnBusinessInstitutions">testClickOnBusinessInstitutions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickOnWealthManagement">testClickOnWealthManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickOpenAcount">testClickOpenAcount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="testSearchDataDriven.TestSearch" class="method navigator-link" hash-for-method="testSearchBoxCheckGetItemsListFromDB">testSearchBoxCheckGetItemsListFromDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="testSearchDataDriven.TestSearch" class="method navigator-link" hash-for-method="testSearchBoxCheckGetItemsListFromExcel">testSearchBoxCheckGetItemsListFromExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="testSearchDataDriven.TestSearch" class="method navigator-link" hash-for-method="testSearchBoxCheckUsingClassValues">testSearchBoxCheckUsingClassValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="testSearchDataDriven.TestSearch" class="method navigator-link" hash-for-method="testSearchProduct">testSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Bank_of_America_Automation_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Bank_of_America_Automation_Test" class="hide-methods passed suite-Bank_of_America_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-Bank_of_America_Automation_Test -->
+                      <a href="#" panel-name="suite-Bank_of_America_Automation_Test" class="show-methods passed suite-Bank_of_America_Automation_Test"> (show)</a> <!-- show-methods passed suite-Bank_of_America_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Bank_of_America_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickOnChecking">testClickOnChecking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickOnPersonal">testClickOnPersonal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickOnSecurityTab">testClickOnSecurityTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testClickOnSmallBusiness">testClickOnSmallBusiness</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bank_of_America_Automation_Test" title="home.HomePageTest" class="method navigator-link" hash-for-method="testSaveOnlineIdCheckbox">testSaveOnlineIdCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Bank_of_America_Automation_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Bank_of_America_Automation_Test" class="panel Bank_of_America_Automation_Test">
+          <div class="suite-Bank_of_America_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testSearchDataDriven.TestSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBoxCheckGetItemsListFromDB">
+                  </a> <!-- testSearchBoxCheckGetItemsListFromDB -->
+                  <span class="method-name">testSearchBoxCheckGetItemsListFromDB</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test Failed expected [Saving Account] but found []
+	at homePageRaza.DataDrivenAction.searchBoxCheckGetItemsListFromDB(DataDrivenAction.java:52)
+	at testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromDB(TestSearch.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBoxCheckGetItemsListFromExcel">
+                  </a> <!-- testSearchBoxCheckGetItemsListFromExcel -->
+                  <span class="method-name">testSearchBoxCheckGetItemsListFromExcel</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at dataSource.DataSource.getItemsListFromExcel(DataSource.java:44)
+	at homePageRaza.DataDrivenAction.searchBoxCheckGetItemsListFromExcel(DataDrivenAction.java:62)
+	at testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromExcel(TestSearch.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBoxCheckUsingClassValues">
+                  </a> <!-- testSearchBoxCheckUsingClassValues -->
+                  <span class="method-name">testSearchBoxCheckUsingClassValues</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;query&apos;]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:65440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5a7fc2b6e23f708c11f5c5dc88cac716
+*** Element info: {Using=xpath, value=//span[@class=&apos;query&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.getTextByXpath(CommonAPI.java:398)
+	at homePageRaza.DataDrivenAction.searchBoxCheckUsingClassValues(DataDrivenAction.java:33)
+	at testSearchDataDriven.TestSearch.testSearchBoxCheckUsingClassValues(TestSearch.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct">
+                  </a> <!-- testSearchProduct -->
+                  <span class="method-name">testSearchProduct</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test Failed expected [Checking Accounts] but found []
+	at homePageRaza.ActionClass.validateSearchItems(ActionClass.java:41)
+	at testSearchDataDriven.TestSearch.testSearchProduct(TestSearch.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bank_of_America_Automation_Test-class-failed -->
+          <div class="suite-Bank_of_America_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">home.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAboutUs">
+                  </a> <!-- testAboutUs -->
+                  <span class="method-name">testAboutUs</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 76857c960a08dad245ca5038dea98e48
+*** Element info: {Using=css selector, value=/html/body/header/div[1]/div/ul[1]/li[5]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickOnElement(CommonAPI.java:221)
+	at home.HomePage.clickOnAboutUs(HomePage.java:263)
+	at home.HomePageTest.testAboutUs(HomePageTest.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickAccountSignIn">
+                  </a> <!-- testClickAccountSignIn -->
+                  <span class="method-name">testClickAccountSignIn</span>
+                  <div class="stack-trace">java.lang.AssertionError: test case failed expected [Bank of America | Online Banking | Sign In | Online ID] but found [Bank of America | Online Banking | Forgot Online ID &amp; Passcode]
+	at home.HomePage.validateClickOnSignInBtn(HomePage.java:49)
+	at home.HomePageTest.testClickAccountSignIn(HomePageTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnBusinessInstitutions">
+                  </a> <!-- testClickOnBusinessInstitutions -->
+                  <span class="method-name">testClickOnBusinessInstitutions</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/header/div[1]/div/ul[1]/li[4]/a&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 27c3735fddd6b93c95d125f53c00d62d
+*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[4]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.clickOnBusinessInstitutions(HomePage.java:225)
+	at home.HomePageTest.testClickOnBusinessInstitutions(HomePageTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnWealthManagement">
+                  </a> <!-- testClickOnWealthManagement -->
+                  <span class="method-name">testClickOnWealthManagement</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/header/div[1]/div/ul[1]/li[3]/a&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5dd0c2bffdc292782750e58937579588
+*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[3]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.clickOnWealthMangement(HomePage.java:203)
+	at home.HomePageTest.testClickOnWealthManagement(HomePageTest.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOpenAcount">
+                  </a> <!-- testClickOpenAcount -->
+                  <span class="method-name">testClickOpenAcount</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;DCTAHZ5O&quot;]/div/div[2]/div/span/span&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 736be8d22fd23926c16120875188e15b
+*** Element info: {Using=xpath, value=//*[@id=&quot;DCTAHZ5O&quot;]/div/div[2]/div/span/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.clickOpenAccount(HomePage.java:161)
+	at home.HomePageTest.testClickOpenAcount(HomePageTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bank_of_America_Automation_Test-class-failed -->
+          <div class="suite-Bank_of_America_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">home.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnChecking">
+                  </a> <!-- testClickOnChecking -->
+                  <span class="method-name">testClickOnChecking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnPersonal">
+                  </a> <!-- testClickOnPersonal -->
+                  <span class="method-name">testClickOnPersonal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnSecurityTab">
+                  </a> <!-- testClickOnSecurityTab -->
+                  <span class="method-name">testClickOnSecurityTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnSmallBusiness">
+                  </a> <!-- testClickOnSmallBusiness -->
+                  <span class="method-name">testClickOnSmallBusiness</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveOnlineIdCheckbox">
+                  </a> <!-- testSaveOnlineIdCheckbox -->
+                  <span class="method-name">testSaveOnlineIdCheckbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bank_of_America_Automation_Test-class-passed -->
+        </div> <!-- panel Bank_of_America_Automation_Test -->
+        <div panel-name="test-xml-Bank_of_America_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/BankOfAmerica/target/test-classes/BankOfAmericaTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Bank of America Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;catalina&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;85&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome-options&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.bankofamerica.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Bank of America&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testSearchDataDriven.TestSearch&quot;/&gt;
+      &lt;class name=&quot;home.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Bank of America --&gt;
+&lt;/suite&gt; &lt;!-- Bank of America Automation Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Bank_of_America_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Bank of America Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Bank of America (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Bank_of_America_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Bank of America Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Bank_of_America_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Bank of America Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Bank_of_America_Automation_Test');
+function tableData_Bank_of_America_Automation_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testClickOpenAcount')
+data.setCell(0, 2, 'home.HomePageTest')
+data.setCell(0, 3, 11718);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearchBoxCheckUsingClassValues')
+data.setCell(1, 2, 'testSearchDataDriven.TestSearch')
+data.setCell(1, 3, 11275);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAboutUs')
+data.setCell(2, 2, 'home.HomePageTest')
+data.setCell(2, 3, 9173);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testClickOnPersonal')
+data.setCell(3, 2, 'home.HomePageTest')
+data.setCell(3, 3, 8678);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testClickAccountSignIn')
+data.setCell(4, 2, 'home.HomePageTest')
+data.setCell(4, 3, 4526);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSearchBoxCheckGetItemsListFromDB')
+data.setCell(5, 2, 'testSearchDataDriven.TestSearch')
+data.setCell(5, 3, 4276);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSearchProduct')
+data.setCell(6, 2, 'testSearchDataDriven.TestSearch')
+data.setCell(6, 3, 3878);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testClickOnBusinessInstitutions')
+data.setCell(7, 2, 'home.HomePageTest')
+data.setCell(7, 3, 3062);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testClickOnWealthManagement')
+data.setCell(8, 2, 'home.HomePageTest')
+data.setCell(8, 3, 3031);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testClickOnSecurityTab')
+data.setCell(9, 2, 'home.HomePageTest')
+data.setCell(9, 3, 2471);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testClickOnSmallBusiness')
+data.setCell(10, 2, 'home.HomePageTest')
+data.setCell(10, 3, 1020);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSearchBoxCheckGetItemsListFromExcel')
+data.setCell(11, 2, 'testSearchDataDriven.TestSearch')
+data.setCell(11, 3, 377);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testClickOnChecking')
+data.setCell(12, 2, 'home.HomePageTest')
+data.setCell(12, 3, 236);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSaveOnlineIdCheckbox')
+data.setCell(13, 2, 'home.HomePageTest')
+data.setCell(13, 3, 114);
+window.suiteTableData['Bank_of_America_Automation_Test']= { tableData: data, tableDiv: 'times-div-Bank_of_America_Automation_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Bank_of_America_Automation_Test">
+              </div> <!-- times-div-Bank_of_America_Automation_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Bank_of_America_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Bank of America Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnChecking</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click On Checking</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnSecurityTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click On Security Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnSmallBusiness</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click On Small Business</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnPersonal</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click On Personal</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnWealthManagement</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click On Wealth Management</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBoxCheckGetItemsListFromExcel</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSearch: test Search Box Check Get Items List From Excel</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBoxCheckUsingClassValues</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSearch: test Search Box Check Using Class Values</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAboutUs</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test About Us</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickAccountSignIn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click Account Sign In</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBoxCheckGetItemsListFromDB</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSearch: test Search Box Check Get Items List From DB</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnBusinessInstitutions</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click On Business Institutions</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOpenAcount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Click Open Acount</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Bank_of_America_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">home.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Bank_of_America_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSearchDataDriven.TestSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@4e0cc334)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromDB() throws java.lang....)</span>
+                <span class="method-start">5988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">5991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit1</span>
+                <span class="method-start">6008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchBoxCheckGetItemsListFromDB</span>
+                <span class="method-start">6010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckGetItemsListFromDB status=FAILURE method=TestSearch.testSearchBox...)</span>
+                <span class="method-start">10291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">11692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">11693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromExcel() throws java.la...)</span>
+                <span class="method-start">15868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">15869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit1</span>
+                <span class="method-start">15869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchBoxCheckGetItemsListFromExcel</span>
+                <span class="method-start">15869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckGetItemsListFromExcel status=FAILURE method=TestSearch.testSearch...)</span>
+                <span class="method-start">16246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">17956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">17959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testSearchDataDriven.TestSearch.testSearchBoxCheckUsingClassValues() throws java.lang.Ex...)</span>
+                <span class="method-start">21650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">21650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit1</span>
+                <span class="method-start">21650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchBoxCheckUsingClassValues</span>
+                <span class="method-start">21650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckUsingClassValues status=FAILURE method=TestSearch.testSearchBoxCh...)</span>
+                <span class="method-start">32926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">33796 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">33797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public static void testSearchDataDriven.TestSearch.testSearchProduct() throws java.lang.InterruptedE...)</span>
+                <span class="method-start">37883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">37883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit1</span>
+                <span class="method-start">37884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchProduct</span>
+                <span class="method-start">37884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchProduct status=FAILURE method=TestSearch.testSearchProduct()[pri:0, insta...)</span>
+                <span class="method-start">41762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">43043 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">home.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">43055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testAboutUs())</span>
+                <span class="method-start">47331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">47332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAboutUs</span>
+                <span class="method-start">47635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAboutUs status=FAILURE method=HomePageTest.testAboutUs()[pri:0, instance:home.H...)</span>
+                <span class="method-start">56809 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">58049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">58050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickAccountSignIn() throws java.lang.InterruptedException)</span>
+                <span class="method-start">62551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">62551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testClickAccountSignIn</span>
+                <span class="method-start">62791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickAccountSignIn status=FAILURE method=HomePageTest.testClickAccountSignIn()[...)</span>
+                <span class="method-start">67318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">68213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">68214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickOnBusinessInstitutions())</span>
+                <span class="method-start">72504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">72504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testClickOnBusinessInstitutions</span>
+                <span class="method-start">72813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnBusinessInstitutions status=FAILURE method=HomePageTest.testClickOnBusin...)</span>
+                <span class="method-start">75876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">77041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">77042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickOnChecking() throws java.lang.InterruptedException)</span>
+                <span class="method-start">81379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">81380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnChecking</span>
+                <span class="method-start">81688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnChecking status=SUCCESS method=HomePageTest.testClickOnChecking()[pri:0,...)</span>
+                <span class="method-start">81925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">82164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">82168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickOnPersonal() throws java.lang.InterruptedException)</span>
+                <span class="method-start">85613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">85613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnPersonal</span>
+                <span class="method-start">85865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnPersonal status=SUCCESS method=HomePageTest.testClickOnPersonal()[pri:0,...)</span>
+                <span class="method-start">94544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">94773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">94774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickOnSecurityTab())</span>
+                <span class="method-start">98196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">98196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnSecurityTab</span>
+                <span class="method-start">98448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnSecurityTab status=SUCCESS method=HomePageTest.testClickOnSecurityTab()[...)</span>
+                <span class="method-start">100919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">101117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">101120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickOnSmallBusiness())</span>
+                <span class="method-start">104497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">104498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnSmallBusiness</span>
+                <span class="method-start">104748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnSmallBusiness status=SUCCESS method=HomePageTest.testClickOnSmallBusines...)</span>
+                <span class="method-start">105768 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">105960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">105963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickOnWealthManagement())</span>
+                <span class="method-start">110246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">110247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testClickOnWealthManagement</span>
+                <span class="method-start">110531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnWealthManagement status=FAILURE method=HomePageTest.testClickOnWealthMan...)</span>
+                <span class="method-start">113562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">114746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">114748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testClickOpenAcount() throws java.lang.InterruptedException)</span>
+                <span class="method-start">119151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">119151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testClickOpenAcount</span>
+                <span class="method-start">119455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOpenAcount status=FAILURE method=HomePageTest.testClickOpenAcount()[pri:0,...)</span>
+                <span class="method-start">131174 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">132323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85, https://www.bankofamerica.com/)</span>
+                <span class="method-start">132324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.HomePageTest.testSaveOnlineIdCheckbox())</span>
+                <span class="method-start">136439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">136439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSaveOnlineIdCheckbox</span>
+                <span class="method-start">136742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSaveOnlineIdCheckbox status=SUCCESS method=HomePageTest.testSaveOnlineIdCheckbo...)</span>
+                <span class="method-start">136857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">137021 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSearchDataDriven.TestSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">137455 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

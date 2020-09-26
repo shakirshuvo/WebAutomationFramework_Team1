@@ -11,6 +11,7 @@ import org.testng.Assert;
 import java.util.List;
 
 import static home.NYTHomePageWebElements.*;
+import static home.NYTHomePageWebElements.sportsTabElementXpath;
 
 public class NYTHomePage extends CommonAPI {
     String actual, expected;
@@ -22,6 +23,34 @@ public class NYTHomePage extends CommonAPI {
     WebElement searchSubmitBtn;
     @FindBy(how = How.XPATH, using = searchResultTextElementXpath)
     WebElement searchResult;
+    @FindBy(how = How.XPATH, using = worldTabElementXpath)
+    WebElement worldTab;
+    @FindBy(how = How.XPATH, using = usaTabElementXpath)
+    WebElement usaTab;
+    @FindBy(how = How.XPATH, using = politicsTabElementXpath)
+    WebElement politicsTab;
+    @FindBy(how = How.XPATH, using = nyTabElementXpath)
+    WebElement nyTab;
+    @FindBy(how = How.XPATH, using = businessTabElementXpath)
+    WebElement businessTab;
+    @FindBy(how = How.XPATH, using = opinionTabElementXpath)
+    WebElement opinionTab;
+    @FindBy(how = How.XPATH, using = techTabElementXpath)
+    WebElement techTab;
+    @FindBy(how = How.XPATH, using = scienceTabElementXpath)
+    WebElement scienceTab;
+    @FindBy(how = How.XPATH, using = healthTabElementXpath)
+    WebElement healthTab;
+    @FindBy(how = How.XPATH, using = sportsTabElementXpath)
+    WebElement sportsTab;
+
+
+
+
+
+
+
+
 
     /**
      * click On search icon tab
@@ -53,26 +82,6 @@ public class NYTHomePage extends CommonAPI {
         Assert.assertEquals(actual, expected, "Test case failed");
     }
 
-    @FindBy(how = How.XPATH, using = worldTabElementXpath)
-    WebElement worldTab;
-    @FindBy(how = How.XPATH, using = usaTabElementXpath)
-    WebElement usaTab;
-    @FindBy(how = How.XPATH, using = politicsTabElementXpath)
-    WebElement politicsTab;
-    @FindBy(how = How.XPATH, using = nyTabElementXpath)
-    WebElement nyTab;
-    @FindBy(how = How.XPATH, using = businessTabElementXpath)
-    WebElement businessTab;
-    @FindBy(how = How.XPATH, using = opinionTabElementXpath)
-    WebElement opinionTab;
-    @FindBy(how = How.XPATH, using = techTabElementXpath)
-    WebElement techTab;
-    @FindBy(how = How.XPATH, using = scienceTabElementXpath)
-    WebElement scienceTab;
-    @FindBy(how = How.XPATH, using = healthTabElementXpath)
-    WebElement healthTab;
-    @FindBy(how = How.XPATH, using = sportsTabElementXpath)
-    WebElement sportsTab;
 
     /**
      * click On world tab
@@ -110,7 +119,7 @@ public class NYTHomePage extends CommonAPI {
      * click On politics tab
      */
     public void clickOnPoliticsTab() {
-        clickOnElement(politicsTab);
+        clickOnElement(politicsTabElementXpath);
     }
 
     /**
@@ -142,7 +151,7 @@ public class NYTHomePage extends CommonAPI {
      * click On business tab
      */
     public void clickOnBusinessTab() {
-        clickOnElement(businessTab);
+        clickOnElement(businessTabElementXpath);
     }
 
     /**
@@ -158,7 +167,7 @@ public class NYTHomePage extends CommonAPI {
      * click On opinion tab
      */
     public void clickOnOpinionTab() {
-        clickOnElement(opinionTab);
+        clickOnElement(opinionTabElementXpath);
     }
 
     /**
@@ -174,7 +183,7 @@ public class NYTHomePage extends CommonAPI {
      * click On tech tab
      */
     public void clickOnTechTab() {
-        clickOnElement(techTab);
+        clickOnElement(techTabElementXpath);
     }
 
     /**
@@ -190,7 +199,7 @@ public class NYTHomePage extends CommonAPI {
      * click On science tab
      */
     public void clickOnScienceTab() {
-        clickOnElement(scienceTab);
+        clickOnElement(scienceTabElementXpath);
     }
 
     /**
@@ -206,7 +215,7 @@ public class NYTHomePage extends CommonAPI {
      * click On health tab
      */
     public void clickOnHealthTab() {
-        clickOnElement(healthTab);
+        clickOnElement(healthTabElementXpath);
     }
 
     /**
@@ -222,7 +231,7 @@ public class NYTHomePage extends CommonAPI {
      * click On sports tab
      */
     public void clickOnSports() {
-        clickOnElement(sportsTab);
+        clickOnElement(sportsTabElementXpath);
     }
 
     /**
@@ -378,4 +387,4 @@ public class NYTHomePage extends CommonAPI {
         Assert.assertEquals(actual, expected, "Test case failed");
     }
 
-}// nyt homepage
+}

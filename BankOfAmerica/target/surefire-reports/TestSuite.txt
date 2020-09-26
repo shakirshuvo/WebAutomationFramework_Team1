@@ -1,0 +1,85 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 138.306 s <<< FAILURE! - in TestSuite
+testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromDB  Time elapsed: 4.278 s  <<< FAILURE!
+java.lang.AssertionError: Test Failed expected [Saving Account] but found []
+	at testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromDB(TestSearch.java:48)
+
+testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromExcel  Time elapsed: 0.376 s  <<< FAILURE!
+java.lang.NullPointerException
+	at testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromExcel(TestSearch.java:54)
+
+testSearchDataDriven.TestSearch.testSearchBoxCheckUsingClassValues  Time elapsed: 11.275 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='query']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:65440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5a7fc2b6e23f708c11f5c5dc88cac716
+*** Element info: {Using=xpath, value=//span[@class='query']}
+	at testSearchDataDriven.TestSearch.testSearchBoxCheckUsingClassValues(TestSearch.java:42)
+
+testSearchDataDriven.TestSearch.testSearchProduct  Time elapsed: 3.877 s  <<< FAILURE!
+java.lang.AssertionError: Test Failed expected [Checking Accounts] but found []
+	at testSearchDataDriven.TestSearch.testSearchProduct(TestSearch.java:34)
+
+home.HomePageTest.testAboutUs  Time elapsed: 9.171 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 76857c960a08dad245ca5038dea98e48
+*** Element info: {Using=css selector, value=/html/body/header/div[1]/div/ul[1]/li[5]/a}
+	at home.HomePageTest.testAboutUs(HomePageTest.java:122)
+
+home.HomePageTest.testClickAccountSignIn  Time elapsed: 4.524 s  <<< FAILURE!
+java.lang.AssertionError: test case failed expected [Bank of America | Online Banking | Sign In | Online ID] but found [Bank of America | Online Banking | Forgot Online ID & Passcode]
+	at home.HomePageTest.testClickAccountSignIn(HomePageTest.java:37)
+
+home.HomePageTest.testClickOnBusinessInstitutions  Time elapsed: 3.061 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[1]/div/ul[1]/li[4]/a"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 27c3735fddd6b93c95d125f53c00d62d
+*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[4]/a}
+	at home.HomePageTest.testClickOnBusinessInstitutions(HomePageTest.java:100)
+
+home.HomePageTest.testClickOnWealthManagement  Time elapsed: 3.029 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[1]/div/ul[1]/li[3]/a"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5dd0c2bffdc292782750e58937579588
+*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[3]/a}
+	at home.HomePageTest.testClickOnWealthManagement(HomePageTest.java:89)
+
+home.HomePageTest.testClickOpenAcount  Time elapsed: 11.717 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:0:0:0:6034%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 736be8d22fd23926c16120875188e15b
+*** Element info: {Using=xpath, value=//*[@id="DCTAHZ5O"]/div/div[2]/div/span/span}
+	at home.HomePageTest.testClickOpenAcount(HomePageTest.java:67)
+

@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-NY_Times_Automation_Test" class="navigator-link">
+              <span class="suite-name border-failed">NY Times Automation Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-NY_Times_Automation_Test" class="navigator-link ">
+                    <span>NewYorkTimesTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-NY_Times_Automation_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-NY_Times_Automation_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-NY_Times_Automation_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-NY_Times_Automation_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-NY_Times_Automation_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-NY_Times_Automation_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 1 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-NY_Times_Automation_Test" class="hide-methods failed suite-NY_Times_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-NY_Times_Automation_Test -->
+                      <a href="#" panel-name="suite-NY_Times_Automation_Test" class="show-methods failed suite-NY_Times_Automation_Test"> (show)</a> <!-- show-methods failed suite-NY_Times_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-NY_Times_Automation_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnNYTab">testClickOnNYTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-NY_Times_Automation_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NY_Times_Automation_Test" class="hide-methods passed suite-NY_Times_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-NY_Times_Automation_Test -->
+                      <a href="#" panel-name="suite-NY_Times_Automation_Test" class="show-methods passed suite-NY_Times_Automation_Test"> (show)</a> <!-- show-methods passed suite-NY_Times_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-NY_Times_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnArtsTab">testClickOnArtsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnBooksTab">testClickOnBooksTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnBusinessTab">testClickOnBusinessTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnFoodTab">testClickOnFoodTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnHealthTab">testClickOnHealthTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnMagazineTab">testClickOnMagazineTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnOpinionTab">testClickOnOpinionTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnPoliticsTab">testClickOnPoliticsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnRealEstateTab">testClickOnRealEstateTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnScienceTab">testClickOnScienceTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnSportsTab">testClickOnSportsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnStyleTab">testClickOnStyleTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnTMagazineTab">testClickOnTMagazineTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnTechTab">testClickOnTechTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnTravelTab">testClickOnTravelTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnUSATab">testClickOnUSATab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnVideoTab">testClickOnVideoTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NY_Times_Automation_Test" title="home.NYTHomePageTest" class="method navigator-link" hash-for-method="testClickOnWorldTab">testClickOnWorldTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NY_Times_Automation_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NY_Times_Automation_Test" class="panel NY_Times_Automation_Test">
+          <div class="suite-NY_Times_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">home.NYTHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnNYTab">
+                  </a> <!-- testClickOnNYTab -->
+                  <span class="method-name">testClickOnNYTab</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test case failed expected [New York - The New York Times] but found [U.S. News - The New York Times]
+	at home.NYTHomePage.validateClickOnNYTab(NYTHomePage.java:147)
+	at home.NYTHomePageTest.testClickOnNYTab(NYTHomePageTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NY_Times_Automation_Test-class-failed -->
+          <div class="suite-NY_Times_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">home.NYTHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnArtsTab">
+                  </a> <!-- testClickOnArtsTab -->
+                  <span class="method-name">testClickOnArtsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnBooksTab">
+                  </a> <!-- testClickOnBooksTab -->
+                  <span class="method-name">testClickOnBooksTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnBusinessTab">
+                  </a> <!-- testClickOnBusinessTab -->
+                  <span class="method-name">testClickOnBusinessTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnFoodTab">
+                  </a> <!-- testClickOnFoodTab -->
+                  <span class="method-name">testClickOnFoodTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnHealthTab">
+                  </a> <!-- testClickOnHealthTab -->
+                  <span class="method-name">testClickOnHealthTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnMagazineTab">
+                  </a> <!-- testClickOnMagazineTab -->
+                  <span class="method-name">testClickOnMagazineTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnOpinionTab">
+                  </a> <!-- testClickOnOpinionTab -->
+                  <span class="method-name">testClickOnOpinionTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnPoliticsTab">
+                  </a> <!-- testClickOnPoliticsTab -->
+                  <span class="method-name">testClickOnPoliticsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnRealEstateTab">
+                  </a> <!-- testClickOnRealEstateTab -->
+                  <span class="method-name">testClickOnRealEstateTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnScienceTab">
+                  </a> <!-- testClickOnScienceTab -->
+                  <span class="method-name">testClickOnScienceTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnSportsTab">
+                  </a> <!-- testClickOnSportsTab -->
+                  <span class="method-name">testClickOnSportsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnStyleTab">
+                  </a> <!-- testClickOnStyleTab -->
+                  <span class="method-name">testClickOnStyleTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnTMagazineTab">
+                  </a> <!-- testClickOnTMagazineTab -->
+                  <span class="method-name">testClickOnTMagazineTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnTechTab">
+                  </a> <!-- testClickOnTechTab -->
+                  <span class="method-name">testClickOnTechTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnTravelTab">
+                  </a> <!-- testClickOnTravelTab -->
+                  <span class="method-name">testClickOnTravelTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnUSATab">
+                  </a> <!-- testClickOnUSATab -->
+                  <span class="method-name">testClickOnUSATab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnVideoTab">
+                  </a> <!-- testClickOnVideoTab -->
+                  <span class="method-name">testClickOnVideoTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnWorldTab">
+                  </a> <!-- testClickOnWorldTab -->
+                  <span class="method-name">testClickOnWorldTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NY_Times_Automation_Test-class-passed -->
+        </div> <!-- panel NY_Times_Automation_Test -->
+        <div panel-name="test-xml-NY_Times_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/syedraza/IdeaProjects/WebAutomationFramework_Team1/NewYorkTimes/target/test-classes/NewYorkTimesTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;NY Times Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;catalina&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;85.0&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome-options&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.nytimes.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;New York Times Home&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;home.NYTHomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- New York Times Home --&gt;
+&lt;/suite&gt; &lt;!-- NY Times Automation Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NY_Times_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NY Times Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">New York Times Home (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NY_Times_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NY Times Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NY_Times_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NY Times Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NY_Times_Automation_Test');
+function tableData_NY_Times_Automation_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testClickOnVideoTab')
+data.setCell(0, 2, 'home.NYTHomePageTest')
+data.setCell(0, 3, 9422);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testClickOnArtsTab')
+data.setCell(1, 2, 'home.NYTHomePageTest')
+data.setCell(1, 3, 8702);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testClickOnTMagazineTab')
+data.setCell(2, 2, 'home.NYTHomePageTest')
+data.setCell(2, 3, 7791);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testClickOnBooksTab')
+data.setCell(3, 2, 'home.NYTHomePageTest')
+data.setCell(3, 3, 7669);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testClickOnScienceTab')
+data.setCell(4, 2, 'home.NYTHomePageTest')
+data.setCell(4, 3, 6943);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testClickOnFoodTab')
+data.setCell(5, 2, 'home.NYTHomePageTest')
+data.setCell(5, 3, 6762);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testClickOnBusinessTab')
+data.setCell(6, 2, 'home.NYTHomePageTest')
+data.setCell(6, 3, 6642);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testClickOnTechTab')
+data.setCell(7, 2, 'home.NYTHomePageTest')
+data.setCell(7, 3, 6460);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testClickOnNYTab')
+data.setCell(8, 2, 'home.NYTHomePageTest')
+data.setCell(8, 3, 6058);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testClickOnHealthTab')
+data.setCell(9, 2, 'home.NYTHomePageTest')
+data.setCell(9, 3, 5957);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testClickOnRealEstateTab')
+data.setCell(10, 2, 'home.NYTHomePageTest')
+data.setCell(10, 3, 5426);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testClickOnUSATab')
+data.setCell(11, 2, 'home.NYTHomePageTest')
+data.setCell(11, 3, 5289);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testClickOnStyleTab')
+data.setCell(12, 2, 'home.NYTHomePageTest')
+data.setCell(12, 3, 4839);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testClickOnMagazineTab')
+data.setCell(13, 2, 'home.NYTHomePageTest')
+data.setCell(13, 3, 4673);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testClickOnOpinionTab')
+data.setCell(14, 2, 'home.NYTHomePageTest')
+data.setCell(14, 3, 4237);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testClickOnPoliticsTab')
+data.setCell(15, 2, 'home.NYTHomePageTest')
+data.setCell(15, 3, 3596);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testClickOnSportsTab')
+data.setCell(16, 2, 'home.NYTHomePageTest')
+data.setCell(16, 3, 3399);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testClickOnWorldTab')
+data.setCell(17, 2, 'home.NYTHomePageTest')
+data.setCell(17, 3, 3358);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testClickOnTravelTab')
+data.setCell(18, 2, 'home.NYTHomePageTest')
+data.setCell(18, 3, 2873);
+window.suiteTableData['NY_Times_Automation_Test']= { tableData: data, tableDiv: 'times-div-NY_Times_Automation_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-NY_Times_Automation_Test">
+              </div> <!-- times-div-NY_Times_Automation_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NY_Times_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NY Times Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnSportsTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Sports Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnBooksTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Books Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnHealthTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Health Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnScienceTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Science Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnFoodTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Food Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnTMagazineTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On T Magazine Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnBusinessTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Business Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnTravelTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Travel Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnRealEstateTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Real Estate Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnMagazineTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Magazine Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnStyleTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Style Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnUSATab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On USA Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnVideoTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Video Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnWorldTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On World Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnOpinionTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Opinion Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnPoliticsTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Politics Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnArtsTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Arts Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnTechTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On Tech Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClickOnNYTab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NYTHomePageTest: test Click On NY Tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NY_Times_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NY_Times_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">home.NYTHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@322e49ee)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnArtsTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">5070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">5075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnArtsTab</span>
+                <span class="method-start">7626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnArtsTab status=SUCCESS method=NYTHomePageTest.testClickOnArtsTab()[pri:0...)</span>
+                <span class="method-start">16331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">17629 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">17631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnBooksTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">22677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">22678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnBooksTab</span>
+                <span class="method-start">25451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnBooksTab status=SUCCESS method=NYTHomePageTest.testClickOnBooksTab()[pri...)</span>
+                <span class="method-start">33121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">33645 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">33647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnBusinessTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">37024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">37024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnBusinessTab</span>
+                <span class="method-start">39256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnBusinessTab status=SUCCESS method=NYTHomePageTest.testClickOnBusinessTab...)</span>
+                <span class="method-start">45899 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">46250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">46250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnFoodTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">48954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">48955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnFoodTab</span>
+                <span class="method-start">50024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnFoodTab status=SUCCESS method=NYTHomePageTest.testClickOnFoodTab()[pri:0...)</span>
+                <span class="method-start">56786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">57269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">57269 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnHealthTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">60112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">60113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnHealthTab</span>
+                <span class="method-start">60345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnHealthTab status=SUCCESS method=NYTHomePageTest.testClickOnHealthTab()[p...)</span>
+                <span class="method-start">66302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">66721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">66721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnMagazineTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">69751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">69752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnMagazineTab</span>
+                <span class="method-start">71599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnMagazineTab status=SUCCESS method=NYTHomePageTest.testClickOnMagazineTab...)</span>
+                <span class="method-start">76273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">76803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">76803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnNYTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">79510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">79511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testClickOnNYTab</span>
+                <span class="method-start">80484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnNYTab status=FAILURE method=NYTHomePageTest.testClickOnNYTab()[pri:0, in...)</span>
+                <span class="method-start">86549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">89908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">89909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnOpinionTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">92715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">92716 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnOpinionTab</span>
+                <span class="method-start">94007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnOpinionTab status=SUCCESS method=NYTHomePageTest.testClickOnOpinionTab()...)</span>
+                <span class="method-start">98245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">98603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">98604 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnPoliticsTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">101595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">101596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnPoliticsTab</span>
+                <span class="method-start">104646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnPoliticsTab status=SUCCESS method=NYTHomePageTest.testClickOnPoliticsTab...)</span>
+                <span class="method-start">108242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">108480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">108481 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnRealEstateTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">112843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">112843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnRealEstateTab</span>
+                <span class="method-start">113800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnRealEstateTab status=SUCCESS method=NYTHomePageTest.testClickOnRealEstat...)</span>
+                <span class="method-start">119226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">119495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">119498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnScienceTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">122546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">122547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnScienceTab</span>
+                <span class="method-start">123208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnScienceTab status=SUCCESS method=NYTHomePageTest.testClickOnScienceTab()...)</span>
+                <span class="method-start">130151 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">130456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">130457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnSportsTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">132955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">132956 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnSportsTab</span>
+                <span class="method-start">136325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnSportsTab status=SUCCESS method=NYTHomePageTest.testClickOnSportsTab()[p...)</span>
+                <span class="method-start">139724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">139961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">139961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnStyleTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">142983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">142983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnStyleTab</span>
+                <span class="method-start">143182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnStyleTab status=SUCCESS method=NYTHomePageTest.testClickOnStyleTab()[pri...)</span>
+                <span class="method-start">148021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">148400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">148401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnTMagazineTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">151780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">151780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnTMagazineTab</span>
+                <span class="method-start">152906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnTMagazineTab status=SUCCESS method=NYTHomePageTest.testClickOnTMagazineT...)</span>
+                <span class="method-start">160697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">160936 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">160937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnTechTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">163293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">163294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnTechTab</span>
+                <span class="method-start">165055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnTechTab status=SUCCESS method=NYTHomePageTest.testClickOnTechTab()[pri:0...)</span>
+                <span class="method-start">171515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">171854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">171854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnTravelTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">174976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">174977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnTravelTab</span>
+                <span class="method-start">175643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnTravelTab status=SUCCESS method=NYTHomePageTest.testClickOnTravelTab()[p...)</span>
+                <span class="method-start">178517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">178712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">178713 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnUSATab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">181206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">181207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnUSATab</span>
+                <span class="method-start">182568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnUSATab status=SUCCESS method=NYTHomePageTest.testClickOnUSATab()[pri:0, ...)</span>
+                <span class="method-start">187857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">188107 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">188107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnVideoTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">190488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">190490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnVideoTab</span>
+                <span class="method-start">191793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnVideoTab status=SUCCESS method=NYTHomePageTest.testClickOnVideoTab()[pri...)</span>
+                <span class="method-start">201215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">201453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome-options, 85.0, https://www.nytimes.com/)</span>
+                <span class="method-start">201453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.NYTHomePageTest.testClickOnWorldTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">205794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">205794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickOnWorldTab</span>
+                <span class="method-start">208773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testClickOnWorldTab status=SUCCESS method=NYTHomePageTest.testClickOnWorldTab()[pri...)</span>
+                <span class="method-start">212132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">212380 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">212434 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

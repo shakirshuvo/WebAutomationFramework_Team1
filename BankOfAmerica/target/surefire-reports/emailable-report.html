@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Bank of America Automation Test</th></tr>
+<tr><td><a href="#t0">Bank of America</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">9</td><td class="num">136,762</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Bank of America Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Bank of America &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">home.HomePageTest</td><td><a href="#m0">testAboutUs</a></td><td rowspan="1">1601101610839</td><td rowspan="1">9173</td></tr><tr class="failedeven"><td><a href="#m1">testClickAccountSignIn</a></td><td rowspan="1">1601101625995</td><td rowspan="1">4526</td></tr><tr class="failedeven"><td><a href="#m2">testClickOnBusinessInstitutions</a></td><td rowspan="1">1601101636017</td><td rowspan="1">3062</td></tr><tr class="failedeven"><td><a href="#m3">testClickOnWealthManagement</a></td><td rowspan="1">1601101673735</td><td rowspan="1">3031</td></tr><tr class="failedeven"><td><a href="#m4">testClickOpenAcount</a></td><td rowspan="1">1601101682659</td><td rowspan="1">11718</td></tr><tr class="failedodd"><td rowspan="4">testSearchDataDriven.TestSearch</td><td><a href="#m5">testSearchBoxCheckGetItemsListFromDB</a></td><td rowspan="1">1601101569214</td><td rowspan="1">4276</td></tr><tr class="failedodd"><td><a href="#m6">testSearchBoxCheckGetItemsListFromExcel</a></td><td rowspan="1">1601101579073</td><td rowspan="1">377</td></tr><tr class="failedodd"><td><a href="#m7">testSearchBoxCheckUsingClassValues</a></td><td rowspan="1">1601101584854</td><td rowspan="1">11275</td></tr><tr class="failedodd"><td><a href="#m8">testSearchProduct</a></td><td rowspan="1">1601101601088</td><td rowspan="1">3878</td></tr><tr><th colspan="4">Bank of America &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">home.HomePageTest</td><td><a href="#m9">testClickOnChecking</a></td><td rowspan="1">1601101644892</td><td rowspan="1">236</td></tr><tr class="passedeven"><td><a href="#m10">testClickOnPersonal</a></td><td rowspan="1">1601101649069</td><td rowspan="1">8678</td></tr><tr class="passedeven"><td><a href="#m11">testClickOnSecurityTab</a></td><td rowspan="1">1601101661652</td><td rowspan="1">2471</td></tr><tr class="passedeven"><td><a href="#m12">testClickOnSmallBusiness</a></td><td rowspan="1">1601101667952</td><td rowspan="1">1020</td></tr><tr class="passedeven"><td><a href="#m13">testSaveOnlineIdCheckbox</a></td><td rowspan="1">1601101699946</td><td rowspan="1">114</td></tr></tbody>
+</table>
+<h2>Bank of America</h2><h3 id="m0">home.HomePageTest#testAboutUs</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test About Us</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 76857c960a08dad245ca5038dea98e48
+*** Element info: {Using=css selector, value=/html/body/header/div[1]/div/ul[1]/li[5]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.clickOnElement(CommonAPI.java:221)
+	at home.HomePage.clickOnAboutUs(HomePage.java:263)
+	at home.HomePageTest.testAboutUs(HomePageTest.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">home.HomePageTest#testClickAccountSignIn</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click Account Sign In</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: test case failed expected [Bank of America | Online Banking | Sign In | Online ID] but found [Bank of America | Online Banking | Forgot Online ID &amp; Passcode]
+	at home.HomePage.validateClickOnSignInBtn(HomePage.java:49)
+	at home.HomePageTest.testClickAccountSignIn(HomePageTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">home.HomePageTest#testClickOnBusinessInstitutions</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click On Business Institutions</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/header/div[1]/div/ul[1]/li[4]/a&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 27c3735fddd6b93c95d125f53c00d62d
+*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[4]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.clickOnBusinessInstitutions(HomePage.java:225)
+	at home.HomePageTest.testClickOnBusinessInstitutions(HomePageTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">home.HomePageTest#testClickOnWealthManagement</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click On Wealth Management</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/header/div[1]/div/ul[1]/li[3]/a&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5dd0c2bffdc292782750e58937579588
+*** Element info: {Using=xpath, value=/html/body/header/div[1]/div/ul[1]/li[3]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.clickOnWealthMangement(HomePage.java:203)
+	at home.HomePageTest.testClickOnWealthManagement(HomePageTest.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">home.HomePageTest#testClickOpenAcount</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click Open Acount</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;DCTAHZ5O&quot;]/div/div[2]/div/span/span&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:49573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 736be8d22fd23926c16120875188e15b
+*** Element info: {Using=xpath, value=//*[@id=&quot;DCTAHZ5O&quot;]/div/div[2]/div/span/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.clickOpenAccount(HomePage.java:161)
+	at home.HomePageTest.testClickOpenAcount(HomePageTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testSearchDataDriven.TestSearch#testSearchBoxCheckGetItemsListFromDB</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestSearch: test Search Box Check Get Items List From DB</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test Failed expected [Saving Account] but found []
+	at homePageRaza.DataDrivenAction.searchBoxCheckGetItemsListFromDB(DataDrivenAction.java:52)
+	at testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromDB(TestSearch.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testSearchDataDriven.TestSearch#testSearchBoxCheckGetItemsListFromExcel</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestSearch: test Search Box Check Get Items List From Excel</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at dataSource.DataSource.getItemsListFromExcel(DataSource.java:44)
+	at homePageRaza.DataDrivenAction.searchBoxCheckGetItemsListFromExcel(DataDrivenAction.java:62)
+	at testSearchDataDriven.TestSearch.testSearchBoxCheckGetItemsListFromExcel(TestSearch.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testSearchDataDriven.TestSearch#testSearchBoxCheckUsingClassValues</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestSearch: test Search Box Check Using Class Values</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;query&apos;]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:65440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5a7fc2b6e23f708c11f5c5dc88cac716
+*** Element info: {Using=xpath, value=//span[@class=&apos;query&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.CommonAPI.getTextByXpath(CommonAPI.java:398)
+	at homePageRaza.DataDrivenAction.searchBoxCheckUsingClassValues(DataDrivenAction.java:33)
+	at testSearchDataDriven.TestSearch.testSearchBoxCheckUsingClassValues(TestSearch.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testSearchDataDriven.TestSearch#testSearchProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test Failed expected [Checking Accounts] but found []
+	at homePageRaza.ActionClass.validateSearchItems(ActionClass.java:41)
+	at testSearchDataDriven.TestSearch.testSearchProduct(TestSearch.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">home.HomePageTest#testClickOnChecking</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click On Checking</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">home.HomePageTest#testClickOnPersonal</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click On Personal</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">home.HomePageTest#testClickOnSecurityTab</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click On Security Tab</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">home.HomePageTest#testClickOnSmallBusiness</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Click On Small Business</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">home.HomePageTest#testSaveOnlineIdCheckbox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
