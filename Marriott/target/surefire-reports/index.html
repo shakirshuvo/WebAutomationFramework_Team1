@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Marriott_Automation_Test" class="navigator-link">
-              <span class="suite-name border-passed">Marriott Automation Test</span>
+              <span class="suite-name border-failed">Marriott Automation Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Marriott_Automation_Test" class="hide-methods failed suite-Marriott_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-Marriott_Automation_Test -->
+                      <a href="#" panel-name="suite-Marriott_Automation_Test" class="show-methods failed suite-Marriott_Automation_Test"> (show)</a> <!-- show-methods failed suite-Marriott_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Marriott_Automation_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Marriott_Automation_Test" title="home.MarriottHomePageTes" class="method navigator-link" hash-for-method="testAndValidateCalendar">testAndValidateCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Marriott_Automation_Test" title="home.MarriottHomePageTes" class="method navigator-link" hash-for-method="testAndValidateNumberOfRooms">testAndValidateNumberOfRooms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Marriott_Automation_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Marriott_Automation_Test" class="hide-methods passed suite-Marriott_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-Marriott_Automation_Test -->
+                      <a href="#" panel-name="suite-Marriott_Automation_Test" class="show-methods passed suite-Marriott_Automation_Test"> (show)</a> <!-- show-methods passed suite-Marriott_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Marriott_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Marriott_Automation_Test" title="home.MarriottHomePageTes" class="method navigator-link" hash-for-method="testAndValidateChildGuest">testAndValidateChildGuest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Marriott_Automation_Test" title="home.MarriottHomePageTes" class="method navigator-link" hash-for-method="testAndValidateDestinationBox">testAndValidateDestinationBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Marriott_Automation_Test" title="home.MarriottHomePageTes" class="method navigator-link" hash-for-method="testAndValidateDeutsch">testAndValidateDeutsch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Marriott_Automation_Test" title="home.MarriottHomePageTes" class="method navigator-link" hash-for-method="testAndValidateEspanol">testAndValidateEspanol</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Marriott_Automation_Test" title="home.MarriottHomePageTes" class="method navigator-link" hash-for-method="testAndValidateSpecialRate">testAndValidateSpecialRate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Marriott_Automation_Test" title="home.MarriottHomePageTes" class="method navigator-link" hash-for-method="testAndValidateUsePointCheckBox">testAndValidateUsePointCheckBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Marriott_Automation_Test -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -103,6 +161,123 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Marriott_Automation_Test" class="panel Marriott_Automation_Test">
+          <div class="suite-Marriott_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">home.MarriottHomePageTes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndValidateCalendar">
+                  </a> <!-- testAndValidateCalendar -->
+                  <span class="method-name">testAndValidateCalendar</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:7cd5:6902:c527:6dc9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:53187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2369e3306f6e643789a9a956056bd040
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.MarriottHomePage.checkCalendar(MarriottHomePage.java:113)
+	at home.MarriottHomePageTes.testAndValidateCalendar(MarriottHomePageTes.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndValidateNumberOfRooms">
+                  </a> <!-- testAndValidateNumberOfRooms -->
+                  <span class="method-name">testAndValidateNumberOfRooms</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:7cd5:6902:c527:6dc9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:53978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 081703539ec427b442efff187d57afda
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.MarriottHomePage.checkNumberOfRooms(MarriottHomePage.java:125)
+	at home.MarriottHomePageTes.testAndValidateNumberOfRooms(MarriottHomePageTes.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Marriott_Automation_Test-class-failed -->
+          <div class="suite-Marriott_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">home.MarriottHomePageTes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndValidateChildGuest">
+                  </a> <!-- testAndValidateChildGuest -->
+                  <span class="method-name">testAndValidateChildGuest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndValidateDestinationBox">
+                  </a> <!-- testAndValidateDestinationBox -->
+                  <span class="method-name">testAndValidateDestinationBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndValidateDeutsch">
+                  </a> <!-- testAndValidateDeutsch -->
+                  <span class="method-name">testAndValidateDeutsch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndValidateEspanol">
+                  </a> <!-- testAndValidateEspanol -->
+                  <span class="method-name">testAndValidateEspanol</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndValidateSpecialRate">
+                  </a> <!-- testAndValidateSpecialRate -->
+                  <span class="method-name">testAndValidateSpecialRate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndValidateUsePointCheckBox">
+                  </a> <!-- testAndValidateUsePointCheckBox -->
+                  <span class="method-name">testAndValidateUsePointCheckBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Marriott_Automation_Test-class-passed -->
         </div> <!-- panel Marriott_Automation_Test -->
         <div panel-name="test-xml-Marriott_Automation_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -122,11 +297,11 @@
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.marriott.com&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Marriott Home&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;hoemTest.HomePageTest&quot;&gt;
+      &lt;class name=&quot;home.MarriottHomePageTes&quot;&gt;
         &lt;methods&gt;
           &lt;exclude name=&quot;setFindReserveTest&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- hoemTest.HomePageTest --&gt;
+      &lt;/class&gt; &lt;!-- home.MarriottHomePageTes --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Marriott Home --&gt;
 &lt;/suite&gt; &lt;!-- Marriott Automation Test --&gt;
@@ -166,12 +341,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAndValidateDestinationBox')
+data.setCell(0, 2, 'home.MarriottHomePageTes')
+data.setCell(0, 3, 9412);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAndValidateEspanol')
+data.setCell(1, 2, 'home.MarriottHomePageTes')
+data.setCell(1, 3, 7430);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAndValidateNumberOfRooms')
+data.setCell(2, 2, 'home.MarriottHomePageTes')
+data.setCell(2, 3, 5126);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAndValidateDeutsch')
+data.setCell(3, 2, 'home.MarriottHomePageTes')
+data.setCell(3, 3, 3621);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAndValidateSpecialRate')
+data.setCell(4, 2, 'home.MarriottHomePageTes')
+data.setCell(4, 3, 2708);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAndValidateCalendar')
+data.setCell(5, 2, 'home.MarriottHomePageTes')
+data.setCell(5, 3, 1005);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAndValidateChildGuest')
+data.setCell(6, 2, 'home.MarriottHomePageTes')
+data.setCell(6, 3, 734);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAndValidateUsePointCheckBox')
+data.setCell(7, 2, 'home.MarriottHomePageTes')
+data.setCell(7, 3, 719);
 window.suiteTableData['Marriott_Automation_Test']= { tableData: data, tableDiv: 'times-div-Marriott_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Marriott_Automation_Test">
               </div> <!-- times-div-Marriott_Automation_Test -->
             </div> <!-- times-div -->
@@ -197,14 +404,242 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">hoemTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">home.MarriottHomePageTes</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@44be0077)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@8f2098e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.marriott.com)</span>
+                <span class="method-start">134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.MarriottHomePageTes.testAndValidateCalendar())</span>
+                <span class="method-start">7333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">7336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">7354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAndValidateCalendar</span>
+                <span class="method-start">7355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAndValidateCalendar status=FAILURE method=MarriottHomePageTes.testAndValidateCa...)</span>
+                <span class="method-start">8366 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">10027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.marriott.com)</span>
+                <span class="method-start">10028 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.MarriottHomePageTes.testAndValidateChildGuest())</span>
+                <span class="method-start">15199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">15199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">15200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndValidateChildGuest</span>
+                <span class="method-start">15201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAndValidateChildGuest status=SUCCESS method=MarriottHomePageTes.testAndValidate...)</span>
+                <span class="method-start">15935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">16072 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.marriott.com)</span>
+                <span class="method-start">16073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.MarriottHomePageTes.testAndValidateDestinationBox() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">20824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">20824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">20825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndValidateDestinationBox</span>
+                <span class="method-start">20826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAndValidateDestinationBox status=SUCCESS method=MarriottHomePageTes.testAndVali...)</span>
+                <span class="method-start">30238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">30393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.marriott.com)</span>
+                <span class="method-start">30393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.MarriottHomePageTes.testAndValidateDeutsch())</span>
+                <span class="method-start">34132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">34133 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">34134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndValidateDeutsch</span>
+                <span class="method-start">34134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAndValidateDeutsch status=SUCCESS method=MarriottHomePageTes.testAndValidateDeu...)</span>
+                <span class="method-start">37756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">37909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.marriott.com)</span>
+                <span class="method-start">37909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.MarriottHomePageTes.testAndValidateEspanol())</span>
+                <span class="method-start">41959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">41959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">41960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndValidateEspanol</span>
+                <span class="method-start">41962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAndValidateEspanol status=SUCCESS method=MarriottHomePageTes.testAndValidateEsp...)</span>
+                <span class="method-start">49393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">49545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.marriott.com)</span>
+                <span class="method-start">49546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.MarriottHomePageTes.testAndValidateNumberOfRooms())</span>
+                <span class="method-start">53719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">53719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">53720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAndValidateNumberOfRooms</span>
+                <span class="method-start">53720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAndValidateNumberOfRooms status=FAILURE method=MarriottHomePageTes.testAndValid...)</span>
+                <span class="method-start">58847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">61558 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.marriott.com)</span>
+                <span class="method-start">61558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.MarriottHomePageTes.testAndValidateSpecialRate())</span>
+                <span class="method-start">69755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">69755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">69756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndValidateSpecialRate</span>
+                <span class="method-start">69756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAndValidateSpecialRate status=SUCCESS method=MarriottHomePageTes.testAndValidat...)</span>
+                <span class="method-start">72465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">72619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.marriott.com)</span>
+                <span class="method-start">72620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.MarriottHomePageTes.testAndValidateUsePointCheckBox())</span>
+                <span class="method-start">76222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">76223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">76223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndValidateUsePointCheckBox</span>
+                <span class="method-start">76224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAndValidateUsePointCheckBox status=SUCCESS method=MarriottHomePageTes.testAndVa...)</span>
+                <span class="method-start">76943 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">77053 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">151 ms</span>
+                <span class="method-start">77075 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

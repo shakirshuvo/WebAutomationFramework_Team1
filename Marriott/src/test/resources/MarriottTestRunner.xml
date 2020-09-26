@@ -12,7 +12,7 @@
 
     <test name="Marriott Home">
         <classes>
-            <class name="hoemTest.HomePageTest">
+            <class name="home.MarriottHomePageTes">
                 <methods>
                     <exclude name="setFindReserveTest"></exclude>
 <!--                    <exclude name="setDealsTest"></exclude>-->

@@ -9,9 +9,58 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Marriott Automation Test</th></tr>
-<tr><td><a href="#t0">Marriott Home</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Marriott Home</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">76,931</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Marriott Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Marriott Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Marriott Home &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">home.MarriottHomePageTes</td><td><a href="#m0">testAndValidateCalendar</a></td><td rowspan="1">1601099474497</td><td rowspan="1">1005</td></tr><tr class="failedeven"><td><a href="#m1">testAndValidateNumberOfRooms</a></td><td rowspan="1">1601099520862</td><td rowspan="1">5126</td></tr><tr><th colspan="4">Marriott Home &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">home.MarriottHomePageTes</td><td><a href="#m2">testAndValidateChildGuest</a></td><td rowspan="1">1601099482343</td><td rowspan="1">734</td></tr><tr class="passedeven"><td><a href="#m3">testAndValidateDestinationBox</a></td><td rowspan="1">1601099487968</td><td rowspan="1">9412</td></tr><tr class="passedeven"><td><a href="#m4">testAndValidateDeutsch</a></td><td rowspan="1">1601099501276</td><td rowspan="1">3621</td></tr><tr class="passedeven"><td><a href="#m5">testAndValidateEspanol</a></td><td rowspan="1">1601099509104</td><td rowspan="1">7430</td></tr><tr class="passedeven"><td><a href="#m6">testAndValidateSpecialRate</a></td><td rowspan="1">1601099536898</td><td rowspan="1">2708</td></tr><tr class="passedeven"><td><a href="#m7">testAndValidateUsePointCheckBox</a></td><td rowspan="1">1601099543366</td><td rowspan="1">719</td></tr></tbody>
 </table>
-<h2>Marriott Home</h2></body>
+<h2>Marriott Home</h2><h3 id="m0">home.MarriottHomePageTes#testAndValidateCalendar</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:7cd5:6902:c527:6dc9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:53187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2369e3306f6e643789a9a956056bd040
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.MarriottHomePage.checkCalendar(MarriottHomePage.java:113)
+	at home.MarriottHomePageTes.testAndValidateCalendar(MarriottHomePageTes.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">home.MarriottHomePageTes#testAndValidateNumberOfRooms</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:7cd5:6902:c527:6dc9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:53978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 081703539ec427b442efff187d57afda
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.MarriottHomePage.checkNumberOfRooms(MarriottHomePage.java:125)
+	at home.MarriottHomePageTes.testAndValidateNumberOfRooms(MarriottHomePageTes.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">home.MarriottHomePageTes#testAndValidateChildGuest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">home.MarriottHomePageTes#testAndValidateDestinationBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">home.MarriottHomePageTes#testAndValidateDeutsch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">home.MarriottHomePageTes#testAndValidateEspanol</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">home.MarriottHomePageTes#testAndValidateSpecialRate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">home.MarriottHomePageTes#testAndValidateUsePointCheckBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
 </html>

@@ -11,12 +11,12 @@
       <![CDATA[HomePageRamTest: test Search Box Check Using Class Values]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-25T20:43:33 EDT" name="Delta Automation Test" finished-at="2020-09-25T20:44:15 EDT" duration-ms="42262">
+  <suite started-at="2020-09-26T01:52:25 EDT" name="Delta Automation Test" finished-at="2020-09-26T01:53:09 EDT" duration-ms="44110">
     <groups>
     </groups>
-    <test started-at="2020-09-25T20:43:33 EDT" name="Delta" finished-at="2020-09-25T20:44:15 EDT" duration-ms="42262">
+    <test started-at="2020-09-26T01:52:25 EDT" name="Delta" finished-at="2020-09-26T01:53:09 EDT" duration-ms="44110">
       <class name="homeTest.HomePageRamTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:33 EDT" name="extentSetup" finished-at="2020-09-25T20:43:33 EDT" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:25 EDT" name="extentSetup" finished-at="2020-09-26T01:52:25 EDT" duration-ms="152" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:33 EDT" name="setUp" finished-at="2020-09-25T20:43:36 EDT" duration-ms="3300" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:25 EDT" name="setUp" finished-at="2020-09-26T01:52:28 EDT" duration-ms="3183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:36 EDT" name="startExtent" finished-at="2020-09-25T20:43:36 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:28 EDT" name="startExtent" finished-at="2020-09-26T01:52:28 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,15 +82,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:36 EDT" name="getInit" finished-at="2020-09-25T20:43:36 EDT" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:28 EDT" name="getInit" finished-at="2020-09-26T01:52:28 EDT" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testCheckBooking()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:36 EDT" name="testCheckBooking" finished-at="2020-09-25T20:43:36 EDT" duration-ms="268" status="PASS">
+        <test-method signature="testCheckBooking()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:28 EDT" name="testCheckBooking" finished-at="2020-09-26T01:52:29 EDT" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckBooking -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:36 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:43:37 EDT" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:29 EDT" name="afterEachTestMethod" finished-at="2020-09-26T01:52:29 EDT" duration-ms="261" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,11 +101,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:37 EDT" name="cleanUp" finished-at="2020-09-25T20:43:37 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:29 EDT" name="cleanUp" finished-at="2020-09-26T01:52:29 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:37 EDT" name="setUp" finished-at="2020-09-25T20:43:40 EDT" duration-ms="3401" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:29 EDT" name="setUp" finished-at="2020-09-26T01:52:32 EDT" duration-ms="2714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,11 +146,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:40 EDT" name="getInit" finished-at="2020-09-25T20:43:40 EDT" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:32 EDT" name="getInit" finished-at="2020-09-26T01:52:32 EDT" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:40 EDT" name="startExtent" finished-at="2020-09-25T20:43:40 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:32 EDT" name="startExtent" finished-at="2020-09-26T01:52:32 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,11 +161,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testCheckCheckIn()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:40 EDT" name="testCheckCheckIn" finished-at="2020-09-25T20:43:40 EDT" duration-ms="264" status="PASS">
+        <test-method signature="testCheckCheckIn()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:32 EDT" name="testCheckCheckIn" finished-at="2020-09-26T01:52:32 EDT" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckCheckIn -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:40 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:43:41 EDT" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:32 EDT" name="afterEachTestMethod" finished-at="2020-09-26T01:52:32 EDT" duration-ms="115" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,11 +176,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:41 EDT" name="cleanUp" finished-at="2020-09-25T20:43:41 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:32 EDT" name="cleanUp" finished-at="2020-09-26T01:52:32 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:41 EDT" name="setUp" finished-at="2020-09-25T20:43:44 EDT" duration-ms="3115" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:32 EDT" name="setUp" finished-at="2020-09-26T01:52:35 EDT" duration-ms="3145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:44 EDT" name="startExtent" finished-at="2020-09-25T20:43:44 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:35 EDT" name="startExtent" finished-at="2020-09-26T01:52:35 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -232,15 +232,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:44 EDT" name="getInit" finished-at="2020-09-25T20:43:44 EDT" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:35 EDT" name="getInit" finished-at="2020-09-26T01:52:35 EDT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testCheckFlightStatus()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:44 EDT" name="testCheckFlightStatus" finished-at="2020-09-25T20:43:44 EDT" duration-ms="265" status="PASS">
+        <test-method signature="testCheckFlightStatus()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:35 EDT" name="testCheckFlightStatus" finished-at="2020-09-26T01:52:36 EDT" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckFlightStatus -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:44 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:43:44 EDT" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:36 EDT" name="afterEachTestMethod" finished-at="2020-09-26T01:52:36 EDT" duration-ms="117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,11 +251,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:44 EDT" name="cleanUp" finished-at="2020-09-25T20:43:44 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:36 EDT" name="cleanUp" finished-at="2020-09-26T01:52:36 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:44 EDT" name="setUp" finished-at="2020-09-25T20:43:47 EDT" duration-ms="3081" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:36 EDT" name="setUp" finished-at="2020-09-26T01:52:39 EDT" duration-ms="2880" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -296,11 +296,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:47 EDT" name="getInit" finished-at="2020-09-25T20:43:47 EDT" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:39 EDT" name="getInit" finished-at="2020-09-26T01:52:39 EDT" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:47 EDT" name="startExtent" finished-at="2020-09-25T20:43:47 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:39 EDT" name="startExtent" finished-at="2020-09-26T01:52:39 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -311,11 +311,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testCheckMyTrip()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:47 EDT" name="testCheckMyTrip" finished-at="2020-09-25T20:43:48 EDT" duration-ms="325" status="PASS">
+        <test-method signature="testCheckMyTrip()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:39 EDT" name="testCheckMyTrip" finished-at="2020-09-26T01:52:39 EDT" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckMyTrip -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:48 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:43:48 EDT" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:39 EDT" name="afterEachTestMethod" finished-at="2020-09-26T01:52:39 EDT" duration-ms="116" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -326,11 +326,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:48 EDT" name="cleanUp" finished-at="2020-09-25T20:43:48 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:39 EDT" name="cleanUp" finished-at="2020-09-26T01:52:39 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:48 EDT" name="setUp" finished-at="2020-09-25T20:43:51 EDT" duration-ms="2886" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:39 EDT" name="setUp" finished-at="2020-09-26T01:52:45 EDT" duration-ms="5896" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -371,7 +371,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:51 EDT" name="startExtent" finished-at="2020-09-25T20:43:51 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:45 EDT" name="startExtent" finished-at="2020-09-26T01:52:45 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -382,18 +382,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:51 EDT" name="getInit" finished-at="2020-09-25T20:43:51 EDT" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:45 EDT" name="getInit" finished-at="2020-09-26T01:52:45 EDT" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testSearchBoxCheck()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:51 EDT" name="testSearchBoxCheck" finished-at="2020-09-25T20:43:56 EDT" duration-ms="5127" status="PASS">
+        <test-method signature="testSearchBoxCheck()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:45 EDT" name="testSearchBoxCheck" finished-at="2020-09-26T01:52:50 EDT" duration-ms="5187" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[HomePageRamTest: test Search Box Check]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSearchBoxCheck -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:56 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:43:56 EDT" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:50 EDT" name="afterEachTestMethod" finished-at="2020-09-26T01:52:50 EDT" duration-ms="134" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -404,7 +404,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:56 EDT" name="setUp" finished-at="2020-09-25T20:43:59 EDT" duration-ms="2936" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:50 EDT" name="cleanUp" finished-at="2020-09-26T01:52:50 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:50 EDT" name="setUp" finished-at="2020-09-26T01:52:53 EDT" duration-ms="2820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -445,11 +449,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:56 EDT" name="cleanUp" finished-at="2020-09-25T20:43:56 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:59 EDT" name="startExtent" finished-at="2020-09-25T20:43:59 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:53 EDT" name="startExtent" finished-at="2020-09-26T01:52:53 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -460,18 +460,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:59 EDT" name="getInit" finished-at="2020-09-25T20:43:59 EDT" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:53 EDT" name="getInit" finished-at="2020-09-26T01:52:53 EDT" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testSearchBoxCheckUsingClassValues()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:43:59 EDT" name="testSearchBoxCheckUsingClassValues" finished-at="2020-09-25T20:44:15 EDT" duration-ms="15594" status="PASS">
+        <test-method signature="testSearchBoxCheckUsingClassValues()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:52:53 EDT" name="testSearchBoxCheckUsingClassValues" finished-at="2020-09-26T01:53:09 EDT" duration-ms="15526" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[HomePageRamTest: test Search Box Check Using Class Values]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSearchBoxCheckUsingClassValues -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:44:15 EDT" name="afterEachTestMethod" finished-at="2020-09-25T20:44:15 EDT" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:53:09 EDT" name="afterEachTestMethod" finished-at="2020-09-26T01:53:09 EDT" duration-ms="143" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -482,11 +482,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:44:15 EDT" name="cleanUp" finished-at="2020-09-25T20:44:15 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:53:09 EDT" name="cleanUp" finished-at="2020-09-26T01:53:09 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-25T20:44:15 EDT" name="generateReport" finished-at="2020-09-25T20:44:15 EDT" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:homeTest.HomePageRamTest@17c1bced]" started-at="2020-09-26T01:53:09 EDT" name="generateReport" finished-at="2020-09-26T01:53:09 EDT" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
