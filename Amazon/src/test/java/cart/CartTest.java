@@ -40,6 +40,9 @@ public class CartTest extends CommonAPI {
         cart.verifyThatWD5tbIsAddedToCartFromInsideCart();
     }
 
+    /**
+     * This test verifies that user can add an item to the cart and then delete it from the cart.
+     */
     @Test
     public void testItemDeletedFromCart() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -48,6 +51,9 @@ public class CartTest extends CommonAPI {
         cart.verifyThatCartIsEmpty();
     }
 
+    /**
+     * This test verifies that user can add an item into the cart and then checkout.
+     */
     @Test
     public void testCheckoutAfterAddingAnItemToCart() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -56,6 +62,9 @@ public class CartTest extends CommonAPI {
         cart.verifyCheckoutAfterAddingAnItemToCart();
     }
 
+    /**
+     * This test verifies the 'All' dropdown has all the departments.
+     */
     @Test
     public void TestValidateAllDropDown(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

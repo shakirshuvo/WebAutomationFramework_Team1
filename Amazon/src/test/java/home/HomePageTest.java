@@ -15,6 +15,9 @@ public class HomePageTest extends CommonAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
+    /**
+     * This test validates user can reach Amazon homepage.
+     */
     @Test
     public void testValidateHomePageTitle() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -22,6 +25,9 @@ public class HomePageTest extends CommonAPI {
         homePage.validateHomePageTitle();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Today's Deal' page using the page title.
+     */
     @Test
     public void testValidateTodaysDealTabByTitle() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -30,6 +36,9 @@ public class HomePageTest extends CommonAPI {
         homePage.validateTodaysDealTabByTitle();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Today's Deal' page using "Today's Deal" text.
+     */
     @Test
     public void testValidateTodaysDealTabByDealsAndPromotionsText() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -38,6 +47,9 @@ public class HomePageTest extends CommonAPI {
         homePage.validateTodaysDealTabByDealsAndPromotionsText();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Customer Service' page using title.
+     */
     @Test
     public void testValidateClickCustomerServiceTab() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -46,6 +58,9 @@ public class HomePageTest extends CommonAPI {
         homePage.validateClickCustomerServiceTabByTitle();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Customer Service' page using text.
+     */
     @Test
     public void testValidateClickCustomerServiceTabByText() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -54,6 +69,9 @@ public class HomePageTest extends CommonAPI {
         homePage.validateClickCustomerServiceTabByText();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Gift Cards' page using title.
+     */
     @Test
     public void testValidateClickGiftCardsTabByTitle() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -62,6 +80,9 @@ public class HomePageTest extends CommonAPI {
         homePage.validateClickGiftCardsTabByTitle();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Gift Cards' page using text.
+     */
     @Test
     public void testverifyClickGiftCardsTabByText() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -70,6 +91,9 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyClickGiftCardsTabByText();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Registry' page using title.
+     */
     @Test
     public void testValidateClickRegistryTabByTitle() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -78,14 +102,20 @@ public class HomePageTest extends CommonAPI {
         homePage.validateClickRegistryTabByTitle();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Sell' page using title.
+     */
     @Test
-    public void testvalidateClickSellTabByTitle() {
+    public void testValidateClickSellTabByTitle() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePage.clickSellTab();
         homePage.validateClickSellTabByTitle();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Seller' page using text.
+     */
     @Test
     public void testVerifySellVerificationTextIsDisplayed() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -94,6 +124,9 @@ public class HomePageTest extends CommonAPI {
         homePage.verifySellVerificationTextIsDisplayed();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Music' page using URL.
+     */
     @Test
     public void testVerifyClickOnMusicLink() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -102,6 +135,9 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyClickOnMusicLinkByURL();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Music' page using title.
+     */
     @Test
     public void testVerifyClickOnMusicLinkByTitle() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -110,6 +146,9 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyClickOnMusicLinkByTitle();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Amazon Advertising' page using URL.
+     */
     @Test
     public void testVerifyClickOnAmazonAdvertisingByURL() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -118,6 +157,9 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyClickOnAmazonAdvertisingByURL();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Amazon Advertising' page using Title.
+     */
     @Test
     public void testVerifyClickOnAmazonAdvertisingByTitle() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -126,6 +168,9 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyClickOnAmazonAdvertisingByTitle();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Amazon Advertising' page by text.
+     */
     @Test
     public void testVerifyClickOnAmazonAdvertisingByText() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -134,6 +179,9 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyClickOnAmazonAdvertisingByText();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Computers & Tablets'.
+     */
     @Test
     public void testValidateNavigateToComputersAndTabletsWithShopByCategoryHamburger() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -142,6 +190,9 @@ public class HomePageTest extends CommonAPI {
         homePage.validateNavigateToComputersAndTabletsWithShopByCategoryHamburger();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Amazon Advertising' and check on 'HP'.
+     */
     @Test
     public void testVerifyClickOnHPFeaturedBrandSelection() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -150,6 +201,9 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyClickOnHPFeaturedBrandSelection();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Amazon Music' page using Title.
+     */
     @Test
     public void testVerifyAmazonMusicByTitle() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -158,6 +212,9 @@ public class HomePageTest extends CommonAPI {
         homePage.verifyAmazonMusicByTitle();
     }
 
+    /**
+     * This test verifies that user can navigate to 'Start A Selling Account' page.
+     */
     @Test
     public void testVerifyClickOnStartASellingAccount() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
