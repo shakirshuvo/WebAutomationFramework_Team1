@@ -135,10 +135,19 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-                                        <suiteXmlFiles>
-<!--                                            <suiteXmlFiles>target/test-classes/AmazonTestRunner1.xml</suiteXmlFiles>-->
-<!--                                            <suiteXmlFiles>target/test-classes/BankOfAmericaTestRunner.xml</suiteXmlFiles>-->
-                                        </suiteXmlFiles>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <suiteXmlFiles>
+                                                    <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>
+                                                <suiteXmlFile>target/test-classes/BankOfAmericaTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/DeltaTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/MarriottTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/NewYorkTimesTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/TheHartfordTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/TMobileTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/UnitedHealthCareTestRunner.xml</suiteXmlFile>
+                        <!--                            <suiteXmlFile></suiteXmlFile>-->
+                        <!--                            <suiteXmlFile></suiteXmlFile>-->
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>

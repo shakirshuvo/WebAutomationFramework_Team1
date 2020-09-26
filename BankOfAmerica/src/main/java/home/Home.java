@@ -1,6 +1,7 @@
 package home;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -9,6 +10,9 @@ import org.testng.Assert;
 import static home.HomeWebElements.*;
 
 public class Home extends CommonAPI {
+
+    String actual;
+    String expected;
 
     @FindBy(how = How.CSS, using = checkingWebElementCSS)
     public WebElement checking;
@@ -128,44 +132,39 @@ public class Home extends CommonAPI {
     public WebElement wealthManagement;
 
     public void clickWealthManagement(){
+        mouseHoverByXpath(wealthManagementWebElementsXPATH);
         wealthManagement.click();
     }
 
-    public boolean wealthManagementIsEnable(){
-        return wealthManagement.isEnabled();
+    public void verifyWealthManagement(){
+
+        validateByTitle("Wealth Management Services & Wealth Planning from Bank of America | Merrill Lynch");
     }
 
-    public void verifyWealthManagement(){
-        Assert.assertTrue(wealthManagementIsEnable());
-    }
     @FindBy(how = How.CSS, using = businessAndInstitutionsWebElementsCSS)
     public WebElement businessAndInstitutions;
 
     public void clickBusinessAndInstitutions(){
+        mouseHoverByCSS(businessAndInstitutionsWebElementsCSS);
         businessAndInstitutions.click();
     }
 
-    public boolean businessAndInstitutionsIsEnable(){
-        return businessAndInstitutions.isEnabled();
-    }
-
     public void verifyBusinessAndInstitutions(){
-        Assert.assertTrue(businessAndInstitutionsIsEnable());
+        validateByTitle("Bank of America Merrill Lynch is Now Bank of America & BofA Securities");
     }
     @FindBy(how = How.ID, using = securityWebElementsID)
     public WebElement security;
 
     public void clickSecurity(){
+        mouseHoverByID(securityWebElementsID);
         security.click();
     }
 
-    public boolean securityIsEnable(){
-        return security.isEnabled();
+    public void verifySecurity(){
+
+        validateByURL("https://www.bankofamerica.com/security-center/overview/");
     }
 
-    public void verifySecurity(){
-        Assert.assertTrue(securityIsEnable());
-    }
     @FindBy(how = How.CSS, using =aboutUsWebElementsCSS)
     public WebElement aboutUs;
 
@@ -173,12 +172,10 @@ public class Home extends CommonAPI {
         aboutUs.click();
     }
 
-    public boolean aboutUsIsEnable(){
-        return aboutUs.isEnabled();
-    }
-
     public void verifyAboutUs(){
-        Assert.assertTrue(aboutUsIsEnable());
+        actual= driver.getTitle();
+        expected="About Bank of America- Our People, Our Passion, Our Purpose";
+        Assert.assertEquals(actual,expected,"failed");
     }
     @FindBy(how = How.CSS, using =enEspanolWebElementsCSS)
     public WebElement enEspanol;
@@ -194,33 +191,29 @@ public class Home extends CommonAPI {
     public void verifyEnEspanol(){
         Assert.assertTrue(enEspanolIsEnable());
     }
+
     @FindBy(how = How.CSS, using =contactUsWebElementsCSS)
     public WebElement contactUs;
 
     public void clickContactUs(){
+        waitUntilClickAble(By.cssSelector(contactUsWebElementsCSS));
         contactUs.click();
     }
 
-    public boolean contactUsIsEnable(){
-        return contactUs.isEnabled();
-    }
-
     public void verifyContactUs(){
-        Assert.assertTrue(contactUsIsEnable());
+        validateByTitle("Bank of America Customer Service & Contact Numbers");
     }
     @FindBy(how = How.CSS, using =helpWebElementsCSS)
     public WebElement help;
 
     public void clickHelp(){
+        waitUntilSelectable(By.cssSelector(helpWebElementsCSS));
         help.click();
     }
 
-    public boolean helpIsEnable(){
-        return help.isEnabled();
-    }
 
     public void verifyHelp(){
-        Assert.assertTrue(helpIsEnable());
+        validateByTitle("Bank of America Help Center - Get Your Questions Answered");
     }
     @FindBy(how = How.ID, using =findClosestLocationWebElementsID)
     public WebElement findClosestLocation;
@@ -234,62 +227,51 @@ public class Home extends CommonAPI {
     }
 
     public void verifyFindClosestLocation(){
-        Assert.assertTrue(helpIsEnable());
+
     }
     @FindBy(how = How.ID, using =scheduleAppointmentWebElementsID)
     public WebElement scheduleAppointment;
 
     public void clickScheduleAppointment(){
+        mouseHoverByID(scheduleAppointmentWebElementsID);
         scheduleAppointment.click();
     }
 
-    public boolean scheduleAppointmentIsEnable(){
-        return scheduleAppointment.isEnabled();
-    }
-
     public void verifyScheduleAppointment(){
-        Assert.assertTrue(scheduleAppointmentIsEnable());
+        validateByTitle("Make an Appointment with a Specialist");
     }
-    @FindBy(how = How.CSS, using =dealsAllDayWebElementsCSS)
+    @FindBy(how = How.XPATH, using =dealsAllDayWebElementsXPATH)
     public WebElement dealsAllDay;
 
     public void clickDealsAllDay(){
+        mouseHoverByXpath(dealsAllDayWebElementsXPATH);
         dealsAllDay.click();
     }
 
-    public boolean dealsAllDayIsEnable(){
-        return dealsAllDay.isEnabled();
+    public void verifyDealsAllDay(){
+        validateByText(validateDealsAllDayTextByXPATH, "Sign In to Online Banking");
     }
 
-    public void verifyDealsAllDay(){
-        Assert.assertTrue(dealsAllDayIsEnable());
-    }
     @FindBy(how = How.CSS, using =checkingWithRightFeaturesWebElementsCSS)
     public WebElement checkingWithRightFeatures;
 
     public void clickcheckingWithRightFeatures(){
+        mouseHoverByCSS(checkingWithRightFeaturesWebElementsCSS);
         checkingWithRightFeatures.click();
     }
 
-    public boolean checkingWithRightFeaturesIsEnable(){
-        return checkingWithRightFeatures.isEnabled();
-    }
-
     public void verifycheckingWithRightFeatures(){
-        Assert.assertTrue(checkingWithRightFeaturesIsEnable());
+      validateByURL("https://promo.bankofamerica.com/advantage_banking/?cm_sp=DEP-Checking-_-Checking-_-DCTAQT3I01_Highlights_NH_CheckingFeb2020_G3HL_bauChkCtaHL");
     }
-    @FindBy(how = How.CSS, using =lifeServicesWebElementsID)
+    @FindBy(how = How.ID, using =lifeServicesWebElementsID)
     public WebElement lifeServices;
 
     public void clickLifeServices(){
+        mouseHoverByID(lifeServicesWebElementsID);
         lifeServices.click();
     }
 
-    public boolean lifeServicesIsEnable(){
-        return lifeServices.isEnabled();
-    }
-
     public void verifyLifeServices(){
-        Assert.assertTrue(lifeServicesIsEnable());
+        validateByTitle("Support Before, During and After Financial Life Events");
     }
 }

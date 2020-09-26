@@ -1,2 +1,6 @@
+dataSource\DataSource.class
+home\ActionClass.class
 home\HomeWebElements.class
+home\ElementsBOA.class
 home\Home.class
+dataSource\DataDrivenAction.class

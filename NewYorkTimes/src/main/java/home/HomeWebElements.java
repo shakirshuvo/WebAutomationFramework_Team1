@@ -23,8 +23,10 @@ public class HomeWebElements {
     public static final String realEstateNewsByXpath="/div[@class='css-1d8a290']//a[@class='css-1wjnrbv'][contains(text(),'Real Estate')]";
     public static final String videoWebElementsByXpath="/div[contains(text(),'Jamelle Bouie')]";
     public static final String todaysPaperByClassName="css-2bwtzy";
+    public static final String validateTodaysPaperTextByXpath="//h1[@class='css-xzlxk9 e1bbdwbz0']";
     public static final String toggleMenuCheckingById="desktop-section-button";
     public static final String logInButtonByXpath="//button[contains(text(),'Log in')]";
+    public static final String validateLogInButtonTextByClass="css-1dn1p34 e1khi2pz0";
     public static final String spanishLanguageByLinkTest="Español";
     public static final String chineseLanguageByLinkTest="中文";
     public static final String subscribeNowByName="Subscribe Now";

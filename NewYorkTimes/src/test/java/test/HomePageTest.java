@@ -38,7 +38,7 @@ public class HomePageTest extends CommonAPI {
     @Test
     public void testVerifyClickNyNews(){
         home.nyNewsCheck();
-        home.validatePolitics();
+        home.validateNyNews();
     }
     @Test
     public void testVerifyClickBusinessNews(){
@@ -131,7 +131,7 @@ public class HomePageTest extends CommonAPI {
         home.validateLogInButton();
     }
     @Test
-    public void testVerifyClickSpanishLanguage(){
+    public void testVerifyClickSpanishLanguage() throws InterruptedException {
         home.spanishLanguageCheck();
         home.validateSpanishLanguage();
     }

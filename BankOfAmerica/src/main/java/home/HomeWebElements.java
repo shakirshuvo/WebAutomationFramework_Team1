@@ -19,7 +19,9 @@ public class HomeWebElements {
     public static final String helpWebElementsCSS="#NAV_HELP";
     public static final String findClosestLocationWebElementsID="finCenterLocator";
     public static final String scheduleAppointmentWebElementsID="apptScheduler";
-    public static final String dealsAllDayWebElementsCSS="#DZT1QUOU > div.info-box > div.heading";
+    public static final String dealsAllDayWebElementsXPATH="//div[contains(text(),'Deals all day, every day')]";
+    public static final String validateDealsAllDayTextByXPATH="//h1[@class='cnx-regular']";
     public static final String checkingWithRightFeaturesWebElementsCSS="#DCTAQT3I > div.info-box > div.heading";
+    public static final String validateCheckingWithRightFeaturesTextByXpath="/html[1]/body[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/h1[1]";
     public static final String lifeServicesWebElementsID="yniLifeServicesCta";
 }

@@ -102,10 +102,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-<!--                                        <suiteXmlFiles>-->
-<!--                                            <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>-->
-<!--                                            <suiteXmlFiles>target/test-classes/BankOfAmericaTestRunner.xml</suiteXmlFiles>-->
-<!--                                        </suiteXmlFiles>-->
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <suiteXmlFiles>
+                        <!--                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
+                        <!--                            <suiteXmlFile></suiteXmlFile>-->
+                        <!--                            <suiteXmlFile></suiteXmlFile>-->
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>

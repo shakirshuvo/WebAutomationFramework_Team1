@@ -3,6 +3,7 @@ package home;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
@@ -42,29 +43,7 @@ String expectedResult;
 //        this.searchBox1 = searchBox1;
 //    }
 //helper methods
-public void clickOnElement(String locator) {
-    try {
-        driver.findElement(By.cssSelector(locator)).click();
-    } catch (Exception ex) {
-        try {
-            driver.findElement(By.className(locator)).click();
-        } catch (Exception ex2) {
-            try {
-                driver.findElement(By.id(locator)).click();
-            } catch (Exception ex3) {
-                driver.findElement(By.xpath(locator)).click();
-            }
-        }
-    }
-}
 
-    public void typeOnElement(String locator, String value) {
-        try {
-            driver.findElement(By.cssSelector(locator)).sendKeys(value);
-        } catch (Exception ex) {
-            driver.findElement(By.xpath(locator)).sendKeys(value);
-        }
-    }
 
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
@@ -162,25 +141,28 @@ public void validateBestSellers(){
     public void validateCustomerService(){
         actual= driver.getTitle();
         System.out.println(actual);
-        expected= "\n"+"Amazon.com Help: Help & Customer Service";
+        expected= "Amazon.com Help: Help & Customer Service";
         Assert.assertEquals(actual, expected, "failed");
     }
     @FindBy(how= How.LINK_TEXT, using=todaysDealsLinkTest)
     public WebElement todaysDeals;
 
     public void todaysDealsCheck(){
+        mouseHoverByLinkText(todaysDealsLinkTest);
         todaysDeals.click();
     }
+
     public void validateTodaysDeals(){
         actual= driver.getTitle();
         System.out.println(actual);
-        expected="\n" + "\n" + " Gold Box Deals | Today's Deals - Amazon.com\n";
+        expected="Gold Box Deals | Today's Deals - Amazon.com";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.LINK_TEXT, using=newReleasesLinkTest)
+    @FindBy(how= How.XPATH, using=newReleasesXPATH)
     public WebElement newReleases;
 
     public void newReleasesCheck(){
+        mouseHoverByXpath(newReleasesXPATH);
         newReleases.click();
     }
     public void validateNewReleases(){
@@ -189,11 +171,15 @@ public void validateBestSellers(){
         expected="Amazon.com New Releases: The best-selling new & future releases on Amazon";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.LINK_TEXT, using=find_a_giftLinkTest)
+    @FindBy(how= How.XPATH, using=find_a_giftXPATH)
     public WebElement find_a_gift;
 
     public void find_a_giftCheck(){
-        newReleases.click();
+       // waitUntilVisible(By.xpath(find_a_giftXPATH));
+        mouseHoverByXpath(find_a_giftXPATH);
+//        waitUntilClickAble(By.xpath(find_a_giftXPATH));
+        mouseHoverByLinkText(foundItOnAmazonLinkTest);
+        find_a_gift.click();
     }
     public void validatefind_a_gift(){
         actual= driver.getTitle();
@@ -201,22 +187,24 @@ public void validateBestSellers(){
         expected="Gifts for Everyone | Amazon.com Gift Finder";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.LINK_TEXT, using=wholeFoodsLinkTest)
+    @FindBy(how= How.XPATH, using=wholeFoodsXPATH)
     public WebElement wholeFoods;
 
     public void wholeFoodsCheck(){
+        mouseHoverByXpath(wholeFoodsXPATH);
         wholeFoods.click();
     }
     public void validateWholeFoods(){
         actual= driver.getTitle();
         System.out.println(actual);
-        expected="Whole Foods Market @ Amazon.com";
+        expected="Amazon.com: Whole Foods Market";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.LINK_TEXT, using=giftCardsLinkTest)
+    @FindBy(how= How.XPATH, using=giftCardsXPATH)
     public WebElement giftCards;
 
     public void giftCardsCheck(){
+        mouseHoverByXpath(giftCardsXPATH);
         giftCards.click();
     }
     public void validateGiftCards(){
@@ -225,10 +213,11 @@ public void validateBestSellers(){
         expected="Amazon.com Gift Cards";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.LINK_TEXT, using=freeShippingLinkTest)
+    @FindBy(how= How.XPATH, using=freeShippingXPATH)
     public WebElement freeShipping;
 
     public void freeShippingCheck(){
+        mouseHoverByXpath(freeShippingXPATH);
         freeShipping.click();
     }
     public void validateFreeShipping(){
@@ -237,22 +226,25 @@ public void validateBestSellers(){
         expected="Amazon.com: : FREE Shipping by Amazon";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.LINK_TEXT, using=registryLinkTest)
+    @FindBy(how= How.XPATH, using=registryXPATH)
     public WebElement registry;
 
     public void registryCheck(){
+        mouseHoverByXpath(registryXPATH);
         registry.click();
     }
+
     public void validateRegistry(){
         actual= driver.getTitle();
         System.out.println(actual);
         expected="Amazon.com: : Registry";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.LINK_TEXT, using=sellLinkTest)
+    @FindBy(how= How.XPATH, using=sellXPATH)
     public WebElement sell;
 
     public void sellCheck(){
+        mouseHoverByXpath(sellXPATH);
         sell.click();
     }
     public void validateSell(){
@@ -261,11 +253,20 @@ public void validateBestSellers(){
         expected="Amazon.com: Sell Products Online with Selling on Amazon.";
         Assert.assertEquals(actual, expected, "failed");
     }
+    //added method = mouse hover by Link Text
+    public void mouseHoverByLinkText(String locator) {
+        WebElement element = driver.findElement(By.linkText(locator));
+        Actions actions = new Actions(driver);
+        WebElement features = element;
+        actions.moveToElement(features).build().perform();
+    }
+
     @FindBy(how= How.LINK_TEXT, using=couponsLinkTest)
     public WebElement coupons;
 
     public void couponsCheck(){
-        sell.click();
+        mouseHoverByLinkText(couponsLinkTest);
+        coupons.click();
     }
     public void validateCoupons(){
         actual= driver.getTitle();
@@ -288,7 +289,12 @@ public void validateBestSellers(){
     @FindBy(how= How.LINK_TEXT, using=foundItOnAmazonLinkTest)
     public WebElement foundItOnAmazon;
 
+//    public void toggleMenuChecking(){
+//        clickOnElementByClass(toggleMenuCheckingByClass);
+//        scrollUpDownByHeight();
+//    }
     public void foundItOnAmazonCheck(){
+        mouseHoverByLinkText(foundItOnAmazonLinkTest);
         foundItOnAmazon.click();
     }
     public void validateFoundItOnAmazon(){
@@ -297,19 +303,16 @@ public void validateBestSellers(){
         expected="#FoundItOnAmazon";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.CLASS_NAME, using=account_listsByClassName)
-    public WebElement accountLists;
+    @FindBy(how= How.LINK_TEXT, using=newAmazonDevicesLinkText)
+    public WebElement newAmazonDevices;
 
-    public void accountListsCheck(){
-        accountLists.click();
+    public void newAmazonDevicesCheck(){
+        newAmazonDevices.click();
     }
-    public void validateAccountLists(){
-        actual= driver.getTitle();
-        System.out.println(actual);
-        expected="\"\";\n";
-        Assert.assertEquals(actual, expected, "failed");
+    public void validateNewAmazonDevices(){
+        validateByText(validateNewAmazonDevicesTextXpath,"All-new Amazon Devices");
     }
-    @FindBy(how= How.CSS, using=ordersByCSS)
+    @FindBy(how= How.XPATH, using=ordersByXPATH)
     public WebElement orders;
 
     public void ordersCheck(){
@@ -318,10 +321,10 @@ public void validateBestSellers(){
     public void validateOrders(){
         actual= driver.getTitle();
         System.out.println(actual);
-        expected="order:amazon";
+        expected="Amazon Sign-In";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.CLASS_NAME, using=tryPrimeByClassName)
+    @FindBy(how= How.XPATH, using=tryPrimeByXPATH)
     public WebElement tryPrimes;
 
     public void tryPrimesCheck(){
@@ -333,7 +336,7 @@ public void validateBestSellers(){
         expected="Amazon.com: Amazon Prime";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.CLASS_NAME, using=cartByClassName)
+    @FindBy(how= How.XPATH, using=cartByXPATH)
     public WebElement cart;
 
     public void cartCheck(){
@@ -352,15 +355,13 @@ public void validateBestSellers(){
         selectYourAddress.click();
     }
     public void validateSelectYourAddress(){
-        actual= driver.getTitle();
-        System.out.println(actual);
-        expected="negative testing";
-        Assert.assertEquals(actual, expected, "failed");
+validateByText(selectYourAddressTextXpath, "Delivery options and delivery speeds may vary for different locations");
     }
-    @FindBy(how= How.ID, using=cartByClassName)
+    @FindBy(how= How.LINK_TEXT, using=careersByLinkTest)
     public WebElement careers;
 
     public void careersCheck(){
+        mouseHoverByLinkText(careersByLinkTest);
         careers.click();
     }
     public void validateCareers(){
@@ -381,12 +382,13 @@ public void validateBestSellers(){
         expected="Day One: The Amazon Blog";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.LINK_TEXT, using=amazonBasicsLinkTest)
+    @FindBy(how= How.LINK_TEXT, using=amazonDevicesByLinkTest)
     public WebElement amazonDevices;
 
     public void amazonDevicesCheck(){
         amazonDevices.click();
     }
+
     public void validateAmazonDevices(){
         actual= driver.getTitle();
         System.out.println(actual);
@@ -397,8 +399,10 @@ public void validateBestSellers(){
     public WebElement pressCenter;
 
     public void pressCenterCheck(){
+        mouseHoverByXpath(pressCenterByCustomXPATH);
         pressCenter.click();
     }
+
     public void validatepressCenter(){
         actual= driver.getTitle();
         System.out.println(actual);
@@ -411,22 +415,24 @@ public void validateBestSellers(){
     public void amazonToursCheck(){
         amazonTours.click();
     }
+
     public void validateAmazonTours(){
         actual= driver.getTitle();
         System.out.println(actual);
         expected="Amazon Fulfillment: Book a Warehouse Tour";
         Assert.assertEquals(actual, expected, "failed");
     }
-    @FindBy(how= How.XPATH, using=sellOnAmazonXPATH)
-    public WebElement sellOnAmazon;
+    @FindBy(how= How.LINK_TEXT, using=sellAppsOnAmazonLinkText)
+    public WebElement sellAppsOnAmazon;
 
-    public void sellOnAmazonCheck(){
-        sellOnAmazon.click();
+    public void sellAppsOnAmazonCheck(){
+        sellAppsOnAmazon.click();
     }
-    public void validateSellOnAmazon(){
+
+    public void validateAppsSellOnAmazon(){
         actual= driver.getTitle();
         System.out.println(actual);
-        expected="Sell on Amazon | Build Your Ecommerce Business";
+        expected="Amazon Developer Services";
         Assert.assertEquals(actual, expected, "failed");
     }
     @FindBy(how= How.LINK_TEXT, using=becomeAffiliateByLinkTest)
@@ -438,8 +444,7 @@ public void validateBestSellers(){
     public void validateBecomeAffiliate(){
         actual= driver.getTitle();
         System.out.println(actual);
-        expected="\n" +
-                "Amazon.com Associates Central";
+        expected="Amazon.com Associates Central";
         Assert.assertEquals(actual, expected, "failed");
     }
     @FindBy(how= How.LINK_TEXT, using=advertiseProductsByLinkTest)
@@ -470,7 +475,7 @@ public void validateBestSellers(){
     public WebElement shopWithPoints;
 
     public void shopWithPointsCheck(){
-        amazonStoreCard.click();
+        shopWithPoints.click();
     }
     public void validateShopWithPoints(){
         actual= driver.getTitle();

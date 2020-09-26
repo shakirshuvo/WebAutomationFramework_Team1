@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.667 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.876 s <<< FAILURE! - in TestSuite
+home.HomePageTest.testFind_a_gift  Time elapsed: 1.593 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/gcx/Gifts-for-Everyone/gfhz/?ref_=nav_cs_giftfinder" class="nav-a  " tabindex="60">...</a> is not clickable at point (587, 84). Other element would receive the click: <div class="nav-signin-tt nav-flyout" style="display: block; position: absolute; top: -4px; left: 585.656px; opacity: 1;">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F75O7MS', ip: '192.168.1.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\debna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0f6cdb51f4db0f8bb020259ad1680b05
+	at home.HomePageTest.testFind_a_gift(HomePageTest.java:37)
+
