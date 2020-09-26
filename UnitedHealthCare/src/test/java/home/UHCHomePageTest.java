@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class UHCHomePageTest extends CommonAPI {
 
@@ -164,8 +165,32 @@ public class UHCHomePageTest extends CommonAPI {
         homePage.clickMyuhcSignInSubmitButton();
         homePage.validateMyuhcSigninError();
 
+    }
 
 
+
+
+
+
+    @Test
+    public void testSearchBoxCheckUsingClassValues() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.searchBoxCheckUsingClassValues();
+    }
+
+    @Test
+    public void testSearchBoxCheckGetItemsListFromDB() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.searchBoxCheckGetItemsListFromDB();
+    }
+
+    @Test
+    public void testSearchBoxCheckGetItemsListFromExcel() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.searchBoxCheckGetItemsListFromExcel();
     }
 
 

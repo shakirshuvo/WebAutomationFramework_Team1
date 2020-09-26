@@ -1,6 +1,7 @@
 package home;
 
 import base.CommonAPI;
+import dataSource.DataSource;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -39,7 +40,7 @@ public class UHCHomePage extends CommonAPI {
 
     @FindBy(how = How.XPATH, using = crossbuttonXPath) public WebElement crossbutton;
     @FindBy(how = How.XPATH, using = signInButtonXPath) public WebElement signInButton;
-    @FindBy(how = How.CSS, using = myuhcSignInCSS) public WebElement myuhcSignIn;
+    @FindBy(how = How.XPATH, using = myuhcSignInXPath) public WebElement myuhcSignIn;
     @FindBy(how = How.XPATH, using = myuhcSignInButtonXPath) public WebElement myuhcSignInButton;
     @FindBy(how = How.XPATH, using = myuhcUserNameXPath) public WebElement myuhcUserName;
     @FindBy(how = How.XPATH, using = myuhcPasswordXPath) public WebElement myuhcPassword;
@@ -51,6 +52,7 @@ public class UHCHomePage extends CommonAPI {
     @FindBy(how = How.XPATH, using = myuhcFirstNameXPath) public WebElement myuhcFirstName;
     @FindBy(how = How.XPATH, using = myuhcLastNameXPath) public WebElement myuhcLastName;
     @FindBy(how = How.XPATH, using = myuhcMonthDropDownXPath) public WebElement myuhcMonthDropDown;
+    @FindBy(how = How.XPATH, using = myuhcRegisterBirthMonthXPath) public WebElement myuhcRegisterBirthMonth;
     @FindBy(how = How.XPATH, using = myuhcDateInputXPath) public WebElement myuhcDateInput;
     @FindBy(how = How.XPATH, using = myuhcYearInputXPath) public WebElement myuhcYearInput;
     @FindBy(how = How.XPATH, using = myuhcSSNRadioButtonXPath) public WebElement myuhcSSNRadioButton;
@@ -64,7 +66,8 @@ public class UHCHomePage extends CommonAPI {
     @FindBy(how = How.XPATH, using = helpMeFindThisNumberXPath) public WebElement helpMeFindThisNumber;
     @FindBy(how = How.XPATH, using = helpPopUpXPath) public WebElement helpPopUp;
     @FindBy(how = How.XPATH, using = logoXPath) public WebElement logo;
-    @FindBy(how = How.XPATH, using = searchFieldXPath) public WebElement searchField;
+    @FindBy(how = How.XPATH, using = searchBoxElementXPath) public WebElement searchBoxElement;
+//    @FindBy(how = How.XPATH, using = ) public WebElement ;
 
     /**
      * This method gets the title of the page when called.
@@ -498,6 +501,60 @@ public class UHCHomePage extends CommonAPI {
     }
     //*********************************************
 
+
+
+    public void searchBoxCheckUsingClassValues() throws InterruptedException {
+
+        driver.manage().window().maximize();
+        List<String> products = dataSource.DataSource.getItemValue();
+        for (String st : products) {
+            typeOnElementNEnter(searchBoxElementXPath, st, driver);
+            System.out.println("Expected Text is =" + st);
+            String expectedResult = "https://www.uhc.com/searchresult?q=" + st + "&start=0&rows=20&fq=lang:en";
+            sleepFor(3);
+            String actualResult = getCurrentPageUrl();
+            System.out.println("Actual Text  =" + actualResult);
+            Assert.assertEquals(actualResult, expectedResult, "Test Failed");
+
+            searchBoxElement.clear();
+
+        }
+    }
+    public void searchBoxCheckGetItemsListFromDB() throws Exception {
+        DataSource.insertDataIntoSQLDB();
+        driver.manage().window().maximize();
+        List<String> products = dataSource.DataSource.getItemsListFromDB();
+        for (String st : products) {
+            typeOnElementNEnter(searchBoxElementXPath, st, driver);
+            System.out.println("Expected Text is =" + st);
+            String expectedResult = "https://www.uhc.com/searchresult?q=" + st + "&start=0&rows=20&fq=lang:en";
+            sleepFor(3);
+            String actualResult = getCurrentPageUrl();
+            System.out.println("Actual Text  =" + actualResult);
+            Assert.assertEquals(actualResult, expectedResult, "Test Failed");
+
+            searchBoxElement.clear();
+
+        }
+
+    }
+    public void searchBoxCheckGetItemsListFromExcel() throws Exception {
+        driver.manage().window().maximize();
+        List<String> itemList = DataSource.getItemsListFromExcel();
+        for(int i =1; i<itemList.size();i++){
+            String st=itemList.get(i);
+            typeOnElementNEnter(searchBoxElementXPath, st, driver);
+            System.out.println("Expected Text is =" + st);
+            String expectedResult = "https://www.uhc.com/searchresult?q=" + st + "&start=0&rows=20&fq=lang:en";
+            sleepFor(3);
+            String actualResult = getCurrentPageUrl();
+            System.out.println("Actual Text  =" + actualResult);
+            Assert.assertEquals(actualResult, expectedResult, "Test Failed");
+
+            searchBoxElement.clear();
+
+        }
+    }
 
 
 }
