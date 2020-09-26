@@ -21,7 +21,7 @@
 <!--                     <exclude name="setSearchFieldTest"></exclude>-->
                 </methods>
             </class>
-            <class name="home.MarriottHomePageTes">
+            <class name="home.HomePageTest">
                 <methods>
 <!--                    <exclude name="setBestSellerTest"></exclude>-->
 <!--                    <exclude name="setCustomerServiceTest"></exclude>-->

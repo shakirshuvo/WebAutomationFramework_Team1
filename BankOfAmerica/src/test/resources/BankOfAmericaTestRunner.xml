@@ -28,7 +28,7 @@
             </class>
             <class name="regressionTest.BrokenLinksTest">
                 <methods>
-                    <exclude name="BrokenListTest"></exclude>
+<!--                    <exclude name="BrokenListTest"></exclude>-->
                 </methods>
             </class>
 

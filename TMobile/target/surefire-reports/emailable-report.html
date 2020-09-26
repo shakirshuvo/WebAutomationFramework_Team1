@@ -9,9 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">T-Mobile Automation Test</th></tr>
-<tr><td><a href="#t0">T-Mobile Home</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3</td><td></td><td></td></tr>
+<tr><td><a href="#t0">T-Mobile Home</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">40,711</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">T-Mobile Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">T-Mobile Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">T-Mobile Home &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">homeTest.HomePageTest</td><td><a href="#m0">setBenefitsTest</a></td><td rowspan="1">1601143403685</td><td rowspan="1">7695</td></tr><tr><th colspan="4">T-Mobile Home &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">homeTest.HomePageTest</td><td><a href="#m1">setDealsTest</a></td><td rowspan="1">1601143415475</td><td rowspan="1">7669</td></tr><tr class="passedeven"><td><a href="#m2">setLogoSignTest</a></td><td rowspan="1">1601143426267</td><td rowspan="1">5212</td></tr><tr class="passedeven"><td><a href="#m3">setPhoneDevisesTest</a></td><td rowspan="1">1601143434457</td><td rowspan="1">6220</td></tr></tbody>
 </table>
-<h2>T-Mobile Home</h2></body>
+<h2>T-Mobile Home</h2><h3 id="m0">homeTest.HomePageTest#setBenefitsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:7cd5:6902:c527:6dc9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:54852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0b7a39796aac830a0393c86e297e12c4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.setBenefits(HomePage.java:108)
+	at homeTest.HomePageTest.setBenefitsTest(HomePageTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">homeTest.HomePageTest#setDealsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">homeTest.HomePageTest#setLogoSignTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">homeTest.HomePageTest#setPhoneDevisesTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
 </html>

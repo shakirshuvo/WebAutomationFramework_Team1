@@ -23,9 +23,9 @@ public class DataSource extends CommonAPI {
     //Destinations  Cities to be searched
     public static List<String> getItemValue() {
         List<String> itemsList = new ArrayList<String>();
-        itemsList.add("Toronto");
-        itemsList.add("LosVegas");
-        itemsList.add("Calgary");
+        itemsList.add("Algiers");
+        itemsList.add("LasVegas");
+        itemsList.add("london");
         return itemsList;
     }
     //Read Data from DB

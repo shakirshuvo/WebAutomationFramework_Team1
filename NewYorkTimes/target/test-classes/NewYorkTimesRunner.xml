@@ -12,12 +12,12 @@
 
     <test name="NewYorkTimes Home">
         <classes>
-<!--          <class name="homeTest.HomePageTest"></class>-->
-<!--            <class name="accountTest.LogInTest"></class>-->
-<!--            <class name="accountTest.SubscribeTest"></class>-->
-<!--            <class name="homeTest.SearchClassTest"></class>-->
-<!--            <class name="regressionTest.BrokensLinksTest"></class>-->
-<!--            <class name="regressionTest.LiveVideoTest"></class>-->
+          <class name="homeTest.HomePageTest"></class>
+            <class name="accountTest.LogInTest"></class>
+            <class name="accountTest.SubscribeTest"></class>
+            <class name="homeTest.SearchClassTest"></class>
+            <class name="regressionTest.BrokensLinksTest"></class>
+            <class name="regressionTest.LiveVideoTest"></class>
             <class name="regressionTest.HamburgerClassTest"></class>
         </classes>
 

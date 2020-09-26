@@ -14,25 +14,25 @@
         <classes>
             <class name="homeTest.HomePageTest">
                 <methods>
-                    <exclude name="setAutoButtonTest"></exclude>
-                    <exclude name="setClassicCarInsuranceTest"></exclude>
-                    <exclude name="setAllVehiclesTest"></exclude>
-                    <exclude name="setHomeButtonTest"></exclude>
-                    <exclude name="setHomeownersInsuranceTest"></exclude>
-                    <exclude name="setCondoInsurance"></exclude>
-                    <exclude name="setFloodInsuranceTest"></exclude>
-                    <exclude name="setUmbrellaInsuranceTest"></exclude>
-                    <exclude name="setBusinessInsuranceTest"></exclude>
-                    <exclude name="setSmallBusinessInsuranceTest"></exclude>
-                    <exclude name="setGeneralLiabilityInsuranceTest"></exclude>
-                    <exclude name="setWorkerCompensationInsuranceValidationTest"></exclude>
-                    <exclude name="setAllBusinessCoveragesTest"></exclude>
-                    <exclude name="setAllIndustriesTest"></exclude>
-                    <exclude name="setEmployeeBenefitsTest"></exclude>
-                    <exclude name="setAbsenceManagementTest"></exclude>
-                    <exclude name="setForEmployeesTest"></exclude>
-                    <exclude name="setAboutTheHeartFordTest"></exclude>
-                    <exclude name="setInvestorRelationsTest"></exclude>
+<!--                    <exclude name="setAutoButtonTest"></exclude>-->
+<!--                    <exclude name="setClassicCarInsuranceTest"></exclude>-->
+<!--                    <exclude name="setAllVehiclesTest"></exclude>-->
+<!--                    <exclude name="setHomeButtonTest"></exclude>-->
+<!--                    <exclude name="setHomeownersInsuranceTest"></exclude>-->
+<!--                    <exclude name="setCondoInsurance"></exclude>-->
+<!--                    <exclude name="setFloodInsuranceTest"></exclude>-->
+<!--                    <exclude name="setUmbrellaInsuranceTest"></exclude>-->
+<!--                    <exclude name="setBusinessInsuranceTest"></exclude>-->
+<!--                    <exclude name="setSmallBusinessInsuranceTest"></exclude>-->
+<!--                    <exclude name="setGeneralLiabilityInsuranceTest"></exclude>-->
+<!--                    <exclude name="setWorkerCompensationInsuranceValidationTest"></exclude>-->
+<!--                    <exclude name="setAllBusinessCoveragesTest"></exclude>-->
+<!--                    <exclude name="setAllIndustriesTest"></exclude>-->
+<!--                    <exclude name="setEmployeeBenefitsTest"></exclude>-->
+<!--                    <exclude name="setAbsenceManagementTest"></exclude>-->
+<!--                    <exclude name="setForEmployeesTest"></exclude>-->
+<!--                    <exclude name="setAboutTheHeartFordTest"></exclude>-->
+<!--                    <exclude name="setInvestorRelationsTest"></exclude>-->
                 </methods>
             </class>
             <class name="searchTest.SearchPageTest">

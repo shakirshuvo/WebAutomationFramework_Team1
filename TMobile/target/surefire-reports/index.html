@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-T_Mobile_Automation_Test" class="navigator-link">
-              <span class="suite-name border-passed">T-Mobile Automation Test</span>
+              <span class="suite-name border-failed">T-Mobile Automation Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-T_Mobile_Automation_Test" class="hide-methods failed suite-T_Mobile_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-T_Mobile_Automation_Test -->
+                      <a href="#" panel-name="suite-T_Mobile_Automation_Test" class="show-methods failed suite-T_Mobile_Automation_Test"> (show)</a> <!-- show-methods failed suite-T_Mobile_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-T_Mobile_Automation_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-T_Mobile_Automation_Test" title="homeTest.HomePageTest" class="method navigator-link" hash-for-method="setBenefitsTest">setBenefitsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-T_Mobile_Automation_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-T_Mobile_Automation_Test" class="hide-methods passed suite-T_Mobile_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-T_Mobile_Automation_Test -->
+                      <a href="#" panel-name="suite-T_Mobile_Automation_Test" class="show-methods passed suite-T_Mobile_Automation_Test"> (show)</a> <!-- show-methods passed suite-T_Mobile_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-T_Mobile_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-T_Mobile_Automation_Test" title="homeTest.HomePageTest" class="method navigator-link" hash-for-method="setDealsTest">setDealsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-T_Mobile_Automation_Test" title="homeTest.HomePageTest" class="method navigator-link" hash-for-method="setLogoSignTest">setLogoSignTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-T_Mobile_Automation_Test" title="homeTest.HomePageTest" class="method navigator-link" hash-for-method="setPhoneDevisesTest">setPhoneDevisesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-T_Mobile_Automation_Test -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -103,6 +141,72 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-T_Mobile_Automation_Test" class="panel T_Mobile_Automation_Test">
+          <div class="suite-T_Mobile_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">homeTest.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setBenefitsTest">
+                  </a> <!-- setBenefitsTest -->
+                  <span class="method-name">setBenefitsTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:7cd5:6902:c527:6dc9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:54852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0b7a39796aac830a0393c86e297e12c4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.setBenefits(HomePage.java:108)
+	at homeTest.HomePageTest.setBenefitsTest(HomePageTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-T_Mobile_Automation_Test-class-failed -->
+          <div class="suite-T_Mobile_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homeTest.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setDealsTest">
+                  </a> <!-- setDealsTest -->
+                  <span class="method-name">setDealsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setLogoSignTest">
+                  </a> <!-- setLogoSignTest -->
+                  <span class="method-name">setLogoSignTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setPhoneDevisesTest">
+                  </a> <!-- setPhoneDevisesTest -->
+                  <span class="method-name">setPhoneDevisesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-T_Mobile_Automation_Test-class-passed -->
         </div> <!-- panel T_Mobile_Automation_Test -->
         <div panel-name="test-xml-T_Mobile_Automation_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -122,17 +226,7 @@
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.t-mobile.com/&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;T-Mobile Home&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;homeTest.HomePageTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;exclude name=&quot;setLogoSignTest&quot;/&gt;
-          &lt;exclude name=&quot;mouseHoverByCSS&quot;/&gt;
-          &lt;exclude name=&quot;setPhoneDevisesTest&quot;/&gt;
-          &lt;exclude name=&quot;setDealsTest&quot;/&gt;
-          &lt;exclude name=&quot;setCoverageTest&quot;/&gt;
-          &lt;exclude name=&quot;setBenefitsTest&quot;/&gt;
-          &lt;exclude name=&quot;setFindStoreTest&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- homeTest.HomePageTest --&gt;
+      &lt;class name=&quot;homeTest.HomePageTest&quot;/&gt;
       &lt;class name=&quot;homeTest.MyAccountTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- T-Mobile Home --&gt;
@@ -173,12 +267,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'setBenefitsTest')
+data.setCell(0, 2, 'homeTest.HomePageTest')
+data.setCell(0, 3, 7695);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'setDealsTest')
+data.setCell(1, 2, 'homeTest.HomePageTest')
+data.setCell(1, 3, 7669);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'setPhoneDevisesTest')
+data.setCell(2, 2, 'homeTest.HomePageTest')
+data.setCell(2, 3, 6220);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'setLogoSignTest')
+data.setCell(3, 2, 'homeTest.HomePageTest')
+data.setCell(3, 3, 5212);
 window.suiteTableData['T_Mobile_Automation_Test']= { tableData: data, tableDiv: 'times-div-T_Mobile_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-T_Mobile_Automation_Test">
               </div> <!-- times-div-T_Mobile_Automation_Test -->
             </div> <!-- times-div -->
@@ -193,21 +303,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-T_Mobile_Automation_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">7 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">homeTest.HomePageTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">setPhoneDevisesTest</span>
-                <br/>
                 <span class="ignored-method-name">setPlansTest</span>
-                <br/>
-                <span class="ignored-method-name">setBenefitsTest</span>
-                <br/>
-                <span class="ignored-method-name">setDealsTest</span>
-                <br/>
-                <span class="ignored-method-name">setLogoSignTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -230,12 +332,110 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">homeTest.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@479cbee5)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@3721177d)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void homeTest.HomePageTest.setBenefitsTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">3689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">3692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setBenefitsTest</span>
+                <span class="method-start">3711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=setBenefitsTest status=FAILURE method=HomePageTest.setBenefitsTest()[pri:0, instanc...)</span>
+                <span class="method-start">11411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">12545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">12546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void homeTest.HomePageTest.setDealsTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">15500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">15500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">setDealsTest</span>
+                <span class="method-start">15501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=setDealsTest status=SUCCESS method=HomePageTest.setDealsTest()[pri:0, instance:home...)</span>
+                <span class="method-start">23171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">23321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">23321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void homeTest.HomePageTest.setLogoSignTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">26292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">26292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">setLogoSignTest</span>
+                <span class="method-start">26293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=setLogoSignTest status=SUCCESS method=HomePageTest.setLogoSignTest()[pri:0, instanc...)</span>
+                <span class="method-start">31505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">31632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85.0, https://www.t-mobile.com/)</span>
+                <span class="method-start">31633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void homeTest.HomePageTest.setPhoneDevisesTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">34481 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">34481 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">setPhoneDevisesTest</span>
+                <span class="method-start">34483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=setPhoneDevisesTest status=SUCCESS method=HomePageTest.setPhoneDevisesTest()[pri:0,...)</span>
+                <span class="method-start">40704 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">40852 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">150 ms</span>
+                <span class="method-start">40874 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -14,8 +14,8 @@
     <test name="Delta">
         <classes>
             <class name="homeTest.HomePageRamTest"></class>
-            <!--            <class name="testSearchDataDriven.TestSearch"></class>-->
-            <!--            <class name="myAccount.MyAccountTest"></class>-->
+
+
         </classes>
 
     </test>

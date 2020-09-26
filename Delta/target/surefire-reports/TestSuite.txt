@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.541 s - in TestSuite
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 53.764 s <<< FAILURE! - in TestSuite
+homeTest.HomePageRamTest.testSearchBoxCheckGetItemsListFromDB  Time elapsed: 3.128 s  <<< FAILURE!
+java.io.FileNotFoundException: ../Generic/src/main/secret.properties (No such file or directory)
+	at homeTest.HomePageRamTest.testSearchBoxCheckGetItemsListFromDB(HomePageRamTest.java:70)
+

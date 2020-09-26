@@ -18,6 +18,7 @@
           <include name="testAndValidateNumberOfRooms"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
+          <include name="testAndValidateChildGuest"/>
           <include name="setUp"/>
           <include name="startExtent"/>
           <include name="cleanUp"/>

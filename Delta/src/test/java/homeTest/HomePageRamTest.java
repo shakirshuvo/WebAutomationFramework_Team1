@@ -61,13 +61,13 @@ public class HomePageRamTest extends CommonAPI {
         homePage.searchBoxCheckUsingClassValues();
     }
 
-//    @Test(enabled = true)
-//
-//    public void testSearchBoxCheckGetItemsListFromDB() throws Exception {
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        sleepFor(3);
-//        homePage.searchBoxCheckGetItemsListFromDB();
-//    }
+    @Test(enabled = true)
+
+    public void testSearchBoxCheckGetItemsListFromDB() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        sleepFor(3);
+        homePage.searchBoxCheckGetItemsListFromDB();
+    }
 
 }

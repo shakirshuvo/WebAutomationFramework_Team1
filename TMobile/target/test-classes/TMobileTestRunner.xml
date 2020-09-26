@@ -14,13 +14,13 @@
         <classes>
         <class name="homeTest.HomePageTest">
             <methods>
-                <exclude name="setLogoSignTest"></exclude>
-                <exclude name="mouseHoverByCSS"></exclude>
-                <exclude name="setPhoneDevisesTest"></exclude>
-                <exclude name="setDealsTest"></exclude>
-                <exclude name="setCoverageTest"></exclude>
-                <exclude name="setBenefitsTest"></exclude>
-                <exclude name="setFindStoreTest"></exclude>
+<!--                <exclude name="setLogoSignTest"></exclude>-->
+<!--                <exclude name="mouseHoverByCSS"></exclude>-->
+<!--                <exclude name="setPhoneDevisesTest"></exclude>-->
+<!--                <exclude name="setDealsTest"></exclude>-->
+<!--                <exclude name="setCoverageTest"></exclude>-->
+<!--                <exclude name="setBenefitsTest"></exclude>-->
+<!--                <exclude name="setFindStoreTest"></exclude>-->
             </methods>
         </class>
             <class name="homeTest.MyAccountTest">
