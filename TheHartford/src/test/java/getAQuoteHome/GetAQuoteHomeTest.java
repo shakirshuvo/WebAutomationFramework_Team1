@@ -124,6 +124,8 @@ public class GetAQuoteHomeTest extends CommonAPI {
      */
     @Test
     public void testVerifyFillOutAboutYouPage() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteHome.fillOutAboutYouPage();
         getAQuoteHome.verifyFillOutAboutYouPage();
     }

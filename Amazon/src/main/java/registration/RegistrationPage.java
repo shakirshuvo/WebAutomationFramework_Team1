@@ -340,7 +340,7 @@ public class RegistrationPage extends CommonAPI {
 
     /**
      * Ths method creates a new Amazon account.
-      */
+     */
     public void createANewAccount() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickStartHere();
@@ -365,28 +365,28 @@ public class RegistrationPage extends CommonAPI {
      * This method verifies that captcha 'Please solve this puzzle so we know you're a real person'
      * is displayed when creating a new account.
      */
-    public void verifyNewAccountCaptchaIsDisplayed(){
+    public void verifyNewAccountCaptchaIsDisplayed() {
         Assert.assertTrue(newAccountCaptchaIsDisplayed());
     }
 
     /**
      * This method clicks on 'Start a Selling Account' link.
      */
-    public void clickOnStartASellingAccount(){
+    public void clickOnStartASellingAccount() {
         startASellingAccountLink.click();
     }
 
     /**
      * This method clicks on 'Sign up' tab on 'Amazon Seller' page.
      */
-    public void clickOnAmazonSellerSignUpTab(){
+    public void clickOnAmazonSellerSignUpTab() {
         amazonSellerSignUpTab.click();
     }
 
     /**
      * This method navigates user to 'Amazon Seller' sign up page.
      */
-    public void navigateToAmazonSellerSignUpPage(){
+    public void navigateToAmazonSellerSignUpPage() {
         clickOnStartASellingAccount();
         clickOnAmazonSellerSignUpTab();
     }
@@ -394,8 +394,9 @@ public class RegistrationPage extends CommonAPI {
     /**
      * This method verifies 'Amazon Seller' page by title.
      */
-    public void verifyNavigateToAmazonSellerSignUpPageByTitle(){
-        Assert.assertEquals(getTitle(), amazonSellerSignUpPageTitle);
+    public void verifyNavigateToAmazonSellerSignUpPageByTitle() throws InterruptedException {
+        sleepFor(2);
+        validateByTitle(amazonSellerSignUpPageTitle);
     }
 
 }

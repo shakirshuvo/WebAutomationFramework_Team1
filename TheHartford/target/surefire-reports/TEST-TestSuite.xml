@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="360.13" tests="122" errors="0" skipped="95" failures="16">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="../Generic/BrowserDriver/windows/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\TheHartford\target\test-classes;C:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\TheHartford\target\classes;C:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\Generic\target\classes;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Shakir\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shakir\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Shakir\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Shakir\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Shakir\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Shakir\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Shakir\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Shakir\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Shakir\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Shakir\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Shakir\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Shakir\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Shakir\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Shakir\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Shakir\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Shakir\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Shakir\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Shakir\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\Shakir\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Shakir\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Shakir\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\Shakir\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\Shakir\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\Shakir\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Shakir\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Shakir\.m2\repository\org\mongodb\mongo-java-driver\3.12.7\mongo-java-driver-3.12.7.jar;C:\Users\Shakir\.m2\repository\mysql\mysql-connector-java\8.0.21\mysql-connector-java-8.0.21.jar;C:\Users\Shakir\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\Shakir\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Shakir\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Shakir\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Shakir\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Shakir\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Shakir\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Shakir\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Shakir\.m2\repository\com\aventstack\extentreports\5.0.3\extentreports-5.0.3.jar;C:\Users\Shakir\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Shakir\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Shakir\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Shakir\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Shakir\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Shakir\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Shakir\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Shakir\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Shakir\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Shakir\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Shakir\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Shakir\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Shakir\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Shakir\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.5_10\bin"/>
+    <property name="sun.java.command" value="C:\Users\Shakir\AppData\Local\Temp\surefire1672347155958050523\surefirebooter12499508904180352976.jar C:\Users\Shakir\AppData\Local\Temp\surefire1672347155958050523 2020-09-25T23-21-27_127-jvmRun1 surefire1598339853101722471tmp surefire_11699222537817549454tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\TheHartford\target\test-classes;C:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\TheHartford\target\classes;C:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\Generic\target\classes;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Shakir\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shakir\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Shakir\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Shakir\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Shakir\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Shakir\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Shakir\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Shakir\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Shakir\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Shakir\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Shakir\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Shakir\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Shakir\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Shakir\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Shakir\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Shakir\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Shakir\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Shakir\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Shakir\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.0\webdrivermanager-4.2.0.jar;C:\Users\Shakir\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Shakir\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Shakir\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\Shakir\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\Shakir\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\Shakir\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Shakir\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Shakir\.m2\repository\org\mongodb\mongo-java-driver\3.12.7\mongo-java-driver-3.12.7.jar;C:\Users\Shakir\.m2\repository\mysql\mysql-connector-java\8.0.21\mysql-connector-java-8.0.21.jar;C:\Users\Shakir\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\Shakir\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Shakir\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Shakir\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Shakir\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Shakir\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Shakir\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Shakir\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Shakir\.m2\repository\com\aventstack\extentreports\5.0.3\extentreports-5.0.3.jar;C:\Users\Shakir\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Shakir\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Shakir\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Shakir\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Shakir\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Shakir\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Shakir\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Shakir\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Shakir\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Shakir\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Shakir\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Shakir\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Shakir\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Shakir\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Shakir\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shakir"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.5_10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\TheHartford"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Shakir\AppData\Local\Temp\surefire1672347155958050523\surefirebooter12499508904180352976.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.5+10-LTS"/>
+    <property name="user.name" value="Shakir"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.5.10.1"/>
+    <property name="localRepository" value="C:\Users\Shakir\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shakir\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="C:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\TheHartford"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.5_10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Java\jdk-11.0.7\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Amazon Corretto\jdk11.0.5_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Maven\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\4.4\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PuTTY\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Python37\Scripts\;C:\Python37\;C:\Program Files\Java\jdk1.8.0_221\bin;%Maven_Home%bin;C:\Users\Shakir\AppData\Local\GitHubDesktop\bin;C:\Users\Shakir\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;C:\Program Files\MySQL\MySQL Server 8.0\bin;;."/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.5+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="setUp[false, false, windows, 10, chrome-options, 34, https://www.thehartford.com/](0)" classname="getAQuoteAuto.GetAQuoteAutoTest" time="80.359">
+    <failure message="session not created&#10;from disconnected: unable to connect to renderer&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-F15B8L7&apos;, ip: &apos;169.254.252.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00A287E3+2852835]&#10;	Ordinal0 [0x00915BB1+1727409]&#10;	Ordinal0 [0x007EE4B9+517305]&#10;	Ordinal0 [0x007E4EA3+478883]&#10;	Ordinal0 [0x007EF300+520960]&#10;	Ordinal0 [0x0079E489+189577]&#10;	Ordinal0 [0x0079D7FD+186365]&#10;	Ordinal0 [0x0079B70B+177931]&#10;	Ordinal0 [0x00782584+75140]&#10;	Ordinal0 [0x00783650+79440]&#10;	Ordinal0 [0x007835E9+79337]&#10;	Ordinal0 [0x0092AD5C+1813852]&#10;	GetHandleVerifier [0x00B4C616+1075574]&#10;	GetHandleVerifier [0x00B4C367+1074887]&#10;	GetHandleVerifier [0x00B57497+1120247]&#10;	GetHandleVerifier [0x00B4CC16+1077110]&#10;	Ordinal0 [0x00923206+1782278]&#10;	Ordinal0 [0x0092C3BB+1819579]&#10;	Ordinal0 [0x0092C523+1819939]&#10;	Ordinal0 [0x00942B45+1911621]&#10;	BaseThreadInitThunk [0x75C66359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77077C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: unable to connect to renderer
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A287E3+2852835]
+	Ordinal0 [0x00915BB1+1727409]
+	Ordinal0 [0x007EE4B9+517305]
+	Ordinal0 [0x007E4EA3+478883]
+	Ordinal0 [0x007EF300+520960]
+	Ordinal0 [0x0079E489+189577]
+	Ordinal0 [0x0079D7FD+186365]
+	Ordinal0 [0x0079B70B+177931]
+	Ordinal0 [0x00782584+75140]
+	Ordinal0 [0x00783650+79440]
+	Ordinal0 [0x007835E9+79337]
+	Ordinal0 [0x0092AD5C+1813852]
+	GetHandleVerifier [0x00B4C616+1075574]
+	GetHandleVerifier [0x00B4C367+1074887]
+	GetHandleVerifier [0x00B57497+1120247]
+	GetHandleVerifier [0x00B4CC16+1077110]
+	Ordinal0 [0x00923206+1782278]
+	Ordinal0 [0x0092C3BB+1819579]
+	Ordinal0 [0x0092C523+1819939]
+	Ordinal0 [0x00942B45+1911621]
+	BaseThreadInitThunk [0x75C66359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+]]></failure>
+    <system-out><![CDATA[Extent Report DirectoryC:\Study\Selenium\Selenium\Frameworks\WebAutomationFramework_Team1\TheHartford\target\surefire-reports\html
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 24960
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601101772.652][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+[1601101785.958][WARNING]: Timed out connecting to Chrome, retrying...
+[1601101793.960][WARNING]: Timed out connecting to Chrome, retrying...
+[1601101809.967][WARNING]: Timed out connecting to Chrome, giving up.
+[1601101814.285][WARNING]: Timed out connecting to Chrome, retrying...
+[1601101822.286][WARNING]: Timed out connecting to Chrome, retrying...
+[1601101838.287][WARNING]: Timed out connecting to Chrome, giving up.
+]]></system-err>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clearBrowserCache" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testFillOutAboutYou" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped message="session not created&#10;from disconnected: unable to connect to renderer&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-F15B8L7&apos;, ip: &apos;169.254.252.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00A287E3+2852835]&#10;	Ordinal0 [0x00915BB1+1727409]&#10;	Ordinal0 [0x007EE4B9+517305]&#10;	Ordinal0 [0x007E4EA3+478883]&#10;	Ordinal0 [0x007EF300+520960]&#10;	Ordinal0 [0x0079E489+189577]&#10;	Ordinal0 [0x0079D7FD+186365]&#10;	Ordinal0 [0x0079B70B+177931]&#10;	Ordinal0 [0x00782584+75140]&#10;	Ordinal0 [0x00783650+79440]&#10;	Ordinal0 [0x007835E9+79337]&#10;	Ordinal0 [0x0092AD5C+1813852]&#10;	GetHandleVerifier [0x00B4C616+1075574]&#10;	GetHandleVerifier [0x00B4C367+1074887]&#10;	GetHandleVerifier [0x00B57497+1120247]&#10;	GetHandleVerifier [0x00B4CC16+1077110]&#10;	Ordinal0 [0x00923206+1782278]&#10;	Ordinal0 [0x0092C3BB+1819579]&#10;	Ordinal0 [0x0092C523+1819939]&#10;	Ordinal0 [0x00942B45+1911621]&#10;	BaseThreadInitThunk [0x75C66359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77077C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidateAddNissanMaxima2007WithVINConfirmation" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped message="session not created&#10;from disconnected: unable to connect to renderer&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-F15B8L7&apos;, ip: &apos;169.254.252.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00A287E3+2852835]&#10;	Ordinal0 [0x00915BB1+1727409]&#10;	Ordinal0 [0x007EE4B9+517305]&#10;	Ordinal0 [0x007E4EA3+478883]&#10;	Ordinal0 [0x007EF300+520960]&#10;	Ordinal0 [0x0079E489+189577]&#10;	Ordinal0 [0x0079D7FD+186365]&#10;	Ordinal0 [0x0079B70B+177931]&#10;	Ordinal0 [0x00782584+75140]&#10;	Ordinal0 [0x00783650+79440]&#10;	Ordinal0 [0x007835E9+79337]&#10;	Ordinal0 [0x0092AD5C+1813852]&#10;	GetHandleVerifier [0x00B4C616+1075574]&#10;	GetHandleVerifier [0x00B4C367+1074887]&#10;	GetHandleVerifier [0x00B57497+1120247]&#10;	GetHandleVerifier [0x00B4CC16+1077110]&#10;	Ordinal0 [0x00923206+1782278]&#10;	Ordinal0 [0x0092C3BB+1819579]&#10;	Ordinal0 [0x0092C523+1819939]&#10;	Ordinal0 [0x00942B45+1911621]&#10;	BaseThreadInitThunk [0x75C66359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77077C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="testValidateAddVehicleAndGoToYourVehiclePage" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidateDeselectNissanMaxima2007" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidateNissanMaxima2007IsAddedWithVIN" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidateNissanMaxima2016IsAdded" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidatePleaseEnterAValidAddressAlert" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidatePleaseEnterAValidFirstNameAlert" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidatePleaseEnterAValidLastNameAlert" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidatePleaseEnterYourDateOfBirthAlert" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidateQuoteWithoutZipCode" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidateStartQuote" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="generateReport" classname="getAQuoteAuto.GetAQuoteAutoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp[false, false, windows, 10, chrome-options, 34, https://www.thehartford.com/](0)" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="60.969">
+    <failure message="session not created&#10;from disconnected: unable to connect to renderer&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-F15B8L7&apos;, ip: &apos;169.254.252.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00A287E3+2852835]&#10;	Ordinal0 [0x00915BB1+1727409]&#10;	Ordinal0 [0x007EE4B9+517305]&#10;	Ordinal0 [0x007E4EA3+478883]&#10;	Ordinal0 [0x007EF300+520960]&#10;	Ordinal0 [0x0079E489+189577]&#10;	Ordinal0 [0x0079D7FD+186365]&#10;	Ordinal0 [0x0079B70B+177931]&#10;	Ordinal0 [0x00782584+75140]&#10;	Ordinal0 [0x00783650+79440]&#10;	Ordinal0 [0x007835E9+79337]&#10;	Ordinal0 [0x0092AD5C+1813852]&#10;	GetHandleVerifier [0x00B4C616+1075574]&#10;	GetHandleVerifier [0x00B4C367+1074887]&#10;	GetHandleVerifier [0x00B57497+1120247]&#10;	GetHandleVerifier [0x00B4CC16+1077110]&#10;	Ordinal0 [0x00923206+1782278]&#10;	Ordinal0 [0x0092C3BB+1819579]&#10;	Ordinal0 [0x0092C523+1819939]&#10;	Ordinal0 [0x00942B45+1911621]&#10;	BaseThreadInitThunk [0x75C66359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77077C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: unable to connect to renderer
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A287E3+2852835]
+	Ordinal0 [0x00915BB1+1727409]
+	Ordinal0 [0x007EE4B9+517305]
+	Ordinal0 [0x007E4EA3+478883]
+	Ordinal0 [0x007EF300+520960]
+	Ordinal0 [0x0079E489+189577]
+	Ordinal0 [0x0079D7FD+186365]
+	Ordinal0 [0x0079B70B+177931]
+	Ordinal0 [0x00782584+75140]
+	Ordinal0 [0x00783650+79440]
+	Ordinal0 [0x007835E9+79337]
+	Ordinal0 [0x0092AD5C+1813852]
+	GetHandleVerifier [0x00B4C616+1075574]
+	GetHandleVerifier [0x00B4C367+1074887]
+	GetHandleVerifier [0x00B57497+1120247]
+	GetHandleVerifier [0x00B4CC16+1077110]
+	Ordinal0 [0x00923206+1782278]
+	Ordinal0 [0x0092C3BB+1819579]
+	Ordinal0 [0x0092C523+1819939]
+	Ordinal0 [0x00942B45+1911621]
+	BaseThreadInitThunk [0x75C66359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18502
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601101841.257][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+[1601101847.367][WARNING]: Timed out connecting to Chrome, retrying...
+[1601101855.369][WARNING]: Timed out connecting to Chrome, retrying...
+[1601101871.370][WARNING]: Timed out connecting to Chrome, giving up.
+[1601101875.375][WARNING]: Timed out connecting to Chrome, retrying...
+[1601101883.376][WARNING]: Timed out connecting to Chrome, retrying...
+[1601101899.378][WARNING]: Timed out connecting to Chrome, giving up.
+]]></system-err>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getInit" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="maximizeWindow" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testVerifyFillOutBeginFormWithoutTypeOfBusiness" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped message="session not created&#10;from disconnected: unable to connect to renderer&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-F15B8L7&apos;, ip: &apos;169.254.252.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00A287E3+2852835]&#10;	Ordinal0 [0x00915BB1+1727409]&#10;	Ordinal0 [0x007EE4B9+517305]&#10;	Ordinal0 [0x007E4EA3+478883]&#10;	Ordinal0 [0x007EF300+520960]&#10;	Ordinal0 [0x0079E489+189577]&#10;	Ordinal0 [0x0079D7FD+186365]&#10;	Ordinal0 [0x0079B70B+177931]&#10;	Ordinal0 [0x00782584+75140]&#10;	Ordinal0 [0x00783650+79440]&#10;	Ordinal0 [0x007835E9+79337]&#10;	Ordinal0 [0x0092AD5C+1813852]&#10;	GetHandleVerifier [0x00B4C616+1075574]&#10;	GetHandleVerifier [0x00B4C367+1074887]&#10;	GetHandleVerifier [0x00B57497+1120247]&#10;	GetHandleVerifier [0x00B4CC16+1077110]&#10;	Ordinal0 [0x00923206+1782278]&#10;	Ordinal0 [0x0092C3BB+1819579]&#10;	Ordinal0 [0x0092C523+1819939]&#10;	Ordinal0 [0x00942B45+1911621]&#10;	BaseThreadInitThunk [0x75C66359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77077C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="cleanUp" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+  </testcase>
+  <testcase name="setUp" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testVerifyNavigateToBeginPage" classname="getAQuoteBusiness.GetAQuoteBusinessTest" time="0">
+    <skipped message="session not created&#10;from disconnected: unable to connect to renderer&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-F15B8L7&apos;, ip: &apos;169.254.252.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00A287E3+2852835]&#10;	Ordinal0 [0x00915BB1+1727409]&#10;	Ordinal0 [0x007EE4B9+517305]&#10;	Ordinal0 [0x007E4EA3+478883]&#10;	Ordinal0 [0x007EF300+520960]&#10;	Ordinal0 [0x0079E489+189577]&#10;	Ordinal0 [0x0079D7FD+186365]&#10;	Ordinal0 [0x0079B70B+177931]&#10;	Ordinal0 [0x00782584+75140]&#10;	Ordinal0 [0x00783650+79440]&#10;	Ordinal0 [0x007835E9+79337]&#10;	Ordinal0 [0x0092AD5C+1813852]&#10;	GetHandleVerifier [0x00B4C616+1075574]&#10;	GetHandleVerifier [0x00B4C367+1074887]&#10;	GetHandleVerifier [0x00B57497+1120247]&#10;	GetHandleVerifier [0x00B4CC16+1077110]&#10;	Ordinal0 [0x00923206+1782278]&#10;	Ordinal0 [0x0092C3BB+1819579]&#10;	Ordinal0 [0x0092C523+1819939]&#10;	Ordinal0 [0x00942B45+1911621]&#10;	BaseThreadInitThunk [0x75C66359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77077C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="testValidateFillOutAboutYouPageWithoutAddress" classname="getAQuoteHome.GetAQuoteHomeTest" time="14.6">
+    <system-out><![CDATA[GetAQuoteHomeTest: test Validate Fill Out About You Page Without Address
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 30651
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601101900.663][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:31:42 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateFillOutAboutYouPageWithoutConfirmingMailingAddress" classname="getAQuoteHome.GetAQuoteHomeTest" time="14.184">
+    <system-out><![CDATA[GetAQuoteHomeTest: test Validate Fill Out About You Page Without Confirming Mailing Address
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 36256
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601101924.919][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:32:07 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateFillOutAboutYouPageWithoutDateOfBirth" classname="getAQuoteHome.GetAQuoteHomeTest" time="12.868">
+    <system-out><![CDATA[GetAQuoteHomeTest: test Validate Fill Out About You Page Without Date Of Birth
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 30885
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601101947.470][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:32:29 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateFillOutAboutYouPageWithoutFirstName" classname="getAQuoteHome.GetAQuoteHomeTest" time="13.314">
+    <system-out><![CDATA[GetAQuoteHomeTest: test Validate Fill Out About You Page Without First Name
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 26359
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601101969.347][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:32:51 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateFillOutAboutYouPageWithoutGender" classname="getAQuoteHome.GetAQuoteHomeTest" time="11.856">
+    <system-out><![CDATA[GetAQuoteHomeTest: test Validate Fill Out About You Page Without Gender
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25604
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601101990.648][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:33:12 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateFillOutAboutYouPageWithoutLastName" classname="getAQuoteHome.GetAQuoteHomeTest" time="13.032">
+    <system-out><![CDATA[GetAQuoteHomeTest: test Validate Fill Out About You Page Without Last Name
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 38916
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601102011.610][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:33:33 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateFillOutAboutYouPageWithoutMaritalStatus" classname="getAQuoteHome.GetAQuoteHomeTest" time="13.011">
+    <system-out><![CDATA[GetAQuoteHomeTest: test Validate Fill Out About You Page Without Marital Status
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 47093
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601102033.578][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:33:55 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateHomeAndCondoQuoteByURL" classname="getAQuoteHome.GetAQuoteHomeTest" time="5.181">
+    <system-out><![CDATA[GetAQuoteHomeTest: test Validate Home And Condo Quote By URL
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 16043
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601102055.743][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:34:17 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testVerifyFillOutAboutYouPage" classname="getAQuoteHome.GetAQuoteHomeTest" time="15.541">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 23002
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601102070.233][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:34:32 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNavigateToImAnEmployerOrPlanAdministratorLogin" classname="myAccount.MyAccountTest" time="2.887">
+    <system-out><![CDATA[MyAccountTest: test Validate Navigate To Im An Employer Or Plan Administrator Login
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 4410
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601102094.107][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:34:56 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testValidateNavigateToImAnEmployerOrPlanAdministratorRegister" classname="myAccount.MyAccountTest" time="3.116">
+    <system-out><![CDATA[MyAccountTest: test Validate Navigate To Im An Employer Or Plan Administrator Register
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 38945
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601102106.416][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep. 25, 2020 11:35:08 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

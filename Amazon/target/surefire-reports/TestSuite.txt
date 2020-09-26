@@ -1,4 +1,222 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 86.819 s - in TestSuite
+Tests run: 210, Failures: 11, Errors: 0, Skipped: 191, Time elapsed: 452.419 s <<< FAILURE! - in TestSuite
+cart.CartTest.TestValidateAllDropDown  Time elapsed: 20.306 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'WDBPKJ0050BBK')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:24971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cff95eedec3eac9ff1a353bfb95796f1
+*** Element info: {Using=xpath, value=//span[contains(text(),'WDBPKJ0050BBK')]}
+	at cart.CartTest.TestValidateAllDropDown(CartTest.java:56)
+
+cart.CartTest.testCheckoutAfterAddingAnItemToCart  Time elapsed: 7.888 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'WDBPKJ0050BBK')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:25069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 517e686b6d98de8842fb744a2a1e45b8
+*** Element info: {Using=xpath, value=//span[contains(text(),'WDBPKJ0050BBK')]}
+	at cart.CartTest.testCheckoutAfterAddingAnItemToCart(CartTest.java:48)
+
+cart.CartTest.testItemAddedToCartByGoingIntoCart  Time elapsed: 7.779 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'WDBPKJ0050BBK')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:25164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 85163cbed98b52f168e9423a75c65f62
+*** Element info: {Using=xpath, value=//span[contains(text(),'WDBPKJ0050BBK')]}
+	at cart.CartTest.testItemAddedToCartByGoingIntoCart(CartTest.java:32)
+
+cart.CartTest.testItemAddedToCartWithoutGoingIntoCart  Time elapsed: 7.41 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'WDBPKJ0050BBK')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:25253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3843f5846967806f7625e2e8a4748d29
+*** Element info: {Using=xpath, value=//span[contains(text(),'WDBPKJ0050BBK')]}
+	at cart.CartTest.testItemAddedToCartWithoutGoingIntoCart(CartTest.java:24)
+
+cart.CartTest.testItemDeletedFromCart  Time elapsed: 7.401 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'WDBPKJ0050BBK')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:25341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fb948533160872e4bfb6267ff6deaa43
+*** Element info: {Using=xpath, value=//span[contains(text(),'WDBPKJ0050BBK')]}
+	at cart.CartTest.testItemDeletedFromCart(CartTest.java:40)
+
+cart.CartTest.testValidateIncreaseQuantityTo2  Time elapsed: 10.481 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'WDBPKJ0050BBK')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Shakir\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:25425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 07f276cec3a555e91ce9fae4aff34d54
+*** Element info: {Using=xpath, value=//span[contains(text(),'WDBPKJ0050BBK')]}
+	at cart.CartTest.testValidateIncreaseQuantityTo2(CartTest.java:66)
+
+home.HomePageTest.testVerifyAmazonMusicByTitle  Time elapsed: 3.013 s  <<< FAILURE!
+java.lang.AssertionError: expected [Amazon Music Unlimited - Stream 60 million songs online now.] but found [Amazon Music]
+	at home.HomePageTest.testVerifyAmazonMusicByTitle(HomePageTest.java:121)
+
+home.HomePageTest.setUp[false, browserstack, Windows, 10, chrome-options, 85.0, https://www.amazon.com/](0)  Time elapsed: 65.533 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: unable to connect to renderer
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A287E3+2852835]
+	Ordinal0 [0x00915BB1+1727409]
+	Ordinal0 [0x007EE4B9+517305]
+	Ordinal0 [0x007E4EA3+478883]
+	Ordinal0 [0x007EF300+520960]
+	Ordinal0 [0x0079E489+189577]
+	Ordinal0 [0x0079D7FD+186365]
+	Ordinal0 [0x0079B70B+177931]
+	Ordinal0 [0x00782584+75140]
+	Ordinal0 [0x00783650+79440]
+	Ordinal0 [0x007835E9+79337]
+	Ordinal0 [0x0092AD5C+1813852]
+	GetHandleVerifier [0x00B4C616+1075574]
+	GetHandleVerifier [0x00B4C367+1074887]
+	GetHandleVerifier [0x00B57497+1120247]
+	GetHandleVerifier [0x00B4CC16+1077110]
+	Ordinal0 [0x00923206+1782278]
+	Ordinal0 [0x0092C3BB+1819579]
+	Ordinal0 [0x0092C523+1819939]
+	Ordinal0 [0x00942B45+1911621]
+	BaseThreadInitThunk [0x75C66359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+
+registration.RegistrationPageTest.setUp[false, browserstack, Windows, 10, chrome-options, 85.0, https://www.amazon.com/](0)  Time elapsed: 61.225 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: unable to connect to renderer
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A287E3+2852835]
+	Ordinal0 [0x00915BB1+1727409]
+	Ordinal0 [0x007EE4B9+517305]
+	Ordinal0 [0x007E4EA3+478883]
+	Ordinal0 [0x007EF300+520960]
+	Ordinal0 [0x0079E489+189577]
+	Ordinal0 [0x0079D7FD+186365]
+	Ordinal0 [0x0079B70B+177931]
+	Ordinal0 [0x00782584+75140]
+	Ordinal0 [0x00783650+79440]
+	Ordinal0 [0x007835E9+79337]
+	Ordinal0 [0x0092AD5C+1813852]
+	GetHandleVerifier [0x00B4C616+1075574]
+	GetHandleVerifier [0x00B4C367+1074887]
+	GetHandleVerifier [0x00B57497+1120247]
+	GetHandleVerifier [0x00B4CC16+1077110]
+	Ordinal0 [0x00923206+1782278]
+	Ordinal0 [0x0092C3BB+1819579]
+	Ordinal0 [0x0092C523+1819939]
+	Ordinal0 [0x00942B45+1911621]
+	BaseThreadInitThunk [0x75C66359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+
+search.SearchTest.setUp[false, browserstack, Windows, 10, chrome-options, 85.0, https://www.amazon.com/](0)  Time elapsed: 59.724 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: unable to connect to renderer
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A287E3+2852835]
+	Ordinal0 [0x00915BB1+1727409]
+	Ordinal0 [0x007EE4B9+517305]
+	Ordinal0 [0x007E4EA3+478883]
+	Ordinal0 [0x007EF300+520960]
+	Ordinal0 [0x0079E489+189577]
+	Ordinal0 [0x0079D7FD+186365]
+	Ordinal0 [0x0079B70B+177931]
+	Ordinal0 [0x00782584+75140]
+	Ordinal0 [0x00783650+79440]
+	Ordinal0 [0x007835E9+79337]
+	Ordinal0 [0x0092AD5C+1813852]
+	GetHandleVerifier [0x00B4C616+1075574]
+	GetHandleVerifier [0x00B4C367+1074887]
+	GetHandleVerifier [0x00B57497+1120247]
+	GetHandleVerifier [0x00B4CC16+1077110]
+	Ordinal0 [0x00923206+1782278]
+	Ordinal0 [0x0092C3BB+1819579]
+	Ordinal0 [0x0092C523+1819939]
+	Ordinal0 [0x00942B45+1911621]
+	BaseThreadInitThunk [0x75C66359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+
+signIn.SignInTest.setUp[false, browserstack, Windows, 10, chrome-options, 85.0, https://www.amazon.com/](0)  Time elapsed: 58.752 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: unable to connect to renderer
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A287E3+2852835]
+	Ordinal0 [0x00915BB1+1727409]
+	Ordinal0 [0x007EE4B9+517305]
+	Ordinal0 [0x007E4EA3+478883]
+	Ordinal0 [0x007EF300+520960]
+	Ordinal0 [0x0079E489+189577]
+	Ordinal0 [0x0079D7FD+186365]
+	Ordinal0 [0x0079B70B+177931]
+	Ordinal0 [0x00782584+75140]
+	Ordinal0 [0x00783650+79440]
+	Ordinal0 [0x007835E9+79337]
+	Ordinal0 [0x0092AD5C+1813852]
+	GetHandleVerifier [0x00B4C616+1075574]
+	GetHandleVerifier [0x00B4C367+1074887]
+	GetHandleVerifier [0x00B57497+1120247]
+	GetHandleVerifier [0x00B4CC16+1077110]
+	Ordinal0 [0x00923206+1782278]
+	Ordinal0 [0x0092C3BB+1819579]
+	Ordinal0 [0x0092C523+1819939]
+	Ordinal0 [0x00942B45+1911621]
+	BaseThreadInitThunk [0x75C66359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+

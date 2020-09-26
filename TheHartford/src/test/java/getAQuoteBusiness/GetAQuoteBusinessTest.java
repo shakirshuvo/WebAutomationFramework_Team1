@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class GetAQuoteBusinessTest extends CommonAPI {
 
@@ -24,12 +25,16 @@ GetAQuoteBusiness getAQuoteBusiness;
      */
     @Test
     public void testVerifyNavigateToBeginPage(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteBusiness.navigateToBeginPage();
         getAQuoteBusiness.verifyNavigateToBeginPage();
     }
 
     @Test
     public void testVerifyFillOutBeginFormWithoutTypeOfBusiness() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         getAQuoteBusiness.fillOutBeginFormWithoutTypeOfBusiness();
         getAQuoteBusiness.verifyFillOutBeginFormWithoutTypeOfBusiness();
     }

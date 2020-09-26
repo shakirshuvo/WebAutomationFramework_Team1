@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Automation Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="Windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="browserVersion" value="85.0"/>
+  <parameter name="browserName" value="chrome-options"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.amazon.com/"/>
+  <test thread-count="5" name="Amazon Home(failed)" verbose="0">
+    <classes>
+      <class name="signIn.SignInTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testVerifyThatErrorIsDisplayedWhenLoggingInWithInvalidEmailAddressFormat"/>
+          <include name="testVerifyForgotYourPasswordTitle"/>
+          <include name="testTwoUsersCanLogin"/>
+          <include name="extentSetup"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="testVerifyWeCannotFindAnAccountWithThatEmailAddressAlertIsDisplayed"/>
+          <include name="testVerifyEnterYourEmailOrMobilePhoneNumberAlertIsDisplayed"/>
+          <include name="getInit"/>
+          <include name="testVerifyEnterYourPasswordAlertIsDisplayed"/>
+          <include name="generateReport"/>
+          <include name="testVerifyIncorrectPhoneNumberAlertIsDispalyed"/>
+          <include name="testVerifySignInTitle"/>
+          <include name="setUp"/>
+          <include name="testVerifyLoginWithInvalidPassword"/>
+        </methods>
+      </class> <!-- signIn.SignInTest -->
+      <class name="home.HomePageTest">
+        <methods>
+          <include name="testVerifyClickOnAmazonAdvertisingByTitle"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testVerifyClickOnStartASellingAccount"/>
+          <include name="testVerifySellVerificationTextIsDisplayed"/>
+          <include name="testVerifyClickOnAmazonAdvertisingByURL"/>
+          <include name="testVerifyClickOnHPFeaturedBrandSelection"/>
+          <include name="extentSetup"/>
+          <include name="testverifyClickGiftCardsTabByText"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="testVerifyClickOnAmazonAdvertisingByText"/>
+          <include name="testVerifyAmazonMusicByTitle"/>
+          <include name="testVerifyClickOnMusicLink"/>
+          <include name="getInit"/>
+          <include name="testvalidateClickSellTabByTitle"/>
+          <include name="generateReport"/>
+          <include name="testVerifyClickOnMusicLinkByTitle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- home.HomePageTest -->
+      <class name="search.SearchTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testVerifyPurellTextIsDisplayed"/>
+          <include name="testValidateSelectComputersFromAllDropdown"/>
+          <include name="extentSetup"/>
+          <include name="startExtent"/>
+          <include name="getInit"/>
+          <include name="cleanUp"/>
+          <include name="testValidateAllDropDown"/>
+          <include name="testSearchSingleItem"/>
+          <include name="testValidateSearchItemsFromExcel"/>
+          <include name="generateReport"/>
+          <include name="testVerifySearchRandomBooksByTitle"/>
+          <include name="testVerifySearchRandomBooksByURL"/>
+          <include name="testValidateSearchItemsFromMySQL"/>
+          <include name="setUp"/>
+          <include name="testSearchMultipleItems"/>
+        </methods>
+      </class> <!-- search.SearchTest -->
+      <class name="cart.CartTest">
+        <methods>
+          <include name="testCheckoutAfterAddingAnItemToCart"/>
+          <include name="getInit"/>
+          <include name="afterEachTestMethod"/>
+          <include name="extentSetup"/>
+          <include name="testItemDeletedFromCart"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="TestValidateAllDropDown"/>
+          <include name="testItemAddedToCartWithoutGoingIntoCart"/>
+          <include name="testItemAddedToCartByGoingIntoCart"/>
+          <include name="testValidateIncreaseQuantityTo2"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- cart.CartTest -->
+      <class name="registration.RegistrationPageTest">
+        <methods>
+          <include name="testVerifyEnterYourPasswordAlertSignIsDisplayed"/>
+          <include name="testVerifyTypeYourPasswordAgainAlertSignIsDisplayed"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testVerifyEnterYourEmailAlertSignIsDisplayed"/>
+          <include name="testVerifyNavigateToAmazonSellerSignUpPageByTitle"/>
+          <include name="testVerifyEnterYourNameAlertSignIsDisplayed"/>
+          <include name="testPasswordMustBeAtLeast6CharacterAlertSignIsEnabled"/>
+          <include name="extentSetup"/>
+          <include name="getInit"/>
+          <include name="startExtent"/>
+          <include name="testVerifyNewAccountCaptchaIsDisplayed"/>
+          <include name="cleanUp"/>
+          <include name="testVerifyPasswordsMustMatchAlertIsDisplayed"/>
+          <include name="testVerifyEnterAValidEmailAddressAlertSignIsDisplayed"/>
+          <include name="testVerifyClickStartHere"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- registration.RegistrationPageTest -->
+    </classes>
+  </test> <!-- Amazon Home(failed) -->
+</suite> <!-- Failed suite [Amazon Automation Test] -->

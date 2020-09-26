@@ -5,7 +5,7 @@ public class CartWebElements {
     public static final String searchFieldIDWebElement="twotabsearchtextbox";
     public static final String searchButtonXPathWebElement = "//*[@id=\"nav-search-submit-text\"]/input";
     public static final String searchVerificationTextXPathWebElement = "//span[text()='\"Hand Sanitizer\"']";
-    public static final String wd5TBPassportXpathWebElement = "//span[contains(text(),'WDBPKJ0050BBK')]";
+    public static final String wd4TBPassportXpathWebElement = "//span[contains(text(),'WDBPKJ0040BBK')]";
     public static final String addToCartIDWebElement = "add-to-cart-button";
     public static final String addedToCartVerificationIDWebElement = "huc-v2-confirm-text-container";
     public static final String cartHomePageCSSWebElement = "#nav-cart";

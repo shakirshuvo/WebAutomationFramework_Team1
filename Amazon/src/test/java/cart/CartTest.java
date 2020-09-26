@@ -15,8 +15,12 @@ public class CartTest extends CommonAPI {
     @BeforeMethod
     public void getInit() {
         cart = PageFactory.initElements(driver, Cart.class);
+        driver.manage().window().maximize();
     }
 
+    /**
+     * This test verifies that user can add item to cart and verify without going into Cart.
+     */
     @Test
     public void testItemAddedToCartWithoutGoingIntoCart() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -25,6 +29,9 @@ public class CartTest extends CommonAPI {
         cart.verifyThatWD5tbIsAddedToCartFromOutsideCart();
     }
 
+    /**
+     * This test verifies that user can add item to cart and verify by going going into Cart.
+     */
     @Test
     public void testItemAddedToCartByGoingIntoCart() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -63,6 +70,8 @@ public class CartTest extends CommonAPI {
      */
     @Test
     public void testValidateIncreaseQuantityTo2() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         cart.increaseQtyTo2();
         cart.validateIncreaseQuantityTo2();
     }

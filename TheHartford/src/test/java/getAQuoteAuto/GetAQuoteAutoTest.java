@@ -56,7 +56,7 @@ public class GetAQuoteAutoTest extends CommonAPI {
      * @throws InterruptedException
      */
     @Test
-    public void testFillOutAboutYou() {
+    public void testFillOutAboutYou() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.fillOutAboutYou();
@@ -115,7 +115,7 @@ public class GetAQuoteAutoTest extends CommonAPI {
      * This test validates that user is able to add Nissan Maxima 2016 for a quote.
      */
     @Test
-    public void testValidateNissanMaxima2016IsAdded() {
+    public void testValidateNissanMaxima2016IsAdded() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         getAQuoteAuto.addNissanMaxima();

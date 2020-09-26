@@ -9,7 +9,6 @@ import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import static cart.CartWebElements.*;
 
@@ -20,7 +19,7 @@ public class Cart extends CommonAPI {
     public WebElement searchField;
     @FindBy(how = How.XPATH, using = searchButtonXPathWebElement)
     public WebElement searchButton;
-    @FindBy(how = How.XPATH, using = wd5TBPassportXpathWebElement)
+    @FindBy(how = How.XPATH, using = wd4TBPassportXpathWebElement)
     public WebElement wd5TBPassportItem;
     @FindBy(how = How.ID, using = addToCartIDWebElement)
     public WebElement addToCart;
@@ -232,8 +231,7 @@ public class Cart extends CommonAPI {
      * This method verifies that the user is taken to the login page after proceeding to checkout.
      */
     public void verifyCheckoutAfterAddingAnItemToCart() {
-        String actualSignInTitle = getTitle();
-        Assert.assertTrue(getTitle().equals(signInTitleString));
+        validateByTitle(signInTitleString);
     }
 
     /**
@@ -287,6 +285,7 @@ public class Cart extends CommonAPI {
 
     /**
      * This method adds 'WD 5TB Passport - WDBPKJ0050BBK-WESN' adds to cart and then increases the quantity to 2.
+     *
      * @throws InterruptedException
      */
     public void increaseQtyTo2() throws InterruptedException {
@@ -294,7 +293,7 @@ public class Cart extends CommonAPI {
         addWDPassportHardDriveToCart();
         navigateBack();
         addToCart();
-        sleepFor(1);
+        sleepFor(2);
         clickOnCart();
     }
 

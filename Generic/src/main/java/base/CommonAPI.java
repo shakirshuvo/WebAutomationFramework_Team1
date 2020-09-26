@@ -132,7 +132,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("windows") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.thehartford.com/") String url) throws IOException {
+                              String browserVersion, @Optional("https://www.delta.com/") String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -253,6 +253,10 @@ public class CommonAPI {
                 driver.findElement(By.name(locator)).sendKeys(value);
             }
         }
+    }
+
+    public static void typeOnElementNEnterByCSS(String locator, String value) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
     }
 
     public static void typeOnElementNEnter(String locator, String value) {
@@ -668,20 +672,28 @@ public class CommonAPI {
 
     //Validate by text
     public void validateByTextWithXPath(String element, String text) {
-        Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
+        Assert.assertEquals(driver.findElement(By.xpath(element)).getText(), text);
+    }
+
+    public void validateByTextWithCSS(String element, String text) {
+        Assert.assertEquals(driver.findElement(By.cssSelector(element)).getText(), text);
+    }
+
+    public void validateByTextWithClass(String element, String text) {
+        Assert.assertEquals(driver.findElement(By.className(element)).getText(), text);
     }
 
     public void validateByText(String element, String text) {
         try {
-            Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
+            Assert.assertEquals(driver.findElement(By.xpath(element)).getText(), text);
         } catch (Exception ex) {
             try {
-                Assert.assertEquals(text, driver.findElement(By.id(element)).getText());
+                Assert.assertEquals(driver.findElement(By.id(element)).getText(), text);
             } catch (Exception ex2) {
                 try {
-                    Assert.assertEquals(text, driver.findElement(By.cssSelector(element)).getText());
+                    Assert.assertEquals(driver.findElement(By.cssSelector(element)).getText(), text);
                 } catch (Exception ex3) {
-                    Assert.assertEquals(text, driver.findElement(By.name(element)).getText());
+                    Assert.assertEquals(driver.findElement(By.name(element)).getText(), text);
                 }
             }
         }
@@ -689,7 +701,17 @@ public class CommonAPI {
 
     //Validate by URL
     public void validateByURL(String url) {
-        Assert.assertEquals(url, driver.getCurrentUrl());
+        Assert.assertEquals(driver.getCurrentUrl(), url);
+    }
+
+    public boolean elementIsDisplayedXpath(String element){
+        driver.findElement(By.xpath(element)).isDisplayed();
+        return true;
+    }
+
+    public boolean elementIsDisplayedID(String element){
+        driver.findElement(By.id(element)).isDisplayed();
+        return true;
     }
 
     public boolean elementIsDisplayed(String element) {

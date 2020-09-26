@@ -235,23 +235,25 @@ public class HomePage extends CommonAPI {
     /**
      * This method verifies the title of the Music page.
      */
-    public void verifyClickOnMusicLinkByTitle() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Assert.assertTrue(getTitle().equals(musicTitleText));
+    public void verifyClickOnMusicLinkByTitle() throws InterruptedException {
+        sleepFor(2);
+        validateByTitle(musicTitleText);
     }
 
     /**
      * This method will click on the Amazon Advertising link.
      */
-    public void clickOnAmazonAdvertisingLink() {
+    public void clickOnAmazonAdvertisingLink() throws InterruptedException {
+        sleepFor(2);
         advertisingLink.click();
     }
 
     /**
      * This method verifies the URL of Amazon Advertising page.
      */
-    public void verifyClickOnAmazonAdvertisingByURL() {
-        Assert.assertTrue(getURL().equals(advertisingURL));
+    public void verifyClickOnAmazonAdvertisingByURL() throws InterruptedException {
+        sleepFor(2);
+        validateByURL(advertisingURL);
     }
 
     /**
@@ -304,6 +306,7 @@ public class HomePage extends CommonAPI {
     /**
      * This method returns if 'ASUS' option is available on the 'Featured Brands' options on
      * 'Computers & Tablets' page.
+     *
      * @return
      */
     public boolean asusFeaturedBrandSelectionIsDisplayed() {
@@ -313,14 +316,14 @@ public class HomePage extends CommonAPI {
     /**
      * This method verifies if 'ASUS' option on 'Featured Brands' is displayed on 'Computers & Tablets page.
      */
-    public void validateNavigateToComputersAndTabletsWithShopByCategoryHamburger(){
+    public void validateNavigateToComputersAndTabletsWithShopByCategoryHamburger() {
         Assert.assertTrue(asusFeaturedBrandSelectionIsDisplayed());
     }
 
     /**
      * This method clicks on the 'HP' option of 'Featured Brands' on 'Computers & Tablets' page.
      */
-    public void clickOnHPFeaturedBrandSelection(){
+    public void clickOnHPFeaturedBrandSelection() {
         hpFeaturedBrandSelection.click();
     }
 
@@ -328,7 +331,7 @@ public class HomePage extends CommonAPI {
      * This method navigates user to 'Computers & Tablets' page using the 'Shop By Category' hamburger.
      * Then, it clicks on the 'HP' option of 'Featured Brands' on 'Computers & Tablets' page.
      */
-    public void selectHpFromFeaturedBrandsOnComputersAndTabletsPage(){
+    public void selectHpFromFeaturedBrandsOnComputersAndTabletsPage() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         clickOnShopByCategoryHamburger();
         clickOnComputerInShopByCategoryHamburger();
@@ -339,9 +342,10 @@ public class HomePage extends CommonAPI {
     /**
      * This method returns if "HP" text is displayed after clicking on the 'HP' option on the 'Featured Brands' option
      * on 'Computers & Tablets' page.
+     *
      * @return
      */
-    public boolean hpPageTextIsDisplayed(){
+    public boolean hpPageTextIsDisplayed() {
         return hpPageText.isDisplayed();
     }
 
@@ -349,7 +353,7 @@ public class HomePage extends CommonAPI {
      * This method verifies that 'HP' text is displayed after clicking on the 'HP' option on the 'Featured Brands'
      * option on 'Computers & Tablets' page.
      */
-    public void verifyClickOnHPFeaturedBrandSelection(){
+    public void verifyClickOnHPFeaturedBrandSelection() {
         Assert.assertTrue(hpPageTextIsDisplayed());
     }
 
@@ -357,28 +361,29 @@ public class HomePage extends CommonAPI {
     /**
      * This method clicks on Amazon Music link.
      */
-    public void clickOnAmazonMusic(){
+    public void clickOnAmazonMusic() throws InterruptedException {
         amazonMusic.click();
+        sleepFor(2);
     }
 
     /**
      * This method validates Amazon Music page by title.
      */
-    public void verifyAmazonMusicByTitle(){
+    public void verifyAmazonMusicByTitle() {
         Assert.assertEquals(getTitle(), amazonMusicTitle);
     }
 
     /**
      * This method clicks on 'Start a Selling Account' link.
      */
-    public void clickOnStartASellingAccount(){
+    public void clickOnStartASellingAccount() {
         startASellingAccountLink.click();
     }
 
     /**
      * This method verifies the 'Sell on Amazon' title.
      */
-    public void verifyClickOnStartASellingAccount(){
+    public void verifyClickOnStartASellingAccount() {
         Assert.assertEquals(getTitle(), sellOnAmazonTitle);
     }
 

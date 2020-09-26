@@ -1,2 +1,8 @@
+getAQuoteBusiness\GetAQuoteBusiness.class
+getAQuoteHome\GetAQuoteHome.class
 myAccount\MyAccount.class
+getAQuoteAuto\GetAQuoteAuto.class
 myAccount\MyAccountWebElements.class
+getAQuoteBusiness\GetAQuoteBusinessWebElements.class
+getAQuoteAuto\GetAQuoteAutoWebElements.class
+getAQuoteHome\GetAQuoteHomeWebElements.class

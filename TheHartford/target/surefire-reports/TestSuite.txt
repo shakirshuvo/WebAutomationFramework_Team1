@@ -1,0 +1,114 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 122, Failures: 16, Errors: 0, Skipped: 95, Time elapsed: 360.13 s <<< FAILURE! - in TestSuite
+getAQuoteAuto.GetAQuoteAutoTest.setUp[false, false, windows, 10, chrome-options, 34, https://www.thehartford.com/](0)  Time elapsed: 80.359 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: unable to connect to renderer
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A287E3+2852835]
+	Ordinal0 [0x00915BB1+1727409]
+	Ordinal0 [0x007EE4B9+517305]
+	Ordinal0 [0x007E4EA3+478883]
+	Ordinal0 [0x007EF300+520960]
+	Ordinal0 [0x0079E489+189577]
+	Ordinal0 [0x0079D7FD+186365]
+	Ordinal0 [0x0079B70B+177931]
+	Ordinal0 [0x00782584+75140]
+	Ordinal0 [0x00783650+79440]
+	Ordinal0 [0x007835E9+79337]
+	Ordinal0 [0x0092AD5C+1813852]
+	GetHandleVerifier [0x00B4C616+1075574]
+	GetHandleVerifier [0x00B4C367+1074887]
+	GetHandleVerifier [0x00B57497+1120247]
+	GetHandleVerifier [0x00B4CC16+1077110]
+	Ordinal0 [0x00923206+1782278]
+	Ordinal0 [0x0092C3BB+1819579]
+	Ordinal0 [0x0092C523+1819939]
+	Ordinal0 [0x00942B45+1911621]
+	BaseThreadInitThunk [0x75C66359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteAuto.GetAQuoteAutoTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteBusiness.GetAQuoteBusinessTest.setUp[false, false, windows, 10, chrome-options, 34, https://www.thehartford.com/](0)  Time elapsed: 60.969 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: unable to connect to renderer
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F15B8L7', ip: '169.254.252.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A287E3+2852835]
+	Ordinal0 [0x00915BB1+1727409]
+	Ordinal0 [0x007EE4B9+517305]
+	Ordinal0 [0x007E4EA3+478883]
+	Ordinal0 [0x007EF300+520960]
+	Ordinal0 [0x0079E489+189577]
+	Ordinal0 [0x0079D7FD+186365]
+	Ordinal0 [0x0079B70B+177931]
+	Ordinal0 [0x00782584+75140]
+	Ordinal0 [0x00783650+79440]
+	Ordinal0 [0x007835E9+79337]
+	Ordinal0 [0x0092AD5C+1813852]
+	GetHandleVerifier [0x00B4C616+1075574]
+	GetHandleVerifier [0x00B4C367+1074887]
+	GetHandleVerifier [0x00B57497+1120247]
+	GetHandleVerifier [0x00B4CC16+1077110]
+	Ordinal0 [0x00923206+1782278]
+	Ordinal0 [0x0092C3BB+1819579]
+	Ordinal0 [0x0092C523+1819939]
+	Ordinal0 [0x00942B45+1911621]
+	BaseThreadInitThunk [0x75C66359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+
+getAQuoteBusiness.GetAQuoteBusinessTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+getAQuoteBusiness.GetAQuoteBusinessTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+

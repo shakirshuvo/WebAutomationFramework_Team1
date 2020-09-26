@@ -108,6 +108,8 @@ public class SearchTest extends CommonAPI {
 
     @Test
     public void testValidateSelectComputersFromAllDropdown() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         search.selectComputersFromAllDropdown();
         search.validateSelectComputersFromAllDropdown();
     }

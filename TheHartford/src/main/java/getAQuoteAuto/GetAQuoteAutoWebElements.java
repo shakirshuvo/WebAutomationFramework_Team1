@@ -26,7 +26,9 @@ public class GetAQuoteAutoWebElements {
     public static final String whatIsYourEmailOptionalXpathWebElement = "//input[@name='emailAddress']";
     public static final String whatIsYourPhoneOptionalXpathWebElement = "//input[@name='phoneNumber']";
     public static final String nextAddYourVehiclesIDWebElement = "about-you-next-button";
-    public static final String cancelXpathWebElement = "//div[@id='add-vehicle-modal']/div/div/div[2]/form/div[6]/div/a";
+    public static final String cancel1XpathWebElement = "//div[@id='add-vehicle-modal']/div/div/div[2]/form/div[6]/div/a";
+    public static final String cancel2XpathWebElement = "//*[@id=\"stop_existing_transactions\"]/div[2]/div[3]/button[1]";
+    public static final String crossIDWebElement = "modal_btn_icon";
     public static final String needHelpPhoneNumberXpathWebElement = "//a[@id='footerPhoneNumId']";
     public static final String pleaseEnterAValidFirstNameAlertXpathWebElement = "//div[text()='Please enter a valid first name']";
     public static final String pleaseEnterAValidLastNameAlertXpathWebElement = "//div[text()='Please enter a valid last name']";
@@ -52,5 +54,6 @@ public class GetAQuoteAutoWebElements {
     public static final String continueButtonXpathWebElement = "//div[@id='AllVehicleAddedModal']/div/div/div/div[4]/button";
     public static final String yourVehicleURL = "https://quote.thehartford.com/sales/auto/vehicle";
     public static final String pleaseSelectYourVehicleOwnershipStatusXpathWebElement = "//span[text()='Please select your vehicle ownership status.']";
+    public static final String thanksTextXpathWebElement = "//div[@id='main-content']/app-sales/app-auto/div/div[2]/ng-component/div/app-vehicle-checkbox/div/div[1]/div/h2";
 
 }

@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import static getAQuoteAuto.GetAQuoteAutoWebElements.*;
 
+
 public class GetAQuoteAuto extends CommonAPI {
 
     @FindBy(how = How.XPATH, using = zipCodeFieldXpathWebElement)
@@ -65,7 +66,7 @@ public class GetAQuoteAuto extends CommonAPI {
      *
      * @throws InterruptedException
      */
-    public void fillOutAboutYou() {
+    public void fillOutAboutYou() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         typeOnElementNEnter(zipCodeFieldXpathWebElement, vaZipCode);
         waitUntilVisible(By.cssSelector(whatIsYourFirstNameCSSWebElement));
@@ -76,16 +77,20 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
-        clickOnElement(cancelXpathWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
+        sleepFor(3);
+        if (elementIsDisplayedXpath(cancel1XpathWebElement)) {
+            clickOnElementByXpath(cancel1XpathWebElement);
+        } else clickOnElementByXpath(cancel2XpathWebElement);
+        sleepFor(3);
     }
 
     /**
      * This method validates that user is able to fill out 'About You'. The user should be able to to see 'Need Help?' phone number
      * '1-800-333-9238' after filling out 'About you' form.
      */
-    public void validateAddVehiclePopUpIsDisplayed() {
-        Assert.assertTrue(elementIsDisplayed(needHelpPhoneNumberXpathWebElement));
+    public void validateAddVehiclePopUpIsDisplayed() throws InterruptedException {
+        Assert.assertTrue(elementIsDisplayedXpath(needHelpPhoneNumberXpathWebElement));
     }
 
     /**
@@ -102,7 +107,7 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
     }
 
     /**
@@ -127,7 +132,7 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
     }
 
     /**
@@ -152,7 +157,7 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
     }
 
     /**
@@ -177,7 +182,7 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourAptSuiteCSSWebElement, pntVASuite);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
     }
 
     /**
@@ -202,7 +207,7 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
         clickOnElement(noButtonXpathWebElement);
         selectOptionByValue(vehicleYearDropdownCSSWebElement, "6: 2016");
         selectOptionByValue(vehicleMakeDropdownCSSWebElement, "28: Object");
@@ -214,7 +219,8 @@ public class GetAQuoteAuto extends CommonAPI {
     /**
      * This method validates that user is able to add Nissan Maxima 2016 for a quote.
      */
-    public void validateNissanMaxima2016IsAdded() {
+    public void validateNissanMaxima2016IsAdded() throws InterruptedException {
+        sleepFor(2);
         Assert.assertTrue(elementIsDisplayed(nissanMaxima2016XpathWebElement));
     }
 
@@ -234,7 +240,7 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
         clickOnElement(yesButtonXpathWebElement);
         typeOnElement(enterYourVINCSSWebElement, nissan2007VinNumber);
         waitUntilClickAble(By.xpath(addVehicleButtonXpathWebElement));
@@ -245,7 +251,8 @@ public class GetAQuoteAuto extends CommonAPI {
     /**
      * This method validates that user is able to add a vehicle (Nissan Maxima 2007) with a VIN number.
      */
-    public void validateNissanMaxima2007IsAddedWithVIN() {
+    public void validateNissanMaxima2007IsAddedWithVIN() throws InterruptedException {
+        sleepFor(2);
         Assert.assertTrue(elementIsDisplayed(nissanMaxima2007XpathWebElement));
     }
 
@@ -268,11 +275,15 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
+        if (elementIsDisplayedID(crossIDWebElement)) {
+            clickOnElementByID(crossIDWebElement);
+        }
+        sleepFor(3);
         clickOnElement(yesButtonXpathWebElement);
         typeOnElement(enterYourVINCSSWebElement, nissan2007VinNumber);
         waitUntilClickAble(By.xpath(addVehicleButtonXpathWebElement));
-        Thread.sleep(3000);
+        sleepFor(3);
         clickOnElement(addVehicleButtonXpathWebElement);
         clickOnElement(nissanMaxima2007XpathWebElement);
         clickOnElement(nextVehicleDetailsXpathWebElement);
@@ -284,7 +295,8 @@ public class GetAQuoteAuto extends CommonAPI {
      * alert message, "OOPS! We'll need you to select at least one of your vehicles or add a new one so we can
      * continue with your quote".
      */
-    public void validateDeselectNissanMaxima2007() {
+    public void validateDeselectNissanMaxima2007() throws InterruptedException {
+        sleepFor(2);
         Assert.assertTrue(elementIsSelected(oopsAlertXpathWebElement));
     }
 
@@ -305,13 +317,7 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
-        clickOnElement(yesButtonXpathWebElement);
-        typeOnElement(enterYourVINCSSWebElement, nissan2007VinNumber);
-        Thread.sleep(3000);
-        clickOnElement(addVehicleButtonXpathWebElement);
-        Thread.sleep(3000);
-        clickOnElement(nextVehicleDetailsXpathWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
     }
 
     /**
@@ -320,16 +326,16 @@ public class GetAQuoteAuto extends CommonAPI {
      * two possible assertions.
      */
     public void validateAddNissanMaxima2007WithVINConfirmation() throws InterruptedException {
-        try {
-            Assert.assertTrue(elementIsDisplayed(confirmYourVehiclesXpathWebElement));
-        } catch (Exception ex1) {
-            try {
-                System.out.println("Confirmation message was not displayed.");
-                Assert.assertTrue(elementIsDisplayed(pleaseSelectYourVehicleOwnershipStatusXpathWebElement));
-                System.out.println("Validated with WebElement 'Please select your vehicle ownership status");
-            } catch (Exception ex2) {
-            }
+        String expectedText = "Thanks, " + randomFirstName + "! Now let's add your vehicles.";
+
+        if (elementIsDisplayedID(crossIDWebElement)) {
+            clickOnElementByID(crossIDWebElement);
+            sleepFor(3);
+        } else {
+            clickOnElementByXpath(cancel2XpathWebElement);
         }
+        sleepFor(2);
+        validateByText(thanksTextXpathWebElement, expectedText);
     }
 
 
@@ -349,13 +355,18 @@ public class GetAQuoteAuto extends CommonAPI {
         typeOnElement(whatIsYourDateOfBirthCSSWebElement, dateOfBirth);
         typeOnElement(whatIsYourEmailOptionalXpathWebElement, randomEmailAddress);
         typeOnElement(whatIsYourPhoneOptionalXpathWebElement, randomPhoneNumber);
-        clickOnElement(nextAddYourVehiclesIDWebElement);
+        clickOnElementByID(nextAddYourVehiclesIDWebElement);
+        if (elementIsDisplayedID(crossIDWebElement)) {
+            clickOnElementByID(crossIDWebElement);
+            sleepFor(3);
+        }
         clickOnElement(yesButtonXpathWebElement);
+        sleepFor(2);
         typeOnElement(enterYourVINCSSWebElement, nissan2007VinNumber);
         waitUntilClickAble(By.xpath(addVehicleButtonXpathWebElement));
-        Thread.sleep(3000);
+        sleepFor(3);
         clickOnElement(addVehicleButtonXpathWebElement);
-        Thread.sleep(3000);
+        sleepFor(2);
         clickOnElement(nextVehicleDetailsXpathWebElement);
     }
 
@@ -363,7 +374,7 @@ public class GetAQuoteAuto extends CommonAPI {
      * This method validates 'Your Vehicles' page with URL.
      */
     public void validateAddVehicleAndGoToYourVehiclePage() {
-        Assert.assertEquals(getCurrentPageUrl(), yourVehicleURL);
+        validateByURL(yourVehicleURL);
     }
 
 }
