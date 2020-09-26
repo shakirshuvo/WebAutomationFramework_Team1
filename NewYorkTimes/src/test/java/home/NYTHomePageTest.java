@@ -8,7 +8,7 @@ import reporting.TestLogger;
 import dataDriven.DataSource;
 
 import java.util.concurrent.TimeUnit;
-
+import static home.NYTHomePageWebElements.*;
 public class NYTHomePageTest extends CommonAPI {
    NYTHomePage nytHomePage;
 
@@ -51,7 +51,7 @@ public class NYTHomePageTest extends CommonAPI {
     }
     /**
      * test click world on tab
-//     */
+     */
     @Test(enabled = true)
     public void testClickOnWorldTab() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

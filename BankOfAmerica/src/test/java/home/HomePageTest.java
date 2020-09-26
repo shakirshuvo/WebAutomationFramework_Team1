@@ -44,8 +44,10 @@ public class HomePageTest extends CommonAPI {
     /**
      * validate save online check box
      */
-    @Test
+    @Test(enabled = true)
     public void testSaveOnlineIdCheckbox(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnSaveOnlineIdCheckBox();
         homePage.validateclickOnSaveOnlineIdCheckBox();
     }
