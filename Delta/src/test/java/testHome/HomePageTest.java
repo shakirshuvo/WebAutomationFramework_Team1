@@ -17,50 +17,50 @@ public class HomePageTest extends CommonAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
-//
-//    @Test
-//    public void testVerifySignUpCheck() {
-//        homePage.clickOnSignUp();
-//        homePage.verifySignUpCheck();
-//    }
-//
-//    @Test
-//    public void testVerifyClickLogin() throws InterruptedException {
-//        homePage.clickLogin();
-//        Thread.sleep(2000);
-//        homePage.verifyClickLogin();
-//
-//    }
-//    @Test
-//    public void testVerifyClickBook(){
-//        homePage.clickBook();
-//        homePage.verifyClickBook();
-//    }
+
+    @Test
+    public void testVerifySignUpCheck() {
+        homePage.clickOnSignUp();
+        homePage.verifySignUpCheck();
+    }
+
+    @Test
+    public void testVerifyClickLogin() throws InterruptedException {
+        homePage.clickLogin();
+        Thread.sleep(2000);
+        homePage.verifyClickLogin();
+
+    }
+    @Test
+    public void testVerifyClickBook(){
+        homePage.clickBook();
+        homePage.verifyClickBook();
+    }
+@Test
+    public void testVerifyclickFlightStatus(){
+        homePage.verifyFlightStatus();
+        homePage.verifyFlightStatus();
+
+    }
+    @Test
+    public void testVerifyBaggageTitle() throws InterruptedException {
+        homePage.verifyBaggaeTitle();
+        Thread.sleep(2000);
+        homePage.verifyBaggaeTitle();
+
+    }
 //@Test
-//    public void testVerifyclickFlightStatus(){
-//        homePage.flightStatus();
-//        homePage.verifyFlightStatus();
-//
-//    }
-//    @Test
-//    public void testVerifyBaggageTitle() throws InterruptedException {
-//        homePage.Baggage();
-//        Thread.sleep(2000);
-//        homePage.verifyBaggaeTitle();
-//
-//    }
-////@Test
-////    public void testVerifySkyMiles() throws InterruptedException {
-////        homePage.verifyClickSkyMiles();
-////    Thread.sleep(2000);
-////        homePage.verifyClickSkyMiles();
-////}
-//@Test
-//    public void testCLickVerifyFlightDeals() throws InterruptedException {
-//        HomePage.clickFlightDeals();
+//    public void testVerifySkyMiles() throws InterruptedException {
+//        homePage.verifyClickSkyMiles();
 //    Thread.sleep(2000);
-//    HomePage.VerifyFlightDeals();
+//        homePage.verifyClickSkyMiles();
 //}
+@Test
+    public void testCLickVerifyFlightDeals() throws InterruptedException {
+        HomePage.clickFlightDeals();
+    Thread.sleep(2000);
+    HomePage.VerifyFlightDeals();
+}
 //@Test
 //    public void testClickDestination(){
 //        homePage.Destinations();
@@ -68,48 +68,48 @@ public class HomePageTest extends CommonAPI {
 //  @Test
 //    public void testFlightProtection(){
 //        homePage.VerifyclickFlightProtection();
+//
+//  }
 
-  //}
-//
-//
-//    /**
-//     * testing click on pet travel
-//     * @Author: Lemlem
-//     */
-//    @Test(enabled =false)
-//    public void testClickOnPetTravel(){
-//        homePage.clickOnNeedHelp();
-//        homePage.clickOnPetTravel();
-//        homePage.validateClickOnPetTravel();
-//    }
-//
-//@Test
-//    public void testClickOnVaccationDeals(){
-//        homePage.clickonVaccationDeals();
-//        homePage.validateVaccationDeals();
-//
-//}
-//@Test
-//    public void testClickOnDeltaAmexCAerds(){
-//        homePage.clickonDeltaAmexCards();
-//        homePage.validateDeltaAmexCards();
-//}
-//@Test
-//    public void testClickOnShopHotels(){
-//        homePage.clickOnShopHotels();
-//        homePage.validateShopHotels();
-//}
-//@Test
-//    public void testClickOnGiftCards(){
-//        homePage.clickGiftCards();
-//        homePage.validateGiftCards();
-//}
-//
-//   @Test
-//public void testClickOnCommonCheckedBaggageFees(){
-//        homePage.clickCommonCheeckedBaggageFees();
-//        homePage.validateCommonCheeckedBaggageFees();
-//   }
+
+    /**
+     * testing click on pet travel
+     * @Author: Lemlem
+     */
+    @Test(enabled =false)
+    public void testClickOnPetTravel(){
+        homePage.clickOnNeedHelp();
+        homePage.clickOnPetTravel();
+        homePage.validateClickOnPetTravel();
+    }
+
+@Test
+    public void testClickOnVaccationDeals(){
+        homePage.clickonVaccationDeals();
+        homePage.validateVaccationDeals();
+
+}
+@Test
+    public void testClickOnDeltaAmexCAerds(){
+        homePage.clickonDeltaAmexCards();
+        homePage.validateDeltaAmexCards();
+}
+@Test
+    public void testClickOnShopHotels(){
+        homePage.clickOnShopHotels();
+        homePage.validateShopHotels();
+}
+@Test
+    public void testClickOnGiftCards(){
+        homePage.clickGiftCards();
+        homePage.validateGiftCards();
+}
+
+   @Test
+public void testClickOnCommonCheckedBaggageFees(){
+        homePage.clickCommonCheeckedBaggageFees();
+        homePage.validateCommonCheeckedBaggageFees();
+   }
 
     @Test
     public void testValidateNavigateToAccessibleTravelServices(){
@@ -122,6 +122,17 @@ public class HomePageTest extends CommonAPI {
         homePage.navigateToSpecialCircumstances();
         homePage.validateNavigateToSpecialCircumstances();
     }
+    @Test
+    public void testValidateNavigateToMobile(){
+        homePage.navigateToMobile();
+        homePage.validateNavigateToMobile();
+}
+@Test
+public void testValidatereceipts(){
+        homePage.clickReceipts();
+        homePage.validateReceipts();
+}
+
 
 }
 

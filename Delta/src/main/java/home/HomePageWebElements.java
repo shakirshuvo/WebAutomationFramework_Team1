@@ -30,4 +30,10 @@ public class HomePageWebElements<LocationsXpath> {
     public static final String commonCheckedBaggageFeesXpath = "//*[@id=\"maincontent\"]/div[4]/div/div/div/div/div/div/div/div/div[1]/span";
     public static final String specialCircumstancesXpath = "//*[@id=\"secPanel3\"]/ngc-app-sec-links-content/div/div/div[2]/div[3]/ul/li[9]";
     public static final String getSpecialCircumstancesURL = "https://www.delta.com/us/en/special-circumstances/overview";
+    public static final String mobileXpath="//*[@id=\"secPanel3\"]/ngc-app-sec-links-content/div/div/div[2]/div[3]/ul/li[11]";
+    public static final String mobileUrl="https://www.delta.com/us/en/delta-digital/mobile";
+    public static final String receiptsXpath="//*[@id=\"secPanel3\"]/ngc-app-sec-links-content/div/div/div[2]/div[3]/ul/li[4]";
+    public static final String recieptsUrl="https://www.delta.com/us/en/need-help/support-other-information#receipts";
+    public static final String airportMapsAndLocationsByXpath="//*[@id=\"secondary-static-link-5\"]";
 }
+

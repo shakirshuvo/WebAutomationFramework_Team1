@@ -17,6 +17,6 @@ public class SearchTest extends CommonAPI {
     @Test
     public void testSearchIphone() {
         search.searchIphone();
-        search.validateIphoneSearch();
+        search.getVerificationIphoneText();
     }
 }

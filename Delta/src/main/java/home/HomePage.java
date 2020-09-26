@@ -265,6 +265,29 @@ public void validateNavigateToAccessibleTravelServices(){
         Assert.assertEquals(getURL(), getSpecialCircumstancesURL);
     }
 
+    public void navigateToMobile(){
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        mouseHoverByID(needHelpElementID);
+        clickOnElement(mobileXpath);
+}
+    public void validateNavigateToMobile(){
+        Assert.assertEquals(getURL(),mobileUrl);
+}
+
+    @FindBy(how=How.XPATH, using =receiptsXpath)
+    WebElement receipts;
+
+    public void clickReceipts(){
+       receipts.click();
+
+}
+    public void validateReceipts(){
+        String actual=driver.getTitle();
+        String expected="https://www.delta.com/us/en/need-help/support-other-information#receipts";
+        Assert.assertEquals(actual,expected);
+    }
+// @FindBy(how=How.XPATH, using )
 }
 
 

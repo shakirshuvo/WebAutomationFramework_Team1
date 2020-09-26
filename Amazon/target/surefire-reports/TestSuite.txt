@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.97 s - in TestSuite
+Tests run: 89, Failures: 3, Errors: 0, Skipped: 74, Time elapsed: 108.599 s <<< FAILURE! - in TestSuite
+home.HomeTest.searchHandSanitizer  Time elapsed: 0.848 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [searchHandSanitizer] with [interface java.lang.CharSequence].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+home.HomeTest.testGiftCardTab  Time elapsed: 0.095 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at home.HomeTest.testGiftCardTab(HomeTest.java:100)
+
+home.HomeTest.setUp[false, false, windows, 10, chrome-options, 34, https://www.amazon.com/](0)  Time elapsed: 5.411 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9UNDGRQ2', ip: '192.168.31.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\15029\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6f9df382dab5e4b272684750029efd2e
+

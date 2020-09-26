@@ -16,6 +16,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -307,6 +308,14 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
 
+    public void typeByID(String locator, String value) {
+        driver.findElement(By.id(locator)).sendKeys(value);
+    }
+
+    public void submitOnElementByID(String locator) {
+        driver.findElement(By.id(locator)).submit();
+    }
+
     public void typeByCssNEnter(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
     }
@@ -531,9 +540,60 @@ public class CommonAPI {
         return driver1;
     }
 
+    public void validateByTextWithXPath(String element, String text) {
+        Assert.assertEquals(driver.findElement(By.xpath(element)).getText(), text);
+    }
+
     public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator) {
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
         return value;
+    }
+
+    public void validateByTitle(String title) {
+        Assert.assertEquals(title, driver.getTitle());
+    }
+
+    public void selectOptionByValue(String element, String value) {
+        try {
+            Select vehicleYear = new Select(driver.findElement(By.cssSelector(element)));
+            vehicleYear.selectByValue(value);
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                Select vehicleYear = new Select(driver.findElement(By.xpath(element)));
+                vehicleYear.selectByValue(value);
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.id(element)));
+                    vehicleYear.selectByValue(value);
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    Select vehicleYear = new Select(driver.findElement(By.className(element)));
+                    vehicleYear.selectByValue(value);
+                }
+            }
+        }
+    }
+
+    public boolean elementIsDisplayed(String element) {
+        try {
+            driver.findElement(By.xpath(element)).isDisplayed();
+        } catch (Exception ex1) {
+            try {
+                System.out.println("First Attempt was not successful");
+                driver.findElement(By.id(element)).isDisplayed();
+            } catch (Exception ex2) {
+                try {
+                    System.out.println("Second Attempt was not successful");
+                    driver.findElement(By.cssSelector(element)).isDisplayed();
+                } catch (Exception ex3) {
+                    System.out.println("Third Attempt was not successful");
+                    driver.findElement(By.className(element)).isDisplayed();
+                }
+            }
+        }
+        return true;
     }
 
     public void typeOnInputBox(String locator, String value) {

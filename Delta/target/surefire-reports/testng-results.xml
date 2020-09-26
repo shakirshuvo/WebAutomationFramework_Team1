@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report DirectoryC:\Users\15029\IdeaProjects\WebAutomationFramework_Team1\Delta\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-01T02:20:37 EDT" name="Surefire suite" finished-at="2020-09-01T02:21:58 EDT" duration-ms="80724">
+  <suite started-at="2020-09-04T02:22:08 EDT" name="Delta Automation Test" finished-at="2020-09-04T02:22:33 EDT" duration-ms="25735">
     <groups>
     </groups>
-    <test started-at="2020-09-01T02:20:37 EDT" name="Surefire test" finished-at="2020-09-01T02:21:58 EDT" duration-ms="80724">
+    <test started-at="2020-09-04T02:22:08 EDT" name="Delta Home" finished-at="2020-09-04T02:22:33 EDT" duration-ms="25735">
       <class name="testHome.HomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:36 EDT" name="extentSetup" finished-at="2020-09-01T02:20:37 EDT" duration-ms="661" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:07 EDT" name="extentSetup" finished-at="2020-09-04T02:22:08 EDT" duration-ms="239" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3901f6af]]>
+                <![CDATA[org.testng.TestRunner@bc4d5e1]]>
               </value>
             </param>
           </params>
@@ -24,9 +24,39 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:37 EDT" name="setUp" finished-at="2020-09-01T02:20:46 EDT" duration-ms="9399" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:08 EDT" name="setUp" finished-at="2020-09-04T02:22:14 EDT" duration-ms="6194" status="PASS">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
               <value>
                 <![CDATA[https://www.delta.com/]]>
               </value>
@@ -35,43 +65,73 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:46 EDT" name="startExtent" finished-at="2020-09-01T02:20:46 EDT" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:14 EDT" name="startExtent" finished-at="2020-09-04T02:22:14 EDT" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testHome.HomePageTest.testCLickVerifyFlightDeals() throws java.lang.InterruptedException]]>
+                <![CDATA[public void testHome.HomePageTest.testValidateNavigateToAccessibleTravelServices()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:46 EDT" name="getInit" finished-at="2020-09-01T02:20:46 EDT" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:14 EDT" name="getInit" finished-at="2020-09-04T02:22:14 EDT" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testCLickVerifyFlightDeals()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:46 EDT" name="testCLickVerifyFlightDeals" finished-at="2020-09-01T02:20:48 EDT" duration-ms="2009" status="PASS">
+        <test-method signature="testValidateNavigateToAccessibleTravelServices()[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:14 EDT" name="testValidateNavigateToAccessibleTravelServices" finished-at="2020-09-04T02:22:19 EDT" duration-ms="4602" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCLickVerifyFlightDeals -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:48 EDT" name="afterEachTestMethod" finished-at="2020-09-01T02:20:50 EDT" duration-ms="1522" status="PASS">
+        </test-method> <!-- testValidateNavigateToAccessibleTravelServices -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:19 EDT" name="afterEachTestMethod" finished-at="2020-09-04T02:22:20 EDT" duration-ms="1915" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCLickVerifyFlightDeals status=SUCCESS method=HomePageTest.testCLickVerifyFlightDeals()[pri:0, instance:testHome.HomePageTest@6ed3ccb2] output={null}]]]>
+                <![CDATA[[TestResult name=testValidateNavigateToAccessibleTravelServices status=SUCCESS method=HomePageTest.testValidateNavigateToAccessibleTravelServices()[pri:0, instance:testHome.HomePageTest@865dd6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:50 EDT" name="cleanUp" finished-at="2020-09-01T02:20:50 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:20 EDT" name="cleanUp" finished-at="2020-09-04T02:22:20 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:50 EDT" name="setUp" finished-at="2020-09-01T02:20:57 EDT" duration-ms="7141" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:20 EDT" name="setUp" finished-at="2020-09-04T02:22:27 EDT" duration-ms="6473" status="PASS">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="6">
               <value>
                 <![CDATA[https://www.delta.com/]]>
               </value>
@@ -80,315 +140,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:57 EDT" name="startExtent" finished-at="2020-09-01T02:20:57 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:27 EDT" name="getInit" finished-at="2020-09-04T02:22:27 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:27 EDT" name="startExtent" finished-at="2020-09-04T02:22:27 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testHome.HomePageTest.testClickDestination()]]>
+                <![CDATA[public void testHome.HomePageTest.testValidateNavigateToSpecialCircumstances()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:57 EDT" name="getInit" finished-at="2020-09-01T02:20:57 EDT" duration-ms="0" status="PASS">
+        <test-method signature="testValidateNavigateToSpecialCircumstances()[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:27 EDT" name="testValidateNavigateToSpecialCircumstances" finished-at="2020-09-04T02:22:32 EDT" duration-ms="5483" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testClickDestination()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:57 EDT" name="testClickDestination" finished-at="2020-09-01T02:20:57 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClickDestination -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:57 EDT" name="afterEachTestMethod" finished-at="2020-09-01T02:20:59 EDT" duration-ms="1389" status="PASS">
+        </test-method> <!-- testValidateNavigateToSpecialCircumstances -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:32 EDT" name="afterEachTestMethod" finished-at="2020-09-04T02:22:33 EDT" duration-ms="980" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testClickDestination status=SUCCESS method=HomePageTest.testClickDestination()[pri:0, instance:testHome.HomePageTest@6ed3ccb2] output={null}]]]>
+                <![CDATA[[TestResult name=testValidateNavigateToSpecialCircumstances status=SUCCESS method=HomePageTest.testValidateNavigateToSpecialCircumstances()[pri:0, instance:testHome.HomePageTest@865dd6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:59 EDT" name="cleanUp" finished-at="2020-09-01T02:20:59 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:33 EDT" name="cleanUp" finished-at="2020-09-04T02:22:33 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:20:59 EDT" name="setUp" finished-at="2020-09-01T02:21:06 EDT" duration-ms="7286" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.delta.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:06 EDT" name="getInit" finished-at="2020-09-01T02:21:06 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:06 EDT" name="startExtent" finished-at="2020-09-01T02:21:06 EDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testHome.HomePageTest.testFlightProtection()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method signature="testFlightProtection()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:06 EDT" name="testFlightProtection" finished-at="2020-09-01T02:21:06 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFlightProtection -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:06 EDT" name="afterEachTestMethod" finished-at="2020-09-01T02:21:07 EDT" duration-ms="842" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testFlightProtection status=SUCCESS method=HomePageTest.testFlightProtection()[pri:0, instance:testHome.HomePageTest@6ed3ccb2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:07 EDT" name="cleanUp" finished-at="2020-09-01T02:21:07 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:07 EDT" name="setUp" finished-at="2020-09-01T02:21:14 EDT" duration-ms="7015" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.delta.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:14 EDT" name="getInit" finished-at="2020-09-01T02:21:14 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:14 EDT" name="startExtent" finished-at="2020-09-01T02:21:14 EDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testHome.HomePageTest.testVerifyBaggageTitle() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method signature="testVerifyBaggageTitle()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:14 EDT" name="testVerifyBaggageTitle" finished-at="2020-09-01T02:21:16 EDT" duration-ms="2022" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyBaggageTitle -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:16 EDT" name="afterEachTestMethod" finished-at="2020-09-01T02:21:17 EDT" duration-ms="854" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyBaggageTitle status=SUCCESS method=HomePageTest.testVerifyBaggageTitle()[pri:0, instance:testHome.HomePageTest@6ed3ccb2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:17 EDT" name="setUp" finished-at="2020-09-01T02:21:24 EDT" duration-ms="7181" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.delta.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:17 EDT" name="cleanUp" finished-at="2020-09-01T02:21:17 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:24 EDT" name="startExtent" finished-at="2020-09-01T02:21:24 EDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testHome.HomePageTest.testVerifyClickBook()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:24 EDT" name="getInit" finished-at="2020-09-01T02:21:24 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testVerifyClickBook()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:24 EDT" name="testVerifyClickBook" finished-at="2020-09-01T02:21:26 EDT" duration-ms="1890" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyClickBook -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:26 EDT" name="afterEachTestMethod" finished-at="2020-09-01T02:21:26 EDT" duration-ms="857" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyClickBook status=SUCCESS method=HomePageTest.testVerifyClickBook()[pri:0, instance:testHome.HomePageTest@6ed3ccb2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:26 EDT" name="setUp" finished-at="2020-09-01T02:21:34 EDT" duration-ms="7405" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.delta.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:26 EDT" name="cleanUp" finished-at="2020-09-01T02:21:26 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:34 EDT" name="startExtent" finished-at="2020-09-01T02:21:34 EDT" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testHome.HomePageTest.testVerifyClickLogin() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:34 EDT" name="getInit" finished-at="2020-09-01T02:21:34 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testVerifyClickLogin()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:34 EDT" name="testVerifyClickLogin" finished-at="2020-09-01T02:21:38 EDT" duration-ms="4436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyClickLogin -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:38 EDT" name="afterEachTestMethod" finished-at="2020-09-01T02:21:39 EDT" duration-ms="873" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyClickLogin status=SUCCESS method=HomePageTest.testVerifyClickLogin()[pri:0, instance:testHome.HomePageTest@6ed3ccb2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:39 EDT" name="cleanUp" finished-at="2020-09-01T02:21:39 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:39 EDT" name="setUp" finished-at="2020-09-01T02:21:47 EDT" duration-ms="7746" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.delta.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:47 EDT" name="startExtent" finished-at="2020-09-01T02:21:47 EDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testHome.HomePageTest.testVerifySignUpCheck()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:47 EDT" name="getInit" finished-at="2020-09-01T02:21:47 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testVerifySignUpCheck()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:47 EDT" name="testVerifySignUpCheck" finished-at="2020-09-01T02:21:49 EDT" duration-ms="1953" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifySignUpCheck -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:49 EDT" name="afterEachTestMethod" finished-at="2020-09-01T02:21:50 EDT" duration-ms="843" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifySignUpCheck status=SUCCESS method=HomePageTest.testVerifySignUpCheck()[pri:0, instance:testHome.HomePageTest@6ed3ccb2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:50 EDT" name="cleanUp" finished-at="2020-09-01T02:21:50 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:50 EDT" name="setUp" finished-at="2020-09-01T02:21:57 EDT" duration-ms="7086" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.delta.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:57 EDT" name="startExtent" finished-at="2020-09-01T02:21:57 EDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testHome.HomePageTest.testVerifyclickFlightStatus()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:57 EDT" name="getInit" finished-at="2020-09-01T02:21:57 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInit -->
-        <test-method signature="testVerifyclickFlightStatus()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:57 EDT" name="testVerifyclickFlightStatus" finished-at="2020-09-01T02:21:57 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyclickFlightStatus -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:57 EDT" name="afterEachTestMethod" finished-at="2020-09-01T02:21:58 EDT" duration-ms="809" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyclickFlightStatus status=SUCCESS method=HomePageTest.testVerifyclickFlightStatus()[pri:0, instance:testHome.HomePageTest@6ed3ccb2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:58 EDT" name="cleanUp" finished-at="2020-09-01T02:21:58 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:testHome.HomePageTest@6ed3ccb2]" started-at="2020-09-01T02:21:58 EDT" name="generateReport" finished-at="2020-09-01T02:21:58 EDT" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testHome.HomePageTest@865dd6]" started-at="2020-09-04T02:22:33 EDT" name="generateReport" finished-at="2020-09-04T02:22:33 EDT" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- testHome.HomePageTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Delta Home -->
+  </suite> <!-- Delta Automation Test -->
 </testng-results>

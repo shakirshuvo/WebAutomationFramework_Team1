@@ -6,7 +6,7 @@
 
     <test name="United Health Care Home">
         <classes>
-            <!--<class name=""></class>-->
+            <class name="home.UnitedHomePageTest"></class>
         </classes>
 
     </test>
