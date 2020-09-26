@@ -21,7 +21,7 @@ public class HomePageTest extends CommonAPI {
     }
 
 
-    @Test
+    @Test(enabled = true)
     public void testSearchBoxCheck() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -29,7 +29,7 @@ public class HomePageTest extends CommonAPI {
         homePage.validateSearchText("\"Hand Sanitizer\"");
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testSearchBoxCheck1() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -37,7 +37,7 @@ public class HomePageTest extends CommonAPI {
         homePage.validateSearchText("\"Hand Sanitizer1\"");
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testSearchBoxCheckUsingGetItemValue() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -45,7 +45,7 @@ public class HomePageTest extends CommonAPI {
         //homePage.validateSearchBoxCheckUsingGetItemValue();
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testSearchBoxCheckGetItemsListFromExcel() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

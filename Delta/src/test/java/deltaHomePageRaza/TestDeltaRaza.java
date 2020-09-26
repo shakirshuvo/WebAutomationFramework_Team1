@@ -54,7 +54,6 @@ public class TestDeltaRaza extends CommonAPI {
     }
 
     @Test(enabled = true)
-
     public void testSearchBoxCheckUsingClassValues() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -63,7 +62,6 @@ public class TestDeltaRaza extends CommonAPI {
     }
 
     @Test(enabled = true)
-
     public void testSearchBoxCheckGetItemsListFromDB() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

@@ -26,8 +26,6 @@ public class DataDrivenAction extends CommonAPI {
         driver.manage().window().maximize();
         List<String> products = dataSource.DataSource.getItemValue();
         for (String st : products) {
-//            searchBoxElement.sendKeys(st);
-//            searchBoxElement.submit();
             typeOnElementNEnter(searchBoxLocator, st, driver);
             System.out.println("Expected Text is =" + st);
             expectedResult = st;
@@ -35,7 +33,6 @@ public class DataDrivenAction extends CommonAPI {
             actualResult = getTextByXpath(searchValidationLocator);
             System.out.println("Actual Text  =" + actualResult);
             Assert.assertEquals(actualResult, expectedResult, "Test Failed");
-            //sleepFor(3);
 
             searchBoxElement.clear();
 

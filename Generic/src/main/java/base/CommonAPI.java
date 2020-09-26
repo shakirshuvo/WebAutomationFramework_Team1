@@ -224,6 +224,16 @@ public class CommonAPI {
         }
     }
 
+    public static void clickOnElement(WebElement element) {
+        try {
+            element.click();
+        } catch (Exception e) {
+            System.out.println("UNABLE TO CLICK ON ELEMENT\n");
+            e.getMessage();
+            e.printStackTrace();
+        }
+    }
+
     public static void typeOnElement(String locator, String value) {
         try {
             driver.findElement(By.xpath(locator)).sendKeys(value);

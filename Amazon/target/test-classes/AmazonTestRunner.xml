@@ -14,11 +14,10 @@
 
     <test name="Amazon Home">
         <classes>
-<!--            <class name="cart.CartTest"></class>-->
-<!--            <class name="home.HomePageTest"></class>-->
-<!--            <class name="registration.RegistrationPageTest"></class>-->
+
+            <class name="testhome.HomePageTest"></class>
             <class name="search.SearchTest"></class>
-<!--            <class name="datadriven.DataSource"></class>-->
+            <class name="datadriven.DataSource"></class>
         </classes>
 
     </test>

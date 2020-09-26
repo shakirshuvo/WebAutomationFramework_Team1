@@ -28,7 +28,7 @@ public class TestSearch  extends CommonAPI {
         search = PageFactory.initElements(driver, ActionClass.class);
     }
 
-    @Test (enabled = false)
+    @Test (enabled = true)
     public static void testSearchProduct() throws InterruptedException {
         searchProduct();
         validateSearchItems();
@@ -39,13 +39,13 @@ public class TestSearch  extends CommonAPI {
     public void testSearchBoxCheckUsingClassValues() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        searchBoxCheckUsingClassValues();
+        searchByDataDriven.searchBoxCheckUsingClassValues();
     }
     @Test(enabled = true)
     public void testSearchBoxCheckGetItemsListFromDB() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        searchBoxCheckGetItemsListFromDB();
+        searchByDataDriven.searchBoxCheckGetItemsListFromDB();
     }
     @Test(enabled = true)
     public void testSearchBoxCheckGetItemsListFromExcel() throws Exception {

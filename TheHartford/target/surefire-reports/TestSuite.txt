@@ -1,4 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.977 s - in TestSuite
+Tests run: 20, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 137.755 s <<< FAILURE! - in TestSuite
+search.SearchTest.testAboutUs  Time elapsed: 5.164 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='About Us']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:b149:4cb2:5195:3c4e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cd4209eee7e12be5e1e6217cc8934840
+*** Element info: {Using=xpath, value=//a[@title='About Us']}
+	at search.SearchTest.testAboutUs(SearchTest.java:75)
+
+search.SearchTest.testBusinessTab  Time elapsed: 1.756 s  <<< FAILURE!
+java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found [Business Insurance | Insurance for Business Owners | The Hartford]
+	at search.SearchTest.testBusinessTab(SearchTest.java:52)
+
+search.SearchTest.testCarInsurance  Time elapsed: 5.174 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MBP.ed.shawcable.net', ip: '2604:3d09:6e80:4500:b149:4cb2:5195:3c4e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:63346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbc13963e771f5200c42a9f263fa33a
+	at search.SearchTest.testCarInsurance(SearchTest.java:174)
+
+search.SearchTest.testEmployeeBanifits  Time elapsed: 1.05 s  <<< FAILURE!
+java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found []
+	at search.SearchTest.testEmployeeBanifits(SearchTest.java:60)
+
+search.SearchTest.testHomeTab  Time elapsed: 1.23 s  <<< FAILURE!
+java.lang.AssertionError: expected [Business, Home & Car Insurance Quotes | The Hartford Insurance] but found []
+	at search.SearchTest.testHomeTab(SearchTest.java:44)
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [The Hartford Automation Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="catalina"/>
+  <parameter name="browserVersion" value="85"/>
+  <parameter name="browserName" value="chrome-options"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.thehartford.com/"/>
+  <test thread-count="5" name="The Hartford Home(failed)" verbose="0">
+    <classes>
+      <class name="search.SearchTest">
+        <methods>
+          <include name="testCarInsurance"/>
+          <include name="testAboutUs"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testHomeTab"/>
+          <include name="testBusinessTab"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="testEmployeeBanifits"/>
+          <include name="startExtent"/>
+          <include name="getInit"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- search.SearchTest -->
+    </classes>
+  </test> <!-- The Hartford Home(failed) -->
+</suite> <!-- Failed suite [The Hartford Automation Test] -->

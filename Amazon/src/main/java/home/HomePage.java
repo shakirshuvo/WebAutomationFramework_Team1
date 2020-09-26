@@ -75,6 +75,7 @@ public class HomePage extends CommonAPI {
 
     public void searchBoxCheckGetItemsListFromExcel() throws Exception {
         List<String> itemList= DataSource.getItemsListFromExcel();
+        System.out.println(itemList);
         for (int i=1; i<itemList.size();i++){
             String item=itemList.get(i);
             searchBox.sendKeys(item);

@@ -8,20 +8,20 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">TestSuite</th></tr>
-<tr><td><a href="#t0">Amazon Home</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">23,525</td><td></td><td></td></tr>
+<tr><th colspan="8">Amazon Automation Test</th></tr>
+<tr><td><a href="#t0">Amazon Home</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">66,737</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Amazon Home &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testhome.HomePageTest</td><td><a href="#m0">testSearchBoxCheckGetItemsListFromDB</a></td><td rowspan="1">1600828972378</td><td rowspan="1">16817</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Amazon Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Amazon Home &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">testhome.HomePageTest</td><td><a href="#m0">testSearchBoxCheck</a></td><td rowspan="1">1601091904983</td><td rowspan="1">5392</td></tr><tr class="failedeven"><td><a href="#m1">testSearchBoxCheck1</a></td><td rowspan="1">1601091914558</td><td rowspan="1">2088</td></tr><tr class="failedeven"><td><a href="#m2">testSearchBoxCheckGetItemsListFromExcel</a></td><td rowspan="1">1601091939159</td><td rowspan="1">58</td></tr><tr><th colspan="4">Amazon Home &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">search.SearchTest</td><td><a href="#m3">testSearchIphone</a></td><td rowspan="1">1601091966638</td><td rowspan="1">1457</td></tr><tr class="passedodd"><td rowspan="2">testhome.HomePageTest</td><td><a href="#m4">testSearchBoxCheckGetItemsListFromDB</a></td><td rowspan="1">1601091921364</td><td rowspan="1">14257</td></tr><tr class="passedodd"><td><a href="#m5">testSearchBoxCheckUsingGetItemValue</a></td><td rowspan="1">1601091943771</td><td rowspan="1">18836</td></tr></tbody>
 </table>
-<h2>Amazon Home</h2><h3 id="m0">testhome.HomePageTest#testSearchBoxCheckGetItemsListFromDB</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Search Box Check Get Items List From DB</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;a-color-state a-text-bold&apos;]&quot;}
+<h2>Amazon Home</h2><h3 id="m0">testhome.HomePageTest#testSearchBoxCheck</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Search Box Check</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav-search &gt; form &gt; div.nav-right &gt; div &gt; input&quot;}
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;Syeds-MBP.ed.shawcable.net&apos;, ip: &apos;2604:3d09:6e80:4500:0:0:0:6034%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:64237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 802b6767b45ea5423630df74711c65ce
-*** Element info: {Using=xpath, value=//span[@class=&apos;a-color-state a-text-bold&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/xh/fygjm06s7q9...}, goog:chromeOptions: {debuggerAddress: localhost:56687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d1e4c65a3590615ced165dd5a66e4f0f
+*** Element info: {Using=css selector, value=#nav-search &gt; form &gt; div.nav-right &gt; div &gt; input}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -29,15 +29,35 @@ Session ID: 802b6767b45ea5423630df74711c65ce
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.getText(Unknown Source)
-	at home.HomePage.searchBoxCheckGetItemsListFromDB(HomePage.java:103)
-	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB(HomePageTest.java:59)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.searchBoxCheck(HomePage.java:45)
+	at testhome.HomePageTest.testSearchBoxCheck(HomePageTest.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 ... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testhome.HomePageTest#testSearchBoxCheck1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Search Box Check 1</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Search Item not match expected [&quot;Hand Sanitizer1&quot;] but found [&quot;Hand Sanitizer&quot;]
+	at home.HomePage.validateSearchText(HomePage.java:52)
+	at testhome.HomePageTest.testSearchBoxCheck1(HomePageTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testhome.HomePageTest#testSearchBoxCheckGetItemsListFromExcel</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Search Box Check Get Items List From Excel</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+	at org.apache.poi.poifs.storage.HeaderBlock.&lt;init&gt;(HeaderBlock.java:130)
+	at org.apache.poi.poifs.storage.HeaderBlock.&lt;init&gt;(HeaderBlock.java:117)
+	at org.apache.poi.poifs.filesystem.POIFSFileSystem.&lt;init&gt;(POIFSFileSystem.java:285)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.&lt;init&gt;(HSSFWorkbook.java:400)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.&lt;init&gt;(HSSFWorkbook.java:381)
+	at utility.DataReader.fileReader2(DataReader.java:48)
+	at datadriven.DataSource.getItemsListFromExcel(DataSource.java:43)
+	at home.HomePage.searchBoxCheckGetItemsListFromExcel(HomePage.java:77)
+	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromExcel(HomePageTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">search.SearchTest#testSearchIphone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testhome.HomePageTest#testSearchBoxCheckGetItemsListFromDB</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Search Box Check Get Items List From DB</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testhome.HomePageTest#testSearchBoxCheckUsingGetItemValue</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomePageTest: test Search Box Check Using Get Item Value</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
