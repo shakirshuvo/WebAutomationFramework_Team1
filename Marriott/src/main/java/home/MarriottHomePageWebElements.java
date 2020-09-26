@@ -2,10 +2,11 @@ package home;
 
 public class MarriottHomePageWebElements {
 
-    public static final String languageButtonXPath = "//*[@id=\"QuickLinkItem3e94\"]";
-    public static final String languageDeutschXPath = "//*[@id=\"LanguageSelectorOverlaya1b6\"]/div/div/div[3]/ul/li[1]/a";
-    public static final String languageEspanolXPath = "//*[@id=\"LanguageSelectorOverlaya1b6\"]/div/div/div[1]/div[1]/ul/li[2]/a";
-    public static final String destinationInputBoxXPath = "#find-a-hotel-homePage-form > div.l-form-group.m-field-wrap.l-hsearch-labels.clearfix > div.m-field-control.l-margin-bottom-three-quarters.l-datepicker-open.l-xl-col-4.l-pos-relative.js-clearinput.l-hsearch-loc.l-clear.clearfix.js-location.js-auto-complete.sub-takeover.hasOpened > div.l-display-flex > div";
+    public static final String languageButtonCSS = "#page-container > header > div > div.m-header-container.t-bg-standard-20.t-border-header.mi-header > div > div.l-upper-header.l-right-align.l-clear > ul > li.l-right-subsection.l-padding-top-none.l-padding-right-none.l-padding-left-none.l-l-padding-bottom-none.l-l-float-left.l-clear.l-display-none.l-l-display-block";
+    public static final String languageCrossBoxXPath = "/html/body/div[2]/div/div[1]/div[2]/div[2]/button";
+    public static final String languageDeutschXPath = "//a[@href='http://www.marriott.de/default.mi']";
+    public static final String languageEspanolXPath = "//a[@href='http://www.espanol.marriott.com/default.mi']";
+    public static final String destinationInputBoxXPath = "//input[@name='destinationAddress.destination']";
     public static final String dateFromBoxXPath = "//*[@id=\"find-a-hotel-homePage-form\"]/div[2]/div[4]/div/div[1]/div[1]";
     public static final String dateFromXPath = "//*[@id=\"find-a-hotel-homePage-form\"]/div[2]/div[4]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]";
     public static final String calendarNextXPath = "//*[@id=\"find-a-hotel-homePage-form\"]/div[2]/div[4]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[2]/table/thead/tr[1]/th[3]";

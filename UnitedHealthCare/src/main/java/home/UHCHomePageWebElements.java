@@ -23,6 +23,35 @@ public class UHCHomePageWebElements {
     public static final String legalXPath = "/html/body/div[1]/div/div[4]/footer/div/div/div/div[1]/div[2]/nav/ul/li[6]/a";
     public static final String privacyXPath = "/html/body/div[1]/div/div[4]/footer/div/div/div/div[1]/div[2]/nav/ul/li[7]/a";
 
+    public static final String crossbuttonXPath = "//*[@id=\"globalAlertContainer\"]/button";
+    public static final String signInButtonXPath = "/html/body/div[1]/div/div[1]/header/div/div[1]/div[3]/div/div[2]/div[3]/button";
+    public static final String myuhcSignInCSS = "#\\36 71978824-list1599078528739 > li:nth-child(2) > a";
+    public static final String myuhcSignInButtonXPath = "//*[@id=\"signInButton\"]";
+    public static final String myuhcUserNameXPath = "//*[@id=\"username\"]";
+    public static final String myuhcPasswordXPath = "//*[@id=\"password\"]";
+    public static final String myuhcRememberMeCheckBoxXPath = "//*[@id=\"signIn_page\"]/div[3]/form/div[3]/div/label";
+    public static final String myuhcSignInSubmitButtonXPath = "//*[@id=\"submitBtn\"]";
+    public static final String myuhcSignInErrorXPath = "//*[@id=\"signIn_page\"]/div[3]/div[1]";
+
+    public static final String myuhcRegisterNowXPath = "//*[@id=\"registerbutton\"]";
+    public static final String myuhcFirstNameXPath = "//*[@id=\"firstName\"]";
+    public static final String myuhcLastNameXPath = "//*[@id=\"lastName\"]";
+    public static final String myuhcMonthDropDownXPath = "//*[@id=\"dob_month_input\"]";
+    public static final String myuhcDateInputXPath = "//*[@id=\"dob_day\"]";
+    public static final String myuhcYearInputXPath = "//*[@id=\"dob_year\"]";
+    public static final String myuhcSSNRadioButtonXPath = "//*[@id=\"ssn\"]";
+    public static final String myuhcSSNInputXPath = "//*[@id=\"ssnLastSixDigits\"]";
+    public static final String myuhcZipCodeInputXPath = "//*[@id=\"zipCode\"]";
+    public static final String myuhcRegistrationContinueXPath = "//*[@id=\"submitBtn\"]";
+    public static final String myuhcRegistrationErrorXPath = "//*[@id=\"plainText_error\"]";
+
+    public static final String medicareMemberSignInXPath = "//*[@id=\"671978824-list1599767959824\"]/li[2]";
+    public static final String medicareRegisterNowXPath = "/html/body/div[4]/div/div[1]/div[2]/div/div/div/main/section/div/div[1]/div/button[2]";
+    public static final String helpMeFindThisNumberXPath = "/html/body/div/div/div[1]/flex[2]/flex-content[1]/div/form/div[1]/div[2]/div[5]/label/div[1]/a/span";
+    public static final String helpPopUpXPath = "//*[@id=\"memberTipId\"]/p";
+
+    public static final String logoXPath = "/html/body/div[1]/div/div[1]/header/div/div[1]/div[3]/a/img[1]";
+    public static final String searchFieldXPath = "//*[@id=\"search-desktop\"]";
 
 
 }

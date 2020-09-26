@@ -1,10 +1,14 @@
 package home;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static home.UHCHomePageWebElements.*;
 
@@ -33,6 +37,34 @@ public class UHCHomePage extends CommonAPI {
     @FindBy(how = How.XPATH, using = legalXPath) public WebElement legal;
     @FindBy(how = How.XPATH, using = privacyXPath) public WebElement privacy;
 
+    @FindBy(how = How.XPATH, using = crossbuttonXPath) public WebElement crossbutton;
+    @FindBy(how = How.XPATH, using = signInButtonXPath) public WebElement signInButton;
+    @FindBy(how = How.CSS, using = myuhcSignInCSS) public WebElement myuhcSignIn;
+    @FindBy(how = How.XPATH, using = myuhcSignInButtonXPath) public WebElement myuhcSignInButton;
+    @FindBy(how = How.XPATH, using = myuhcUserNameXPath) public WebElement myuhcUserName;
+    @FindBy(how = How.XPATH, using = myuhcPasswordXPath) public WebElement myuhcPassword;
+    @FindBy(how = How.XPATH, using = myuhcRememberMeCheckBoxXPath) public WebElement myuhcRememberMeCheckBox;
+    @FindBy(how = How.XPATH, using = myuhcSignInSubmitButtonXPath) public WebElement myuhcSignInSubmitButton;
+    @FindBy(how = How.XPATH, using = myuhcSignInErrorXPath) public WebElement myuhcSignInError;
+
+    @FindBy(how = How.XPATH, using = myuhcRegisterNowXPath) public WebElement myuhcRegisterNow;
+    @FindBy(how = How.XPATH, using = myuhcFirstNameXPath) public WebElement myuhcFirstName;
+    @FindBy(how = How.XPATH, using = myuhcLastNameXPath) public WebElement myuhcLastName;
+    @FindBy(how = How.XPATH, using = myuhcMonthDropDownXPath) public WebElement myuhcMonthDropDown;
+    @FindBy(how = How.XPATH, using = myuhcDateInputXPath) public WebElement myuhcDateInput;
+    @FindBy(how = How.XPATH, using = myuhcYearInputXPath) public WebElement myuhcYearInput;
+    @FindBy(how = How.XPATH, using = myuhcSSNRadioButtonXPath) public WebElement myuhcSSNRadioButton;
+    @FindBy(how = How.XPATH, using = myuhcSSNInputXPath) public WebElement myuhcSSNInput;
+    @FindBy(how = How.XPATH, using = myuhcZipCodeInputXPath) public WebElement myuhcZipCodeInput;
+    @FindBy(how = How.XPATH, using = myuhcRegistrationContinueXPath) public WebElement myuhcRegistrationContinue;
+    @FindBy(how = How.XPATH, using = myuhcRegistrationErrorXPath) public WebElement myuhcRegistrationError;
+
+    @FindBy(how = How.XPATH, using = medicareMemberSignInXPath) public WebElement medicareMemberSignIn;
+    @FindBy(how = How.XPATH, using = medicareRegisterNowXPath) public WebElement medicareRegisterNow;
+    @FindBy(how = How.XPATH, using = helpMeFindThisNumberXPath) public WebElement helpMeFindThisNumber;
+    @FindBy(how = How.XPATH, using = helpPopUpXPath) public WebElement helpPopUp;
+    @FindBy(how = How.XPATH, using = logoXPath) public WebElement logo;
+    @FindBy(how = How.XPATH, using = searchFieldXPath) public WebElement searchField;
 
     /**
      * This method gets the title of the page when called.
@@ -385,6 +417,86 @@ public class UHCHomePage extends CommonAPI {
     }
     //*********************************************
 
+    // Action Method
+    public void clickSignInButton   () throws InterruptedException {
+//        driver.manage().window().maximize();
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        WebElement select = driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/header/div/div[1]/div[3]/div/div[2]/div[3]/button"));
+//
+//        List<WebElement> options = select.findElements(By.cssSelector("#\\36 71978824-list1599078528739 > li:nth-child(2) > a > span"));
+//
+//        for (WebElement option : options) {
+//
+//            if ("Plan through your employer?".equals(option.getText())){
+//                System.out.println("text found");
+//                option.click();
+//                System.out.println("clicked");
+//            }else {
+//                System.out.println("failed");
+//            }
+
+
+
+            sleepFor(5);
+//            crossbutton.click();
+//        signInButton.click();
+//        sleepFor(5);
+////        cancelAlert();
+//        myuhcSignIn.click();
+//        }
+
+
+//        crossbutton.click();
+        signInButton.click();
+        sleepFor(5);
+//        cancelAlert();
+        //*[@id="671978824-list1599078528739"]/li[2]
+        //myuhcSignIn.click();
+        medicareMemberSignIn.click();
+    }
+
+    public void clickMyuhcSignIn   () throws InterruptedException {
+//        waitUntilClickAble(By.xpath(myuhcSignInXPath));
+//        waitUntilVisible(By.xpath(myuhcSignInXPath));
+
+//        myuhcSignIn.click();
+//        handleNewTab(driver);
+    }
+
+    public void clickMyuhcSignInButton   () {
+        handleNewTab(driver);
+        myuhcSignInButton.click();
+    }
+
+    public void insertMyuhcUserName   (String userName) {
+        clearInputBox(myuhcUserName);
+        myuhcUserName.sendKeys(userName);
+    }
+
+    public void insertMyuhcPassword   (String password) {
+        clearInputBox(myuhcPassword);
+        myuhcPassword.sendKeys(password);
+
+    }
+
+    public void checkMyuhcRememberMeCheckBox   () {
+        myuhcRememberMeCheckBox.click();
+    }
+
+    public void clickMyuhcSignInSubmitButton   () {
+        myuhcSignInSubmitButton.click();
+        //System.out.println(myuhcSignInError.getText());
+    }
+
+
+    // Validation Method
+    public void validateMyuhcSigninError  (){
+        String actualResult = myuhcSignInError.getText();
+        String expectedResult = "alert\n" +
+                "The username and password combination entered does not match our records.";
+        Assert.assertEquals(actualResult,expectedResult,"Test failed");
+    }
+    //*********************************************
 
 
 

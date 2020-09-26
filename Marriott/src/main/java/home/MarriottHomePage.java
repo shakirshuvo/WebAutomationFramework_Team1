@@ -9,10 +9,11 @@ import static home.MarriottHomePageWebElements.*;
 
 public class MarriottHomePage extends CommonAPI {
 
-    @FindBy(how = How.XPATH, using = languageButtonXPath) public WebElement languageButton;
+    @FindBy(how = How.CSS, using = languageButtonCSS) public WebElement languageButton;
+    @FindBy(how = How.XPATH, using = languageCrossBoxXPath) public WebElement languageCrossBox;
     @FindBy(how = How.XPATH, using = languageDeutschXPath) public WebElement languageDeutsch;
     @FindBy(how = How.XPATH, using = languageEspanolXPath) public WebElement languageEspanol;
-    @FindBy(how = How.CSS, using = destinationInputBoxXPath) public WebElement destinationInputBox;
+    @FindBy(how = How.XPATH, using = destinationInputBoxXPath) public WebElement destinationInputBox;
     @FindBy(how = How.XPATH, using = dateFromBoxXPath) public WebElement dateFromBox;
     @FindBy(how = How.XPATH, using = calendarNextXPath) public WebElement calendarNext;
     @FindBy(how = How.XPATH, using = dateFromXPath) public WebElement dateFrom;
@@ -35,6 +36,7 @@ public class MarriottHomePage extends CommonAPI {
     // Action Method
     public void checkDeutsch() {
         languageButton.click();
+//        languageCrossBox.click();
         languageDeutsch.click();
     }
 
@@ -47,6 +49,7 @@ public class MarriottHomePage extends CommonAPI {
     // Action Method
     public void checkEspanol() {
         languageButton.click();
+//        languageCrossBox.click();
         languageEspanol.click();
     }
 
@@ -157,10 +160,9 @@ public class MarriottHomePage extends CommonAPI {
     // Action Method
     public void checkHotelFindingProcess() throws InterruptedException {
 
-//        destinationInputBox.click();
-//        sleepFor(9);
-//        destinationInputBox.clear();
-//        destinationInputBox.sendKeys("Dhaka, Bangladesh");
+
+
+        //destinationInputBox.submit();
         dateFromBox.click();
         calendarNext.click();
         calendarNext.click();
@@ -173,6 +175,10 @@ public class MarriottHomePage extends CommonAPI {
         specialRate.click();
         corporatePromo.click();
         usePointCheckBox.click();
+        destinationInputBox.click();
+        sleepFor(9);
+        destinationInputBox.clear();
+        destinationInputBox.sendKeys("Dhaka, Bangladesh");
         findHotel.click();
     }
 

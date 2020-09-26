@@ -154,5 +154,19 @@ public class UHCHomePageTest extends CommonAPI {
         homePage.validatePrivacy();
     }
 
+    @Test
+    public void testValidateSigninError() throws InterruptedException{
+        homePage.clickSignInButton();
+        homePage.clickMyuhcSignInButton();
+        homePage.insertMyuhcUserName("Donald Trump");
+        homePage.insertMyuhcPassword("12345");
+        homePage.checkMyuhcRememberMeCheckBox();
+        homePage.clickMyuhcSignInSubmitButton();
+        homePage.validateMyuhcSigninError();
+
+
+
+    }
+
 
 }

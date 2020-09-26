@@ -5,16 +5,16 @@
       <![CDATA[Extent Report Directory/Users/farjanamobin/IdeaProjects/WebAutomationFramework_Team1/Amazon/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-09-05T07:18:42 EDT" name="Amazon Automation Test" finished-at="2020-09-05T07:18:53 EDT" duration-ms="11359">
+  <suite started-at="2020-09-23T17:59:15 EDT" name="Amazon Automation Test" finished-at="2020-09-23T18:00:04 EDT" duration-ms="48356">
     <groups>
     </groups>
-    <test started-at="2020-09-05T07:18:42 EDT" name="Amazon Home" finished-at="2020-09-05T07:18:53 EDT" duration-ms="11359">
+    <test started-at="2020-09-23T17:59:15 EDT" name="Amazon Home" finished-at="2020-09-23T18:00:04 EDT" duration-ms="48356">
       <class name="home.HomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-05T07:18:41 EDT" name="extentSetup" finished-at="2020-09-05T07:18:42 EDT" duration-ms="412" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-23T17:59:15 EDT" name="extentSetup" finished-at="2020-09-23T17:59:15 EDT" duration-ms="636" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5b94ccbc]]>
+                <![CDATA[org.testng.TestRunner@b8a7e43]]>
               </value>
             </param>
           </params>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-05T07:18:42 EDT" name="setUp" finished-at="2020-09-05T07:18:47 EDT" duration-ms="5154" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-23T17:59:15 EDT" name="setUp" finished-at="2020-09-23T17:59:56 EDT" duration-ms="40236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-05T07:18:47 EDT" name="startExtent" finished-at="2020-09-05T07:18:47 EDT" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-23T17:59:56 EDT" name="startExtent" finished-at="2020-09-23T17:59:56 EDT" duration-ms="29" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,23 +76,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-05T07:18:47 EDT" name="getInit" finished-at="2020-09-05T07:18:47 EDT" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-23T17:59:56 EDT" name="getInit" finished-at="2020-09-23T17:59:56 EDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testValidateWholeFoodBeverages()[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-05T07:18:47 EDT" name="testValidateWholeFoodBeverages" finished-at="2020-09-05T07:18:52 EDT" duration-ms="4586" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="testValidateWholeFoodBeverages()[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-23T17:59:56 EDT" name="testValidateWholeFoodBeverages" finished-at="2020-09-23T18:00:02 EDT" duration-ms="6035" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[Test failed expected [Amazon.com: Whole Foods Market] but found [Amazon.com: Beverages: Whole Foods Market]]]>
+              <![CDATA[element click intercepted: Element <span class="nav-a-content">...</span> is not clickable at point (506, 128). Other element would receive the click: <div class="glow-toaster-overlay" style="height: 2924px;"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:50b3:adab:6ab2:c839%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f7a150fb5a4db4897ea3a80f09602639]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test failed expected [Amazon.com: Whole Foods Market] but found [Amazon.com: Beverages: Whole Foods Market]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at home.HomePage.validateWholeFoodBeverages(HomePage.java:540)
-at home.HomePageTest.testValidateWholeFoodBeverages(HomePageTest.java:188)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="nav-a-content">...</span> is not clickable at point (506, 128). Other element would receive the click: <div class="glow-toaster-overlay" style="height: 2924px;"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:50b3:adab:6ab2:c839%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f7a150fb5a4db4897ea3a80f09602639
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at home.HomePage.checkWholeFoodBeverages(HomePage.java:531)
+at home.HomePageTest.testValidateWholeFoodBeverages(HomePageTest.java:187)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -127,11 +153,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidateWholeFoodBeverages -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-05T07:18:52 EDT" name="afterEachTestMethod" finished-at="2020-09-05T07:18:53 EDT" duration-ms="1481" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-23T18:00:02 EDT" name="afterEachTestMethod" finished-at="2020-09-23T18:00:04 EDT" duration-ms="1912" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,11 +168,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-05T07:18:53 EDT" name="cleanUp" finished-at="2020-09-05T07:18:53 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-23T18:00:04 EDT" name="cleanUp" finished-at="2020-09-23T18:00:04 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-05T07:18:53 EDT" name="generateReport" finished-at="2020-09-05T07:18:53 EDT" duration-ms="53" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:home.HomePageTest@10d68fcd]" started-at="2020-09-23T18:00:07 EDT" name="generateReport" finished-at="2020-09-23T18:00:07 EDT" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

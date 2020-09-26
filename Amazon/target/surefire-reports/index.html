@@ -128,11 +128,27 @@
                   <a name="testValidateWholeFoodBeverages">
                   </a> <!-- testValidateWholeFoodBeverages -->
                   <span class="method-name">testValidateWholeFoodBeverages</span>
-                  <div class="stack-trace">java.lang.AssertionError: Test failed expected [Amazon.com: Whole Foods Market] but found [Amazon.com: Beverages: Whole Foods Market]
-	at home.HomePage.validateWholeFoodBeverages(HomePage.java:540)
-	at home.HomePageTest.testValidateWholeFoodBeverages(HomePageTest.java:188)
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;nav-a-content&quot;&gt;...&lt;/span&gt; is not clickable at point (506, 128). Other element would receive the click: &lt;div class=&quot;glow-toaster-overlay&quot; style=&quot;height: 2924px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Farjanas-Air&apos;, ip: &apos;2604:2000:1700:1c:50b3:adab:6ab2:c839%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f7a150fb5a4db4897ea3a80f09602639
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.checkWholeFoodBeverages(HomePage.java:531)
+	at home.HomePageTest.testValidateWholeFoodBeverages(HomePageTest.java:187)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 35 stack frames
+... Removed 39 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -201,12 +217,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testValidateWholeFoodBeverages')
 data.setCell(0, 2, 'home.HomePageTest')
-data.setCell(0, 3, 4586);
+data.setCell(0, 3, 6035);
 window.suiteTableData['Amazon_Automation_Test']= { tableData: data, tableDiv: 'times-div-Amazon_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Amazon_Automation_Test">
               </div> <!-- times-div-Amazon_Automation_Test -->
             </div> <!-- times-div -->
@@ -234,38 +250,38 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">home.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@5b94ccbc)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@b8a7e43)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome-options, 85.0, https://www.amazon.com/)</span>
-                <span class="method-start">438 ms</span>
+                <span class="method-start">665 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void home.HomePageTest.testValidateWholeFoodBeverages())</span>
-                <span class="method-start">5594 ms</span>
+                <span class="method-start">40918 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">getInit</span>
-                <span class="method-start">5609 ms</span>
+                <span class="method-start">40947 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testValidateWholeFoodBeverages</span>
-                <span class="method-start">5689 ms</span>
+                <span class="method-start">41020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=testValidateWholeFoodBeverages status=FAILURE method=HomePageTest.testValidateWhole...)</span>
-                <span class="method-start">10287 ms</span>
+                <span class="method-start">47075 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">11768 ms</span>
+                <span class="method-start">48987 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">11821 ms</span>
+                <span class="method-start">52083 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

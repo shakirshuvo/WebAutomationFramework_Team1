@@ -1,8 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.644 s <<< FAILURE! - in TestSuite
-home.HomePageTest.testValidateWholeFoodBeverages  Time elapsed: 4.579 s  <<< FAILURE!
-java.lang.AssertionError: Test failed expected [Amazon.com: Whole Foods Market] but found [Amazon.com: Beverages: Whole Foods Market]
-	at home.HomePageTest.testValidateWholeFoodBeverages(HomePageTest.java:188)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 53.244 s <<< FAILURE! - in TestSuite
+home.HomePageTest.testValidateWholeFoodBeverages  Time elapsed: 6.008 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="nav-a-content">...</span> is not clickable at point (506, 128). Other element would receive the click: <div class="glow-toaster-overlay" style="height: 2924px;"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Farjanas-Air', ip: '2604:2000:1700:1c:50b3:adab:6ab2:c839%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/27/nmfyzmzj1c7...}, goog:chromeOptions: {debuggerAddress: localhost:59709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f7a150fb5a4db4897ea3a80f09602639
+	at home.HomePageTest.testValidateWholeFoodBeverages(HomePageTest.java:187)
 
