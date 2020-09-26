@@ -2,9 +2,11 @@ package home;
 
 import base.CommonAPI;
 
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.util.concurrent.TimeUnit;
 
@@ -21,13 +23,36 @@ public class HomePageTest extends CommonAPI {
 
     }
 
+    /**
+     * test account sign in
+     */
+    @Test(enabled = true)
+    public void testClickAccountSignIn() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.enterOnlineID();
+        homePage.enterPassword();
+        homePage.clickOnSignInBtn();
+        sleepFor(3);
+        homePage.validateClickOnSignInBtn();
+    }
 
+    /**
+     * validate save online check box
+     */
+    @Test
+    public void testSaveOnlineIdCheckbox(){
+        homePage.clickOnSaveOnlineIdCheckBox();
+        homePage.validateclickOnSaveOnlineIdCheckBox();
+    }
 
     /**
      * test click On personal element
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnPersonal() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnPersonal();
        // homePage.validateClickOnPersonal();
     }
@@ -35,8 +60,10 @@ public class HomePageTest extends CommonAPI {
     /**
      * test Open account
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOpenAcount() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homePage.clickOpenAccount();
         homePage.validateClickOpenAccount();
     }
@@ -44,8 +71,10 @@ public class HomePageTest extends CommonAPI {
     /**
      * test small business element
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnSmallBusiness(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnSmallBusiness();
         homePage.validateSmallBusinessElement();
     }
@@ -53,8 +82,10 @@ public class HomePageTest extends CommonAPI {
     /**
      * test clink on Wealth management tag
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnWealthManagement(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnWealthMangement();
         homePage.validateClickOnWealthManagement();
     }
@@ -62,8 +93,10 @@ public class HomePageTest extends CommonAPI {
     /**
      * test click on business institutions
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnBusinessInstitutions(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnBusinessInstitutions();
         homePage.validateClickBusinessInstitutions();
     }
@@ -71,8 +104,10 @@ public class HomePageTest extends CommonAPI {
     /**
      * test click on security tab
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnSecurityTab(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnSecurityTab();
         homePage.validateClickOnSecurityTab();
     }
@@ -80,8 +115,10 @@ public class HomePageTest extends CommonAPI {
     /**
      * test about us element
      */
-    @Test
+    @Test(enabled = true)
     public void testAboutUs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnAboutUs();
         homePage.validateAboutUs();
     }
@@ -90,8 +127,10 @@ public class HomePageTest extends CommonAPI {
      * test clink on Checking
      * @throws InterruptedException
      */
-    @Test
+    @Test(enabled = true)
     public void testClickOnChecking() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnChecking();
         homePage.validateAdvantageBanking();
        // Thread.sleep(5000);

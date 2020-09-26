@@ -135,8 +135,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                                                             <suiteXmlFiles>
-<!--                                                                <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>-->
-<!--                                                          <suiteXmlFiles>target/test-classes/DeltaTestRunner.xml</suiteXmlFiles>-->
+                                                          <suiteXmlFiles>target/test-classes/DeltaTestRunner.xml</suiteXmlFiles>
                                                            </suiteXmlFiles>
 
                 </configuration>

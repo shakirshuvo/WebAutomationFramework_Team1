@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.util.concurrent.TimeUnit;
 
@@ -22,24 +23,30 @@ public class HomePageTest extends CommonAPI {
  */
 @Test(enabled = false)
     public void testClickOnVaccationDeals() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
    homePage.clickOnVaccationDeals();
     homePage.validateClickOnVaccationDeals();
 
 }
 
-///**
-// * test click on book
-// */
-//@Test
-//    public void testClickOnBook() throws InterruptedException {
-//    homePage.clicKOnBook();
-//}
+/**
+ * test click on book
+ */
+@Test(enabled = true)
+    public void testClickOnBook() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    homePage.clicKOnBook();
+}
 
-///**
-// * test check IN
-// */
-@Test
+/**
+ * test check IN
+ */
+@Test(enabled = true)
     public void testClickCheckIn(){
+    TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
     homePage.clickCheckIn();
     homePage.validateClickCheckIn();
 }
@@ -47,20 +54,24 @@ public class HomePageTest extends CommonAPI {
     /**
      * test my trips element
      */
-//    @Test
-//    public void testMyTrips(){
-//        homePage.clickMyTrips();
-//        homePage.enterMyTripInfo();
-//        homePage.validateMyTrips();
-//    }
+    @Test(enabled = true)
+    public void testMyTrips(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.clickMyTrips();
+        homePage.enterMyTripInfo();
+        homePage.validateMyTrips();
+    }
 
     /**
      * test flight status
      */
-//    @Test
-//    public void testFlightStatus() throws InterruptedException {
-//        homePage.clickFlightStatus();
-//        homePage.validateClickFlightStatus();
-//    }
+    @Test(enabled = true)
+    public void testFlightStatus() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.clickFlightStatus();
+        homePage.validateClickFlightStatus();
+    }
 
 }// end homePageTest

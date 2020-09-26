@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.util.concurrent.TimeUnit;
 
@@ -23,6 +24,8 @@ public class UHomePageTest extends CommonAPI {
      */
     @Test
     public void testSearchBoxElement(){
+     TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
         homePage.searchBox();
         homePage.clickOnSearchButton();
         homePage.validateSearch();
@@ -34,6 +37,8 @@ public class UHomePageTest extends CommonAPI {
      */
     @Test
     public void testBrokers(){
+    TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnBrokers();
         homePage.validateClickOnBrokers();
     }
@@ -43,6 +48,8 @@ public class UHomePageTest extends CommonAPI {
      */
     @Test
     public void testClickOnMedicare(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnMedicare();
         homePage.validateClickOnMedicare();
     }
@@ -52,6 +59,8 @@ public class UHomePageTest extends CommonAPI {
      */
     @Test
     public void testClickOnForProviders(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+  }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnForProviders();
         homePage.validateClickOnForProviders();
     }
@@ -61,7 +70,67 @@ public class UHomePageTest extends CommonAPI {
      */
     @Test
     public void testClickOnForEmployers(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
         homePage.clickOnForEmployersTab();
         homePage.validateClickOnForEmployers();
     }
+
+    /**
+     * test click on insurance tab
+     */
+    @Test(enabled = true)
+    public void testClickOnInsurance(){
+            TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+       }.getClass().getEnclosingMethod().getName()));
+        homePage.clickOnInsuranceTab();
+        homePage.validateClickOnInsuranceTab();
+    }
+
+    /**
+     * test click all business tab
+     */
+    @Test(enabled = true)
+    public void testClickOnAllBusiness(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.clickOnAllBusinessTab();
+        homePage.validateAllBusinessTab();
+    }
+
+
+
+    /**
+     * test click small business tab
+     */
+    @Test(enabled = true)
+    public void testClickOnSmallBusiness(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.clickOnSmallBusiness();
+        homePage.validateClickSmallBuiness();
+    }
+
+    /**
+     * test click national accounts tab
+     */
+    @Test(enabled = true)
+    public void testClickNationalAccounts(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.clickOnNationalAccounts();
+        homePage.validateClickNationalAccounts();
+    }
+
+    /**
+     * test click group retiree tab
+     */
+    @Test(enabled = true)
+    public void testClickRetiree(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.clickOnGroupRetiree();
+        homePage.validateClickGroupRetiree();
+    }
+
 }

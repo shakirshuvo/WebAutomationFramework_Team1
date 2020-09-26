@@ -13,7 +13,9 @@
     <test name="TMobile Home">
         <classes>
 
-            <!--            <class name="signIn.SignInTest"></class>-->
+                        <class name="home.TMHomePageTest"></class>
+            <class name="search.SearchTest"></class>
+
         </classes>
 
     </test>

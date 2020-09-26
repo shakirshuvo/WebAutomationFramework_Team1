@@ -12,10 +12,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 public class DataReader {
     HSSFWorkbook hssfWorkbook = null;
@@ -28,6 +25,12 @@ public class DataReader {
     XSSFCell xssfCell = null;
     FileOutputStream fio = null;
     int numberOfRows, numberOfCol, rowNum;
+
+//    HSSFWorkbook wb = null;
+//    HSSFSheet sheet = null;
+//    Cell cell = null;
+
+
 
     public void writeBack(String value) throws IOException {
         xssfWorkbook = new XSSFWorkbook();
@@ -391,4 +394,45 @@ public class DataReader {
     }
 
 
+    public String[] fileReader2(String path, int sheetIndex) throws IOException {
+        String[] data = {};
+        File file = new File(path);
+        FileInputStream fis = new FileInputStream(file);
+        hssfWorkbook = new HSSFWorkbook(fis);
+        hssfSheet = hssfWorkbook.getSheetAt(sheetIndex);
+        numberOfRows = hssfSheet.getLastRowNum();
+        numberOfCol = hssfSheet.getRow(0).getLastCellNum();
+        data = new String[numberOfRows + 1];
+
+        for (int i = 1; i < data.length; i++) {
+            HSSFRow rows = hssfSheet.getRow(i);
+            for (int j = 0; j < numberOfCol; j++) {
+                HSSFCell cell = rows.getCell(j);
+                String cellData = getCellValueHSSF(cell);
+                data[i] = cellData;
+            }
+        }
+        return data;
+    }
+
+    public String[] fileReader3(String path, int sheetIndex) throws IOException {
+        String[] data = {};
+        File file = new File(path);
+        FileInputStream fis = new FileInputStream(file);
+        xssfWorkbook = new XSSFWorkbook(fis);
+        xssfSheet = xssfWorkbook.getSheetAt(sheetIndex);
+        numberOfRows = xssfSheet.getLastRowNum();
+        numberOfCol = xssfSheet.getRow(0).getLastCellNum();
+        data = new String[numberOfRows + 1];
+
+        for (int i = 1; i < data.length; i++) {
+            XSSFRow rows = xssfSheet.getRow(i);
+            for (int j = 0; j < numberOfCol; j++) {
+                XSSFCell cell = rows.getCell(j);
+                String cellData = getCellValueXSSF(cell);
+                data[i] = cellData;
+            }
+        }
+        return data;
+    }
 }

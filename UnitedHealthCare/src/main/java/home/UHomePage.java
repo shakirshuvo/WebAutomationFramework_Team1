@@ -124,4 +124,94 @@ public class UHomePage extends CommonAPI {
         String actual = driver.getTitle();
         Assert.assertEquals(actual, forEmployersExpectedText);
     }
+
+    /**
+     * click on for insurance tab
+     */
+    public void clickOnInsuranceTab(){
+
+        clickOnElement(insuranceElementXpath);
+    }
+
+    /**
+     * validate for employers click
+     */
+    public void validateClickOnInsuranceTab(){
+        String actual = getTextByXpath(verifierElementXpath);
+        String expected = "Not sure which plan is best for you?";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on for insurance tab
+     */
+    public void clickOnAllBusinessTab(){
+        clickOnInsuranceTab();
+        waitUntilClickAble(By.xpath(allBusinessElementXpath));
+        clickOnElement(allBusinessElementXpath);
+    }
+
+    /**
+     * validate all business element
+     */
+    public void validateAllBusinessTab(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.uhc.com/employer";
+        Assert.assertEquals(actual, expected, "Test failed");
+    }
+
+    /**
+     * click on for small business tab
+     */
+    public void clickOnSmallBusiness(){
+        clickOnInsuranceTab();
+        waitUntilClickAble(By.xpath(smallBusinessElementXpath));
+        clickOnElement(smallBusinessElementXpath);
+    }
+
+    /**
+     * validate all business element
+     */
+    public void validateClickSmallBuiness(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.uhc.com/employer/small-business";
+        Assert.assertEquals(actual, expected, "Test failed");
+    }
+
+
+    /**
+     * click on for national accounts tab
+     */
+    public void clickOnNationalAccounts(){
+        clickOnInsuranceTab();
+        waitUntilClickAble(By.xpath(nationalAccountsBusinessElementXpath));
+        clickOnElement(nationalAccountsBusinessElementXpath);
+    }
+
+    /**
+     * validate all national account element
+     */
+    public void validateClickNationalAccounts(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.uhc.com/employer/national-accounts";
+        Assert.assertEquals(actual, expected, "Test failed");
+    }
+
+    /**
+     * click on for group retiree tab
+     */
+    public void clickOnGroupRetiree(){
+        clickOnInsuranceTab();
+        waitUntilClickAble(By.xpath(groupRetireeBusinessElementXpath));
+        clickOnElement(groupRetireeBusinessElementXpath);
+    }
+
+    /**
+     * validate all national account element
+     */
+    public void validateClickGroupRetiree(){
+        String actual = driver.getCurrentUrl();
+        String expected = "ttps://www.uhc.com/employer/group-retiree-solution";
+        Assert.assertEquals(actual, expected, "Test failed");
+    }
 }

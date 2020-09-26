@@ -1,6 +1,7 @@
 package home;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,6 +15,57 @@ import org.testng.annotations.Test;
 import static home.HomePageWebElements.*;
 
 public class HomePage extends CommonAPI {
+
+
+    @FindBy(how = How.XPATH, using = onlineIdTextWebElementXPath)
+    WebElement onlineID;
+    /**
+     * enter online ID
+     */
+    public void enterOnlineID(){
+        typeOnElement(onlineIdTextWebElementXPath,fakeOnlineId);
+    }
+
+    /**
+     * enter password into password field
+     */
+    public void enterPassword(){
+        typeOnElement(passcodeTextWebElementXPath, fakePassword);
+    }
+
+    /**
+     * click on sign in button
+     */
+    public void clickOnSignInBtn(){
+        clickByXpath(signInBtnWebElementXPath);
+    }
+
+    /**
+     * validate sign in
+     */
+    public void validateClickOnSignInBtn(){
+        String actual = driver.getTitle();
+        String expted = "Bank of America | Online Banking | Sign In | Online ID";
+        Assert.assertEquals(actual, expted,"test case failed");
+    }
+
+    /**
+     * click on save online id check box
+     */
+    public void clickOnSaveOnlineIdCheckBox(){
+        clickOnElement(saveOnlineIdCheckboxElementXPath);
+    }
+
+    @FindBy(how = How.XPATH, using = saveOnlineIdCheckboxElementXPath)
+    WebElement saveOnlineIdCheckBox;
+    /**
+     * validate save online checkbox
+     */
+    public void validateclickOnSaveOnlineIdCheckBox(){
+       boolean actual =  saveOnlineIdCheckBox.isSelected();
+       boolean exptected = true;
+       Assert.assertEquals(actual, exptected, "test failed");
+    }
 
     @FindBy(how = How.XPATH, using = checkingWebElementXPath)
     WebElement checkingWebElement;
@@ -207,7 +259,8 @@ public class HomePage extends CommonAPI {
      * click on About us
      */
     public void clickOnAboutUs(){
-        aboutUs.click();
+
+        clickOnElement(aboutUsElementXPath);
     }
     /**
      * validate About us

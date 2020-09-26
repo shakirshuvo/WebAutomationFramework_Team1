@@ -4,6 +4,16 @@ import com.mysql.cj.util.DnsSrv;
 
 public class HomePageWebElements {
 
+    // sign in
+    public static final String onlineIdTextWebElementXPath = "//*[@id=\"onlineId1\"]";
+    public static final String passcodeTextWebElementXPath = "//*[@id=\"passcode1\"]";
+    public static final String signInBtnWebElementXPath = "//*[@id=\"signIn\"]";
+    public static final String saveOnlineIdCheckboxElementXPath = "//*[@id=\"saveOnlineId\"]";
+
+    public static final String fakeOnlineId = "chaddhar";
+    public static final String fakePassword = "1227Chaddhar";
+
+
     public static final String advantageBankingTextWebElementXPath = "//a[text()='Bank of America Advantage Banking']";
     public static final String advantageBankingExpectedText = "Bank of America Advantage Banking";
 

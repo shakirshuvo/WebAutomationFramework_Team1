@@ -68,7 +68,7 @@ public class HartfordHomePage extends CommonAPI {
      * click on employee benefits tab element
      */
     public void clickOnEmployeeBenefits(){
-        clickByXpath(employeeBenfitsTabWebElementXpath);
+        clickByXpath(employeeBenefitsTabWebElementXpath);
     }
 
     /**
@@ -197,13 +197,310 @@ public class HartfordHomePage extends CommonAPI {
     }
 
     /**
-     * validate Classic Car insurance element
+     * validate all vehicles insurance element
      */
     public void validateAllVehiclesInsurance(){
         String actual = driver.getCurrentUrl();
         String expected = "https://www.thehartford.com/aarp/vehicles";
     }
 
+
+    /**
+     * click on homeowners insurance Tab under home
+     */
+    public void clickOnAllHomeOwners(){
+        mouseHover(homeTab);
+        waitUntilClickAble(By.xpath(homeownersInsurnaceElementXpath));
+        clickOnElement(homeownersInsurnaceElementXpath);
+    }
+
+    /**
+     * validate all homeowners element
+     */
+    public void validateClickOnHomeOwners(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/aarp/homeowners-insurance";
+        Assert.assertEquals(actual, expected);
+    }
+
+    //elements under business tab for mouse hover actions
+    @FindBy(how = How.XPATH, using = businessTabWebElementXpath)
+    WebElement businessTab;
+    /**
+     * click on business owners policy Tab under business tab
+     */
+    public void clickOnBusinessOwnersPolicy(){
+        mouseHover(businessTab);
+        waitUntilClickAble(By.xpath(businessOwnersPolicyElementXpath));
+        clickOnElement(businessOwnersPolicyElementXpath);
+    }
+
+    /**
+     * validate business owners insurance element
+     */
+    public void validateClickOnBusinessOwnersPolicy(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/business-owners-policy";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on general liability Tab under business tab
+     */
+    public void clickOnGeneralLiability(){
+        mouseHover(businessTab);
+        waitUntilClickAble(By.xpath(generalLiabilityElementXpath));
+        clickOnElement(generalLiabilityElementXpath);
+    }
+
+    /**
+     * validate general liability insurance element
+     */
+    public void validateClickOnGeneralLiability(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/general-liability-insurance";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on workers compensation Tab under business tab
+     */
+    public void clickOnWorkersCompensation(){
+        mouseHover(businessTab);
+        waitUntilClickAble(By.xpath(workersCompensationElementXpath));
+        clickOnElement(workersCompensationElementXpath);
+    }
+
+    /**
+     * validate workers compensation insurance element
+     */
+    public void validateClickOnWorkersCompensation(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/workers-compensation";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on commercial auto insurance Tab under business tab
+     */
+    public void clickOnCommercialAutoInsurance(){
+        mouseHover(businessTab);
+        waitUntilClickAble(By.xpath(commercialAutoInsuranceElementXpath));
+        clickOnElement(commercialAutoInsuranceElementXpath);
+    }
+
+    /**
+     * validate commercial auto insurance insurance element
+     */
+    public void validateClickOnCommercialAutoInsurance(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/commercial-auto-insurance";
+        Assert.assertEquals(actual, expected);
+    }
+
+    //elements under Employee benefits tab for mouse hover actions
+    @FindBy(how = How.XPATH, using = employeeBenefitsTabWebElementXpath)
+    WebElement employeeBenefitsTab;
+
+    /**
+     * click on for employers insurance Tab under employee benefits tab
+     */
+    public void clickOnForEmployers(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(forEmployersElementXpath));
+        clickOnElement(forEmployersElementXpath);
+    }
+
+    /**
+     * validate for employers insurance insurance element
+     */
+    public void validateClickOnForEmployers(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/employers";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on  benefit plans under employee benefits tab
+     */
+    public void clickOnBenefitPlans(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(benefitPlansElementXpath));
+        clickOnElement(benefitPlansElementXpath);
+    }
+
+    /**
+     * validate benefit plans under employee benefits
+     */
+    public void validateClickOnBenefitPlans(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/voluntary";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on  absence Management under employee benefits tab
+     */
+    public void clickOnAbsenceManagement(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(absenceManagementElementXpath));
+        clickOnElement(absenceManagementElementXpath);
+    }
+
+    /**
+     * validate absence management under employee benefits
+     */
+    public void validateClickOnAbsenceManagement(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/employers/absence-management";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on  industry solutions under employee benefits tab
+     */
+    public void clickOnIndustrySolutions(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(industrySolutionsElementXpath));
+        clickOnElement(industrySolutionsElementXpath);
+    }
+
+    /**
+     * validate industry solutions under employee benefits
+     */
+    public void validateClickOnIndustrySolutions(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/employers/specialty-insurance";
+        Assert.assertEquals(actual, expected);
+    }
+
+    // elements under benefits for employers
+    /**
+     * click on insurance for employees under employee benefits tab
+     */
+    public void clickOnInsuranceForEmployees(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(insuranceForEmployeesElementXpath));
+        clickOnElement(insuranceForEmployeesElementXpath);
+    }
+
+    /**
+     * validate industry solutions under employee benefits
+     */
+    public void validateClickOnInsuranceForEmployees(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/employees";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on value addes services employees under employee benefits tab
+     */
+    public void clickOnValueAddedServices(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(valueAddedServicesElementXpath));
+        clickOnElement(valueAddedServicesElementXpath);
+    }
+
+    /**
+     * validate value added services under employee benefits
+     */
+    public void validateClickOnValueAddedServices(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/value-added-services";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on start a claim employees under employee benefits tab
+     */
+    public void clickOnStartAClaim(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(startAClaimElementXpath));
+        clickOnElement(startAClaimElementXpath);
+    }
+
+    /**
+     * validate start a claim under employee benefits
+     */
+    public void validateClickOnStartAClaim(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/claims";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on state guide employees under employee benefits tab
+     */
+    public void clickOnStateGuide(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(stateGuideElementXpath));
+        clickOnElement(stateGuideElementXpath);
+    }
+
+    /**
+     * validate state guide under employee benefits
+     */
+    public void validateClickOnStateGuide(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/paid-family-medical-leave";
+        Assert.assertEquals(actual, expected);
+    }
+
+    //for agents and producers
+    /**
+     * click on for agents and producers under employee benefits tab
+     */
+    public void clickOnForAgentsNProducers(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(forAgentsNProducersElementXpath));
+        clickOnElement(forAgentsNProducersElementXpath);
+    }
+
+    /**
+     * validate for agents and producers under employee benefits
+     */
+    public void validateClickOnForAgentsNProducers(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/producers";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on resources under employee benefits tab
+     */
+    public void clickOnResources(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(resourcesElementXpath));
+        clickOnElement(resourcesElementXpath);
+    }
+
+    /**
+     * validate for agents and producers under employee benefits
+     */
+    public void validateClickOnResources(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/producers/resources-tools";
+        Assert.assertEquals(actual, expected);
+    }
+
+    /**
+     * click on benefits technology under employee benefits tab
+     */
+    public void clickOnBenefitsTechnology(){
+        mouseHover(employeeBenefitsTab);
+        waitUntilClickAble(By.xpath(benefitsTechnologyElementXpath));
+        clickOnElement(benefitsTechnologyElementXpath);
+    }
+
+    /**
+     * validate for agents and producers under employee benefits
+     */
+    public void validateClickOnBenefitsTechnology(){
+        String actual = driver.getCurrentUrl();
+        String expected = "https://www.thehartford.com/employee-benefits/producers/technology-partnerships-solutions";
+        Assert.assertEquals(actual, expected);
+    }
 
 
 

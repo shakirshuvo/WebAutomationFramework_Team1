@@ -13,7 +13,7 @@
     <test name="New York Times Home">
         <classes>
 
-            <!--            <class name="signIn.SignInTest"></class>-->
+                        <class name="home.NYTHomePageTest"></class>
         </classes>
 
     </test>

@@ -26,5 +26,17 @@ public class UHomePageWebElements {
     public static final String forEmployersExpectedText = "Health insurance for employers | UnitedHealthcare";
 
 
+    //header elements
+    public static final String insuranceElementXpath = "//header//div[3]/div/div[1]/nav/ul/li[1]/button";
+    public static final String verifierElementXpath = "//*[@id=\"flyoutId-0flyout-col-4\"]//div/p";
+
+    // elements under insurance
+    public static final String allBusinessElementXpath = "//*[@id=\"flyoutId-0flyout-col-2\"]//div/ul/li[1]/a";
+    public static final String smallBusinessElementXpath = "//*[@id=\"flyoutId-0flyout-col-2\"]//ul/li[2]/a";
+    public static final String nationalAccountsBusinessElementXpath = "//*[@id=\"flyoutId-0flyout-col-2\"]//div//li[4]/a";
+    public static final String groupRetireeBusinessElementXpath = "//*[@id=\"flyoutId-0flyout-col-2\"]//div/ul/li[5]/a";
+
+
+
 
 }
