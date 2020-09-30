@@ -2,11 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Delta Automation Test" parallel="false">
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
-    <parameter name="browserName" value="chrome-options"/>
+<!--    <parameter name="browserName" value="chrome-options"/>-->
+    <parameter name="browserName" value="chrome"/>
+
     <parameter name="browserVersion" value="85.0"/>
     <parameter name="url" value="https://www.delta.com/"></parameter>
 

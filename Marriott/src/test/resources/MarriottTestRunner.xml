@@ -4,6 +4,15 @@
 <suite name="Marriott Automation Test" parallel="false">
     <parameter name="url" value="https://www.marriott.com"></parameter>
 
+        <parameter name="useCloudEnv" value="false"/>
+        <parameter name="cloudEnvName" value="browserstack"/>
+        <parameter name="os" value="Windows"/>
+        <parameter name="os_version" value="10"/>
+        <!--    <parameter name="browserName" value="chrome-options"/>-->
+        <parameter name="browserName" value="chrome"/>
+
+        <parameter name="browserVersion" value="85.0"/>
+
     <test name="Marriott Home">
         <classes>
             <!--<class name=""></class>-->

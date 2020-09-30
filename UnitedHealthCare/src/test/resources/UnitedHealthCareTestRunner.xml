@@ -3,6 +3,14 @@
 
 <suite name="United Health Care Automation Test" parallel="false">
     <parameter name="url" value="https://www.uhc.com/"></parameter>
+        <parameter name="useCloudEnv" value="false"/>
+        <parameter name="cloudEnvName" value="browserstack"/>
+        <parameter name="os" value="Windows"/>
+        <parameter name="os_version" value="10"/>
+        <!--    <parameter name="browserName" value="chrome-options"/>-->
+        <parameter name="browserName" value="chrome"/>
+
+        <parameter name="browserVersion" value="85.0"/>
 
     <test name="United Health Care Home">
         <classes>
@@ -10,9 +18,5 @@
         </classes>
 
     </test>
-
-
-
-
 
 </suite>
