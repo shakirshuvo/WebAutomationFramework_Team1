@@ -2,7 +2,6 @@ package base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
@@ -576,6 +575,11 @@ public class CommonAPI {
         }
     }
 
+    public void validateByURL(String url) {
+        Assert.assertEquals(url, driver.getCurrentUrl());
+    }
+
+
     public boolean elementIsDisplayed(String element) {
         try {
             driver.findElement(By.xpath(element)).isDisplayed();
@@ -594,6 +598,22 @@ public class CommonAPI {
             }
         }
         return true;
+    }
+
+    public void validateByText(String element, String text) {
+        try {
+            Assert.assertEquals(text, driver.findElement(By.xpath(element)).getText());
+        } catch (Exception ex) {
+            try {
+                Assert.assertEquals(text, driver.findElement(By.id(element)).getText());
+            } catch (Exception ex2) {
+                try {
+                    Assert.assertEquals(text, driver.findElement(By.cssSelector(element)).getText());
+                } catch (Exception ex3) {
+                    Assert.assertEquals(text, driver.findElement(By.name(element)).getText());
+                }
+            }
+        }
     }
 
     public void typeOnInputBox(String locator, String value) {

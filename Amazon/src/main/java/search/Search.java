@@ -10,15 +10,19 @@ import static search.SearchWebElements.*;
 
 public class Search extends CommonAPI {
 
-    @FindBy(how = How.ID, using =searchHandSanitizer)
+    @FindBy(how = How.ID, using = searchFieldIDWebElement)
     public WebElement searchField;
 
-    @FindBy(how = How.XPATH, using = handSanitizerActualText)
+    @FindBy(how = How.XPATH, using = searchButtonXPATHWebElement)
     public WebElement searchButton;
 
+    @FindBy(how = How.LINK_TEXT, using = searchVerificationPartialTextWebElement)
+    public WebElement searchVerificationText;
 
-    public void getVerificationIphoneText() {
-        validateByTitle("Amazon.com : iphone");
+    public String getVerificationIphoneText() {
+        String myValue = searchVerificationText.getText();
+        return myValue;
+
     }
 
 
@@ -36,8 +40,14 @@ public class Search extends CommonAPI {
     }
 
     public void searchIphone() {
-        typeByID(searchFieldIDWebElement, "iphone");
-        submitOnElementByID(searchFieldIDWebElement);
+        typeOnSearchField("iphone");
+        submitSearchButton();
+    }
+
+    //    @Test
+    public void validateIphoneSearch() {
+
+        Assert.assertEquals(getVerificationIphoneText(), "iphone");
     }
 
 }
