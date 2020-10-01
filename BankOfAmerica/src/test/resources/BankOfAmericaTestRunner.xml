@@ -16,23 +16,25 @@
 
     <test name="Bank of America Home">
         <classes>
-            <class name="homeTest.HomeTest">
-                <methods>
+<!--            <class name="homeTest.HomeTest">-->
+<!--                <methods>-->
 <!--                    <exclude name="setPersonalButtonTest"></exclude>-->
 <!--                    <exclude name="setSmallBusinessTest"></exclude>-->
 <!--                    <exclude name="setWealthManagementTest"></exclude>-->
 <!--                    <exclude name="setBusinessesInstitutionsTest"></exclude>-->
 <!--                    <exclude name="setSecurityTest"></exclude>-->
-
-                </methods>
-            </class>
-            <class name="regressionTest.BrokenLinksTest">
-                <methods>
+<!--                    -->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="regressionTest.BrokenLinksTest">-->
+<!--                <methods>-->
 <!--                    <exclude name="BrokenListTest"></exclude>-->
-                </methods>
-            </class>
+<!--                </methods>-->
+<!--            </class>-->
 
+            <class name="testSearchDataDriven.TestSearch"></class>
         </classes>
+        
 
     </test>
 

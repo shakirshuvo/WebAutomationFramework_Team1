@@ -18,27 +18,29 @@
         <classes>
             <class name="search.SearchTest">
                 <methods>
-<!--                     <exclude name="setSearchFieldTest"></exclude>-->
+                     <exclude name="setSearchFieldTest"></exclude>
                 </methods>
             </class>
             <class name="home.HomePageTest">
                 <methods>
-<!--                    <exclude name="setBestSellerTest"></exclude>-->
-<!--                    <exclude name="setCustomerServiceTest"></exclude>-->
-<!--                    <exclude name="setTodayDealTest"></exclude>-->
-<!--                    <exclude name="setNewReleaseTest"></exclude>-->
-<!--                    <exclude name="setFindGiftTest"></exclude>-->
-<!--                    <exclude name="setGiftCardTest"></exclude>-->
-<!--                    <exclude name="setWholeFoodTest"></exclude>-->
-<!--                    <exclude name="setFreeShippingTest"></exclude>-->
-<!--                    <exclude name="setSellButtonTest"></exclude>-->
-<!--                    <exclude name="setCouponsTest"></exclude>-->
-<!--                    <exclude name="setPrimeVideoTest"></exclude>-->
+                    <exclude name="setBestSellerTest"></exclude>
+                    <exclude name="setCustomerServiceTest"></exclude>
+                    <exclude name="setTodayDealTest"></exclude>
+                    <exclude name="setNewReleaseTest"></exclude>
+                    <exclude name="setFindGiftTest"></exclude>
+                    <exclude name="setGiftCardTest"></exclude>
+                    <exclude name="setWholeFoodTest"></exclude>
+                    <exclude name="setFreeShippingTest"></exclude>
+                    <exclude name="setSellButtonTest"></exclude>
+                    <exclude name="setCouponsTest"></exclude>
+                    <exclude name="setPrimeVideoTest"></exclude>
+<!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
+
                 </methods>
             </class>
             <class name="regressionTest.BrokensLinksTest">
                 <methods>
-<!--                    <exclude name="AmazonLinksActivlinksTest"></exclude>-->
+                    <exclude name="AmazonLinksActivlinksTest"></exclude>
                 </methods>
             </class>
 

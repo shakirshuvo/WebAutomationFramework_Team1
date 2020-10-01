@@ -36,6 +36,12 @@ public class HomePageWebElements {
     public static final String rentBuyXP="//*[@id=\"hmenu-content\"]/ul[2]/li[6]/a";
     public static final String rentBuyValidationXP="//*[@id=\"aiv-cl-main-middle\"]/div/div[3]/div/div[1]/div/div[1]/div[1]/div/h2";
 
+    public static final String webElementSearchBox="#twotabsearchtextbox";
+    public static final String webElementSearchButton="#nav-search > form > div.nav-right > div > input";
+    public static final String webElementSearchText="//span[@class='a-color-state a-text-bold']";
+
+//
+
 
 
 }

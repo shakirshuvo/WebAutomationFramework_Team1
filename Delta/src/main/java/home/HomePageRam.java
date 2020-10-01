@@ -115,7 +115,6 @@ public class HomePageRam extends CommonAPI {
 
     public void searchBoxCheckUsingClassValues() throws InterruptedException {
 
-
         List<String> products = dataSource.DataSource.getItemValue();
         for (String st : products) {
             searchBox.click();

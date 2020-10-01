@@ -4,21 +4,23 @@
 <suite name="Amazon Automation Test" parallel="false">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
-    <parameter name="os" value="OS X"/>
+        <parameter name="os" value="windows"/>
+    <parameter name="os" value="10"/>
     <parameter name="os_version" value="catalina"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="85.0"/>
-    <parameter name="url" value="https://www.newyorktimes.com/"></parameter>
+<!--    <parameter name="url" value="https://www.newyorktimes.com/"></parameter>-->
+<!--        <parameter name="os_version" value="10"/>-->
 
     <test name="NewYorkTimes Home">
         <classes>
           <class name="homeTest.HomePageTest"></class>
-            <class name="accountTest.LogInTest"></class>
-            <class name="accountTest.SubscribeTest"></class>
-            <class name="homeTest.SearchClassTest"></class>
-            <class name="regressionTest.BrokensLinksTest"></class>
-            <class name="regressionTest.LiveVideoTest"></class>
-            <class name="regressionTest.HamburgerClassTest"></class>
+<!--            <class name="accountTest.LogInTest"></class>-->
+<!--            <class name="accountTest.SubscribeTest"></class>-->
+<!--            <class name="homeTest.SearchClassTest"></class>-->
+<!--            <class name="regressionTest.BrokensLinksTest"></class>-->
+<!--            <class name="regressionTest.LiveVideoTest"></class>-->
+<!--            <class name="regressionTest.HamburgerClassTest"></class>-->
         </classes>
 
     </test>

@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class HomePageTest extends CommonAPI {
 
@@ -57,6 +58,7 @@ public class HomePageTest extends CommonAPI {
     public void setPrimeVideoTest() throws InterruptedException {
         homePage.setPrimeVideo();
     }
+
 
 
 }

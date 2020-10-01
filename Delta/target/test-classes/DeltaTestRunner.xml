@@ -7,8 +7,8 @@
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="catalina"/>
-    <!--    <parameter name="os" value="Windows"/>-->
-    <!--    <parameter name="os_version" value="10"/>-->
+<!--        <parameter name="os" value="Windows"/>-->
+<!--        <parameter name="os_version" value="10"/>-->
     <parameter name="browserName" value="chrome-options"/>
     <parameter name="browserVersion" value="85"/>
     <test name="Delta">
